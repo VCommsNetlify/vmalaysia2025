@@ -175,12 +175,12 @@
       "round10": { "left": "BE PART OF THE HISTORY", "right": "CREATE HISTORY" },
       "round11": { "left": "WITNESS THE GREATEST STORY", "right": "CREATE YOUR GREATEST STORY" },
       "round12": { "left": "BE AT <br>V-MALAYSIA 2025 ON 21-25 JUNE", "right": "TAKE PART AT <br>V-MALAYSIA 2025 ON 21-25 JUNE" }
-    },
+    }
+  },
   "tickets": {
     "title": "The Greatest Event of the Year Starts With Your Seat",
     "description": "Grab your tickets on VShoppe today.",
     "description2": "Use the code:"
-  }
   },
   "faqs": {
     "title": "Frequently Asked Questions",
