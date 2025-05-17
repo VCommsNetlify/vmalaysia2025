@@ -747,7 +747,7 @@ html {
 }
 
 .choice:hover {
-  <!-- transform: translateY(-10px); -->
+  /* transform: translateY(-10px); */
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -913,7 +913,7 @@ html {
 
 /* end this or that */
 
-<!-- start speaker css -->
+/* start speaker css */
 
 .speakers-section {
  /* Optional: Add any overall styling */
@@ -1031,7 +1031,7 @@ html {
  }
 }
 
-<!-- end speaker csss -->
+/*-- end speaker csss */
 
 
 .ticket-grid {
@@ -1114,7 +1114,7 @@ html {
     </nav>
 
     <div class="relative hidden md:block">
-      <!-- <button id="langToggle" class="text-white flex items-center space-x-2">
+      <button id="langToggle" class="text-white flex items-center space-x-2">
         <span data-i18n="languages">Languages</span>
         <span class="text-white text-xl transition-transform duration-300 transform arrow-toggle-icon" id="langIcon">▼</span>
       </button>
@@ -1124,7 +1124,7 @@ html {
           <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('id')" data-i18n="language_name.id">Bahasa-Indonesia</a></li>
           <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('fr')" data-i18n="language_name.fr">French</a></li>
           <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('ru')" data-i18n="language_name.ru">Russian</a></li>
-        </ul> -->
+        </ul>
     </div>
 
     <button id="menuToggle" class="md:hidden text-white z-[999] relative">
@@ -1152,7 +1152,7 @@ html {
     <a href="#faqs" class="text-white block nav-link" data-i18n="faq">FAQ</a>
 
     <div class="text-white">
-      <!-- <button id="langToggleMobile" class="w-full text-left flex items-center justify-between">
+      <button id="langToggleMobile" class="w-full text-left flex items-center justify-between">
         <span data-i18n="languages">Languages</span>
         <span id="langIconMobile" class="text-white text-xl transition-transform transform arrow-toggle-icon" id="langIconMobile">▼</span>
       </button>
@@ -1162,7 +1162,7 @@ html {
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('id')" data-i18n="language_name.id">Bahasa-Indonesia</a></li>
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('fr')" data-i18n="language_name.fr">French</a></li>
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('ru')" data-i18n="language_name.ru">Russian</a></li>
-      </ul> -->
+      </ul>
     </div>
   </div>
 </header>
@@ -1313,8 +1313,8 @@ html {
 
 <div id="comingSoonModal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[99999] hidden">
   <div class="bg-white text-center p-8 rounded-lg shadow-xl max-w-sm w-full">
-    <h2 class="text-xl font-bold mb-4">Coming Soon!</h2>
-    <p class="mb-4">This content is not yet available. Stay tuned for updates!</p>
+    <h2 class="text-xl font-bold mb-4" data-i18n="comingSoonModal.title">Coming Soon!</h2>
+    <p class="mb-4" data-i18n="comingSoonModal.message">This content is not yet available. Stay tuned for updates!</p>
     <button id="closeComingSoonModal" class="mt-2 px-4 py-2 bg-gray-300 text-white rounded hover:bg-[#004f52]">
       Close
     </button>
@@ -1327,8 +1327,8 @@ html {
 
   <div class="container mx-auto px-4">
     <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl text-[#00666a] font-bold mb-4">EVENTS NEWS & UPDATES</h2>
-      <h2 class="text-3xl md:text-4xl bg-[#c87f15] inline-block font-bold text-white mb-4 px-4 py-2">WATCH THE NEWEST HIGHLIGHTS AND MORE!</h2>
+      <h2 class="text-3xl md:text-4xl text-[#00666a] font-bold mb-4" data-i18n="eventsNews.mainTitle">EVENTS NEWS & UPDATES</h2>
+      <h2 class="text-3xl md:text-4xl bg-[#c87f15] inline-block font-bold text-white mb-4 px-4 py-2" data-i18n="eventsNews.highlightTitle">WATCH THE NEWEST HIGHLIGHTS AND MORE!</h2>
     </div>
 
     <!-- Featured Video and Text Section -->
@@ -1344,23 +1344,22 @@ html {
           loading="lazy"
         ></iframe>
       </div>
-
+    
       <!-- Text -->
       <div
         class="w-full md:w-1/2 md:pl-8 mt-0 h-auto md:h-[50vh] px-4 py-4 flex flex-col justify-center bg-[#00666a] text-white"
       >
-        <h3 id="featuredTitle" class="text-2xl font-semibold mb-2">
+        <h3 id="featuredTitle" class="text-2xl font-semibold mb-2" data-i18n="eventsNews.featuredTitle">
           VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!
         </h3>
-        <p id="featuredDescription" class="text-base">
+        <p id="featuredDescription" class="text-base" data-i18n="eventsNews.featuredDescription">
           “When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Grab your tickets today on VShoppe and use the code: VMYJun2025
         </p>
       </div>
-    </div>
-
+</div>
     <!-- Prompt for interactive feature (Eye-catching style) -->
     <div class="w-full text-center mb-4 px-4 pt-0">
-      <p class="text-lg font-bold text-[#00666a] bg-white inline-block px-6 py-2 rounded-lg shadow-lg max-w-3xl mx-auto">
+      <p class="text-lg font-bold text-[#00666a] bg-white inline-block px-6 py-2 rounded-lg shadow-lg max-w-3xl mx-auto" data-i18n="eventsNews.videoSelectionParagraph">
         Select a video below and watch it in this mini media player!
       </p>
     </div>
@@ -1369,34 +1368,34 @@ html {
 
     <!-- Swiper Section -->
 		<div class="swiper allVideosSwiper relative">
-		  <div class="swiper-wrapper">
-			<!-- Slides -->
-			<div class="swiper-slide cursor-pointer" onclick="playInFeatured('6372789163112', 'VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!', '“When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Grab your tickets today on VShoppe and use the code: VMYJun2025')">
-			  <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-				<img src="assets/news/05142025-vpn-yaser-khamis-invites-you-to-v-malaysia-2025-this-june.jpg" alt="Day 1" class="w-full h-auto object-cover">
-				<div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
-				  <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug">VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!</p>
-				</div>
-			  </div>
-			</div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide cursor-pointer" onclick="playInFeatured('6372789163112', 'VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!', '“When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Grab your tickets today on VShoppe and use the code: VMYJun2025')">
+          <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+            <img src="assets/news/05142025-vpn-yaser-khamis-invites-you-to-v-malaysia-2025-this-june.jpg" alt="Day 1" class="w-full h-auto object-cover">
+            <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
+              <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video1.title">VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!</p>
+            </div>
+          </div>
+        </div>
+      
 
-			 <div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
-			  <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-				<img src="assets/greateststory/episode6.jpg" alt="Day 2" class="w-full h-auto object-cover">
-				<div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
-				  <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug">Future Content</p>
-				</div>
-			  </div>
-			</div>
+      <div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
+        <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+          <img src="assets/greateststory/episode6.jpg" alt="Day 2" class="w-full h-auto object-cover">
+          <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
+            <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video2.title">Future Content</p>
+          </div>
+        </div>
+      </div>
 
-			<div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
-			  <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-				<img src="assets/greateststory/episode5.jpg" alt="Day 3" class="w-full h-auto object-cover">
-				<div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
-				  <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug">Future Content</p>
-				</div>
-			  </div>
-			</div>
+      <div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
+        <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+          <img src="assets/greateststory/episode5.jpg" alt="Day 3" class="w-full h-auto object-cover">
+          <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
+            <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video3.title">Future Content</p>
+          </div>
+        </div>
+      </div>
 
 <!--
 			<div class="swiper-slide cursor-pointer" onclick="playInFeatured('6371889920112', 'Day 2: Driven by Dreams', 'Our Day 2 highlights are here!')">
@@ -1453,7 +1452,7 @@ html {
 		  </div>
 		</div>
 
-
+  </div>
   </div>
 
 
@@ -1461,9 +1460,9 @@ html {
 
 <div id="comingSoonModal3" class="fixed top-0 left-0 w-full h-full bg-black/50 z-50 hidden flex justify-center items-center">
   <div class="bg-white rounded-md p-8">
-    <h2 class="text-xl font-bold mb-4">Coming Soon!</h2>
-    <p class="mb-4">This content is not yet available. Stay tuned for updates!</p>
-    <button onclick="closeComingSoonModal3()" class="bg-[#00666a] hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+    <h2 class="text-xl font-bold mb-4" data-i18n="comingSoonModal3.title">Coming Soon!</h2>
+    <p class="mb-4" data-i18n="comingSoonModal3.message">This content is not yet available. Stay tuned for updates!</p>
+    <button onclick="closeComingSoonModal3()" class="bg-[#00666a] hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" data-i18n="comingSoonModal3.closeButton">
       Close
     </button>
   </div>
@@ -1475,9 +1474,9 @@ html {
 
 <section id="articles-section" class="py-16 newsupdates" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
   <div class="container mx-auto px-4">
-		<div class="text-center mb-12">
-			  <h2 class="text-3xl md:text-4xl bg-[#00666a] inline-block font-bold text-white mb-4 px-4 py-2">READ THE LATEST NEWS!</h2>
-			</div>
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl bg-[#00666a] inline-block font-bold text-white mb-4 px-4 py-2" data-i18n="eventsNews.articles.latestNewsTitle">READ THE LATEST NEWS!</h2>
+    </div>
     <!-- Featured Article Section -->
     <div class="max-w-4xl mx-auto mb-16 text-center rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
       <!-- Featured Image -->
@@ -1489,10 +1488,10 @@ html {
 
       <!-- Featured Text Block -->
       <div class="bg-white px-6 py-4">
-        <h3 class="text-lg font-semibold text-[#00666a] mb-2">Together We Rise this 21-25 June at V-MALAYSIA 2025!</h3>
-        <p class="text-sm mb-4 text-gray-700">Are you ready to experience the most unbelievable event from The V family?</p>
+        <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.featuredArticle.subtitle">Together We Rise this 21-25 June at V-MALAYSIA 2025!</h3>
+        <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.featuredArticle.content">Are you ready to experience the most unbelievable event from The V family?</p>
         <a href="https://the-v.net/en/news?id=02132025-together-we-rise-this-21-25-june-at-v-malaysia-2025" class="inline-block">
-          <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300">
+          <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.featuredArticle.readMore">
             READ MORE
           </button>
         </a>
@@ -1519,10 +1518,10 @@ html {
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
       <img src="assets/news/12022024-book-your-seats-now-for-v-malaysia-2025.jpg" alt="Article 1" class="w-full h-48 object-cover">
       <div class="p-4">
-        <h3 class="text-lg font-semibold text-[#00666a] mb-2">Book Your Seats Now for V-Malaysia 2025!</h3>
-        <p class="text-sm mb-4 text-gray-700">See you on 21-25 June 2025! Are you going to be there?</p>
+        <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article1.title">Book Your Seats Now for V-Malaysia 2025!</h3>
+        <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article1.content">See you on 21-25 June 2025! Are you going to be there?</p>
         <a href="https://the-v.net/en/news?id=12022024-book-your-seats-now-for-v-malaysia-2025" class="inline-block">
-          <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300">
+          <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article1.readMore">
             READ MORE
           </button>
         </a>
@@ -1534,10 +1533,10 @@ html {
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform" onclick="openComingSoonModal4()">
       <img src="assets/greateststory/episode3.jpg" alt="Article 2" class="w-full h-48 object-cover">
       <div class="p-4">
-        <h3 class="text-lg font-semibold text-[#00666a] mb-2">Future Content</h3>
-        <p class="text-sm mb-4 text-gray-700">&nbsp;</p>
+        <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article2.title">Future Content</h3>
+        <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article2.content">&nbsp;</p>
         <a href="#" class="inline-block">
-          <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300">
+          <button onclick="openComingSoonModal4()" class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article2.readMore">
             Coming Soon
           </button>
         </a>
@@ -1548,10 +1547,10 @@ html {
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform" onclick="openComingSoonModal4()">
       <img src="assets/greateststory/episode4.jpg" alt="Article 3" class="w-full h-48 object-cover">
       <div class="p-4">
-        <h3 class="text-lg font-semibold text-[#00666a] mb-2">Future Content</h3>
-        <p class="text-sm mb-4 text-gray-700">&nbsp;</p>
+        <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article3.title">Future Content</h3>
+        <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article3.content">&nbsp;</p>
         <a href="#" class="inline-block">
-          <button onclick="openComingSoonModal4()" class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300">
+          <button onclick="openComingSoonModal4()" class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article3.readMore">
             Coming Soon
           </button>
         </a>
@@ -1664,9 +1663,9 @@ html {
 
 <div id="comingSoonModal4" class="fixed top-0 left-0 w-full h-full bg-black/50 z-50 hidden flex justify-center items-center">
   <div class="bg-white rounded-md p-8">
-    <h2 class="text-xl font-bold mb-4">Coming Soon!</h2>
-    <p class="mb-4">This content is not yet available. Stay tuned for updates!</p>
-    <button onclick="closeComingSoonModal4()" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+    <h2 class="text-xl font-bold mb-4" data-i18n="comingSoonModal4.title">Coming Soon!</h2>
+    <p class="mb-4" data-i18n="comingSoonModal4.message">This content is not yet available. Stay tuned for updates!</p>
+    <button onclick="closeComingSoonModal4()" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" data-i18n="comingSoonModal4.closeButton">
       Close
     </button>
   </div>
@@ -1674,13 +1673,13 @@ html {
 
 <section id="gallery-section" class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
   <div class="container mx-auto px-4 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 inline-block bg-[#d24545] px-4 py-2"> <!--data-i18n="gallery.title"-->
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 inline-block bg-[#d24545] px-4 py-2" data-i18n="eventsNews.gallery.title">
       SEE THE AMAZING PHOTOS!
     </h2>
     <div class="relative w-full md:w-1/2 mx-auto">
       <img src="assets/gallery/photo-gif.gif" alt="Gallery GIF" class="w-full h-auto object-cover">
       <div class="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
-         <p class="text-white text-lg md:text-xl font-semibold text-center"><!--  data-i18n="gallery.coming_soon" -->
+        <p class="text-white text-lg md:text-xl font-semibold text-center" data-i18n="eventsNews.gallery.comingSoon">
           Watch out for this space to see the amazing photos soon!
         </p>
       </div>
@@ -1782,8 +1781,9 @@ html {
 <!-- Coming Soon Modal -->
 <div id="comingSoonModal2" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[99999] hidden">
   <div class="bg-white text-center p-8 rounded-lg shadow-xl max-w-sm w-full">
-    <p class="text-xl font-bold text-gray-800 mb-4">Coming Soon</p>
-    <button id="closeComingSoonModal2" class="mt-2 px-4 py-2 bg-[#00666a] text-white rounded hover:bg-[#004f52]">
+    <h2 class="text-xl font-bold mb-4" data-i18n="comingSoonModal4.title">Coming Soon!</h2>
+    <p class="mb-4" data-i18n="comingSoonModal4.message">This content is not yet available. Stay tuned for updates!</p>
+    <button id="closeComingSoonModal2" class="mt-2 px-4 py-2 bg-[#00666a] text-white rounded hover:bg-[#004f52]" data-i18n="comingSoonModal2.closeButton">
       Close
     </button>
   </div>
@@ -1800,13 +1800,13 @@ html {
   <div class="absolute inset-0 bg-white bg-opacity-70 z-0"></div>
 
   <!-- Content Layer -->
-  <div class="relative z-10 max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#58148f]">EXPLORE WHERE THE MAGIC HAPPENS</h2>
-    <p class="mb-8 text-lg mx-4 md:mx-auto md:max-w-full text-[#58148f]">
-      Navigate your way around Setia SPICE Arena and <br>discover all the amazing surprises at
-      <span class="block md:inline">V-Malaysia 2025.</span>
-    </p>
-  </div>
+<div class="relative z-10 max-w-4xl mx-auto text-center">
+  <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#58148f]" data-i18n="exploreMagic.title">EXPLORE WHERE THE MAGIC HAPPENS</h2>
+  <p class="mb-8 text-lg mx-4 md:mx-auto md:max-w-full text-[#58148f]" data-i18n="exploreMagic.description">
+    Navigate your way around Setia SPICE Arena and <br>discover all the amazing surprises at
+    <span class="block md:inline">V-Malaysia 2025.</span>
+  </p>
+</div>
 
   <!-- Map Frame -->
   <div class="relative z-10 container mx-auto px-4">
@@ -1854,7 +1854,7 @@ html {
 <!-- VKIDS -->
 <section class="py-16 text-white" id="vkidsteens" style="background-image: url('assets/vkidsteens/BG-vkids.png'); background-position: center; background-size: cover;">
   <div class="max-w-4xl mx-auto text-center mb-8 px-4">
-    <img src="assets/vkidsteens/Vkids-Vteens-logo-copy.png" alt="V-KIDS & V-TEENS Logo">
+    <img src="assets/vkidsteens/Vkids-Vteens-logo-copy.png" alt="V-KIDS & V-TEENS Logo" id="vkids-logo" data-i18n="vkids.logo" data-i18n-type="image">
   </div>
 
   <!-- Video Section -->
@@ -1867,7 +1867,7 @@ html {
             <div class="relative overflow-hidden">
               <img src="assets/greateststory/episode4.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;">
+            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video1Title">
               Future Content
             </div>
           </div>
@@ -1877,7 +1877,7 @@ html {
             <div class="relative overflow-hidden">
               <img src="assets/greateststory/episode2.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;">
+            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video2Title">
               Future Content
             </div>
           </div>
@@ -1887,7 +1887,7 @@ html {
             <div class="relative overflow-hidden">
               <img src="assets/greateststory/episode3.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;">
+            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video3Title">
               Future Content
             </div>
           </div>
@@ -1961,10 +1961,10 @@ html {
           <div class="swiper-slide">
             <div class="overflow-hidden">
               <a href="https://the-v.net/en/news?id=04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025">
-              <img src="assets/vkidsteens/04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025-1.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
-              <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;">
-                Join the V-Kids and V-Teens at #VMalaysia2025!
-              </div>
+                <img src="assets/vkidsteens/04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025-1.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
+                <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.article.article1Title">
+                  Join the V-Kids and V-Teens at #VMalaysia2025!
+                </div>
               </a>
             </div>
           </div>
@@ -1972,7 +1972,7 @@ html {
           <div class="swiper-slide" onclick="openComingSoonModal5()">
             <div class="overflow-hidden">
               <img src="assets/greateststory/episode5.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
-              <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #a17b2a;">
+              <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #a17b2a;" data-i18n="vkids.article.article2Title">
                 Future Content
               </div>
             </div>
@@ -1981,7 +1981,7 @@ html {
           <div class="swiper-slide" onclick="openComingSoonModal5()">
             <div class="overflow-hidden">
               <img src="assets/greateststory/episode6.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
-              <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;">
+              <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.article.article3Title">
                 Future Content
               </div>
             </div>
@@ -2038,9 +2038,9 @@ html {
 
 <div id="comingSoonModal5" class="fixed top-0 left-0 w-full h-full bg-black/50 z-50 hidden flex justify-center items-center">
   <div class="bg-white rounded-md p-8">
-    <h2 class="text-xl font-bold mb-4">Coming Soon!</h2>
-    <p class="mb-4">This content is not yet available. Stay tuned for updates!</p>
-    <button onclick="closeComingSoonModal5()" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+    <h2 class="text-xl font-bold mb-4" data-i18n="comingSoonModal5.title">Coming Soon!</h2>
+    <p class="mb-4" data-i18n="comingSoonModal5.message">This content is not yet available. Stay tuned for updates!</p>
+    <button onclick="closeComingSoonModal5()" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" data-i18n="comingSoonModal5.closeButton">
       Close
     </button>
   </div>
@@ -2062,10 +2062,10 @@ html {
 
         <!-- Content on top of overlay -->
         <div class="container mx-auto px-4 relative z-10">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl text-[#234cde] font-bold mb-4">Meet Our Speakers</h2>
-                <p class="mb-8 text-lg text-[#234cde]">See our V Ambassadors live onstage and watch out for your greatest Uplines!</p>
-            </div>
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl text-[#234cde] font-bold mb-4" data-i18n="meetSpeakers.title">Meet Our Speakers</h2>
+          <p class="mb-8 text-lg text-[#234cde]" data-i18n="meetSpeakers.description">See our V Ambassadors live onstage and watch out for your greatest Uplines!</p>
+        </div>
 
             <div class="grid-container">
 			  <div class="item-container">
@@ -2076,7 +2076,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Dato Sri Vijay Eswaran</h2>
-					<h3 class="position">Founder</h3>
+          <h3 class="position" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
 				   </div>
 				  </div>
 
@@ -2088,7 +2088,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Joseph 'Japadas' Bismark</h2>
-					<h3 class="position">Founder</h3>
+          <h3 class="position" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
 				   </div>
 				  </div>
 
@@ -2100,7 +2100,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Pathman Senathirajah</h2>
-					<h3 class="position">V Partner</h3>
+					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
 				   </div>
 				  </div>
 
@@ -2112,7 +2112,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Adly Hassan</h2>
-					<h3 class="position">V Partner</h3>
+					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
 				   </div>
 				  </div>
 
@@ -2124,7 +2124,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Sathi Senathirajah</h2>
-					<h3 class="position">V Partner</h3>
+					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
 				   </div>
 				  </div>
 
@@ -2136,7 +2136,7 @@ html {
 				   </div>
 				   <div class="text-container">
 					<h2 class="name">Arun George</h2>
-					<h3 class="position">V Partner</h3>
+					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
 				   </div>
 				  </div>
 			 </div>
@@ -2150,11 +2150,11 @@ html {
 <section id="thisOrThat" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top; background-size: cover;">
  <div class="bg-white bg-opacity-60 p-6 rounded-lg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   <!-- Overlay with only Start button -->
-  <div id="initialScreen">
-    <h2 class="text-3xl md:text-4xl sm:text-2xl text-[#785b37] font-bold mb-4 ">This or That?</h2>
-    <p class="text-[#785b37]">Up for a little challenge? Just take your pick and have fun with The V family!<br>Tag us when you share on Instagram!</p>
-    <button id="startBtn">Let's Play!</button>
-  </div>
+<div id="initialScreen">
+  <h2 class="text-3xl md:text-4xl sm:text-2xl text-[#785b37] font-bold mb-4 " data-i18n="thisOrThat.title">This or That?</h2>
+  <p class="text-[#785b37]" data-i18n="thisOrThat.description">Up for a little challenge? Just take your pick and have fun with The V family!<br>Tag us when you share on Instagram!</p>
+  <button id="startBtn" data-i18n="thisOrThat.startButton">Let's Play!</button>
+</div>
 
   <!-- Background -->
   <div id="backgroundImage"></div>
@@ -2184,14 +2184,14 @@ html {
 
   <!-- Results display -->
 <div id="resultsSection" style="display: none;">
-  <h3>Let’s create our greatest story and Together We Rise at V-Malaysia 2025!</h3>
+  <h3 data-i18n="thisOrThat.results.title">Let’s create our greatest story and Together We Rise at V-Malaysia 2025!</h3>
   <ul id="choicesList"></ul>
   <br>
   <canvas id="resultCanvas" width="600" height="400" style="display: none;"></canvas>
   <div>
-    <p>Tag us when you share on Instagram!</p> 
-    <a id="downloadLink" href="#" download="ThisOrThat.png">Download Image</a>
-    <button class="restart-btn" id="restartBtn">Play Again</button>
+    <p data-i18n="thisOrThat.results.shareText">Tag us when you share on Instagram!</p>
+    <a id="downloadLink" href="#" download="ThisOrThat.png" data-i18n="thisOrThat.results.downloadButton">Download Image</a>
+    <button class="restart-btn" id="restartBtn" data-i18n="thisOrThat.results.playAgainButton">Play Again</button>
   </div>
 </div>
   </div>
@@ -2205,8 +2205,8 @@ html {
 <section class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
     <div class="container mx-auto px-4">
         <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl text-[#063f38] font-bold mb-4">The Greatest Event of the Year Starts With Your Seat</h2>
-            <p class="mb-8 text-lg text-[#063f38]">Grab your tickets on VShoppe today.</p>
+          <h2 class="text-3xl md:text-4xl text-[#063f38] font-bold mb-4" data-i18n="tickets.title">The Greatest Event of the Year Starts With Your Seat</h2>
+          <p class="mb-8 text-lg text-[#063f38]" data-i18n="tickets.description">Grab your tickets on VShoppe today.</p>
         </div>
 
         <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 ticket-grid-1">
@@ -2217,7 +2217,7 @@ html {
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
                     <img src="assets/tickets/11292024-VMY2025-june-vshoppe-product-thumbnail-v2d3f61c4a-e121-4a2a-a88b-09c6c7f96a11.png" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
-                        <p class="text-sm text-[#07799a]" style="margin-bottom: 8px;">Use the code: </p>
+                        <p class="text-sm text-[#07799a]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#07799a]">VMYJUN2025</div>
                         <a href="https://vshoppe.vtube.net/">
                         <button class="w-full bg-[#07799a] hover:bg-[#09524a] text-white font-bold py-2 px-4 rounded-full transition duration-300">
@@ -2233,7 +2233,7 @@ html {
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
                     <img src="assets/tickets/VKIDS2025-VTEENS-GENERIC-BANNER-SQUARE3a984bab-5ccc-4b4a-a93c-085b0fa2ad00.png" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
-                        <p class="text-sm text-[#bf7807]" style="margin-bottom: 8px;">Use the code: </p>
+                        <p class="text-sm text-[#bf7807]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#bf7807]">VKIDSTEENS25</div>
                         <a href="https://vshoppe.vtube.net/">
                         <button class="w-full bg-[#bf7807] hover:bg-[#09524a] text-white font-bold py-2 px-4 rounded-full transition duration-300">
@@ -2250,7 +2250,7 @@ html {
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
                     <img src="assets/tickets/01062025-VMY2025-SEPT-vshoppe-product-thumbnail-v2423aa5b8-ff8f-44cf-8427-61f2e1b888eb.png" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
-                        <p class="text-sm text-[#0c42bb]" style="margin-bottom: 8px;">Use the code: </p>
+                        <p class="text-sm text-[#0c42bb]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#0c42bb]">VMYSEPT2025</div>
                         <a href="https://vshoppe.vtube.net/">
                         <button class="w-full bg-[#0c42bb] hover:bg-[#09524a] text-white font-bold py-2 px-4 rounded-full transition duration-300">
@@ -2269,197 +2269,196 @@ html {
     <div class="absolute inset-0 bg-white opacity-60"></div>
     <div class="w-[80%] max-w-3xl mx-auto relative z-10">
 
-        <h2 class="text-3xl font-bold text-center mb-8 text-[#874343]">Frequently Asked Questions</h2>
+        <h2 class="text-3xl font-bold text-center mb-8 text-[#874343]" data-i18n="faqs.title">Frequently Asked Questions</h2>
         <!-- <p class="mb-8 text-lg text-white">Here are some common questions we get from our users.</p> -->
         <div class="space-y-4" id="faq">
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>V-MALAYSIA 2025 Tickets</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        1. 	Go to <a href='https://vshoppe.vtube.net/' style='color:red; text-decoration: underline white;'>https://vshoppe.vtube.net/</a><br>
-                        2. 	Enter your email address and input the code.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia JUNE 2025: <strong>VMYJUN2025</strong><br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-KIDS & V-TEENS 2025: <strong>VKIDSTEENS25</strong><br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia SEPTEMBER 2025: <strong>VMYSEPT2025</strong><br>
-                        3. 	Fill out your information.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The token is sent to your email address.<br>
-                        4. 	Click <strong>Proceed to Payment</strong>.<br>
-                        5. 	Input your credit card information and click <strong>Pay</strong>. Wait for it to process until the green check mark appears.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*If an authentication prompt pops up, please accomplish the steps required.<br>
-                        6.&nbsp;  Your <strong>Payment Receipt</strong> will appear and a confirmation will be sent to your email address.
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question1.title">V-MALAYSIA 2025 Tickets</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question1.answer">
+                  1. Go to <a href='https://vshoppe.vtube.net/' style='color:red; text-decoration: underline white;'>https://vshoppe.vtube.net/</a><br>
+                  2. Enter your email address and input the code.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia JUNE 2025: <strong>VMYJUN2025</strong><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-KIDS & V-TEENS 2025: <strong>VKIDSTEENS25</strong><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia SEPTEMBER 2025: <strong>VMYSEPT2025</strong><br>
+                  3. Fill out your information.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The token is sent to your email address.<br>
+                  4. Click <strong>Proceed to Payment</strong>.<br>
+                  5. Input your credit card information and click <strong>Pay</strong>. Wait for it to process until the green check mark appears.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*If an authentication prompt pops up, please accomplish the steps required.<br>
+                  6.&nbsp; Your <strong>Payment Receipt</strong> will appear and a confirmation will be sent to your email address.
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>V-MALAYSIA 2025 Ticket Terms and Conditions</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        By purchasing the ticket, you (“Ticket Holder”) agree to be bound by the Terms and Conditions of sale specified herein and any other provision as may be specified from time to time by VShoppe (“Promoter”). The Promoter, their agents or employees, shall not be liable for any death, personal injury (unless caused by negligence of its agents and employees), loss, or damage however caused while in the venue nor are they liable for any complaints, claims, refunds, or exchange for any reason, including without limitation, cancellation or postponement of the event. Booking fees and handling fees shall not be refundable. Any refunds shall be made only at Promoter’s discretion.<br>
-                        Tickets are sold subject to the following conditions:<br>
-
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Once sale is completed, no refunds will be made except pursuant to event postponement or cancellation and this is subjected to the Promoter's discretion. Lost ticket/s will not be replaced or refunded.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Generally, tickets are non-transferable. However, if the purchase was made by mistake, believed to be done in good faith, the Promoter reserves the right for transfer. Ticket Holder may request to transfer it to the next party, subject to ticket availability. An additional administrative payment of USD 50 must be made by the Ticket Holder to initiate the transfer process. All transfer requests must be sent to <a href="mailto:v-regn@the-v.net" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a>.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Entry will be refused if tickets have been found to be tampered, counterfeited, and/or not purchased from VShoppe or an official and authorized point of sale.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter reserves the right, without refund or compensation, to refuse admission/evict any person(s) whose conduct is disorderly or inappropriate.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may add, withdraw, or substitute artistes and/or vary advertised programmes, event times, seating arrangements, audience capacity without prior notice.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may use the ticket holder’s image or likeness in any live or recorded video display, picture, publicity material or website.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may postpone, cancel, interrupt, or stop the event due to adverse weather, dangerous situations, or any other causes beyond reasonable control.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Ticket Holder agrees to submit to any searches for prohibited items including but not limited to weapons, controlled, dangerous and illegal substances.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Ticket Holder agrees for their personal data to be used as Promoter deems necessary in the purchase of the ticket and subsequent processing for the event. These may include, but not limited to, sharing of your personal data to authorised third parties such as government agencies, financial institutions, and vendor suppliers for the said event.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Ticket Holder voluntarily assumes all risks and danger incidental to the event whether occurring prior to, during or subsequent to the actual event, including any death, personal injury, loss, damage, or liability. Malaysia law shall govern the sale of all tickets and you agree to submit to the exclusive jurisdiction of the Malaysia Court.<br>
-                    </div>
+            <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+              <span data-i18n="faqs.question2.title">V-MALAYSIA 2025 Ticket Terms and Conditions</span>
+              <span class="icon text-xl transition-transform duration-300">+</span>
+            </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question2.answer">
+                  By purchasing the ticket, you (“Ticket Holder”) agree to be bound by the Terms and Conditions of sale specified herein and any other provision as may be specified from time to time by VShoppe (“Promoter”). The Promoter, their agents or employees, shall not be liable for any death, personal injury (unless caused by negligence of its agents and employees), loss, or damage however caused while in the venue nor are they liable for any complaints, claims, refunds, or exchange for any reason, including without limitation, cancellation or postponement of the event. Booking fees and handling fees shall not be refundable. Any refunds shall be made only at Promoter’s discretion.<br>
+                  Tickets are sold subject to the following conditions:<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Once sale is completed, no refunds will be made except pursuant to event postponement or cancellation and this is subjected to the Promoter's discretion. Lost ticket/s will not be replaced or refunded.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Generally, tickets are non-transferable. However, if the purchase was made by mistake, believed to be done in good faith, the Promoter reserves the right for transfer. Ticket Holder may request to transfer it to the next party, subject to ticket availability. An additional administrative payment of USD 50 must be made by the Ticket Holder to initiate the transfer process. All transfer requests must be sent to <a href="mailto:v-regn@the-v.net" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a>.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Entry will be refused if tickets have been found to be tampered, counterfeited, and/or not purchased from VShoppe or an official and authorized point of sale.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter reserves the right, without refund or compensation, to refuse admission/evict any person(s) whose conduct is disorderly or inappropriate.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may add, withdraw, or substitute artistes and/or vary advertised programmes, event times, seating arrangements, audience capacity without prior notice.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may use the ticket holder’s image or likeness in any live or recorded video display, picture, publicity material or website.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Promoter may postpone, cancel, interrupt, or stop the event due to adverse weather, dangerous situations, or any other causes beyond reasonable control.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Ticket Holder agrees to submit to any searches for prohibited items including but not limited to weapons, controlled, dangerous and illegal substances.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Ticket Holder agrees for their personal data to be used as Promoter deems necessary in the purchase of the ticket and subsequent processing for the event. These may include, but not limited to, sharing of your personal data to authorised third parties such as government agencies, financial institutions, and vendor suppliers for the said event.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● The Ticket Holder voluntarily assumes all risks and danger incidental to the event whether occurring prior to, during or subsequent to the actual event, including any death, personal injury, loss, damage, or liability. Malaysia law shall govern the sale of all tickets and you agree to submit to the exclusive jurisdiction of the Malaysia Court.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What pre-departure requirements should we prepare?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        a.	 All participants are recommended to purchase travel insurance with Covid-19 coverage with sum insured covered minimum USD10,000.<br>
-                        b.	Participants coming from African countries are required to apply for Yellow Fever Vaccination Certificates at least <strong>fourteen (14)</strong> days in advance prior to departure to Malaysia.<br>
-                        c.	 If you require an invitation letter for your visa application, kindly fill up the form to submit your request: <a style="color:red; text-decoration: underline white;" href="https://bit.ly/VMYJune2025Invitation">https://bit.ly/VMYJune2025Invitation</a> <br>
-                        d.	Provide your flight details, departure, and arrival to <a href="mailto:v-regn@the-v.net" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> at least two (2) days prior to your departure.<br>
-                        e.	Prepare your <strong>Malaysia Digital Arrival Card</strong>: Please ensure all the necessary information in the <strong>Malaysia Digital Arrival Card (MDAC)</strong> has been filled up within <strong>three (3) days</strong> prior to your departure: <a href="https://imigresen-online.imi.gov.my/mdac/main" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br>
-                        f.	A participant in need of medications should only bring enough for the duration of their stay as per the <strong>prescription</strong> issued by their doctor.<br>
-                        g.	All arriving travelers must declare dutiable and prohibited goods, as well as currencies or monetary instruments exceeding USD 10,000, using Customs Form No. 7, available at the RMCD counter. Form submission is required at the RMCD examination checkpoint. False declarations or failure to declare are offenses under Malaysian law.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question3.title">What pre-departure requirements should we prepare?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question3.answer">
+                  a. All participants are recommended to purchase travel insurance with Covid-19 coverage with sum insured covered minimum USD10,000.<br>
+                  b. Participants coming from African countries are required to apply for Yellow Fever Vaccination Certificates at least <strong>fourteen (14)</strong> days in advance prior to departure to Malaysia.<br>
+                  c. If you require an invitation letter for your visa application, kindly fill up the form to submit your request: <a style="color:red; text-decoration: underline white;" href="https://bit.ly/VMYJune2025Invitation">https://bit.ly/VMYJune2025Invitation</a> <br>
+                  d. Provide your flight details, departure, and arrival to <a href="mailto:v-regn@the-v.net" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> at least two (2) days prior to your departure.<br>
+                  e. Prepare your <strong>Malaysia Digital Arrival Card</strong>: Please ensure all the necessary information in the <strong>Malaysia Digital Arrival Card (MDAC)</strong> has been filled up within <strong>three (3) days</strong> prior to your departure: <a href="https://imigresen-online.imi.gov.my/mdac/main" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br>
+                  f. A participant in need of medications should only bring enough for the duration of their stay as per the <strong>prescription</strong> issued by their doctor.<br>
+                  g. All arriving travelers must declare dutiable and prohibited goods, as well as currencies or monetary instruments exceeding USD 10,000, using Customs Form No. 7, available at the RMCD counter. Form submission is required at the RMCD examination checkpoint. False declarations or failure to declare are offenses under Malaysian law.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What are the travel Visa requirements?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        a.	Please make sure your passport is VALID for at least 6 months from the date of travel.<br>
-                        b.	Your passport must have a minimum of 3 blank pages.<br>
-                        c.	Apply for a Social Visa indicating your attendance to a convention.<br>
-                        d.	Proof of funds: You should have at least USD 1500 cash on hand/bank account statement prepared upon your arrival.<br>
-                        e.	All participants must have the hotel booking confirmation.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question4.title">What are the travel Visa requirements?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question4.answer">
+                  a. Please make sure your passport is VALID for at least 6 months from the date of travel.<br>
+                  b. Your passport must have a minimum of 3 blank pages.<br>
+                  c. Apply for a Social Visa indicating your attendance to a convention.<br>
+                  d. Proof of funds: You should have at least USD 1500 cash on hand/bank account statement prepared upon your arrival.<br>
+                  e. All participants must have the hotel booking confirmation.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What travel documents do I need to have on-hand?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        a.	A printed copy of your return flight ticket;<br>
-                        b.	A printed copy of your hotel confirmation should be provided as proof of your accommodations in Penang throughout your stay in Malaysia;<br>
-                        c.	A printed copy of the visa, ready-at-hand for Immigration;<br>
-                        d.	A printed copy of the invitation and/or confirmation letter sent to your email upon registration; and<br>
-                        e.	A printed copy of Yellow Fever Vaccination Certificate proof for countries required by Malaysia Immigration Department for participants from African Countries.<br>
-                        f.	A copy of your <strong>Malaysia Digital Arrival Card (MDAC)</strong>.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question5.title">What travel documents do I need to have on-hand?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question5.answer">
+                  a. A printed copy of your return flight ticket;<br>
+                  b. A printed copy of your hotel confirmation should be provided as proof of your accommodations in Penang throughout your stay in Malaysia;<br>
+                  c. A printed copy of the visa, ready-at-hand for Immigration;<br>
+                  d. A printed copy of the invitation and/or confirmation letter sent to your email upon registration; and<br>
+                  e. A printed copy of Yellow Fever Vaccination Certificate proof for countries required by Malaysia Immigration Department for participants from African Countries.<br>
+                  f. A copy of your <strong>Malaysia Digital Arrival Card (MDAC)</strong>.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>When is the Registration for V-MALAYSIA 2025 participants?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        The V-MALAYSIA JUNE 2025 Registration will be on <strong>20 June 2025</strong>. We highly recommend that you arrive at least 1-2 days before the start of the event, so you have enough time to get settled in your hotel/accommodation.
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question6.title">When is the Registration for V-MALAYSIA 2025 participants?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question6.answer">
+                  The V-MALAYSIA JUNE 2025 Registration will be on <strong>20 June 2025</strong>. We highly recommend that you arrive at least 1-2 days before the start of the event, so you have enough time to get settled in your hotel/accommodation.
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What is the registration process for V-MALAYSIA 2025 participants?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        a. You MUST be physically present at the registration and present a copy of the following saved to your mobile phone to claim your wristband:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.	 Passport<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.	V-Malaysia 2025 e-ticket with QR Code<br>
-                        b. Collection of wristbands/tickets via representation is NOT ALLOWED.<br>
-                        c. There will be no issuance of a refund, a new ticket, or wristband once they have been deemed collected. You are required to purchase again in cases of loss or replacement.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question7.title">What is the registration process for V-MALAYSIA 2025 participants?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question7.answer">
+                  a. You MUST be physically present at the registration and present a copy of the following saved to your mobile phone to claim your wristband:<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Passport<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. V-Malaysia 2025 e-ticket with QR Code<br>
+                  b. Collection of wristbands/tickets via representation is NOT ALLOWED.<br>
+                  c. There will be no issuance of a refund, a new ticket, or wristband once they have been deemed collected. You are required to purchase again in cases of loss or replacement.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What is the refund and transfer policy?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        V-Malaysia 2025 tickets are strictly non-refundable and non-transferrable.
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question8.title">What is the refund and transfer policy?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question8.answer">
+                  V-Malaysia 2025 tickets are strictly non-refundable and non-transferrable.
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>What other essentials do I need to prepare for V-Malaysia 2025?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        a.	Bring your own reusable water bottles, utensils, and bags. Single-use plastic is strictly prohibited within the premises of Setia SPICE Arena for V-Malaysia 2025.<br>
-                        b.	Make sure you have enough to spend on food, drinks, transportation, V-Malaysia 2025 merchandise from the Limitless Store, souvenirs, etc. Make sure to have your money either in USD or RM.<br>
-                        c.	Activate your debit card or local bank card for international transactions before traveling out of your country. AMEX cards are not accepted for purchases.<br>
-                        d.	Pack clothes good for 7 days. Expect that the air-conditioning inside the arena would be extra cool so bring a jacket or shawl you can easily layer over your comfy clothes.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question9.title">What other essentials do I need to prepare for V-Malaysia 2025?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question9.answer">
+                  a. Bring your own reusable water bottles, utensils, and bags. Single-use plastic is strictly prohibited within the premises of Setia SPICE Arena for V-Malaysia 2025.<br>
+                  b. Make sure you have enough to spend on food, drinks, transportation, V-Malaysia 2025 merchandise from the Limitless Store, souvenirs, etc. Make sure to have your money either in USD or RM.<br>
+                  c. Activate your debit card or local bank card for international transactions before traveling out of your country. AMEX cards are not accepted for purchases.<br>
+                  d. Pack clothes good for 7 days. Expect that the air-conditioning inside the arena would be extra cool so bring a jacket or shawl you can easily layer over your comfy clothes.<br>
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>How can I avail translation services during the event?</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-				<div class="py-4">
-                        For those who will need translation services during the event, translation radio is available for sale during Registration Day on 20 June 2025.
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question10.title">How can I avail translation services during the event?</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question10.answer">
+                  For those who will need translation services during the event, translation radio is available for sale during Registration Day on 20 June 2025.
                 </div>
+              </div>
             </div>
 
             <div class="border rounded-lg overflow-hidden">
-                <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
-                    <span>V-MALAYSIA 2025: V-KIDS AND V-TEENS GUIDELINES</span>
-                    <span class="icon text-xl transition-transform duration-300">+</span>
-                </button>
-                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
-                    <div class="py-4">
-                        To purchase your V-Kids and V-Teens ticket, just go to <a href="https://vshoppe.vtube.net/" style='color:red; text-decoration: underline white;'>VShoppe</a> and input the code: <strong>VKIDSTEENS25</strong><br>
-                        &nbsp;&nbsp;&nbsp;<em>**NOTE: If you wish to purchase more than 1 ticket, kindly email <a href="mailto:olivia.oscar@the-v.net" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> with the subject: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.</em><br>
-                        <br>
-                        When purchasing your V-Kids & V-Teens tickets:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Prepare the Kid or Teen’s Passport<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Input the correct code on VShoppe.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•After successfully purchasing their tickets, make sure to bring a copy of your receipt and their confirmation letter during the registration day for verification.<br>
-                        During the Event:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	<u>Dress Code</u>: We recommend comfortable clothes suitable for 5 days. Bring a jacket or shawl as the event area is air-conditioned.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	<u>Snacks and Lunch</u>: Light snacks and nutritious lunches will be provided during the event. If your child has any specific dietary requirements or allergies, please email us on or before <strong>31 May 2025</strong>.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.	<u>Arrival and Departure</u>: Please ensure that your child arrives at V-KIDS & V-TEENS area before <strong>10:00 AM</strong>. The V-Kids & V-Teens event is scheduled to conclude at <strong>6:00 PM</strong>, and parents/guardians are kindly requested to pick up their children promptly.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.	<u>Verification</u>: Bring a copy of your receipt and this confirmation letter on the registration day.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.	<u>Emergency Contact</u>: Should there be any emergency or urgent communication during the event, please contact <strong>Olivia</strong> at <strong>+6012 550 2357</strong>.<br>
-                        If you have any questions or concerns, please email Olivia at <a href="mailto:olivia.oscar@the-v.net" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> with the email subject: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.<br>
-                    </div>
+              <button class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-white faq-question" style="background-color: #086bb0;">
+                <span data-i18n="faqs.question11.title">V-MALAYSIA 2025: V-KIDS AND V-TEENS GUIDELINES</span>
+                <span class="icon text-xl transition-transform duration-300">+</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-white px-4" style="background-color: #004372;">
+                <div class="py-4" data-i18n="faqs.question11.answer">
+                  To purchase your V-Kids and V-Teens ticket, just go to <a href="https://vshoppe.vtube.net/" style='color:red; text-decoration: underline white;'>VShoppe</a> and input the code: <strong>VKIDSTEENS25</strong><br>
+                  &nbsp;&nbsp;&nbsp;<em>**NOTE: If you wish to purchase more than 1 ticket, kindly email <a href="mailto:olivia.oscar@the-v.net" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> with the subject: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.</em><br>
+                  <br>
+                  When purchasing your V-Kids & V-Teens tickets:<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Prepare the Kid or Teen’s Passport<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Input the correct code on VShoppe.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•After successfully purchasing their tickets, make sure to bring a copy of your receipt and their confirmation letter during the registration day for verification.<br>
+                  During the Event:<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Dress Code</u>: We recommend comfortable clothes suitable for 5 days. Bring a jacket or shawl as the event area is air-conditioned.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Snacks and Lunch</u>: Light snacks and nutritious lunches will be provided during the event. If your child has any specific dietary requirements or allergies, please email us on or before <strong>31 May 2025</strong>.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Arrival and Departure</u>: Please ensure that your child arrives at V-KIDS & V-TEENS area before <strong>10:00 AM</strong>. The V-Kids & V-Teens event is scheduled to conclude at <strong>6:00 PM</strong>, and parents/guardians are kindly requested to pick up their children promptly.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Verification</u>: Bring a copy of your receipt and this confirmation letter on the registration day.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Emergency Contact</u>: Should there be any emergency or urgent communication during the event, please contact <strong>Olivia</strong> at <strong>+6012 550 2357</strong>.<br>
+                  If you have any questions or concerns, please email Olivia at <a href="mailto:olivia.oscar@the-v.net" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> with the email subject: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.<br>
                 </div>
+              </div>
             </div>
 
         </div>
@@ -2538,8 +2537,14 @@ function t(key) {
 function updateUI() {
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
-    let translatedText = t(key);
-    element.innerHTML = translatedText; // Use innerHTML to render HTML tags
+    const translation = t(key);
+
+    if (element.getAttribute('data-i18n-type') === 'image') {
+      element.src = translation;
+    } else {
+      element.innerHTML = translation; // Use innerHTML to render HTML tags
+    }
+
     if (element.getAttribute('placeholder')) {
       const placeholderKey = key.replace('placeholder', '').replace(/\.$/, '') + '_placeholder';
       element.setAttribute('placeholder', t(placeholderKey));
@@ -2640,18 +2645,18 @@ const thisOrThatSection = document.getElementById('thisOrThat'); // Get the sect
 let currentRound = 0;
 const userChoices = [];
 const rounds = [
-  { left: "BE ABLE TO FLY", right: "HAVE SUPER STRENGTH" },
-  { left: "GO BACK TO THE PAST", right: "SEE THE FUTURE" },
-  { left: "ACHIEVE A DREAM", right: "ACHIEVE A GOAL" },
-  { left: "MINDSET SHIFT", right: "UPGRADE YOUR SKILLS" },
-  { left: "BE SUCCESSFUL", right: "UPLIFT OTHERS" },
-  { left: "COMFORTABLE LIFE", right: "EXTRAORDINARY JOURNEY" },
-  { left: "TAKE STEADY STEPS", right: "SOAR TO NEW HEIGHTS" },
-  { left: "NOTES ON PAPER", right: "NOTES ON YOUR MOBILE PHONE" },
-  { left: "GO TO <br>V-CONVENTION ALONE", right: "GO TO <br>V-CONVENTION WITH YOUR TEAM" },
-  { left: "BE PART OF THE HISTORY", right: "CREATE HISTORY" },
-  { left: "WITNESS THE GREATEST STORY", right: "CREATE YOUR GREATEST STORY" },
-  { left: "BE AT <br>V-MALAYSIA 2025 ON 21-25 JUNE", right: "TAKE PART AT <br>V-MALAYSIA 2025 ON 21-25 JUNE" }
+  { left: "thisOrThat.rounds.round1.left", right: "thisOrThat.rounds.round1.right" },
+  { left: "thisOrThat.rounds.round2.left", right: "thisOrThat.rounds.round2.right" },
+  { left: "thisOrThat.rounds.round3.left", right: "thisOrThat.rounds.round3.right" },
+  { left: "thisOrThat.rounds.round4.left", right: "thisOrThat.rounds.round4.right" },
+  { left: "thisOrThat.rounds.round5.left", right: "thisOrThat.rounds.round5.right" },
+  { left: "thisOrThat.rounds.round6.left", right: "thisOrThat.rounds.round6.right" },
+  { left: "thisOrThat.rounds.round7.left", right: "thisOrThat.rounds.round7.right" },
+  { left: "thisOrThat.rounds.round8.left", right: "thisOrThat.rounds.round8.right" },
+  { left: "thisOrThat.rounds.round9.left", right: "thisOrThat.rounds.round9.right" },
+  { left: "thisOrThat.rounds.round10.left", right: "thisOrThat.rounds.round10.right" },
+  { left: "thisOrThat.rounds.round11.left", right: "thisOrThat.rounds.round11.right" },
+  { left: "thisOrThat.rounds.round12.left", right: "thisOrThat.rounds.round12.right" }
 ];
 
 function adjustThisOrThatHeight(height) {
@@ -2673,23 +2678,23 @@ document.addEventListener('DOMContentLoaded', function() {
     adjustThisOrThatHeight(1000); // Set height to 1000px after starting
   });
 
-  // Load round data
-  function loadRound(index) {
-    if (index >= rounds.length) {
-      showResults();
-      return;
-    }
+ // Load round data
+  function loadRound(index) {
+    if (index >= rounds.length) {
+      showResults();
+      return;
+    }
 
-    roundNumber.textContent = `Round ${index + 1}`;
-    leftText.innerHTML = rounds[index].left;
-    rightText.innerHTML = rounds[index].right;
+    roundNumber.textContent = `Round ${index + 1}`;
+    leftText.innerHTML = t(rounds[index].left); // Use t() here and innerHTML for <br>
+    rightText.innerHTML = t(rounds[index].right); // Use t() here and innerHTML for <br>
 
-    // Add animation for new round
-    gameContent.classList.add('new-round');
-    setTimeout(() => {
-      gameContent.classList.remove('new-round');
-    }, 500);
-  }
+    // Add animation for new round
+    gameContent.classList.add('new-round');
+    setTimeout(() => {
+      gameContent.classList.remove('new-round');
+    }, 500);
+  }
 
   // Handle choice selection
   leftChoice.addEventListener('click', function() {
@@ -2700,26 +2705,26 @@ document.addEventListener('DOMContentLoaded', function() {
     makeChoice('right');
   });
 
-  function makeChoice(side) {
-    userChoices.push({
-      round: currentRound + 1,
-      question: `${rounds[currentRound].left} or ${rounds[currentRound].right}`,
-      choice: side === 'left' ? rounds[currentRound].left : rounds[currentRound].right
-    });
+function makeChoice(side) {
+    userChoices.push({
+      round: currentRound + 1,
+      question: `${t(rounds[currentRound].left)} or ${t(rounds[currentRound].right)}`, // Use t() here
+      choice: side === 'left' ? t(rounds[currentRound].left) : t(rounds[currentRound].right) // Use t() here
+    });
 
-    const selectedElement = side === 'left' ? leftChoice : rightChoice;
-    const otherElement = side === 'left' ? rightChoice : leftChoice;
+    const selectedElement = side === 'left' ? leftChoice : rightChoice;
+    const otherElement = side === 'left' ? rightChoice : leftChoice;
 
-    selectedElement.style.transform = 'scale(1.05)';
-    otherElement.style.opacity = '0.7';
+    selectedElement.style.transform = 'scale(1.05)';
+    otherElement.style.opacity = '0.7';
 
-    setTimeout(() => {
-      selectedElement.style.transform = '';
-      otherElement.style.opacity = '';
-      currentRound++;
-      loadRound(currentRound);
-    }, 700);
-  }
+    setTimeout(() => {
+      selectedElement.style.transform = '';
+      otherElement.style.opacity = '';
+      currentRound++;
+      loadRound(currentRound);
+    }, 700);
+  }
 
   // Show results
   function showResults() {
@@ -2788,7 +2793,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function displayRandomImageAndEnableDownload() {
   const imageFolder = 'assets/thisorthat/';
-  const imageFiles = ['quote1.jpg', 'quote2.jpg', 'quote3.jpg', 'quote4.jpg', 'quote5.jpg', 'quote6.jpg', 'quote7.jpg', 'quote8.jpg', 'quote9.jpg', 'quote10.jpg','quote11.jpg', 'quote12.jpg', 'quote13.jpg', 'quote14.jpg', 'quote15.jpg', 'quote16.jpg', 'quote17.jpg', 'quote18.jpg', 'quote19.jpg', 'quote20.jpg','quote21.jpg', 'quote22.jpg', 'quote23.jpg'];
+  const imageFiles = ['quote1.jpg', 'quote2.jpg', 'quote3.jpg', 'quote4.jpg', 'quote5.jpg','quote6.jpg', 'quote7.jpg', 'quote8.jpg', 'quote9.jpg', 'quote10.jpg','quote11.jpg', 'quote12.jpg', 'quote13.jpg', 'quote14.jpg', 'quote15.jpg','quote16.jpg', 'quote17.jpg', 'quote18.jpg', 'quote19.jpg', 'quote20.jpg','quote21.jpg','quote22.jpg', 'quote23.jpg'];
 
   const randomIndex = Math.floor(Math.random() * imageFiles.length);
   const randomImagePath = imageFolder + imageFiles[randomIndex];
