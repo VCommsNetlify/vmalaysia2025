@@ -176,12 +176,12 @@
       "round10": { "left": "FAITES PARTIE DE L'HISTOIRE", "right": "CRÉEZ L'HISTOIRE" },
       "round11": { "left": "ASSISTEZ À LA PLUS BELLE HISTOIRE", "right": "CRÉEZ VOTRE PLUS BELLE HISTOIRE" },
       "round12": { "left": "SOYEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN", "right": "PARTICIPEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN" }
-    },
+    }
+  },
   "tickets": {
     "title": "Le plus grand événement de l'année commence par votre siège",
     "description": "Achetez vos billets sur VShoppe dès aujourd'hui.",
     "description2": "Utilisez le code :"
-  }
   },
   "faqs": {
     "title": "FOIRE AUX QUESTIONS",
