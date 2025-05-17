@@ -176,12 +176,12 @@
       "round10": { "left": "MENJADI BAGIAN DARI SEJARAH", "right": "MEMBUAT SEJARAH" },
       "round11": { "left": "MENYAKSIKAN SEJARAH TERHEBAT", "right": "MENCIPTAKAN KISAH HEBAT SAYA" },
       "round12": { "left": "HADIR DALAM <br>V-MALAYSIA 2025 PADA 21-25 JUNI", "right": "MENJADI BAGIAN DARI <br>V-MALAYSIA 2025 PADA 21-25 JUNI" }
-    },
+    }
+  },
   "tickets": {
     "title": "Acara Terbesar Tahun Ini Dimulai dengan  Kursi Anda",
     "description": "Dapatkan tiket anda sekarang di VShoppe.",
     "description2": "Gunakan kode:"
-  }
   },
   "faqs": {
     "title": "PERTANYAAN YANG SERING DIAJUKAN",
