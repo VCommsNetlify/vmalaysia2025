@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT_CODE.js" crossorigin="anonymous"></script>
-<!-- Lightbox2 CSS & JS -->
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
     <style>
 /* Import Montserrat Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
@@ -27,7 +23,7 @@ html, body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: #f8f8f8;
-  background-image: url('assets/first-fold/background-firstfoldprev.jpg');
+  background-image: url('assets/first-fold/background-firstfoldprev.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -324,13 +320,6 @@ html {
     background-position: center;
   }
 }
-/* ========== background ========== */
-.custom-background {
-  background-image: url('assets/greateststory/bg-teaserepisode.png');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 
 .featuredContentContainer {
@@ -342,10 +331,6 @@ html {
   }
 
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer utilities {
   @keyframes fade-up {
@@ -632,7 +617,6 @@ html {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   min-height: 650px;
   background-repeat: no-repeat;
-  /* background-image: url("assets/thisorthat/bgforround.jpg"); */
 }
 
 #initialScreen {
@@ -641,7 +625,6 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -689,8 +672,6 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); */
-  /* background-image: url("assets/thisorthat/bgforround.jpg"); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -962,7 +943,7 @@ html {
 .background-image {
  width: 100%;
  height: auto;
- background-image: url('assets/speakers/bgforround.jpg');
+ background-image: url('assets/speakers/bgforround.webp');
  background-repeat: repeat-y;
  background-position: bottom left;
  padding-top: 100%; /* Default percentage padding */
@@ -1002,12 +983,7 @@ html {
  .position {
   font-size: 0.8em;
  }
- .background-container {
-  /* height: auto; /* Try auto for tablets too */
- }
- .background-image {
-  /* padding-top: 100%; /* Keep percentage for tablets for now */
- }
+
 }
 
 @media (max-width: 480px) {
@@ -1090,7 +1066,7 @@ html {
 <header class="fixed w-full z-50 bg-[#004372] shadow-lg">
   <div class="container mx-auto px-4 py-3 flex items-center justify-between relative">
     <div class="flex items-center space-x-4">
-      <a href="#home" class="text-white hidden md:inline nav-link"><img src="assets/first-fold/VMY2025-logo-v2_lowres.png" alt="THE V Logo" class="h-10"></a>
+      <a href="#home" class="text-white hidden md:inline nav-link"><img src="assets/first-fold/VMY2025-logo-v2_lowres.webp" alt="THE V Logo" class="h-10"></a>
       <a href="#home" class="text-white hidden md:inline nav-link" data-i18n="home">Home</a>
     </div>
 
@@ -1173,7 +1149,7 @@ html {
 
   <div class="container mx-auto px-4 flex flex-col items-center justify-center z-10 relative">
     <img class="mx-auto w-40 sm:w-52 md:w-64 lg:w-80 mb-6"
-         src="assets/header/vmy_logo.png"
+         src="assets/header/vmy_logo.webp"
          alt="V Malaysia Logo">
 
     <div class="max-w-3xl w-full px-4">
@@ -1230,7 +1206,7 @@ html {
 
 <section class="relative py-12 bg-gray-100 overflow-hidden" id="storiesToggle">
   <div class="absolute inset-0 z-0">
-    <div class="w-full h-full bg-[url('assets/news/BG-videohighlights.png')] bg-no-repeat bg-center bg-cover background-position: center;"></div>
+    <div class="w-full h-full bg-[url('assets/news/BG-videohighlights.webp')] bg-no-repeat bg-center bg-cover background-position: center;"></div>
   </div>
 
   <div class="relative z-10 container mx-auto px-4">
@@ -1241,7 +1217,7 @@ html {
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal('6370621142112')">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode1.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode1.webp" alt="Story 1" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story1.title">Episode 1: The V-Convention</p>
           </div>
@@ -1250,7 +1226,7 @@ html {
 
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal(null)">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode2.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode2.webp" alt="Story 2" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story2.title">Episode 2: From Leaders to V Ambassadors</p>
           </div>
@@ -1259,7 +1235,7 @@ html {
 
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal(null)">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode3.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode3.webp" alt="Story 3" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story3.title">Episode 3: Participants to InService</p>
           </div>
@@ -1268,7 +1244,7 @@ html {
 
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal(null)">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode4.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode4.webp" alt="Story 4" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story4.title">Episode 4: Teams Rise as Colours of The V</p>
           </div>
@@ -1277,7 +1253,7 @@ html {
 
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal(null)">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode5.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode5.webp" alt="Story 5" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story5.title">Episode 5: The Limitless Store - From Creation to Embracing Leaders</p>
           </div>
@@ -1286,7 +1262,7 @@ html {
 
       <div class="cursor-pointer" onclick="openBrightcoveStoriesModal(null)">
         <div class="bg-[#a05c11] bg-opacity-60 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300">
-          <img src="assets/greateststory/episode6.jpg" alt="Story 1" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode6.webp" alt="Story 6" class="w-full h-auto object-cover">
           <div class="p-4 bg-[#a05c11] bg-opacity-60 text-white">
             <p class="text-lg font-semibold" data-i18n="story6.title">Episode 6: The Two Visionaries</p>
           </div>
@@ -1323,7 +1299,7 @@ html {
 
 
 <!-- VIDEOS SECTION -->
-<section id="carousel-featured" class="py-16 bg-cover bg-center text-white" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
+<section id="carousel-featured" class="py-16 bg-cover bg-center text-white" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top;">
 
   <div class="container mx-auto px-4">
     <div class="text-center mb-12">
@@ -1371,7 +1347,7 @@ html {
       <div class="swiper-wrapper">
         <div class="swiper-slide cursor-pointer" onclick="playInFeatured('6372789163112', 'VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!', '“When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Grab your tickets today on VShoppe and use the code: VMYJun2025')">
           <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="assets/news/05142025-vpn-yaser-khamis-invites-you-to-v-malaysia-2025-this-june.jpg" alt="Day 1" class="w-full h-auto object-cover">
+            <img src="assets/news/05142025-vpn-yaser-khamis-invites-you-to-v-malaysia-2025-this-june.webp" alt="Day 1" class="w-full h-auto object-cover">
             <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
               <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video1.title">VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!</p>
             </div>
@@ -1381,7 +1357,7 @@ html {
 
       <div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
         <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-          <img src="assets/greateststory/episode6.jpg" alt="Day 2" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode6.webp" alt="Day 2" class="w-full h-auto object-cover">
           <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
             <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video2.title">Future Content</p>
           </div>
@@ -1390,7 +1366,7 @@ html {
 
       <div class="swiper-slide cursor-pointer" onclick="openComingSoonModal3()">
         <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
-          <img src="assets/greateststory/episode5.jpg" alt="Day 3" class="w-full h-auto object-cover">
+          <img src="assets/greateststory/episode5.webp" alt="Day 3" class="w-full h-auto object-cover">
           <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
             <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video3.title">Future Content</p>
           </div>
@@ -1472,7 +1448,7 @@ html {
     <!--  NEWS AND UPDATE Section -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
-<section id="articles-section" class="py-16 newsupdates" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
+<section id="articles-section" class="py-16 newsupdates" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top;">
   <div class="container mx-auto px-4">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl bg-[#00666a] inline-block font-bold text-white mb-4 px-4 py-2" data-i18n="eventsNews.articles.latestNewsTitle">READ THE LATEST NEWS!</h2>
@@ -1481,7 +1457,7 @@ html {
     <div class="max-w-4xl mx-auto mb-16 text-center rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
       <!-- Featured Image -->
       <div class="relative w-full sm:h-[50vh]">
-        <img src="assets/news/02132025-together-we-rise-this-21-25-june-at-v-malaysia-2025.jpg"
+        <img src="assets/news/02132025-together-we-rise-this-21-25-june-at-v-malaysia-2025.webp"
              alt="Featured Article"
              class="w-full h-full object-contain sm:object-cover">
       </div>
@@ -1516,7 +1492,7 @@ html {
 
     <!-- Slide 1 -->
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
-      <img src="assets/news/12022024-book-your-seats-now-for-v-malaysia-2025.jpg" alt="Article 1" class="w-full h-48 object-cover">
+      <img src="assets/news/12022024-book-your-seats-now-for-v-malaysia-2025.webp" alt="Article 1" class="w-full h-48 object-cover">
       <div class="p-4">
         <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article1.title">Book Your Seats Now for V-Malaysia 2025!</h3>
         <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article1.content">See you on 21-25 June 2025! Are you going to be there?</p>
@@ -1531,7 +1507,7 @@ html {
     <!-- Repeat for additional slides -->
     <!-- Slide 2 -->
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform" onclick="openComingSoonModal4()">
-      <img src="assets/greateststory/episode3.jpg" alt="Article 2" class="w-full h-48 object-cover">
+      <img src="assets/greateststory/episode3.webp" alt="Article 2" class="w-full h-48 object-cover">
       <div class="p-4">
         <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article2.title">Future Content</h3>
         <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article2.content">&nbsp;</p>
@@ -1545,7 +1521,7 @@ html {
 
     <!-- Slide 3 -->
     <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform" onclick="openComingSoonModal4()">
-      <img src="assets/greateststory/episode4.jpg" alt="Article 3" class="w-full h-48 object-cover">
+      <img src="assets/greateststory/episode4.webp" alt="Article 3" class="w-full h-48 object-cover">
       <div class="p-4">
         <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article3.title">Future Content</h3>
         <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article3.content">&nbsp;</p>
@@ -1671,13 +1647,13 @@ html {
   </div>
 </div>
 
-<section id="gallery-section" class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
+<section id="gallery-section" class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top;">
   <div class="container mx-auto px-4 text-center">
     <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 inline-block bg-[#d24545] px-4 py-2" data-i18n="eventsNews.gallery.title">
       SEE THE AMAZING PHOTOS!
     </h2>
     <div class="relative w-full md:w-1/2 mx-auto">
-      <img src="assets/gallery/photo-gif.gif" alt="Gallery GIF" class="w-full h-auto object-cover">
+      <img src="assets/gallery/photo-gif.webp" alt="Gallery GIF" class="w-full h-auto object-cover">
       <div class="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
         <p class="text-white text-lg md:text-xl font-semibold text-center" data-i18n="eventsNews.gallery.comingSoon">
           Watch out for this space to see the amazing photos soon!
@@ -1691,7 +1667,7 @@ html {
 } REMOVE THIS ON CSS DAY 1 -->
 
     <!-- Gallery Section -->
-<!-- <section id="gallery-section" class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top;">
+<!-- <section id="gallery-section" class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top;">
   <div class="container mx-auto px-4">
 		<div class="text-center mb-12">
 		  <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 inline-block bg-[#d24545] px-4 py-2">
@@ -1795,7 +1771,7 @@ html {
 
 
     <!-- MAP -->
-<section class="relative py-16 text-black" id="venue-map" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
+<section class="relative py-16 text-black" id="venue-map" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover;">
   <!-- White overlay with 70% opacity -->
   <div class="absolute inset-0 bg-white bg-opacity-70 z-0"></div>
 
@@ -1811,14 +1787,14 @@ html {
   <!-- Map Frame -->
   <div class="relative z-10 container mx-auto px-4">
     <!-- <iframe src="https://app.seekbeak.com/v/RlzoRPag12M" height="600px" class="w-full mb-6 "></iframe> -->
-    <img src="assets/hero/05162025 june VMY2025 microsite map v5.jpg" alt="Venue Map" height="600px" class="w-full h-full">
+    <img src="assets/hero/05162025 june VMY2025 microsite map v5.webp" alt="Venue Map" height="600px" class="w-full h-full">
   </div>
 </section>
 
 
 
     <!-- Ads Section -->
-<section class="py-8 sm:py-12 md:py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
+<section class="py-8 sm:py-12 md:py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover;">
   <div class="w-[80%] mx-auto">
     <div class="swiper adSwiper rounded-xl overflow-hidden relative">
       <!-- Slides -->
@@ -1828,11 +1804,11 @@ html {
                alt="Ad 1" class="w-full h-[40vh] sm:h-[50vh] md:h-[500px] object-contain" />
         </div> -->
         <div class="swiper-slide">
-          <img src="assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 horizontal.jpg"
+          <img src="assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 horizontal.webp"
                alt="Ad 2" class="w-full h-[40vh] sm:h-[50vh] md:h-[500px] object-contain" />
         </div>
         <div class="swiper-slide">
-          <img src="assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 horizontal.jpg"
+          <img src="assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 horizontal.webp"
                alt="Ad 3" class="w-full h-[40vh] sm:h-[50vh] md:h-[500px] object-contain" />
         </div>
       </div>
@@ -1852,9 +1828,9 @@ html {
 
 
 <!-- VKIDS -->
-<section class="py-16 text-white" id="vkidsteens" style="background-image: url('assets/vkidsteens/BG-vkids.png'); background-position: center; background-size: cover;">
+<section class="py-16 text-white" id="vkidsteens" style="background-image: url('assets/vkidsteens/BG-vkids.webp'); background-position: center; background-size: cover;">
   <div class="max-w-4xl mx-auto text-center mb-8 px-4">
-    <img src="assets/vkidsteens/Vkids-Vteens-logo-copy.png" alt="V-KIDS & V-TEENS Logo" id="vkids-logo" data-i18n="vkids.logo" data-i18n-type="image">
+    <img src="assets/vkidsteens/Vkids-Vteens-logo-copy.webp" alt="V-KIDS & V-TEENS Logo" id="vkids-logo" data-i18n="vkids.logo" data-i18n-type="image">
   </div>
 
   <!-- Video Section -->
@@ -1865,7 +1841,7 @@ html {
           <!-- Video 1 ADD video-item ON CLASS TO ENABLE PLAYER-->
           <div class="swiper-slide cursor-pointer" data-video-id="null" onclick="openComingSoonModal5()">
             <div class="relative overflow-hidden">
-              <img src="assets/greateststory/episode4.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
+              <img src="assets/greateststory/episode4.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
             <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video1Title">
               Future Content
@@ -1875,7 +1851,7 @@ html {
           <!-- Video 2 ADD video-item ON CLASS TO ENABLE PLAYER-->
           <div class="swiper-slide cursor-pointer " data-video-id="null" onclick="openComingSoonModal5()">
             <div class="relative overflow-hidden">
-              <img src="assets/greateststory/episode2.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
+              <img src="assets/greateststory/episode2.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
             <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video2Title">
               Future Content
@@ -1885,7 +1861,7 @@ html {
           <!-- Video 1 ADD video-item ON CLASS TO ENABLE PLAYER-->
           <div class="swiper-slide cursor-pointer " data-video-id="null" onclick="openComingSoonModal5()">
             <div class="relative overflow-hidden">
-              <img src="assets/greateststory/episode3.jpg" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
+              <img src="assets/greateststory/episode3.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
             </div>
             <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video3Title">
               Future Content
@@ -1961,7 +1937,7 @@ html {
           <div class="swiper-slide">
             <div class="overflow-hidden">
               <a href="https://the-v.net/en/news?id=04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025">
-                <img src="assets/vkidsteens/04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025-1.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
+                <img src="assets/vkidsteens/04162025-join-the-v-kids-and-v-teens-at-vmalaysia2025-1.webp" alt="Article" class="w-full h-[200px] object-cover mb-0">
                 <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.article.article1Title">
                   Join the V-Kids and V-Teens at #VMalaysia2025!
                 </div>
@@ -1971,7 +1947,7 @@ html {
 
           <div class="swiper-slide" onclick="openComingSoonModal5()">
             <div class="overflow-hidden">
-              <img src="assets/greateststory/episode5.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
+              <img src="assets/greateststory/episode5.webp" alt="Article" class="w-full h-[200px] object-cover mb-0">
               <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #a17b2a;" data-i18n="vkids.article.article2Title">
                 Future Content
               </div>
@@ -1980,7 +1956,7 @@ html {
 
           <div class="swiper-slide" onclick="openComingSoonModal5()">
             <div class="overflow-hidden">
-              <img src="assets/greateststory/episode6.jpg" alt="Article" class="w-full h-[200px] object-cover mb-0">
+              <img src="assets/greateststory/episode6.webp" alt="Article" class="w-full h-[200px] object-cover mb-0">
               <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.article.article3Title">
                 Future Content
               </div>
@@ -2056,7 +2032,7 @@ html {
 
 
     <!-- SPEAKER Section -->
-    <section class="py-16 bg-gray-100 relative" id="speakers" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover; min-height: 500px;">
+    <section class="py-16 bg-gray-100 relative" id="speakers" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover; min-height: 500px;">
         <!-- White overlay with 70% opacity -->
         <div class="absolute inset-0 bg-white bg-opacity-70 z-0"></div>
 
@@ -2070,7 +2046,7 @@ html {
             <div class="grid-container">
 			  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/DSVE2.png" alt="Speaker 1" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/DSVE2.webp" alt="Speaker 1" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2082,7 +2058,7 @@ html {
 
 				  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/JTB2.png" alt="Speaker 2" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/JTB2.webp" alt="Speaker 2" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2094,7 +2070,7 @@ html {
 
 				  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/CHIEF2.png" alt="Speaker 3" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/CHIEF2.webp" alt="Speaker 3" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2106,7 +2082,7 @@ html {
 
 				  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/VP-ADLY2.png" alt="Speaker 4" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/VP-ADLY2.webp" alt="Speaker 4" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2118,7 +2094,7 @@ html {
 
 				  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/VP-SATHI2.png" alt="Speaker 5" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/VP-SATHI2.webp" alt="Speaker 5" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2130,7 +2106,7 @@ html {
 
 				  <div class="item-container">
 				   <div class="image-container">
-					<img src="assets/speakers/VP-ARUN2.png" alt="Speaker 6" class="top-image" style="max-width: 400px;">
+					<img src="assets/speakers/VP-ARUN2.webp" alt="Speaker 6" class="top-image" style="max-width: 400px;">
 					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
 					</div>
 				   </div>
@@ -2147,7 +2123,7 @@ html {
 
 
 <!-- this or that -->
-<section id="thisOrThat" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: top; background-size: cover;">
+<section id="thisOrThat" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top; background-size: cover;">
  <div class="bg-white bg-opacity-60 p-6 rounded-lg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   <!-- Overlay with only Start button -->
 <div id="initialScreen">
@@ -2202,7 +2178,7 @@ html {
 
 
     <!-- Tickets Section -->
-<section class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
+<section class="py-16 bg-gray-100" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover;">
     <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl text-[#063f38] font-bold mb-4" data-i18n="tickets.title">The Greatest Event of the Year Starts With Your Seat</h2>
@@ -2210,12 +2186,12 @@ html {
         </div>
 
         <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 ticket-grid-1">
-            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.png'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
+            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.webp'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
                 <div class="py-4 text-center"> <h3 class="font-bold text-xl text-[#07799a]">V-Malaysia 2025</h3>
                     <p class="text-sm text-[#07799a]">21-25 JUNE </p>
                 </div>
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
-                    <img src="assets/tickets/11292024-VMY2025-june-vshoppe-product-thumbnail-v2d3f61c4a-e121-4a2a-a88b-09c6c7f96a11.png" class="mx-auto mb-8" style="max-width: 80%;">
+                    <img src="assets/tickets/vmyjune-ticket.webp" alt="ticket1" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
                         <p class="text-sm text-[#07799a]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#07799a]">VMYJUN2025</div>
@@ -2227,11 +2203,11 @@ html {
                 </div>
             </div>
 
-            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.png'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
+            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.webp'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
                 <div class="py-4 text-center relative"> <h3 class="font-bold text-xl text-[#bf7807]">V-KIDS & V-TEENS JUNE 2025</h3>
                     </div>
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
-                    <img src="assets/tickets/VKIDS2025-VTEENS-GENERIC-BANNER-SQUARE3a984bab-5ccc-4b4a-a93c-085b0fa2ad00.png" class="mx-auto mb-8" style="max-width: 80%;">
+                    <img src="assets/tickets/vkids-ticket.webp" alt="ticket2" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
                         <p class="text-sm text-[#bf7807]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#bf7807]">VKIDSTEENS25</div>
@@ -2243,12 +2219,12 @@ html {
                 </div>
             </div>
 
-            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.png'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
+            <div class="rounded-lg overflow-hidden shadow-lg hover-scale" style="background-image: url('assets/tickets/ticket-bg.webp'); background-size: cover; background-position: center; display: flex; flex-direction: column;">
                 <div class="py-4 text-center"> <h3 class="font-bold text-xl text-[#0c42bb]">V-Malaysia 2025 </h3>
                     <p class="text-sm text-[#0c42bb]">13-17 SEPTEMBER </p>
                 </div>
                 <div class="p-6 text-center" style="padding-top: 20px; padding-bottom: 30px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
-                    <img src="assets/tickets/01062025-VMY2025-SEPT-vshoppe-product-thumbnail-v2423aa5b8-ff8f-44cf-8427-61f2e1b888eb.png" class="mx-auto mb-8" style="max-width: 80%;">
+                    <img src="assets/tickets/vmysept-ticket.webp" alt="ticket3" class="mx-auto mb-8" style="max-width: 80%;">
                     <div style="text-align: center; margin-top: 50px;">
                         <p class="text-sm text-[#0c42bb]" style="margin-bottom: 8px;" data-i18n="tickets.description2">Use the code: </p>
                         <div class="text-3xl font-bold mb-6 text-[#0c42bb]">VMYSEPT2025</div>
@@ -2265,7 +2241,7 @@ html {
 
 
 <!-- FAQ -->
-<section class="py-12 px-4 bg-white relative" id="faqs" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
+<section class="py-12 px-4 bg-white relative" id="faqs" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover;">
     <div class="absolute inset-0 bg-white opacity-60"></div>
     <div class="w-[80%] max-w-3xl mx-auto relative z-10">
 
@@ -2466,10 +2442,10 @@ html {
 
 </section>
 
-<footer class="bg-gray-100 py-8 text-center text-gray-600" style="background-image: url('assets/news/BG-videohighlights.png'); background-position: center; background-size: cover;">
+<footer class="bg-gray-100 py-8 text-center text-gray-600" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: center; background-size: cover;">
   <div class="container mx-auto px-4">
     <img class="mx-auto w-40 sm:w-52 md:w-64 lg:w-80 mb-4"
-         src="assets/header/vmy_logo.png"
+         src="assets/header/vmy_logo.webp"
          alt="V Malaysia Logo">
     <h2 class="text-lg font-semibold text-[#004372] mb-1">
       SETIA SPICE ARENA
@@ -2565,33 +2541,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	// <!-- END LANGUAGE -->
 
-    // start greatest story popup
 
-    document.addEventListener('DOMContentLoaded', function() {
-    const episode1Link = document.querySelector('#storiesToggle .grid > a:first-child');
-    const greatestStoryVideoPopup = document.getElementById('greatestStoryVideoPopup');
-    const closeGreatestStoryPopup = document.getElementById('closeGreatestStoryPopup');
-
-    episode1Link.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevent the link from navigating
-      greatestStoryVideoPopup.classList.remove('hidden');
-      greatestStoryVideoPopup.classList.add('flex');
-    });
-
-    closeGreatestStoryPopup.addEventListener('click', function() {
-      greatestStoryVideoPopup.classList.add('hidden');
-      greatestStoryVideoPopup.classList.remove('flex');
-    });
-
-    greatestStoryVideoPopup.addEventListener('click', function(event) {
-      if (event.target === greatestStoryVideoPopup) {
-        greatestStoryVideoPopup.classList.add('hidden');
-        greatestStoryVideoPopup.classList.remove('flex');
-      }
-    });
-  });
-
-    // <!-- END POPUP -->
 
     //coming soon gallery
 
@@ -2740,40 +2690,10 @@ function makeChoice(side) {
       choicesList.appendChild(li);
     });
 
-    // Generate results image
-    generateResultsImage();
-
     // Display random image and enable download NOW when results are shown
     displayRandomImageAndEnableDownload();
   }
 
-  // Generate shareable image
-  function generateResultsImage() {
-    const ctx = resultCanvas.getContext('2d');
-    ctx.fillStyle = '#f8f9fa';
-    ctx.fillRect(0, 0, resultCanvas.width, resultCanvas.height);
-    ctx.fillStyle = '#333';
-    ctx.font = 'bold 24px Poppins, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('My "This or That" Choices', resultCanvas.width / 2, 40);
-    ctx.font = '16px Poppins, sans-serif';
-    ctx.fillText('The V Family Challenge', resultCanvas.width / 2, 70);
-    ctx.textAlign = 'left';
-    ctx.font = '18px Poppins, sans-serif';
-    let yPos = 120;
-    userChoices.forEach(choice => {
-      ctx.fillStyle = '#333';
-      ctx.fillText(`Round ${choice.round}: ${choice.question}`, 40, yPos);
-      ctx.fillStyle = '#2575fc';
-      ctx.fillText(`My choice: ${choice.choice}`, 60, yPos + 25);
-      yPos += 60;
-    });
-    ctx.fillStyle = '#666';
-    ctx.font = '14px Poppins, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('Share your results and tag The V Family!', resultCanvas.width / 2, resultCanvas.height - 20);
-    downloadLink.href = resultCanvas.toDataURL('image/png');
-  }
 
   // Restart game
   restartBtn.addEventListener('click', function() {
@@ -2793,7 +2713,7 @@ function makeChoice(side) {
 
 function displayRandomImageAndEnableDownload() {
   const imageFolder = 'assets/thisorthat/';
-  const imageFiles = ['quote1.jpg', 'quote2.jpg', 'quote3.jpg', 'quote4.jpg', 'quote5.jpg','quote6.jpg', 'quote7.jpg', 'quote8.jpg', 'quote9.jpg', 'quote10.jpg','quote11.jpg', 'quote12.jpg', 'quote13.jpg', 'quote14.jpg', 'quote15.jpg','quote16.jpg', 'quote17.jpg', 'quote18.jpg', 'quote19.jpg', 'quote20.jpg','quote21.jpg','quote22.jpg', 'quote23.jpg'];
+  const imageFiles = ['quote1.webp', 'quote2.webp', 'quote3.webp', 'quote4.webp', 'quote5.webp','quote6.webp', 'quote7.webp', 'quote8.webp', 'quote9.webp', 'quote10.webp','quote11.webp', 'quote12.webp', 'quote13.webp', 'quote14.webp', 'quote15.webp','quote16.webp', 'quote17.webp', 'quote18.webp', 'quote19.webp', 'quote20.webp','quote21.webp','quote22.webp', 'quote23.webp'];
 
   const randomIndex = Math.floor(Math.random() * imageFiles.length);
   const randomImagePath = imageFolder + imageFiles[randomIndex];
@@ -3018,11 +2938,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	  day0: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp'],
 	  day1: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
 	  day2: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
-	  day3: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg','11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg','21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg'],
-	  day4: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg','11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg','21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg'],
-	  day5: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg','11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg','21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg'],
-	  fashionshow: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg','11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg','21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg'],
-	  vkids: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg','11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg','21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg'],
+	  day3: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
+	  day4: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
+	  day5: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
+	  fashionshow: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp'],
+	  vkids: ['1.webp', '2.webp', '3.webp', '4.webp', '5.webp', '6.webp', '7.webp', '8.webp', '9.webp', '10.webp', '11.webp', '12.webp', '13.webp', '14.webp', '15.webp','16.webp', '17.webp', '18.webp', '19.webp', '20.webp', '21.webp', '22.webp', '23.webp', '24.webp', '25.webp', '26.webp', '27.webp', '28.webp', '29.webp', '30.webp']
 	};
 
 	const modal = document.getElementById('galleryModal');
@@ -3060,33 +2980,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
- //change photo mobile
- // Function to change image based on screen size
-  function changeImageForMobile() {
-    if (window.innerWidth <= 640) {
-      // Mobile view: Change images
-      document.getElementById('story1-img').src = "assets/greateststory/03042025-v-africa2025-post-event-banner-1-vertical-v2.jpg"; // Mobile image for Item 1
-      document.getElementById('story2-img').src = "assets/greateststory/03202025-v-africa2025-post-event-banner-2-v3-vertical.jpg"; // Mobile image for Item 2
-      document.getElementById('story3-img').src = "assets/greateststory/04042025-v-africa2025-post-event-episode-3-v2-vertical.jpg"; // Mobile image for Item 3
-      document.getElementById('story4-img').src = "assets/greateststory/04102025-v-africa2025-post-event-episode-5-vertical.jpg"; // Mobile image for Item 4
-      document.getElementById('story5-img').src = "assets/greateststory/04082025-v-africa2025-post-event-episode-4-vertical.jpg"; // Mobile image for Item 5
-      document.getElementById('story6-img').src = "assets/greateststory/03042025-v-africa2025-post-event-banner-1-vertical-v2.jpg"; // Mobile image for Item 6
-    } else {
-      // Desktop view: Change images back to default
-      document.getElementById('story1-img').src = "assets/greateststory/03042025-the-greatest-story-from-v-africa-2025-together-we-rise.jpg"; // Default desktop image for Item 1
-      document.getElementById('story2-img').src = "assets/greateststory/04022025-the-greatest-story-of-v-africa-2025-we-asked-vc-drigbe-kalo-and-vc-soma-drissa-gnanmia-their-favourite-moments.jpg"; // Default desktop image for Item 2
-      document.getElementById('story3-img').src = "assets/greateststory/04072025-the-greatest-story-of-v-africa-2025-inservices-most-fulfilling-moments.jpg"; // Default desktop image for Item 3
-      document.getElementById('story4-img').src = "assets/greateststory/04112025-the-greatest-story-of-v-africa-2025-unstoppable-women-unforgettable-moments.jpg"; // Default desktop image for Item 4
-      document.getElementById('story5-img').src = "assets/greateststory/04112025-the-greatest-story-of-v-africa-2025-new-heights-for-our-network-leaders.jpg"; // Default desktop image for Item 5
-      document.getElementById('story6-img').src = "assets/greateststory/03042025-the-greatest-story-from-v-africa-2025-together-we-rise.jpg"; // Default desktop image for Item 6
-    }
-  }
-
-  // Call function on load and resize
-  window.addEventListener('load', changeImageForMobile);
-  window.addEventListener('resize', changeImageForMobile);
   
   // <!-- MENU NAVIGATIONs -->
 
@@ -3223,30 +3116,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-  // Gallery scroll
-  // const gallery = document.getElementById('galleryScroll');
-  // const scrollAmount = 300;
-  //
-  // function scrollGallery(direction) {
-  //   gallery?.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-  // }
-  //
-  // let autoScroll = setInterval(() => {
-  //   if (gallery?.scrollLeft + gallery.clientWidth >= gallery.scrollWidth - 1) {
-  //     gallery.scrollTo({ left: 0, behavior: 'smooth' });
-  //   } else {
-  //     gallery?.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-  //   }
-  // }, 5000);
-  //
-  // let startX = 0;
-  // gallery?.addEventListener('touchstart', (e) => startX = e.touches[0].clientX);
-  // gallery?.addEventListener('touchend', (e) => {
-  //   const diff = e.changedTouches[0].clientX - startX;
-  //   if (Math.abs(diff) > 50) scrollGallery(diff < 0 ? 1 : -1);
-  // });
-
   // Swipers
   //ads
 	
@@ -3276,8 +3145,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // Set mobile-specific image sources
       const mobileImages = [
         // 'assets/hero/01202025-ice-2025-day-4-persist-persevere-perform-by-dato-sri-vijay-eswaran32b0e726-2a48-4cac-9422-34ce98acc6c1.jpg', // Replace with your mobile image paths
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 vertical.jpg',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 vertical.jpg'
+        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 vertical.webp',
+        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 vertical.webp'
       ];
 
       // Update the image sources in the Swiper slides
@@ -3291,8 +3160,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // Revert to desktop image sources (if needed)
       const desktopImages = [
         // 'assets/hero/01202025-ice-2025-day-4-persist-persevere-perform-by-dato-sri-vijay-eswaran32b0e726-2a48-4cac-9422-34ce98acc6c1.jpg',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 horizontal.jpg',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 horizontal.jpg'
+        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 horizontal.webp',
+        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 horizontal.webp'
       ];
 
       const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
@@ -3572,10 +3441,6 @@ const articleSwiper = new Swiper('.article-swiper', {
 
   menuToggle.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
-  });
-
-  langToggle.addEventListener('click', () => {
-    langMenu.classList.toggle('hidden');
   });
 
   // Smooth scroll
