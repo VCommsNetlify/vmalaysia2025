@@ -59,5 +59,175 @@
   },
   "story6": {
     "title": "Épisode 6 : Les deux visionnaires"
+  },
+  "comingSoonModal": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+    "comingSoonModal2": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal3": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal4": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal5": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "eventsNews": {
+    "mainTitle": "Actualités et mises à jour des événements",
+    "highlightTitle": "Regardez les derniers temps forts et plus encore !",
+    "videoSelectionParagraph": "Select a video below and watch it in this mini media player!",
+    "featuredTitle": "VPN Yaser Khamis vous invite à la V-Malaysia 2025 en juin !",
+    "featuredDescription": "« Quand nous bougeons comme un seul homme, nous gagnons comme la même chose ! » VPN Yaser Khamis dit que vous ne pouvez absolument pas manquer ce dub avec toute votre équipe. Participez à l'épopée de la V-Malaysia 2025, qui se déroulera du 21 au 25 juin à la Setia SPICE Arena de Penang, en Malaisie. Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code: VMYJun2025",
+  "videos": {
+      "video1": {
+        "title": "VPN Yaser Khamis vous invite à la V-Malaysia 2025 en juin !"
+      },
+      "video2": {
+        "title": "Future Content"
+      },
+      "video3": {
+        "title": "Future Content"
+      }
+    },
+    "featuredArticle": {
+      "subtitle": "Ensemble, nous nous éleverons du 21 au 25 juin au V-MALAYSIA 2025 !",
+      "content": "Êtes-vous prêt à vivre l'événement le plus incroyable de la famille The V ?",
+      "readMore": "READ MORE"
+    },
+    "articles": {
+      "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article1": {
+        "title": "Réservez vos places dès maintenant pour la V-Malaysia 2025!",
+        "content": "Rendez-vous du 21 au 25 juin 2025 ! Vous y serez ?",
+        "readMore": "READ MORE"
+      },
+      "article2": {
+        "title": "Future Content",
+        "content": "",
+        "readMore": "READ MORE"
+      },
+      "article3": {
+        "title": "Future Content",
+        "content": "",
+        "readMore": "READ MORE"
+      }
+    },
+    "gallery": {
+      "title": "Découvrez les superbes photos !",
+      "comingSoon": "Watch out for this space to see the amazing photos soon!"
+    }
+  },
+  "exploreMagic": {
+    "title": "Découvrez là où la magie se produit",
+    "description": "Parcourez la Setia SPICE Arena et <br>découvrez toutes les belles surprises au <span class=\"block md:inline\">V-Malaysia 2025.</span>"
+  },
+  "vkids": {
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-FR.png",
+    "video": {
+      "video1Title": "Future Content",
+      "video2Title": "Future Content",
+      "video3Title": "Future Content"
+    },
+    "article": {
+      "article1Title": "Rejoignez les V-Kids et les V-Teens à la #VMalaysia2025!",
+      "article2Title": "Future Content",
+      "article3Title": "Future Content"
+    }
+  },
+  "meetSpeakers": {
+    "title": "Faites connaissance avec nos intervenants",
+    "description": "Venez voir nos V Ambassadors en direct sur scène et surveiller vos plus grands Uplines !",
+    "speakerPosition1": "Founder",
+    "speakerPosition2": "V Partenaire"
+  },
+  "thisOrThat": {
+    "title": "Ceci ou cela ?",
+    "description": "Prêt à relever un petit défi ? Faites votre choix et amusez-vous avec la famille The V !",
+    "startButton": "Let's Play!",
+    "results": {
+      "title": "Créons notre plus belle histoire et ensemble nous nous éleverons au V-Malaysia 2025 !",
+      "shareText": "Taguez-nous lorsque vous partagerez sur Instagram !",
+      "downloadButton": "Download Image",
+      "playAgainButton": "Play Again"
+    },
+    "rounds": {
+      "round1": { "left": "SOYEZ CAPABLE DE VOLER", "right": "AYEZ UNE SUPER FORCE" },
+      "round2": { "left": "RETOURNEZ DANS LE PASSÉ", "right": "VOYEZ L’AVENIR" },
+      "round3": { "left": "RÉALISEZ UN RÊVE", "right": "ATTEIGNEZ UN OBJECTIF" },
+      "round4": { "left": "CHANGEMENT DE MENTALITÉ", "right": "AMÉLIOREZ VOS COMPÉTENCES" },
+      "round5": { "left": "AYEZ DU SUCCÈS ", "right": "ÉLEVEZ LES AUTRES" },
+      "round6": { "left": "VIE CONFORTABLE", "right": "VOYAGE EXTRAORDINAIRE" },
+      "round7": { "left": "FAITES DES PAS RÉGULIERS", "right": "ATTEIGNEZ DE NOUVEAUX SOMMETS" },
+      "round8": { "left": "NOTES SUR PAPIER", "right": "NOTES SUR VOTRE TÉLÉPHONE PORTABLE" },
+      "round9": { "left": "ALLEZ SEUL À LA <br>V-CONVENTION", "right": "ALLEZ À LA <br>V-CONVENTION AVEC VOTRE ÉQUIPE" },
+      "round10": { "left": "FAITES PARTIE DE L'HISTOIRE", "right": "CRÉEZ L'HISTOIRE" },
+      "round11": { "left": "ASSISTEZ À LA PLUS BELLE HISTOIRE", "right": "CRÉEZ VOTRE PLUS BELLE HISTOIRE" },
+      "round12": { "left": "SOYEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN", "right": "PARTICIPEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN" }
+    },
+  "tickets": {
+    "title": "Le plus grand événement de l'année commence par votre siège",
+    "description": "Achetez vos billets sur VShoppe dès aujourd'hui.",
+    "description2": "Utilisez le code :"
+  }
+  },
+  "faqs": {
+    "title": "FOIRE AUX QUESTIONS",
+    "question1": {
+      "title": "Billets V-MALAYSIA 2025",
+      "answer": "1. Allez sur <a href='https://vshoppe.vtube.net/' style='color:red; text-decoration: underline white;'>https://vshoppe.vtube.net/</a><br><br>2. Entrez votre e-mail et saisissez le code.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia JUNE 2025: <strong>VMYJUN2025</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-KIDS & V-TEENS 2025: <strong>VKIDSTEENS25</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia SEPTEMBER 2025: <strong>VMYSEPT2025</strong><br><br>3. Remplissez vos informations.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Le jeton sera envoyé à votre e-mail.<br><br>4. Cliquez sur <strong>Procéder au paiement</strong>.<br><br>5. Saisissez les informations relatives à votre carte de crédit et cliquez sur <strong>Payer</strong>. Attendez que le processus soit terminé jusqu'à ce que la coche verte apparaisse.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Si une invite d'authentification apparaît, veuillez suivre les étapes requises.<br><br>6.&nbsp; Votre <strong>reçu de paiement</strong> apparaîtra et une confirmation sera envoyée à votre e-mail."
+    },
+    "question2": {
+      "title": "Termes et conditions du billet V-MALAYSIA 2025",
+      "answer": "En achetant le billet, vous (« le détenteur du billet ») acceptez d'être lié par les conditions générales de vente spécifiées dans le présent document et par toute autre disposition pouvant être spécifiée de temps à autre par VShoppe (« le promoteur »). Le promoteur, ses agents ou ses employés ne peuvent être tenus pour responsables en cas de décès, de blessure (sauf en cas de négligence de ses agents et employés), de perte ou de dommage, quelle qu'en soit la cause, survenant sur le lieu de l'événement. Ils ne peuvent non plus être tenus pour responsables en cas de plainte, de réclamation, de remboursement ou d'échange pour quelque raison que ce soit, y compris, mais sans s'y limiter, en cas d'annulation ou d'ajournement de l'événement. Les frais de réservation et de traitement ne sont pas remboursables. Tout remboursement sera effectué à la seule discrétion du Promoteur.<br><br>Les billets sont vendus sous réserve des conditions suivantes :<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Une fois la vente effectuée, aucun remboursement ne sera effectué, sauf en cas de report ou d'annulation de l'événement, et ce à la discrétion du Promoteur. Les billets perdus ne seront ni remplacés ni remboursés.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● En règle générale, les billets ne sont pas transférables. Toutefois, si l'achat a été effectué par erreur, présumé de bonne foi, le Promoteur se réserve le droit de le transférer. Le détenteur du billet peut demander à le transférer à une autre personne, sous réserve de la disponibilité des billets. Un paiement administratif supplémentaire de 50 USD doit être effectué par le détenteur du billet pour lancer la procédure de transfert. Toutes les demandes de transfert doivent être envoyées à <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● L'entrée sera refusée si les billets ont été jugés falsifiés, contrefaits et/ou n'ont pas été achetés auprès de VShoppe ou d'un point de vente officiel et autorisé.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le Promoteur se réserve le droit, sans remboursement ni compensation, de refuser l'admission/d'expulser toute(s) personne(s) dont la conduite est désordonnée ou inappropriée.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le Promoteur peut ajouter, retirer ou remplacer des artistes et/ou modifier les programmes annoncés, les horaires des événements, la disposition des sièges, la capacité d'accueil du public sans préavis.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le Promoteur peut utiliser l'image ou la ressemblance du détenteur du billet dans tout affichage vidéo en direct ou enregistré, toute photo, tout matériel publicitaire ou tout site web.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le Promoteur peut reporter, annuler, interrompre ou arrêter l'événement en raison de conditions météorologiques défavorables, de situations dangereuses ou de toute autre cause indépendante de sa volonté.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le détenteur de billets accepte de se soumettre à toute fouille visant à détecter des objets interdits, y compris, mais sans s'y limiter, les armes, les substances contrôlées, dangereuses et illégales.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le détenteur de billet accepte que ses données personnelles soient utilisées comme le Promoteur le juge nécessaire dans le cadre de l'achat du billet et du traitement ultérieur pour l'événement. Cela peut inclure, sans s'y limiter, le partage de vos données personnelles avec des tiers autorisés tels que des agences gouvernementales, des institutions financières et des fournisseurs pour ledit événement.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Le détenteur de billet assume volontairement tous les risques et dangers liés à l'événement, qu'ils surviennent avant, pendant ou après l'événement proprement dit, y compris tout décès, blessure corporelle, perte, dommage ou responsabilité. Le droit malaisien régit la vente de tous les billets et vous acceptez de vous soumettre à la compétence exclusive du tribunal malaisien.<br><br>"
+    },
+    "question3": {
+      "title": "Quelles sont les conditions à remplir avant le départ ?",
+      "answer": "a. Il est recommandé à tous les participants de souscrire une assurance voyage avec une couverture Covid-19 avec une somme assurée minimale de 10 000 USD.<br><br>b. Les participants originaires de pays africains doivent demander un certificat de vaccination contre la fièvre jaune au moins <strong>quatorze (14) jours</strong> avant leur départ pour la Malaisie.<br><br>c.  Si vous avez besoin d'une lettre d'invitation pour votre demande de visa, veuillez remplir le formulaire suivant pour soumettre votre demande : <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Fournissez les détails de votre vol, départ et arrivée à <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> au moins deux (2) jours avant votre départ.<br><br>e. Préparez votre carte d'arrivée numérique pour la Malaisie : Veuillez vous assurer que toutes les informations nécessaires sur la carte d'arrivée numérique en Malaisie <strong>(MDAC)</strong> ont été remplies dans les trois (3) jours précédant votre départ : <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Les participants qui auront besoin de médicaments devront en apporter une quantité suffisante pour la durée de leur séjour, conformément à <strong>l'ordonnance</strong> délivrée par leur médecin.<br><br>g. Tous les voyageurs à l'arrivée doivent déclarer les marchandises passibles de droits de douane et les marchandises interdites, ainsi que les devises ou les instruments monétaires dépassant 10 000 USD, en utilisant le formulaire de douane n° 7, disponible au comptoir du RMCD. Le formulaire doit être présenté au point de contrôle du RMCD. Les fausses déclarations ou l'absence de déclaration sont des délits au regard de la loi malaisienne.<br><br>"
+    },
+    "question4": {
+      "title": "Quelles sont les exigences en matière de visa de voyage ?",
+      "answer": "a. Assurez-vous que votre passeport est VALIDE pour au moins 6 mois à compter de la date du voyage.<br><br>b. Votre passeport doit comporter au moins 3 pages vierges.<br><br>c. Demandez un visa social indiquant votre participation à une convention.<br><br>d. Preuve de fonds : Vous devez disposer d'au moins 1 500 USD en espèces ou d'un relevé de compte bancaire à votre arrivée.<br><br>e. Tous les participants doivent être en possession de leur confirmation de réservation d'hôtel.<br>"
+    },
+    "question5": {
+      "title": "Quels sont les documents de voyage dont je dois disposer ?",
+      "answer": "a. Une copie imprimée de votre billet d’avion de retour ;<br><br>b. Une copie imprimée de votre confirmation d’hôtel doit être fournie comme preuve de votre hébergement à Penang tout au long de votre séjour en Malaisie ;<br><br>c. Une copie imprimée du visa, à portée de main pour l’immigration ;<br><br>d. Une copie imprimée de l’invitation et/ou de la lettre de confirmation envoyée à votre adresse e-mail lors de l’inscription ; et<br><br>e. Une copie imprimée du certificat de vaccination contre la fièvre jaune pour les pays exigé par le Département de l’immigration de la Malaisie pour les participants des pays africains.<br><br>f. Une copie de votre carte d’arrivée numérique de Malaisie (MDAC).<br>"
+    },
+    "question6": {
+      "title": "Quand aura lieu l’enregistrement des participants au V-MALAYSIA 2025 ?",
+      "answer": "L'enregistrement pour le V-MALAYSIA JUNE 2025 aura lieu le <strong>20 juin 2025</strong>. Nous vous recommandons vivement d'arriver au moins 1 à 2 jours avant le début de l'événement, afin d'avoir suffisamment de temps pour vous installer dans votre hôtel/logement."
+    },
+    "question7": {
+      "title": "Quel est le processus d'enregistrement des participants au V-MALAYSIA 2025 ?",
+      "answer": "a. Vous DEVEZ être physiquement présent à l'enregistrement et présenter une copie des documents suivants enregistrés sur votre téléphone portable pour obtenir votre bracelet :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Passeport<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Billet électronique V-Malaysia 2025 avec code QR<br><br>b. Le retrait de bracelets/billets par représentation n'est PAS AUTORISÉ.<br><br>c. Il n'y aura pas de remboursement, ni de délivrance d'un nouveau billet ou d'un nouveau bracelet une fois qu'ils auront été retirés. En cas de perte ou de remplacement, vous êtes tenu de procéder à un nouvel achat.<br>"
+    },
+    "question8": {
+      "title": "Quelle est la politique de remboursement et de transfert ?",
+      "answer": "Les billets V-Malaysia 2025 sont strictement non remboursables et non transférables."
+    },
+    "question9": {
+      "title": "Quels sont les autres éléments essentiels dont j'ai besoin pour me préparer pour le V-Malaysia 2025 ?",
+      "answer": "a. Apportez vos propres bouteilles d'eau, ustensiles et sacs réutilisables. Le plastique à usage unique est strictement interdit dans l'enceinte du Setia SPICE Arena pour le V-Malaysia 2025.<br><br>b. Assurez-vous d'avoir suffisamment d'argent à dépenser pour la nourriture, les boissons, le transport, les produits V-Malaysia 2025 de Limitless Store, les souvenirs, etc. Assurez-vous d'avoir votre argent en USD ou en RM.<br><br>c. Activez votre carte de débit ou votre carte bancaire locale pour les transactions internationales avant de sortir de votre pays. Les cartes AMEX ne sont pas acceptées pour les achats.<br><br>d. Prévoyez des vêtements pour 7 jours. Attendez-vous à ce que l'air conditionné à l'intérieur de l'arène soit très frais. Prévoyez donc une veste ou un châle que vous pourrez facilement superposer à vos vêtements confortables.<br>"
+    },
+    "question10": {
+      "title": "Comment puis-je bénéficier de services de traduction pendant l'événement ?",
+      "answer": "Pour ceux qui auront besoin de services de traduction pendant l'événement, des radios de traduction seront disponibles à la vente lors de la journée d'inscription le 20 juin 2025."
+    },
+    "question11": {
+      "title": "V-MALAYSIA 2025 : DIRECTIVES POUR LES V-KIDS ET LES V-TEENS",
+      "answer": "Pour acheter votre billet V-Kids et V-Teens, il vous suffit de vous rendre sur <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> et de saisir le code : <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**REMARQUE : Si vous souhaitez acheter plus d'un billet, veuillez envoyer un e-mail à <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> avec l'objet suivant : <strong>VMY 2025 VKids VTeens Tickets - ajoutez votre ID IR</strong>.</em><br><br>Lors de l'achat des billets V-Kids et V-Teens :<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Préparez le passeport de l'enfant ou de l'adolescent.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Saisissez le code correct sur VShoppe..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Après avoir acheté leurs billets, assurez-vous d'apporter une copie de votre reçu et de leur lettre de confirmation lors de la journée d'inscription pour vérification. <br><br>Pendant l'événement :<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Code vestimentaire</u>: Nous recommandons des vêtements confortables et adaptés pour 5 jours. Apportez une veste ou un châle car l'espace de l'événement est climatisé.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Collations et déjeuner</u>: Des collations légères et des déjeuners nutritifs seront fournis pendant l'événement. Si votre enfant a des besoins alimentaires spécifiques ou des allergies, veuillez nous envoyer un e-mail au plus tard le <strong>31 mai 2025</strong>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Arrivée et départ </u>: Veuillez vous assurer que votre enfant arrive à l'espace V-KIDS & V-TEENS avant <strong>10h00</strong>. L'événement V-Kids & V-Teens doit prendre fin à <strong>18h00</strong> et les parents/tuteurs sont priés de venir chercher leurs enfants à l'heure prévue.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Vérification</u> : Apportez une copie de votre reçu et de cette lettre de confirmation le jour de l'inscription.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Contact en cas d'urgence </u>: En cas d'urgence ou de communication urgente pendant l'événement, veuillez contacter <strong>Olivia</strong> au <strong>+6012 550 2357</strong>.<br>Si vous avez des questions ou des préoccupations, veuillez envoyer un e-mail à Olivia à <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a>  avec comme objet : <strong>VMY 2025 VKids VTeens Tickets - ajoutez votre ID IR</strong>.<br>"
+    }
   }
 }
