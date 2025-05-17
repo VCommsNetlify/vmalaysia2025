@@ -59,4 +59,175 @@
   "story6": {
     "title": "Episode 6: Dua Visioner"
   }
+  ,
+  "comingSoonModal": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+    "comingSoonModal2": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal3": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal4": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "comingSoonModal5": {
+    "title": "Coming Soon!",
+    "message": "This content is not yet available. Stay tuned for updates!",
+    "closeButton": "Close"
+  },
+  "eventsNews": {
+    "mainTitle": "Berita & Informasi Acara",
+    "highlightTitle": "Saksikan sorotan terbaru dan masih banyak lagi!",
+    "videoSelectionParagraph": "Select a video below and watch it in this mini media player!",
+    "featuredTitle": "VPN Yaser Khamis Mengundang Anda ke V-Malaysia 2025 pada bulan Juni ini!",
+    "featuredDescription": "“Ketika kita bergerak sebagai satu kesatuan, kita menang sebagai satu kesatuan!” VPN Yaser Khamis mengatakan bahwa Anda dan tim Anda harus meraih kemenangan besar. Jadilah bagian dari V-Malaysia 2025, berlangsung pada 21 sampai 25 Juni di Setia SPICE Arena di Penang, Malaysia. Dapatkan tiketnya hari ni di VShoppe dan gunakan kode: VMYJun2025",
+  "videos": {
+      "video1": {
+        "title": "VPN Yaser Khamis Mengundang Anda ke V-Malaysia 2025 pada bulan Juni ini!"
+      },
+      "video2": {
+        "title": "Future Content"
+      },
+      "video3": {
+        "title": "Future Content"
+      }
+    },
+    "featuredArticle": {
+      "subtitle": "Bersama Kita Bangkit pada 21-25 Juni di V-MALAYSIA 2025!",
+      "content": "Apakah Anda siap untuk merasakan acara paling luar biasa dari The V family?",
+      "readMore": "READ MORE"
+    },
+    "articles": {
+      "latestNewsTitle": "Baca berita terbaru!",
+      "article1": {
+        "title": "Pesan Tiket V-Malaysia 2025 Anda Sekarang!",
+        "content": "Sampai jumpa pada 21-25 Juni 2025! Apakah Anda akan hadir?",
+        "readMore": "READ MORE"
+      },
+      "article2": {
+        "title": "Future Content",
+        "content": "",
+        "readMore": "READ MORE"
+      },
+      "article3": {
+        "title": "Future Content",
+        "content": "",
+        "readMore": "READ MORE"
+      }
+    },
+    "gallery": {
+      "title": "Lihat foto-foto yang luar biasa!",
+      "comingSoon": "Watch out for this space to see the amazing photos soon!"
+    }
+  },
+  "exploreMagic": {
+    "title": "Jelajahi Tempat Keajaiban Terjadi",
+    "description": "Telusuri jalan Anda di sekitar Setia SPICE Arena dan <br>temukan semua kejutan menakjubkan di <span class=\"block md:inline\">V-Malaysia 2025.</span>"
+  },
+  "vkids": {
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-BI.png",
+    "video": {
+      "video1Title": "Future Content",
+      "video2Title": "Future Content",
+      "video3Title": "Future Content"
+    },
+    "article": {
+      "article1Title": "Bergabunglah dengan V-Kids dan V-Teens di #VMalaysia2025!",
+      "article2Title": "Future Content",
+      "article3Title": "Future Content"
+    }
+  },
+  "meetSpeakers": {
+    "title": "Inilah Pembicara Kami",
+    "description": "Saksikan secara langsung para V Ambassadors di atas panggung dan nantikan Uplines terhebat Anda!",
+    "speakerPosition1": "Para Founder",
+    "speakerPosition2": "V Mitra"
+  },
+  "thisOrThat": {
+    "title": "Ini atau Itu?",
+    "description": "Up for a little challenge? Just take your pick and have fun with The V family!<br>Tag us when you share on Instagram!",
+    "startButton": "Let's Play!",
+    "results": {
+      "title": "Mari menciptakan kisah terbesar kita dan Bersama-sama Kita Bangkit dalam V-Malaysia 2025!",
+      "shareText": "Tandai kami ketika Anda membagikannya di Instagram! ",
+      "downloadButton": "Download Image",
+      "playAgainButton": "Play Again"
+    },
+    "rounds": {
+      "round1": { "left": "BISA TERBANG", "right": "MEMILIKI KEKUATAN SUPER" },
+      "round2": { "left": "KEMBALI KE MASA LALU", "right": "MELIHAT MASA DEPAN" },
+      "round3": { "left": "MENGGAPAI MIMPI", "right": "MENCAPAI TUJUAN" },
+      "round4": { "left": "PERUBAHAN POLA PIKIR", "right": "MENINGKATKAN KEMAMPUAN ANDA" },
+      "round5": { "left": "MENJADI SUKSES", "right": "MENGANGKAT KEHIDUPAN ORANG LAIN" },
+      "round6": { "left": "KEHIDUPAN YANG NYAMAN", "right": "PERJALANAN YANG LUAR BIASA" },
+      "round7": { "left": "MELANGKAH DENGAN PASTI", "right": "MELAMBUNG TINGGI" },
+      "round8": { "left": "MENCATAT DI KERTAS", "right": "MENCATAT DI TELEPON" },
+      "round9": { "left": "PERGI KE <br>V-CONVENTION SENDIRI", "right": "PERGI KE <br>V-CONVENTION DENGAN TIM ANDA" },
+      "round10": { "left": "MENJADI BAGIAN DARI SEJARAH", "right": "MEMBUAT SEJARAH" },
+      "round11": { "left": "MENYAKSIKAN SEJARAH TERHEBAT", "right": "MENCIPTAKAN KISAH HEBAT SAYA" },
+      "round12": { "left": "HADIR DALAM <br>V-MALAYSIA 2025 PADA 21-25 JUNI", "right": "MENJADI BAGIAN DARI <br>V-MALAYSIA 2025 PADA 21-25 JUNI" }
+    },
+  "tickets": {
+    "title": "Acara Terbesar Tahun Ini Dimulai dengan  Kursi Anda",
+    "description": "Dapatkan tiket anda sekarang di VShoppe.",
+    "description2": "Gunakan kode:"
+  }
+  },
+  "faqs": {
+    "title": "PERTANYAAN YANG SERING DIAJUKAN",
+    "question1": {
+      "title": "V-MALAYSIA 2025 Tickets",
+      "answer": "1. Kunjungi <a href='https://vshoppe.vtube.net/' style='color:red; text-decoration: underline white;'>https://vshoppe.vtube.net/</a><br><br>2.  Masukan alamat email dan kode anda.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia JUNE 2025: <strong>VMYJUN2025</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-KIDS & V-TEENS 2025: <strong>VKIDSTEENS25</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia SEPTEMBER 2025: <strong>VMYSEPT2025</strong><br><br>3. Isi informasi anda.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Token dikirim ke alamat email Anda.<br><br>4. Klik <strong>Lanjutkan ke Pembayaran</strong>.<br><br>5. Masukkan informasi kartu kredit Anda <strong>dan</strong> klik <strong>Bayar</strong>. Tunggu hingga tanda centang hijau muncul.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Jika muncul permintaan autentikasi, harap selesaikan langkah-langkah yang diperlukan.<br><br>6.&nbsp; <strong>Tanda Terima Pembayaran</strong> Anda akan muncul dan konfirmasi akan dikirim ke alamat email Anda."
+    },
+    "question2": {
+      "title": "Syarat dan Ketentuan Tiket V-MALAYSIA 2025",
+      "answer": "Dengan membeli tiket, Anda (“Pemegang Tiket”) setuju untuk terikat oleh Syarat dan Ketentuan penjualan yang ditentukan di sini serta ketentuan lain yang mungkin ditetapkan dari waktu ke waktu oleh VShoppe (“Penyelenggara”). Penyelenggara, agen, atau karyawannya tidak bertanggung jawab atas kematian, cedera pribadi (kecuali yang disebabkan oleh kelalaian agen atau karyawannya), kehilangan, atau kerusakan yang terjadi di tempat acara dengan cara apa pun. Mereka juga tidak bertanggung jawab atas keluhan, klaim, pengembalian dana, atau penukaran karena alasan apa pun, termasuk namun tidak terbatas pada pembatalan atau penundaan acara. Biaya pemesanan dan biaya penanganan tidak dapat dikembalikan. Pengembalian dana hanya dapat dilakukan atas kebijakan Penyelenggara.<br><br>Tiket dijual dengan syarat dan ketentuan sebagai berikut:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Setelah penjualan selesai, tidak ada pengembalian dana kecuali karena penundaan atau pembatalan acara, dan hal ini sepenuhnya menjadi kebijakan Penyelenggara. Tiket yang hilang tidak akan diganti atau dikembalikan.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Secara umum, tiket tidak dapat dipindahtangankan. Namun, jika pembelian dilakukan karena kesalahan yang diyakini dilakukan dengan itikad baik, Penyelenggara berhak untuk menyetujui pemindahan. Pemegang Tiket dapat mengajukan permintaan pemindahan tiket kepada pihak lain, tergantung pada ketersediaan tiket. Biaya administrasi tambahan sebesar USD 50 harus dibayarkan oleh Pemegang Tiket untuk memulai proses pemindahan. Semua permintaan pemindahan harus dikirim ke <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Akses masuk akan ditolak jika tiket ditemukan telah dirusak, dipalsukan, dan/atau tidak dibeli dari VShoppe atau dari tempat penjualan resmi dan yang telah disetujui.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●  Penyelenggara berhak, tanpa pengembalian dana atau kompensasi, untuk menolak masuk/mengeluarkan siapa pun yang berperilaku tidak tertib atau tidak pantas.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Penyelenggara dapat menambah, menarik, atau mengganti artis dan/atau mengubah program yang telah diiklankan, waktu acara, pengaturan tempat duduk, maupun kapasitas penonton tanpa pemberitahuan sebelumnya.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●  Penyelenggara dapat menggunakan gambar atau rupa Pemegang Tiket dalam tayangan video langsung atau rekaman, foto, materi publikasi, atau situs web apa pun.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Penyelenggara dapat menunda, membatalkan, menginterupsi, atau menghentikan acara karena cuaca buruk, situasi berbahaya, atau sebab lainnya yang berada di luar kendali wajar.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Pemegang Tiket setuju untuk menjalani pemeriksaan terhadap barang-barang terlarang termasuk, namun tidak terbatas pada, senjata, zat berbahaya, dan zat ilegal.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Pemegang Tiket menyetujui bahwa data pribadi mereka dapat digunakan oleh Penyelenggara sesuai kebutuhan dalam proses pembelian tiket dan kelanjutannya untuk acara tersebut. Hal ini dapat mencakup, namun tidak terbatas pada, pembagian data pribadi Anda kepada pihak ketiga yang berwenang seperti lembaga pemerintah, institusi keuangan, dan penyedia vendor untuk acara tersebut.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Pemegang Tiket secara sukarela menerima semua risiko dan bahaya yang berkaitan dengan acara, baik yang terjadi sebelum, selama, maupun sesudah acara berlangsung, termasuk risiko kematian, cedera pribadi, kerugian, kerusakan, atau kewajiban apa pun. Penjualan seluruh tiket diatur oleh hukum Malaysia dan Anda setuju untuk tunduk pada yurisdiksi eksklusif Pengadilan Malaysia.<br><br>"
+    },
+    "question3": {
+      "title": "Persyaratan prakeberangkatan apa saja yang harus kami persiapkan?",
+      "answer": "a. Seluruh peserta disarankan untuk membeli asuransi perjalanan yang mencakup perlindungan Covid-19 dengan nilai pertanggungan minimum USD10,000.<br><br>b. Peserta yang datang dari negara-negara Afrika diwajibkan untuk mengajukan Yellow Fever Vaccination Certificates atau Sertifikat Vaksinasi Demam Kuning (Yellow Fever) setidaknya <strong>empat belas (14) hari</strong> sebelum keberangkatan ke Malaysia.<br><br>c. Jika Anda memerlukan surat undangan untuk pengajuan visa, silakan isi formulir permintaan melalui tautan berikut: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Sampaikan detail penerbangan Anda, termasuk jadwal keberangkatan dan kedatangan, ke email <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> setidaknya dua (2) hari sebelum keberangkatan Anda.<br><br>e. Siapkan <strong>Malaysia Digital Arrival Card</strong>: Pastikan seluruh informasi yang diperlukan dalam <strong>Malaysia Digital Arrival Card (MDAC)</strong> telah diisi dalam waktu <strong>tiga (3) hari</strong> sebelum keberangkatan Anda: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Peserta yang memerlukan obat-obatan hanya boleh membawa secukupnya sesuai dengan lama tinggal dan sesuai <strong>resep</strong> dari dokter.<br><br>g. Setiap pendatang yang tiba di Malaysia wajib mendeklarasikan barang-barang yang dikenakan bea cukai dan barang-barang terlarang, serta mata uang atau instrumen moneter yang melebihi USD 10.000, dengan menggunakan Formulir Bea Cukai No. 7 yang tersedia di loket RMCD. Formulir ini wajib diserahkan di titik pemeriksaan RMCD. Pernyataan palsu atau kegagalan untuk mendeklarasikan merupakan pelanggaran hukum di Malaysia.<br><br>"
+    },
+    "question4": {
+      "title": "Apa saja persyaratan Visa perjalanan?",
+      "answer": "a. Pastikan paspor Anda masih berlaku setidaknya 6 bulan sejak tanggal keberangkatan.<br><br>b. Paspor Anda harus memiliki minimal 3 halaman kosong.<br><br>c. Ajukan Visa Sosial dengan menyatakan bahwa Anda akan menghadiri sebuah konvensi.<br><br>d. Bukti dana: Anda harus memiliki setidaknya USD 1500 dalam bentuk tunai atau rekening bank yang siap ditunjukkan saat kedatangan.<br><br>e. Semua peserta harus memiliki konfirmasi pemesanan hotel.<br>"
+    },
+    "question5": {
+      "title": "Dokumen perjalanan apa saja yang perlu saya miliki?",
+      "answer": "a. Salinan cetak tiket penerbangan pulang Anda;<br><br>b. Salinan cetak konfirmasi hotel sebagai bukti akomodasi Anda selama berada di Penang, Malaysia;<br><br>c. Salinan cetak visa Anda yang siap ditunjukkan kepada pihak Imigrasi;<br><br>d. Salinan cetak surat undangan dan/atau surat konfirmasi yang dikirim ke email Anda setelah pendaftaran;<br><br>e. Salinan cetak Sertifikat Vaksinasi Demam Kuning bagi peserta dari negara-negara Afrika sesuai ketentuan Imigrasi Malaysia;<br><br>f. Salinan <strong>Malaysia Digital Arrival Card (MDAC)</strong> Anda.<br>"
+    },
+    "question6": {
+      "title": "Kapan Pendaftaran Peserta V-MALAYSIA 2025?",
+      "answer": "Pendaftaran V-MALAYSIA JUNE 2025 akan dibuka pada tanggal <strong>20 Juni 2025</strong>. Kami sangat menyarankan agar Anda tiba setidaknya 1-2 hari sebelum acara dimulai, sehingga Anda memiliki cukup waktu untuk bersiap-siap di hotel/akomodasi Anda."
+    },
+    "question7": {
+      "title": "Seperti apa proses pendaftaran untuk peserta V-MALAYSIA 2025?",
+      "answer": "a. Anda HARUS hadir secara langsung saat registrasi dan menunjukkan salinan dokumen berikut yang tersimpan di ponsel Anda untuk mengambil gelang akses:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Paspor<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. E-ticket V-Malaysia 2025 dengan Kode QR<br><br>b. Pengambilan gelang/tiket melalui perwakilan TIDAK DIPERBOLEHKAN.<br><br>c. Tidak akan ada pengembalian dana, penerbitan tiket baru, atau gelang pengganti setelah dianggap telah diambil. Jika hilang atau ingin mengganti, Anda harus membeli kembali.<br>"
+    },
+    "question8": {
+      "title": "Apakah ada kebijakan pengembalian dana dan transfer?",
+      "answer": "Tiket V-Malaysia 2025 tidak dapat diproses untuk pengembalian dana dan tidak dapat dipindahtangankan."
+    },
+    "question9": {
+      "title": "Apa saja hal penting lain yang perlu saya persiapkan untuk V-Malaysia 2025?",
+      "answer": "a. Bawalah botol minum, alat makan, dan tas belanja yang dapat digunakan kembali. Penggunaan plastik sekali pakai dilarang keras di dalam area Setia SPICE Arena selama V-Malaysia 2025.<br><br>b. Pastikan Anda membawa uang yang cukup untuk membeli makanan, minuman, transportasi, merchandise V-Malaysia 2025 dari Limitless Store, suvenir, dan lain-lain. Bawa uang dalam bentuk USD atau Ringgit Malaysia (RM).<br><br>c. Aktifkan kartu debit atau kartu bank lokal Anda untuk transaksi internasional sebelum bepergian keluar negeri. Kartu AMEX tidak diterima untuk pembelian.<br><br>d. Bawalah pakaian yang cukup untuk 7 hari. Suhu AC di dalam arena diperkirakan sangat dingin, jadi bawalah jaket atau selendang yang bisa dengan mudah dipakai di atas pakaian santai Anda.<br>"
+    },
+    "question10": {
+      "title": "Bagaimana saya dapat memanfaatkan layanan penerjemahan selama acara berlangsung?",
+      "answer": "Bagi mereka yang membutuhkan layanan penerjemahan selama acara berlangsung, radio penerjemahan tersedia untuk dijual selama Hari Pendaftaran pada tanggal 20 Juni 2025."
+    },
+    "question11": {
+      "title": "PANDUAN V-MALAYSIA 2025: V-KIDS DAN V-TEENS",
+      "answer": "Untuk membeli tiket V-Kids dan V-Teens, silakan kunjungi <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> dan masukkan kode: <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>** CATATAN: Jika Anda ingin membeli lebih dari 1 tiket, silakan kirim email ke <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek: <strong>VMY 2025 VKids VTeens Tickets – cantumkan ID IR Anda</strong>.</em><br><br>Ketika membeli tiket V-Kids & V-Teens:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Siapkan paspor anak atau remaja yang akan didaftarkan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Masukkan kode yang benar pada VShoppe.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Setelah pembelian berhasil, pastikan untuk membawa salinan struk pembayaran dan surat konfirmasi mereka saat hari registrasi untuk keperluan verifikasi.<br>Selama Acara::<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Panduan Pakaian</u>: Disarankan memakai pakaian yang nyaman untuk 5 hari. Bawa jaket atau selendang karena area acara ber-AC.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Makanan Ringan & Makan Siang</u>: Makanan ringan dan makan siang bergizi akan disediakan selama acara. Jika anak Anda memiliki kebutuhan diet khusus atau alergi, harap kirim email kepada kami sebelum <strong>31 Mei 2025</strong>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Kedatangan & Kepulangan</u>: Pastikan anak Anda tiba di area V-KIDS & V-TEENS sebelum pukul <strong>10:00</strong>. Acara V-Kids & V-Teens dijadwalkan untuk selesai pukul <strong>18:00</strong>, dan kami mohon orang tua/wali menjemput anaknya tepat waktu.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Verifikasi</u>: Bawa salinan struk pembayaran dan surat konfirmasi ini saat hari registrasi.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Kontak Darurat</u>: Jika terjadi keadaan darurat atau komunikasi mendesak selama acara, silakan hubungi <strong>Olivia</strong> di <strong>+6012 550 2357</strong>.<br><br>Jika Anda memiliki pertanyaan atau kekhawatiran, silakan kirim email ke Olivia di <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek email: <strong>VMY 2025 VKids VTeens Tickets - cantumkan ID IR Anda</strong>.<br>"
+    }
+  }
 }
