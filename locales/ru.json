@@ -88,7 +88,7 @@
   "eventsNews": {
     "mainTitle": "События Новости и Обновления",
     "highlightTitle": "Смотрите самые новые яркие моменты и многое другое!",
-    "videoSelectionParagraph": "Select a video below and watch it in this mini media player!",
+    "videoSelectionParagraph": "Это интерактивный видеоплеер! Выберите любое видео ниже и воспроизведите его здесь.",
     "featuredTitle": "VPN Yaser Khamis приглашает вас на V-Malaysia 2025 в июне этого года!",
     "featuredDescription": "«Когда мы двигаемся как единое целое, мы побеждаем как единое целое!» VPN Yaser Khamis говорит, что вы просто не можете пропустить это событие со всем своим отрядом. Станьте частью эпического V-Malaysia 2025, который пройдет с 21 по 25 июня на арене Setia SPICE в Пенанге, Малайзия. Приобретайте билеты уже сегодня в VShoppe, используя код: VMYJun2025",
   "videos": {
@@ -105,29 +105,29 @@
     "featuredArticle": {
       "subtitle": "Вместе мы поднимемся 21-25 июня на V-MALAYSIA 2025!",
       "content": "Готовы ли вы испытать самое невероятное мероприятие от V семьи?",
-      "readMore": "READ MORE"
+      "readMore": "Читать далее"
     },
     "articles": {
       "latestNewsTitle": "Читайте последние новости!",
       "article1": {
         "title": "Бронируйте места на V-Malaysia 2025 прямо сейчас!",
         "content": "Увидимся 21-25 июня 2025 года! А вы будете там?",
-        "readMore": "READ MORE"
+        "readMore": "Читать далее"
       },
       "article2": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "Читать далее"
       },
       "article3": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "Читать далее"
       }
     },
     "gallery": {
       "title": "Смотрите потрясающие фотографии!",
-      "comingSoon": "Watch out for this space to see the amazing photos soon!"
+      "comingSoon": "В ближайшее время смотрите на этой странице потрясающие фотографии!"
     }
   },
   "exploreMagic": {
