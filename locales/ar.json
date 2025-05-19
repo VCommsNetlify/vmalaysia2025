@@ -88,7 +88,7 @@
   "eventsNews": {
     "mainTitle": "أخبار وتحديثات الفعالية",
     "highlightTitle": "شاهدوا أحدث وأبرز الأحداث والمزيد!",
-    "videoSelectionParagraph": "Select a video below and watch it in this mini media player!",
+    "videoSelectionParagraph": "هذا مشغل فيديو تفاعلي! اختاروا أي فيديو أدناه وشغّلوه هنا.",
     "featuredTitle": "VPN Yaser Khamis يدعوكم إلى V-Malaysia 2025 في يونيو هذا!",
     "featuredDescription": "'عندما نتحرك كأننا واحد، نفوز كأننا واحد!'. VPN Yaser Khamis يقول إنه لا يمكنكم تفويت الانضمام مع فرقتكم بأكمله. كونوا جزءًا من V-Malaysia 2025 الملحمي، الذي سيُقام من 21 إلى 25 يونيو في ساحة Setia SPICE في بينانج، ماليزيا. احصلوا على تذاكركم اليوم من الـ VShoppe واستخدموا الكود: VMYJun2025",
   "videos": {
@@ -105,29 +105,29 @@
     "featuredArticle": {
       "subtitle": "ننهض معًا في الفترة من 21 - 25 يونيو في V-MALAYSIA 2025!",
       "content": "هل أنتم مستعدون لاختبار تجربة الحدث الأكثر روعة من عائلة The V؟",
-      "readMore": "READ MORE"
+      "readMore": "اقرأ المزيد"
     },
     "articles": {
       "latestNewsTitle": "اقرأوا آخر الأخبار!",
       "article1": {
         "title": "احجزوا مقاعدكم الآن من أجل V-Malaysia 2025!",
         "content": "نراكم في الفترة من 21 - 25 يونيو 2025! هل ستكونون هناك؟",
-        "readMore": "READ MORE"
+        "readMore": "اقرأ المزيد"
       },
       "article2": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "اقرأ المزيد"
       },
       "article3": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "اقرأ المزيد"
       }
     },
     "gallery": {
       "title": "شاهد الصور الرائعة!",
-      "comingSoon": "Watch out for this space to see the amazing photos soon!"
+      "comingSoon": "تابعوا هذه المساحة لمشاهدة الصور الرائعة قريبًا!"
     }
   },
   "exploreMagic": {
