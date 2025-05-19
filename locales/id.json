@@ -89,7 +89,7 @@
   "eventsNews": {
     "mainTitle": "Berita & Informasi Acara",
     "highlightTitle": "Saksikan sorotan terbaru dan masih banyak lagi!",
-    "videoSelectionParagraph": "Select a video below and watch it in this mini media player!",
+    "videoSelectionParagraph": "Ini adalah pemutar video interaktif! Pilih video di bawah berikut dan putar di sini.",
     "featuredTitle": "VPN Yaser Khamis Mengundang Anda ke V-Malaysia 2025 pada bulan Juni ini!",
     "featuredDescription": "“Ketika kita bergerak sebagai satu kesatuan, kita menang sebagai satu kesatuan!” VPN Yaser Khamis mengatakan bahwa Anda dan tim Anda harus meraih kemenangan besar. Jadilah bagian dari V-Malaysia 2025, berlangsung pada 21 sampai 25 Juni di Setia SPICE Arena di Penang, Malaysia. Dapatkan tiketnya hari ni di VShoppe dan gunakan kode: VMYJun2025",
   "videos": {
@@ -106,24 +106,24 @@
     "featuredArticle": {
       "subtitle": "Bersama Kita Bangkit pada 21-25 Juni di V-MALAYSIA 2025!",
       "content": "Apakah Anda siap untuk merasakan acara paling luar biasa dari The V family?",
-      "readMore": "READ MORE"
+      "readMore": "Baca selengkapnya"
     },
     "articles": {
       "latestNewsTitle": "Baca berita terbaru!",
       "article1": {
         "title": "Pesan Tiket V-Malaysia 2025 Anda Sekarang!",
         "content": "Sampai jumpa pada 21-25 Juni 2025! Apakah Anda akan hadir?",
-        "readMore": "READ MORE"
+        "readMore": "Baca selengkapnya"
       },
       "article2": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "Baca selengkapnya"
       },
       "article3": {
         "title": "Future Content",
         "content": "",
-        "readMore": "READ MORE"
+        "readMore": "Baca selengkapnya"
       }
     },
     "gallery": {
