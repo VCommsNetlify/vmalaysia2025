@@ -1542,20 +1542,20 @@ body.rtl .arrow-left {
     <!-- Swiper Section -->
 		<div class="swiper allVideosSwiper relative">
       <div class="swiper-wrapper">
-        <div class="swiper-slide cursor-pointer" onclick="playInFeatured('6373047026112', 'VP Kalai Manikam Invites You to V-Malaysia 2025 this June!', 'Get prepped up with VP Kalai Manikam and be at your best for one of our biggest events this year — happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025')">
+        <div class="swiper-slide cursor-pointer" onclick="playInFeatured('6373047026112', 'eventsNews.video.6373047026112.title', 'eventsNews.video.6373047026112.description')">
           <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
             <img src="assets/news/05192025-vp-kalai-manikam-invites-you-to-v-malaysia-2025-this-june.webp" alt="Day 1" class="w-full h-auto object-cover">
             <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
-              <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video1.title">VP Kalai Manikam Invites You to V-Malaysia 2025 this June!</p>
+              <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.video.6373047026112.title">VP Kalai Manikam Invites You to V-Malaysia 2025 this June!</p>
             </div>
           </div>
         </div>
 
-	<div class="swiper-slide cursor-pointer" onclick="playInFeatured('6372789163112', 'VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!', '“When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Grab your tickets today on VShoppe and use the code: VMYJun2025')">
+	  <div class="swiper-slide cursor-pointer" onclick="playInFeatured('6372789163112', 'eventsNews.video.6372789163112.title', 'eventsNews.video.6372789163112.description')">
           <div class="rounded overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
             <img src="assets/news/05142025-vpn-yaser-khamis-invites-you-to-v-malaysia-2025-this-june.webp" alt="Day 1" class="w-full h-auto object-cover">
             <div class="bg-white rounded-b-lg px-3 pt-3 pb-3">
-              <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.videos.video2.title">VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!</p>
+              <p class="text-[#00666a] font-semibold text-sm sm:text-base leading-snug" data-i18n="eventsNews.video.6372789163112.title">VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!</p>
             </div>
           </div>
         </div>
@@ -3421,13 +3421,20 @@ document.addEventListener('DOMContentLoaded', function() {
   window.swiper.adSwiper = swiper;
 });
 
-function playInFeatured(videoId, titleText, descriptionText) {
+function playInFeatured(videoId, titleKey, descriptionKey) {
   const player = document.getElementById('featuredPlayer');
-  player.src = `https://players.brightcove.net/3745659807001/4JJdlFXsg_default/index.html?videoId=${videoId}`;
-  document.getElementById('featuredTitle').innerText = titleText;
-  document.getElementById('featuredDescription').innerText = descriptionText;
+  const featuredTitleElement = document.getElementById('featuredTitle');
+  const featuredDescriptionElement = document.getElementById('featuredDescription'); // Correct ID
 
-  // Scroll into view after video updates
+
+  player.src = `https://players.brightcove.net/3745659807001/4JJdlFXsg_default/index.html?videoId=${videoId}`;
+
+  featuredTitleElement.dataset.i18n = titleKey;
+  featuredDescriptionElement.dataset.i18n = descriptionKey;
+
+  updateUI(); // Call updateUI to apply translations
+
+  // Scroll into view (this part looks correct)
   const featuredSection = document.getElementById('featuredSection');
   featuredSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
