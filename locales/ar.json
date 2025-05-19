@@ -91,16 +91,17 @@
     "videoSelectionParagraph": "هذا مشغل فيديو تفاعلي! اختاروا أي فيديو أدناه وشغّلوه هنا.",
     "featuredTitle": "VP Kalai Manikam تدعوكم إلى V-Malaysia 2025 في يونيو القادم!",
     "featuredDescription": "استعدوا مع VP KALAI MANIKAM، وكونوا في أفضل حالاتكم لواحدة من أكبر فعالياتنا هذا العام - التي ستُقام من 21 - 25 يونيو في ساحة Setia SPICE في بينانج، ماليزيا. شاهدوا الفيديو الكامل هنا! احصلوا على تذاكركم اليوم من الـ VShoppe! استخدموا الكود: VMYJun2025",
-  "videos": {
-      "video1": {
-        "title": "VP Kalai Manikam تدعوكم إلى V-Malaysia 2025 في يونيو القادم!"
-      },
-      "video2": {
-        "title": "VPN Yaser Khamis يدعوكم إلى V-Malaysia 2025 في يونيو هذا!"
-      },
-      "video3": {
-        "title": "Future Content"
-      }
+  "video": {
+      "6373047026112": {
+      "title": "VP Kalai Manikam تدعوكم إلى V-Malaysia 2025 في يونيو القادم!",
+      "description": "استعدوا مع VP KALAI MANIKAM، وكونوا في أفضل حالاتكم لواحدة من أكبر فعالياتنا هذا العام - التي ستُقام من 21 - 25 يونيو في ساحة Setia SPICE في بينانج، ماليزيا. شاهدوا الفيديو الكامل هنا! احصلوا على تذاكركم اليوم من الـ VShoppe! استخدموا الكود: VMYJun2025"
+    },"6372789163112": {
+      "title": "VPN Yaser Khamis يدعوكم إلى V-Malaysia 2025 في يونيو هذا!",
+      "description": "“عندما نتحرك كأننا واحد، نفوز كأننا واحد!”. VPN Yaser Khamis يقول إنه لا يمكنكم تفويت الانضمام مع فرقتكم بأكمله. كونوا جزءًا من V-Malaysia 2025 الملحمي، الذي سيُقام من 21 إلى 25 يونيو في ساحة Setia SPICE في بينانج، ماليزيا. احصلوا على تذاكركم اليوم من الـ VShoppe واستخدموا الكود: VMYJun2025"
+    },"": {
+      "title": "Future Content",
+      "description": "&nbsp;"
+    }
     },
     "featuredArticle": {
       "subtitle": "ننهض معًا في الفترة من 21 - 25 يونيو في V-MALAYSIA 2025!",
