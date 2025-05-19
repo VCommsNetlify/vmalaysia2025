@@ -1071,6 +1071,11 @@ body {
   /* Add your other base styles here */
 }
 
+body.rtl {
+  direction: rtl !important;
+  text-align: right;
+}
+
 /* Common adjustments for containers and layout in LTR */
 .container {
   margin-inline-start: 20px;
@@ -1092,23 +1097,50 @@ body {
 }
 
 .main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: row; /* LTR */
+  flex-direction: row;
 }
 
 .main-nav ul li {
-  margin-inline-end: 15px; /* right in LTR, left in RTL */
+  margin-right: 15px; /* Spacing for LTR */
+}
+
+.main-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main-nav a {
+  /* Styling for your links */
+  display: block; /* Or inline-block */
+  padding: 10px;
 }
 
 /* RTL Styles (applied when the body has the 'rtl' class) */
 body.rtl .main-nav ul {
-  flex-direction: row-reverse; /* RTL */
+  flex-direction: row-reverse; /* Reverse the order of flex items */
+  /* If you were using float: left; in LTR: */
+  /* float: right; */
+}
+
+body.rtl .main-nav ul li {
+  margin-left: 15px; /* Swap margin-right to margin-left for RTL spacing */
+  margin-right: 0; /* Reset the LTR margin */
+  /* flex-direction: row-reverse; */
+}
+
+/* If your links had padding on the left in LTR */
+body.rtl .main-nav a {
+  padding-left: 0;
+  padding-right: 10px; /* Swap padding-left to padding-right */
 }
 
 /* Adjust containers for RTL */
 body.rtl .container {
-  margin-inline-start: auto; /* Centers in RTL */
-  margin-inline-end: 20px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 /* Adjust sidebar for RTL */
@@ -3593,6 +3625,7 @@ const articleSwiper = new Swiper('.article-swiper', {
 
   updateCountdown();
   setInterval(updateCountdown, 1000);
+
 
 </script>
 
