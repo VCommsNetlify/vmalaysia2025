@@ -11,7 +11,8 @@
     "text": "Grab your tickets here!"
   },
   "buttons": {
-    "close": "x"
+    "close": "x",
+    "close_aria-label": "x"
   },
   "menu": {
     "videos": "Videos",
