@@ -11,7 +11,8 @@
     "text": "Приобретайте билеты здесь!"
   },
    "buttons": {
-    "close": "x"
+    "close": "x",
+    "close_aria-label": "x"
   },
   "menu": {
     "videos": "Видео",
@@ -134,7 +135,7 @@
     "description": "Пройдитесь по Setia SPICE Arena и <br>откройте для себя все удивительные сюрпризы <span class=\"block md:inline\">V-Malaysia 2025.</span>"
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-RU.png",
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-RU.webp",
     "video": {
       "video1Title": "Future Content",
       "video2Title": "Future Content",
