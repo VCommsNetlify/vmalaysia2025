@@ -11,7 +11,8 @@
     "text": "Dapatkan tiket Anda di sini!"
   },
    "buttons": {
-    "close": "x"
+    "close": "x",
+    "close_aria-label": "x"
   },
   "menu": {
     "videos": "Video",
@@ -135,7 +136,7 @@
     "description": "Telusuri jalan Anda di sekitar Setia SPICE Arena dan <br>temukan semua kejutan menakjubkan di <span class=\"block md:inline\">V-Malaysia 2025.</span>"
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-BI.png",
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-BI.webp",
     "video": {
       "video1Title": "Future Content",
       "video2Title": "Future Content",
