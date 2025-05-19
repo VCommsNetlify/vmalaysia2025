@@ -91,16 +91,17 @@
     "videoSelectionParagraph": "This is an interactive video player! Select any video below and play it here.",
     "featuredTitle": "VP Kalai Manikam Invites You to V-Malaysia 2025 this June!",
     "featuredDescription": "Get prepped up with VP Kalai Manikam and be at your best for one of our biggest events this year — happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025",
-  "videos": {
-      "video1": {
-        "title": "VP Kalai Manikam Invites You to V-Malaysia 2025 this June!"
-      },
-      "video2": {
-        "title": "VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!"
-      },
-      "video3": {
-        "title": "Future Content"
-      }
+  "video": {
+      "6373047026112": {
+      "title": "VP Kalai Manikam Invites You to V-Malaysia 2025 this June!",
+      "description": "“Get prepped up with VP Kalai Manikam and be at your best for one of our biggest events this year — happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025"
+    },"6372789163112": {
+      "title": "VPN Yaser Khamis Invites You to V-Malaysia 2025 this June!",
+      "description": "“When we move as one, we win as one!” VPN Yaser Khamis says you absolutely can’t miss this dub with your whole squad. Be part of the epic V-Malaysia 2025..."
+    },"": {
+      "title": "Future Content",
+      "description": "&nbsp;"
+    }
     },
     "featuredArticle": {
       "subtitle": "Together We Rise this 21-25 June at V-MALAYSIA 2025!",
