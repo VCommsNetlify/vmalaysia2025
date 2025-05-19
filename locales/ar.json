@@ -11,7 +11,8 @@
     "text": "احصلوا على تذاكركم هنا!"
   },
    "buttons": {
-    "close": "x"
+    "close": "x",
+    "close_aria-label": "x"
   },
   "menu": {
     "videos": "فيديوهات",
@@ -134,7 +135,7 @@
     "description": "تجولوا في أرجاء ساحة Setia SPICE واكتشفوا كل المفاجآت المذهلة في <span class=\"block md:inline\">V-Malaysia 2025.</span>"
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-AR.png",
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-AR.webp",
     "video": {
       "video1Title": "Future Content",
       "video2Title": "Future Content",
