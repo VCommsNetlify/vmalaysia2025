@@ -2886,22 +2886,25 @@ function makeChoice(side) {
   }
 
   // Show results
-  function showResults() {
-    gameContent.style.display = 'none';
-    backgroundImage.style.display = 'none';
-    resultsSection.style.display = 'block';
+function showResults() {
+  gameContent.style.display = 'none';
+  backgroundImage.style.display = 'none';
+  resultsSection.style.display = 'block';
 
-    // Populate choices list
-    choicesList.innerHTML = '';
-    userChoices.forEach(choice => {
-      const li = document.createElement('li');
-      li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
-      choicesList.appendChild(li);
-    });
+  // Populate choices list
+  choicesList.innerHTML = '';
+  userChoices.forEach(choice => {
+    const li = document.createElement('li');
+    li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
+    choicesList.appendChild(li);
+  });
 
-    // Display random image and enable download NOW when results are shown
-    displayRandomImageAndEnableDownload();
-  }
+  // Display random image and enable download NOW when results are shown
+  displayRandomImageAndEnableDownload();
+
+  // Call updateUI to translate the newly added "Round" text
+  updateUI();
+}
 
   function displayRandomImageAndEnableDownload() {
   const imageFolder = 'assets/thisorthat/';
