@@ -163,7 +163,8 @@
       "title": "Mari menciptakan kisah terbesar kita dan Bersama-sama Kita Bangkit dalam V-Malaysia 2025!",
       "shareText": "Tandai kami ketika Anda membagikannya di Instagram! ",
       "downloadButton": "Unduh Gambar",
-      "playAgainButton": "Main Lagi"
+      "playAgainButton": "Main Lagi",
+      "round": "Babak"
     },
     "rounds": {
       "round1": { "left": "BISA TERBANG", "right": "MEMILIKI KEKUATAN SUPER" },

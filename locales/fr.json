@@ -163,7 +163,8 @@
       "title": "Créons notre plus belle histoire et ensemble nous nous éleverons au V-Malaysia 2025 !",
       "shareText": "Taguez-nous lorsque vous partagerez sur Instagram !",
       "downloadButton": "Télécharger l'image",
-      "playAgainButton": "Jouer à nouveau"
+      "playAgainButton": "Jouer à nouveau",
+      "round": "Tour"
     },
     "rounds": {
       "round1": { "left": "SOYEZ CAPABLE DE VOLER", "right": "AYEZ UNE SUPER FORCE" },

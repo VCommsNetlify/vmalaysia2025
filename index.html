@@ -2895,7 +2895,7 @@ function makeChoice(side) {
     choicesList.innerHTML = '';
     userChoices.forEach(choice => {
       const li = document.createElement('li');
-      li.innerHTML = `<strong>Round ${choice.round}:</strong> <span>${choice.choice}</span>`;
+      li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
       choicesList.appendChild(li);
     });
 

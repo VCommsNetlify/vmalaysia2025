@@ -162,7 +162,8 @@
       "title": "Let’s create our greatest story and Together We Rise at V-Malaysia 2025!",
       "shareText": "Tag us when you share on Instagram!",
       "downloadButton": "Download Image",
-      "playAgainButton": "Play Again"
+      "playAgainButton": "Play Again",
+      "round": "Round"
     },
     "rounds": {
       "round1": { "left": "BE ABLE TO FLY", "right": "HAVE SUPER STRENGTH" },
