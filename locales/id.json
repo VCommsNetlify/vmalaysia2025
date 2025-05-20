@@ -62,29 +62,29 @@
   }
   ,
   "comingSoonModal": {
-    "title": "Coming Soon!",
+    "title": "Segera Hadir!",
     "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "closeButton": "Tutup"
   },
     "comingSoonModal2": {
-    "title": "Coming Soon!",
+    "title": "Segera Hadir!",
     "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "closeButton": "Tutup"
   },
   "comingSoonModal3": {
-    "title": "Coming Soon!",
+    "title": "Segera Hadir!",
     "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "closeButton": "Tutup"
   },
   "comingSoonModal4": {
-    "title": "Coming Soon!",
+    "title": "Segera Hadir!",
     "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "closeButton": "Tutup"
   },
   "comingSoonModal5": {
-    "title": "Coming Soon!",
+    "title": "Segera Hadir!",
     "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "closeButton": "Tutup"
   },
   "eventsNews": {
     "mainTitle": "Berita & Informasi Acara",
@@ -99,8 +99,8 @@
     },"6372789163112": {
       "title": "VPN Yaser Khamis Mengundang Anda ke V-Malaysia 2025 pada bulan Juni ini!",
       "description": "“Ketika kita bergerak sebagai satu kesatuan, kita menang sebagai satu kesatuan!” VPN Yaser Khamis mengatakan bahwa Anda dan tim Anda harus meraih kemenangan besar. Jadilah bagian dari V-Malaysia 2025, berlangsung pada 21 sampai 25 Juni di Setia SPICE Arena di Penang, Malaysia. Dapatkan tiketnya hari ni di VShoppe dan gunakan kode: VMYJun2025"
-    },"": {
-      "title": "Future Content",
+    },"Konten Selanjutnya": {
+      "title": "Konten Selanjutnya",
       "description": "&nbsp;"
     }
     },
@@ -117,12 +117,12 @@
         "readMore": "Baca selengkapnya"
       },
       "article2": {
-        "title": "Future Content",
+        "title": "Konten Selanjutnya",
         "content": "",
         "readMore": "Baca selengkapnya"
       },
       "article3": {
-        "title": "Future Content",
+        "title": "Konten Selanjutnya",
         "content": "",
         "readMore": "Baca selengkapnya"
       }
@@ -139,31 +139,31 @@
   "vkids": {
     "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-BI.webp",
     "video": {
-      "video1Title": "Future Content",
-      "video2Title": "Future Content",
-      "video3Title": "Future Content"
+      "video1Title": "Konten Selanjutnya",
+      "video2Title": "Konten Selanjutnya",
+      "video3Title": "Konten Selanjutnya"
     },
     "article": {
       "article1Title": "Bergabunglah dengan V-Kids dan V-Teens di #VMalaysia2025!",
-      "article2Title": "Future Content",
-      "article3Title": "Future Content"
+      "article2Title": "Konten Selanjutnya",
+      "article3Title": "Konten Selanjutnya"
     }
   },
   "meetSpeakers": {
     "title": "Inilah Pembicara Kami",
     "description": "Saksikan secara langsung para V Ambassadors di atas panggung dan nantikan Uplines terhebat Anda!",
-    "speakerPosition1": "Para Founder",
-    "speakerPosition2": "V Mitra"
+    "speakerPosition1": "Founder",
+    "speakerPosition2": "V Partner"
   },
   "thisOrThat": {
     "title": "Ini atau Itu?",
     "description": "Up for a little challenge? Just take your pick and have fun with The V family!<br>Tag us when you share on Instagram!",
-    "startButton": "Let's Play!",
+    "startButton": "Mari Bermai!",
     "results": {
       "title": "Mari menciptakan kisah terbesar kita dan Bersama-sama Kita Bangkit dalam V-Malaysia 2025!",
       "shareText": "Tandai kami ketika Anda membagikannya di Instagram! ",
-      "downloadButton": "Download Image",
-      "playAgainButton": "Play Again"
+      "downloadButton": "Unduh Gambar",
+      "playAgainButton": "Main Lagi"
     },
     "rounds": {
       "round1": { "left": "BISA TERBANG", "right": "MEMILIKI KEKUATAN SUPER" },
