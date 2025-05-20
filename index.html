@@ -2838,22 +2838,32 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
  // Load round data
-  function loadRound(index) {
-    if (index >= rounds.length) {
-      showResults();
-      return;
-    }
+function loadRound(index) {
+    if (index >= rounds.length) {
+      showResults();
+      return;
+    }
 
-    roundNumber.textContent = `Round ${index + 1}`;
-    leftText.innerHTML = t(rounds[index].left); // Use t() here and innerHTML for <br>
-    rightText.innerHTML = t(rounds[index].right); // Use t() here and innerHTML for <br>
+    // --- START OF MODIFICATION ---
+    // Assuming 'roundNumber' is the element that displays "Round #"
+    // Change from textContent to innerHTML to allow the <span> tag
+    roundNumber.innerHTML = `<span data-i18n="game.currentRound">Round</span> ${index + 1}`;
 
-    // Add animation for new round
-    gameContent.classList.add('new-round');
-    setTimeout(() => {
-      gameContent.classList.remove('new-round');
-    }, 500);
-  }
+    // IMPORTANT: Call updateUI() right after updating innerHTML
+    // This will find the newly added <span> and translate it
+    updateUI();
+    // --- END OF MODIFICATION ---
+
+
+    leftText.innerHTML = t(rounds[index].left);
+    rightText.innerHTML = t(rounds[index].right);
+
+    // Add animation for new round
+    gameContent.classList.add('new-round');
+    setTimeout(() => {
+      gameContent.classList.remove('new-round');
+    }, 500);
+  }
 
   // Handle choice selection
   leftChoice.addEventListener('click', function() {
@@ -2903,7 +2913,7 @@ function showResults() {
   displayRandomImageAndEnableDownload();
 
   // Call updateUI to translate the newly added "Round" text
-  updateUI();
+   updateUI();
 }
 
   function displayRandomImageAndEnableDownload() {
