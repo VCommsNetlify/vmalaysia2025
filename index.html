@@ -2847,7 +2847,7 @@ function loadRound(index) {
     // --- START OF MODIFICATION ---
     // Assuming 'roundNumber' is the element that displays "Round #"
     // Change from textContent to innerHTML to allow the <span> tag
-    roundNumber.innerHTML = `<span data-i18n="game.currentRound">Round</span> ${index + 1}`;
+    roundNumber.innerHTML = `<span data-i18n="thisOrThat.results.round">Round</span> ${index + 1}`;
 
     // IMPORTANT: Call updateUI() right after updating innerHTML
     // This will find the newly added <span> and translate it
