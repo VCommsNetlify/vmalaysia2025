@@ -180,9 +180,9 @@
       "round12": { "left": "اُشارك في <br>V-MALAYSIA 2025 من 21 إلى 25 يونيو", "right": "اكون في <br>V-MALAYSIA 2025 من 21 إلى 25 يونيو" }
     }
   },"game": {
-    "currentRound": "Round",
+    "currentRound": "الجولة",
     "resultImages": [ 
-      "assets/thisorthat/ar/quote1.webp"
+      "assets/thisorthat/ar/wednesday-message-square-626-AR.webp"
     ]
   },
   "tickets": {

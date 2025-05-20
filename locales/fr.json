@@ -181,9 +181,9 @@
       "round12": { "left": "SOYEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN", "right": "PARTICIPEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN" }
     }
   },"game": {
-    "currentRound": "Round",
+    "currentRound": "Tour",
     "resultImages": [ 
-      "assets/thisorthat/fr/quote1.webp"
+      "assets/thisorthat/fr/wednesday-message-square-626-FR.webp"
     ]
   },
   "tickets": {

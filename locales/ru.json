@@ -180,9 +180,9 @@
       "round12": { "left": "ПОСЕТИТЬ <br>V-MALAYSIA 2025 21-25 ИЮНЯ", "right": "ПРИНЯТЬ УЧАСТИЕ В <br>V-MALAYSIA 2025 21-25 ИЮНЯ" }
     }
   },"game": {
-    "currentRound": "Round",
+    "currentRound": "Раунд",
     "resultImages": [ 
-      "assets/thisorthat/ru/quote1.webp"
+      "assets/thisorthat/ru/wednesday-message-square-626-RU3.webp"
     ]
   },
   "tickets": {

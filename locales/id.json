@@ -181,9 +181,9 @@
       "round12": { "left": "HADIR DALAM <br>V-MALAYSIA 2025 PADA 21-25 JUNI", "right": "MENJADI BAGIAN DARI <br>V-MALAYSIA 2025 PADA 21-25 JUNI" }
     }
   },"game": {
-    "currentRound": "Round",
+    "currentRound": "Babak",
     "resultImages": [ 
-      "assets/thisorthat/id/quote1.webp"
+      "assets/thisorthat/id/wednesday-message-square-626-BI.webp"
     ]
   },
   "tickets": {
