@@ -151,8 +151,8 @@
   "meetSpeakers": {
     "title": "تعرفوا على متحدثينا",
     "description": "شاهدوا الـ V Ambassadors مباشرةً على المنصة، وترقبوا أعظم الأبلاينات لكم!",
-    "speakerPosition1": "المؤسسون",
-    "speakerPosition2": "شريك V"
+    "speakerPosition1": "Founder",
+    "speakerPosition2": "V Partner"
   },
   "thisOrThat": {
     "title": "هذا أم ذاك؟",
