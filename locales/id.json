@@ -183,7 +183,8 @@
   "tickets": {
     "title": "Acara Terbesar Tahun Ini Dimulai dengan  Kursi Anda",
     "description": "Dapatkan tiket anda sekarang di VShoppe.",
-    "description2": "Gunakan kode:"
+    "description2": "Gunakan kode:",
+    "buybtn": "Beli Sekarang"
   },
   "faqs": {
     "title": "PERTANYAAN YANG SERING DIAJUKAN",

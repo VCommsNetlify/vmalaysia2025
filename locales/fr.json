@@ -62,29 +62,29 @@
     "title": "Épisode 6 : Les deux visionnaires"
   },
   "comingSoonModal": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Bientôt disponible !",
+    "message": "Ce contenu n'est pas encore disponible. Restez à l'écoute pour les mises à jour !",
+    "closeButton": "Fermer"
   },
     "comingSoonModal2": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Bientôt disponible !",
+    "message": "Ce contenu n'est pas encore disponible. Restez à l'écoute pour les mises à jour !",
+    "closeButton": "Fermer"
   },
   "comingSoonModal3": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Bientôt disponible !",
+    "message": "Ce contenu n'est pas encore disponible. Restez à l'écoute pour les mises à jour !",
+    "closeButton": "Fermer"
   },
   "comingSoonModal4": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Bientôt disponible !",
+    "message": "Ce contenu n'est pas encore disponible. Restez à l'écoute pour les mises à jour !",
+    "closeButton": "Fermer"
   },
   "comingSoonModal5": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Bientôt disponible !",
+    "message": "Ce contenu n'est pas encore disponible. Restez à l'écoute pour les mises à jour !",
+    "closeButton": "Fermer"
   },
   "eventsNews": {
     "mainTitle": "Actualités et mises à jour des événements",
@@ -99,8 +99,8 @@
     },"6372789163112": {
       "title": "VPN Yaser Khamis vous invite à la V-Malaysia 2025 en juin !",
       "description": "« Quand nous bougeons comme un seul homme, nous gagnons comme la même chose ! » VPN Yaser Khamis dit que vous ne pouvez absolument pas manquer ce dub avec toute votre équipe. Participez à l'épopée de la V-Malaysia 2025, qui se déroulera du 21 au 25 juin à la Setia SPICE Arena de Penang, en Malaisie. Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code: VMYJun2025"
-    },"": {
-      "title": "Future Content",
+    },"FutureContent": {
+      "title": "Contenu pour l'avenir",
       "description": "&nbsp;"
     }
     },
@@ -117,12 +117,12 @@
         "readMore": "Lisez plus"
       },
       "article2": {
-        "title": "Future Content",
+        "title": "Contenu pour l'avenir",
         "content": "",
         "readMore": "Lisez plus"
       },
       "article3": {
-        "title": "Future Content",
+        "title": "Contenu pour l'avenir",
         "content": "",
         "readMore": "Lisez plus"
       }
@@ -139,31 +139,31 @@
   "vkids": {
     "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-FR.webp",
     "video": {
-      "video1Title": "Future Content",
-      "video2Title": "Future Content",
-      "video3Title": "Future Content"
+      "video1Title": "Contenu pour l'avenir",
+      "video2Title": "Contenu pour l'avenir",
+      "video3Title": "Contenu pour l'avenir"
     },
     "article": {
       "article1Title": "Rejoignez les V-Kids et les V-Teens à la #VMalaysia2025!",
-      "article2Title": "Future Content",
-      "article3Title": "Future Content"
+      "article2Title": "Contenu pour l'avenir",
+      "article3Title": "Contenu pour l'avenir"
     }
   },
   "meetSpeakers": {
     "title": "Faites connaissance avec nos intervenants",
     "description": "Venez voir nos V Ambassadors en direct sur scène et surveiller vos plus grands Uplines !",
     "speakerPosition1": "Founder",
-    "speakerPosition2": "V Partenaire"
+    "speakerPosition2": "V Partner"
   },
   "thisOrThat": {
     "title": "Ceci ou cela ?",
     "description": "Prêt à relever un petit défi ? Faites votre choix et amusez-vous avec la famille The V !",
-    "startButton": "Let's Play!",
+    "startButton": "Allez, on joue !",
     "results": {
       "title": "Créons notre plus belle histoire et ensemble nous nous éleverons au V-Malaysia 2025 !",
       "shareText": "Taguez-nous lorsque vous partagerez sur Instagram !",
-      "downloadButton": "Download Image",
-      "playAgainButton": "Play Again"
+      "downloadButton": "Télécharger l'image",
+      "playAgainButton": "Jouer à nouveau"
     },
     "rounds": {
       "round1": { "left": "SOYEZ CAPABLE DE VOLER", "right": "AYEZ UNE SUPER FORCE" },
@@ -183,7 +183,8 @@
   "tickets": {
     "title": "Le plus grand événement de l'année commence par votre siège",
     "description": "Achetez vos billets sur VShoppe dès aujourd'hui.",
-    "description2": "Utilisez le code :"
+    "description2": "Utilisez le code :",
+    "buybtn": "Acheter maintenant"
   },
   "faqs": {
     "title": "FOIRE AUX QUESTIONS",

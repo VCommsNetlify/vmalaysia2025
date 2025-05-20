@@ -61,29 +61,29 @@
     "title": "الحلقة ٦: صاحبا الرؤية"
   },
   "comingSoonModal": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "قريبًا!",
+    "message": "هذا المحتوى غير متوفر حاليًا. ترقبوا التحديثات!",
+    "closeButton": "إغلاق"
   },
     "comingSoonModal2": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "قريبًا!",
+    "message": "هذا المحتوى غير متوفر حاليًا. ترقبوا التحديثات!",
+    "closeButton": "إغلاق"
   },
   "comingSoonModal3": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "قريبًا!",
+    "message": "هذا المحتوى غير متوفر حاليًا. ترقبوا التحديثات!",
+    "closeButton": "إغلاق"
   },
   "comingSoonModal4": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "قريبًا!",
+    "message": "هذا المحتوى غير متوفر حاليًا. ترقبوا التحديثات!",
+    "closeButton": "إغلاق"
   },
   "comingSoonModal5": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "قريبًا!",
+    "message": "هذا المحتوى غير متوفر حاليًا. ترقبوا التحديثات!",
+    "closeButton": "إغلاق"
   },
   "eventsNews": {
     "mainTitle": "أخبار وتحديثات الفعالية",
@@ -98,8 +98,8 @@
     },"6372789163112": {
       "title": "VPN Yaser Khamis يدعوكم إلى V-Malaysia 2025 في يونيو هذا!",
       "description": "“عندما نتحرك كأننا واحد، نفوز كأننا واحد!”. VPN Yaser Khamis يقول إنه لا يمكنكم تفويت الانضمام مع فرقتكم بأكمله. كونوا جزءًا من V-Malaysia 2025 الملحمي، الذي سيُقام من 21 إلى 25 يونيو في ساحة Setia SPICE في بينانج، ماليزيا. احصلوا على تذاكركم اليوم من الـ VShoppe واستخدموا الكود: VMYJun2025"
-    },"": {
-      "title": "Future Content",
+    },"FutureContent": {
+      "title": "محتوى مستقبلي",
       "description": "&nbsp;"
     }
     },
@@ -116,12 +116,12 @@
         "readMore": "اقرأ المزيد"
       },
       "article2": {
-        "title": "Future Content",
+        "title": "محتوى مستقبلي",
         "content": "",
         "readMore": "اقرأ المزيد"
       },
       "article3": {
-        "title": "Future Content",
+        "title": "محتوى مستقبلي",
         "content": "",
         "readMore": "اقرأ المزيد"
       }
@@ -138,14 +138,14 @@
   "vkids": {
     "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-AR.webp",
     "video": {
-      "video1Title": "Future Content",
-      "video2Title": "Future Content",
-      "video3Title": "Future Content"
+      "video1Title": "محتوى مستقبلي",
+      "video2Title": "محتوى مستقبلي",
+      "video3Title": "محتوى مستقبلي"
     },
     "article": {
       "article1Title": "انضموا إلى الـ V-KIDS والـ V-TEENS في #VMalaysia2025!",
-      "article2Title": "Future Content",
-      "article3Title": "Future Content"
+      "article2Title": "محتوى مستقبلي",
+      "article3Title": "محتوى مستقبلي"
     }
   },
   "meetSpeakers": {
@@ -157,12 +157,12 @@
   "thisOrThat": {
     "title": "هذا أم ذاك؟",
     "description": "هل ترغبون بتحدٍّ صغير؟ اختاروا ما يناسبكم واستمتعوا مع عائلة The V!",
-    "startButton": "Let's Play!",
+    "startButton": "هيا نلعب!",
     "results": {
       "title": "دعونا نصنع قصتنا الأعظم وننهض معًا في V-Malaysia 2025!",
       "shareText": "قوموا بوسمنا عند مشاركتكم على إنستجرام!",
-      "downloadButton": "Download Image",
-      "playAgainButton": "Play Again"
+      "downloadButton": "تنزيل الصورة",
+      "playAgainButton": "العب مرة أخرى"
     },
     "rounds": {
       "round1": { "left": "امتلك قوة خارقة", "right": "اقدر على الطيران" },
@@ -182,7 +182,8 @@
   "tickets": {
     "title": "أعظم حدث لهذا العام يبدأ بمقعدك",
     "description": "احجزوا تذاكركم اليوم عبر الـ VShoppe.",
-    "description2": "استخدموا الكود:"
+    "description2": "استخدموا الكود:",
+    "buybtn": "اشتري الآن"
   },
   "faqs": {
     "title": "الأسئلة الشائعة",

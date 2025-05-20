@@ -61,29 +61,29 @@
     "title": "Эпизод 6: Два визионера"
   },
   "comingSoonModal": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Совсем скоро!",
+    "message": "Этот контент еще не доступен. Следите за обновлениями!",
+    "closeButton": "Закрыть"
   },
     "comingSoonModal2": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Совсем скоро!",
+    "message": "Этот контент еще не доступен. Следите за обновлениями!",
+    "closeButton": "Закрыть"
   },
   "comingSoonModal3": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Совсем скоро!",
+    "message": "Этот контент еще не доступен. Следите за обновлениями!",
+    "closeButton": "Закрыть"
   },
   "comingSoonModal4": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Совсем скоро!",
+    "message": "Этот контент еще не доступен. Следите за обновлениями!",
+    "closeButton": "Закрыть"
   },
   "comingSoonModal5": {
-    "title": "Coming Soon!",
-    "message": "This content is not yet available. Stay tuned for updates!",
-    "closeButton": "Close"
+    "title": "Совсем скоро!",
+    "message": "Этот контент еще не доступен. Следите за обновлениями!",
+    "closeButton": "Закрыть"
   },
   "eventsNews": {
     "mainTitle": "События Новости и Обновления",
@@ -98,8 +98,8 @@
     },"6372789163112": {
       "title": "VPN Yaser Khamis приглашает вас на V-Malaysia 2025 в июне этого года!",
       "description": "«Когда мы двигаемся как единое целое, мы побеждаем как единое целое!» VPN Yaser Khamis говорит, что вы просто не можете пропустить это событие со всем своим отрядом. Станьте частью эпического V-Malaysia 2025, который пройдет с 21 по 25 июня на арене Setia SPICE в Пенанге, Малайзия. Приобретайте билеты уже сегодня в VShoppe, используя код: VMYJun2025"
-    },"": {
-      "title": "Future Content",
+    },"FutureContent": {
+      "title": "Будущий контент",
       "description": "&nbsp;"
     }
     },
@@ -116,12 +116,12 @@
         "readMore": "Читать далее"
       },
       "article2": {
-        "title": "Future Content",
+        "title": "Будущий контент",
         "content": "",
         "readMore": "Читать далее"
       },
       "article3": {
-        "title": "Future Content",
+        "title": "Будущий контент",
         "content": "",
         "readMore": "Читать далее"
       }
@@ -138,31 +138,31 @@
   "vkids": {
     "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-RU.webp",
     "video": {
-      "video1Title": "Future Content",
-      "video2Title": "Future Content",
-      "video3Title": "Future Content"
+      "video1Title": "Будущий контент",
+      "video2Title": "Будущий контент",
+      "video3Title": "Будущий контент"
     },
     "article": {
       "article1Title": "Присоединяйтесь к V-Kids и V-Teens на #VMalaysia2025!",
-      "article2Title": "Future Content",
-      "article3Title": "Future Content"
+      "article2Title": "Будущий контент",
+      "article3Title": "Будущий контент"
     }
   },
   "meetSpeakers": {
     "title": "Познакомьтесь С Нашими Спикерами",
     "description": "Увидьте наших V Ambassador вживую на сцене и наблюдайте за вашими величайшими Uplines!",
-    "speakerPosition1": "Основатели",
-    "speakerPosition2": "V Партнер"
+    "speakerPosition1": "Founder",
+    "speakerPosition2": "V Partner"
   },
   "thisOrThat": {
     "title": "То или Это?",
     "description": "Хотите бросить небольшой вызов? Выбирайте и веселитесь вместе с V семьей!",
-    "startButton": "Let's Play!",
+    "startButton": "Давайте играть!",
     "results": {
       "title": "Давайте создадим нашу величайшую историю и вместе поднимемся на V-Malaysia 2025!",
       "shareText": "Отметьте нас, когда будете публиковать в Instagram!",
-      "downloadButton": "Download Image",
-      "playAgainButton": "Play Again"
+      "downloadButton": "Скачать изображение",
+      "playAgainButton": "Играть снова"
     },
     "rounds": {
       "round1": { "left": "УМЕТЬ ЛЕТАТЬ", "right": "ОБЛАДАТЬ СУПЕРСИЛОЙ" },
@@ -182,7 +182,8 @@
   "tickets": {
     "title": "Величайшее событие года начинается с вашего кресла",
     "description": "Приобретайте билеты на VShoppe уже сегодня.",
-    "description2": "Используйте код:"
+    "description2": "Используйте код:",
+    "buybtn": "Купить сейчас"
   },
   "faqs": {
     "title": "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ",
