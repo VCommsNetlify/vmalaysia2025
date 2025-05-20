@@ -157,7 +157,7 @@
   },
   "thisOrThat": {
     "title": "Ini atau Itu?",
-    "description": "Up for a little challenge? Just take your pick and have fun with The V family!<br>Tag us when you share on Instagram!",
+    "description": "Siap untuk sedikit tantangan? Pilih mana saja dan bersenang-senanglah bersama The V family!",
     "startButton": "Mari Bermai!",
     "results": {
       "title": "Mari menciptakan kisah terbesar kita dan Bersama-sama Kita Bangkit dalam V-Malaysia 2025!",
@@ -183,7 +183,29 @@
   },"game": {
     "currentRound": "Babak",
     "resultImages": [ 
-      "assets/thisorthat/id/wednesday-message-square-626-BI.webp"
+      "assets/thisorthat/en/quote1.webp",
+      "assets/thisorthat/en/quote2.webp",
+      "assets/thisorthat/en/quote3.webp",
+      "assets/thisorthat/en/quote4.webp",
+      "assets/thisorthat/en/quote5.webp",
+      "assets/thisorthat/en/quote6.webp",
+      "assets/thisorthat/en/quote7.webp",
+      "assets/thisorthat/en/quote8.webp",
+      "assets/thisorthat/en/quote9.webp",
+      "assets/thisorthat/en/quote10.webp",
+      "assets/thisorthat/en/quote11.webp",
+      "assets/thisorthat/en/quote12.webp",
+      "assets/thisorthat/en/quote13.webp",
+      "assets/thisorthat/en/quote14.webp",
+      "assets/thisorthat/en/quote15.webp",
+      "assets/thisorthat/en/quote16.webp",
+      "assets/thisorthat/en/quote17.webp",
+      "assets/thisorthat/en/quote18.webp",
+      "assets/thisorthat/en/quote19.webp",
+      "assets/thisorthat/en/quote20.webp",
+      "assets/thisorthat/en/quote21.webp",
+      "assets/thisorthat/en/quote22.webp",
+      "assets/thisorthat/en/quote23.webp"
     ]
   },
   "tickets": {
