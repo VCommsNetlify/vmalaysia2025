@@ -180,6 +180,11 @@
       "round11": { "left": "ASSISTEZ À LA PLUS BELLE HISTOIRE", "right": "CRÉEZ VOTRE PLUS BELLE HISTOIRE" },
       "round12": { "left": "SOYEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN", "right": "PARTICIPEZ AU <br>V-MALAYSIA 2025 DU 21 AU 25 JUIN" }
     }
+  },"game": {
+    "currentRound": "Round",
+    "resultImages": [ 
+      "assets/thisorthat/fr/quote1.webp"
+    ]
   },
   "tickets": {
     "title": "Le plus grand événement de l'année commence par votre siège",

@@ -179,6 +179,11 @@
       "round11": { "left": "СТАТЬ СВИДЕТЕЛЕМ ВЕЛИЧАЙШЕЙ ИСТОРИИ", "right": "СОЗДАТЬ СВОЮ ВЕЛИКУЮ ИСТОРИЮ" },
       "round12": { "left": "ПОСЕТИТЬ <br>V-MALAYSIA 2025 21-25 ИЮНЯ", "right": "ПРИНЯТЬ УЧАСТИЕ В <br>V-MALAYSIA 2025 21-25 ИЮНЯ" }
     }
+  },"game": {
+    "currentRound": "Round",
+    "resultImages": [ 
+      "assets/thisorthat/ru/quote1.webp"
+    ]
   },
   "tickets": {
     "title": "Величайшее событие года начинается с вашего кресла",

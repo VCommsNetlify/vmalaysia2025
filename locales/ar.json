@@ -179,6 +179,11 @@
       "round11": { "left": "اصنع أعظم قصة", "right": "اشهد على أعظم قصة" },
       "round12": { "left": "اُشارك في <br>V-MALAYSIA 2025 من 21 إلى 25 يونيو", "right": "اكون في <br>V-MALAYSIA 2025 من 21 إلى 25 يونيو" }
     }
+  },"game": {
+    "currentRound": "Round",
+    "resultImages": [ 
+      "assets/thisorthat/ar/quote1.webp"
+    ]
   },
   "tickets": {
     "title": "أعظم حدث لهذا العام يبدأ بمقعدك",

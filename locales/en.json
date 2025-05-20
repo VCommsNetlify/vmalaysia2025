@@ -179,6 +179,11 @@
       "round11": { "left": "WITNESS THE GREATEST STORY", "right": "CREATE YOUR GREATEST STORY" },
       "round12": { "left": "BE AT <br>V-MALAYSIA 2025 ON 21-25 JUNE", "right": "TAKE PART AT <br>V-MALAYSIA 2025 ON 21-25 JUNE" }
     }
+  },"game": {
+    "currentRound": "Round",
+    "resultImages": [ 
+      "assets/thisorthat/ar/quote1.webp"
+    ]
   },
   "tickets": {
     "title": "The Greatest Event of the Year Starts With Your Seat",

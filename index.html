@@ -2917,15 +2917,23 @@ function showResults() {
 }
 
   function displayRandomImageAndEnableDownload() {
-  const imageFolder = 'assets/thisorthat/';
-  const imageFiles = ['quote1.webp', 'quote2.webp', 'quote3.webp', 'quote4.webp', 'quote5.webp','quote6.webp', 'quote7.webp', 'quote8.webp', 'quote9.webp', 'quote10.webp','quote11.webp', 'quote12.webp', 'quote13.webp', 'quote14.webp', 'quote15.webp','quote16.webp', 'quote17.webp', 'quote18.webp', 'quote19.webp', 'quote20.webp','quote21.webp','quote22.webp', 'quote23.webp'];
+  // Get the array of image paths for the current language
+  // This will use your t() function to look up "game.resultImages"
+  const imagePaths = t('game.resultImages'); // This will return the array from the current language's JSON
 
-  const randomIndex = Math.floor(Math.random() * imageFiles.length);
-  const randomImagePath = imageFolder + imageFiles[randomIndex];
+  // Check if imagePaths is actually an array (important for error handling)
+  if (!Array.isArray(imagePaths) || imagePaths.length === 0) {
+    console.error("No image paths found for the current language or array is empty.");
+    // Optionally display a fallback image or handle the error gracefully
+    return;
+  }
+
+  const randomIndex = Math.floor(Math.random() * imagePaths.length);
+  const randomImagePath = imagePaths[randomIndex]; // Use the path directly from the array
 
   const imageElement = document.createElement('img');
   imageElement.src = randomImagePath;
-  imageElement.alt = 'Random Gallery Image';
+  imageElement.alt = 'Random Gallery Image'; // Consider making this alt text translatable too
   imageElement.classList.add('random-result-image', 'h-auto', 'object-cover', 'mx-auto', 'mb-8');
 
   const resultsSection = document.getElementById('resultsSection');
@@ -2936,7 +2944,6 @@ function showResults() {
   downloadLink.href = randomImagePath;
   downloadLink.style.display = 'inline-block';
 }
-
 
   const restartBtn = document.getElementById('restartBtn');
   const resultsSection = document.getElementById('resultsSection');

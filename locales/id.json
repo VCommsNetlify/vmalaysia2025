@@ -180,6 +180,11 @@
       "round11": { "left": "MENYAKSIKAN SEJARAH TERHEBAT", "right": "MENCIPTAKAN KISAH HEBAT SAYA" },
       "round12": { "left": "HADIR DALAM <br>V-MALAYSIA 2025 PADA 21-25 JUNI", "right": "MENJADI BAGIAN DARI <br>V-MALAYSIA 2025 PADA 21-25 JUNI" }
     }
+  },"game": {
+    "currentRound": "Round",
+    "resultImages": [ 
+      "assets/thisorthat/id/quote1.webp"
+    ]
   },
   "tickets": {
     "title": "Acara Terbesar Tahun Ini Dimulai dengan  Kursi Anda",
