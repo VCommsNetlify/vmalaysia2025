@@ -338,11 +338,6 @@ html {
   }
 
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer utilities {
   @keyframes fade-up {
     0% {
@@ -2908,24 +2903,7 @@ function makeChoice(side) {
     displayRandomImageAndEnableDownload();
   }
 
-
-  // Restart game
-  restartBtn.addEventListener('click', function() {
-    currentRound = 0;
-    userChoices.length = 0;
-    resultsSection.style.display = 'none';
-    initialScreen.style.display = 'flex';
-    adjustThisOrThatHeight(650); // Revert height to 650px on play again
-
-    // Ensure any existing random image is removed
-    const existingImage = resultsSection.querySelector('img');
-    if (existingImage) {
-      existingImage.remove();
-    }
-  });
-});
-
-function displayRandomImageAndEnableDownload() {
+  function displayRandomImageAndEnableDownload() {
   const imageFolder = 'assets/thisorthat/';
   const imageFiles = ['quote1.webp', 'quote2.webp', 'quote3.webp', 'quote4.webp', 'quote5.webp','quote6.webp', 'quote7.webp', 'quote8.webp', 'quote9.webp', 'quote10.webp','quote11.webp', 'quote12.webp', 'quote13.webp', 'quote14.webp', 'quote15.webp','quote16.webp', 'quote17.webp', 'quote18.webp', 'quote19.webp', 'quote20.webp','quote21.webp','quote22.webp', 'quote23.webp'];
 
@@ -2945,6 +2923,37 @@ function displayRandomImageAndEnableDownload() {
   downloadLink.href = randomImagePath;
   downloadLink.style.display = 'inline-block';
 }
+
+
+  const restartBtn = document.getElementById('restartBtn');
+  const resultsSection = document.getElementById('resultsSection');
+  const choicesList = document.getElementById('choicesList');
+
+
+  restartBtn.addEventListener('click', function() {
+    console.log('Restart button clicked');
+    currentRound = 0;
+    userChoices.length = 0;
+    resultsSection.style.display = 'none';
+    initialScreen.style.display = 'flex'; // Make sure 'initialScreen' is correctly defined
+    adjustThisOrThatHeight(650); // Revert height
+
+    // Remove the dynamically added image
+    const existingImage = resultsSection.querySelector('img.random-result-image');
+    if (existingImage) {
+      existingImage.remove();
+    }
+
+    // Clear the list of user choices
+    if (choicesList) {
+      choicesList.innerHTML = '';
+    }
+
+  });
+
+});
+
+
 
     //END THIS OR THAT
 //modal for vkidsteens
