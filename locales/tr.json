@@ -1,0 +1,265 @@
+{
+  "home": "Ana Sayfa",
+  "greatest_stories": "En Büyük Hikayeler",
+  "venue_map": "Mekan Haritası",
+  "v_kids_v_teens": "V-Kids & V-Teens",
+  "speakers": "Konuşmacılar",
+  "this_or_that": "O mu Bu mu?",
+  "faq": "SSS",
+  "languages": "Diller",
+  "floating_button": {
+    "text": "Biletlerinizi buradan alın!"
+  },
+  "buttons": {
+    "close": "x",
+    "close_aria-label": "x"
+  },
+  "menu": {
+    "videos": "Videolar",
+    "articles": "Makaleler",
+    "gallery": "Galeri"
+  },
+  "language_name": {
+    "en": "İngilizce",
+    "ar": "Arapça",
+    "id": "Bahasa-Endonezce",
+    "fr": "Fransızca",
+    "ru": "Rusça",
+    "tr": "Türkçe"
+  },
+  "countdown": {
+    "days": "GÜN",
+    "hours": "SAAT",
+    "minutes": "DAKİKA",
+    "seconds": "SANİYE"
+  },
+  "hero": {
+    "headline_part1": "BİRLİKTE YÜKSELELİM",
+    "headline_part2": "VE EN BÜYÜK",
+    "headline_part3": " HİKAYEMİZİ YARATALIM",
+    "headline_part4": "!",
+    "paragraph1": "<em>Bir araya geldiğimizde yolculuğumuz sınırsız hale gelir.</em>",
+    "paragraph2": "<br>Bu Haziran ayında V-MALAYSIA 2025'te RYTHM vizyonunu gerçekleştirmek ve sınırların ötesine yükselmek için bir araya geldiğimizde bize katılın.",
+    "cta_button": "VShoppe'tan biletlerinizi alın."
+  },
+  "greatest_stories_headline": "V-Malaysia 2025'in En Büyük Hikayeleri",
+  "story1": {
+    "title": "1. Bölüm: V-Convention"
+  },
+  "story2": {
+    "title": "2. Bölüm: Liderlerden V Ambassador’larına"
+  },
+  "story3": {
+    "title": "3. Bölüm: Katılımcılardan Inservice’e"
+  },
+  "story4": {
+    "title": "4. Bölüm: Takımlar Colours of The V Olarak Yükseliyor"
+  },
+  "story5": {
+    "title": "5. Bölüm: The Limitless Store - Yaratılıştan Liderleri Kucaklamaya"
+  },
+  "story6": {
+    "title": "6. Bölüm: İki Vizyoner"
+  },
+  "comingSoonModal": {
+    "title": "Yakında!",
+    "message": "Bu içerik henüz mevcut değil. Güncellemeler için bizi izlemeye devam edin!",
+    "closeButton": "Kapat"
+  },
+    "comingSoonModal2": {
+    "title": "Yakında!",
+    "message": "Bu içerik henüz mevcut değil. Güncellemeler için bizi izlemeye devam edin!",
+    "closeButton": "Kapat"
+  },
+  "comingSoonModal3": {
+    "title": "Yakında!",
+    "message": "Bu içerik henüz mevcut değil. Güncellemeler için bizi izlemeye devam edin!",
+    "closeButton": "Kapat"
+  },
+  "comingSoonModal4": {
+    "title": "Yakında!",
+    "message": "Bu içerik henüz mevcut değil. Güncellemeler için bizi izlemeye devam edin!",
+    "closeButton": "Kapat"
+  },
+  "comingSoonModal5": {
+    "title": "Yakında!",
+    "message": "Bu içerik henüz mevcut değil. Güncellemeler için bizi izlemeye devam edin!",
+    "closeButton": "Kapat"
+  },
+  "eventsNews": {
+    "mainTitle": "Etkinlik Haberleri & Güncellemeler",
+    "highlightTitle": "En yeni öne çıkanları ve daha fazlasını izleyin!",
+    "videoSelectionParagraph": "Bu etkileşimli bir video oynatıcısıdır! Aşağıdaki herhangi bir videoyu seçin ve burada oynatın.",
+    "featuredTitle": "VP Arun George Sizi Bu Haziran'da V-Malaysia 2025'e Davet Ediyor!",
+    "featuredDescription": "VP Arun George, en iyi V-Malaysia 2025 deneyimini yaşamanız için gerekenleri sıralıyor! 21-25 Haziran'da Malezya, Penang'daki Setia SPICE Arena'da görüşmek üzere. Videonun tamamını buradan izleyin! Bugün VShoppe'tan biletlerinizi alın ve şu kodu kullanın: VMYJun2025",
+  "video": {
+      "6373100100112": {
+      "title": "VP Arun George Sizi Bu Haziran'da V-Malaysia 2025'e Davet Ediyor!",
+      "description": "VP Arun George, en iyi V-Malaysia 2025 deneyimini yaşamanız için gerekenleri sıralıyor! 21-25 Haziran'da Malezya, Penang'daki Setia SPICE Arena'da görüşmek üzere. Videonun tamamını buradan izleyin! Bugün VShoppe'tan biletlerinizi alın ve şu kodu kullanın: VMYJun2025"
+    },"6373047026112": {
+      "title": "VP Kalai Manikam Sizi Bu Haziran'da V-Malaysia 2025'e Davet Ediyor!",
+      "description": "VP Kalai Manikam ile hazırlanın ve bu yılki en büyük etkinliklerimizden biri olan Penang, Malezya'daki Setia SPICE Arena'da 21-25 Haziran tarihlerinde gerçekleşecek etkinlik için en iyi halinizde olun. Videonun tamamını buradan izleyin! Bugün VShoppe'tan biletlerinizi alın ve şu kodu kullanın: VMYJun2025"
+    },"6372789163112": {
+      "title": "VPN Yaser Khamis Sizi Bu Haziran'da V-Malaysia 2025'e Davet Ediyor!",
+      "description": "“Birlikte hareket ettiğimizde, birlikte kazanırız!” VPN Yaser Khamis, tüm ekibinizle katılacağınız bu etkinliği kesinlikle kaçırmamanız gerektiğini söylüyor. 21-25 Haziran tarihlerinde Malezya, Penang'daki Setia SPICE Arena'da gerçekleşecek olan destansı V-Malaysia 2025'in bir parçası olun. Bugün VShoppe'tan biletlerinizi alın ve şu kodu kullanın: VMYJun2025"
+    }
+    },
+    "featuredArticle": {
+      "subtitle": "21-25 Haziran tarihlerinde V-MALAYSIA 2025’te Birlikte Yükseliyoruz!",
+      "content": "The V ailesinin en inanılmaz etkinliğini deneyimlemeye hazır mısınız?",
+      "readMore": "Daha fazlasını oku"
+    },
+    "articles": {
+      "latestNewsTitle": "En son haberleri okuyun!",
+      "article1": {
+        "title": "V-Malaysia 2025 için Yerlerinizi Ayırtın!",
+        "content": "21-25 Haziran 2025'te görüşmek üzere! Orada olacak mısınız?",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article2": {
+        "title": "Gelecek İçerik",
+        "content": "",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article3": {
+        "title": "Gelecek İçerik",
+        "content": "",
+        "readMore": "Daha fazlasını oku"
+      }
+    },
+    "gallery": {
+      "title": "Muhteşem fotoğraflara bakın!",
+      "comingSoon": "Yakında muhteşem fotoğrafları görmek için bu alanı takip edin!"
+    }
+  },
+  "exploreMagic": {
+    "title": "Büyünün Gerçekleştiği Yeri Keşfedin",
+    "description": "Setia SPICE Arena'da gezin ve <br>discover all the amazing surprises at <span class=\"block md:inline\">V-Malaysia 2025'teki</span> tüm muhteşem sürprizleri keşfedin."
+  },
+  "vkids": {
+    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy.webp",
+    "video": {
+      "video1Title": "Gelecek İçerik",
+      "video2Title": "Gelecek İçerik",
+      "video3Title": "Gelecek İçerik"
+    },
+    "article": {
+      "article1Title": "#VMalaysia2025'te V-Kids ve V-Teens'e Katıl!",
+      "article2Title": "Gelecek İçerik",
+      "article3Title": "Gelecek İçerik"
+    }
+  },
+  "meetSpeakers": {
+    "title": "Konuşmacılarımızla Tanışın",
+    "description": "V Ambassador’larımızı sahnede canlı izleyin ve en iyi Upline'larınızı takip edin!",
+    "speakerPosition1": "Founder",
+    "speakerPosition2": "V Partner"
+  },
+  "thisOrThat": {
+    "title": "O mu Bu Mu?",
+    "description": "Küçük bir meydan okumaya var mısınız? Sadece seçiminizi yapın ve The V ailesiyle eğlenin!",
+    "startButton": "Hadi Oynayalım!",
+    "results": {
+      "title": "En büyük hikayemizi yaratalım ve V-Malaysia 2025'te Birlikte Yükselelim!",
+      "shareText": "Instagram'da paylaşım yaptığınızda bizi etiketleyin!",
+      "downloadButton": "Resmi İndir",
+      "playAgainButton": "Tekrar Oyna",
+      "round": "Tur"
+    },
+    "rounds": {
+      "round1": { "left": "UÇABİLMEK", "right": "SÜPER GÜCE SAHİP OLMAK" },
+      "round2": { "left": "GEÇMİŞE ​​GERİ DÖNMEK", "right": "GELECEĞİ GÖRMEK" },
+      "round3": { "left": "BİR HAYALİ GERÇEKLEŞTİRMEK", "right": "BİR HEDEFE ULAŞMAK" },
+      "round4": { "left": "ZİHNİYET DEĞİŞİMİ", "right": "BECERİLERİNİZİ GELİŞTİRMEK" },
+      "round5": { "left": "BAŞARILI OLMAK", "right": "BAŞKALARINI YÜKSELTMEK" },
+      "round6": { "left": "RAHAT YAŞAM", "right": "OLAĞANÜSTÜ YOLCULUK" },
+      "round7": { "left": "İSTİKRARLI ADIMLAR ATMAK", "right": "YENİ ZİRVELERE YÜKSELMEK" },
+      "round8": { "left": "KAĞIT ÜZERİNDE NOTLAR", "right": "CEP TELEFONUNUZDA NOTLAR" },
+      "round9": { "left": "V-CONVENTION’A TEK BAŞINA GİTMEK", "right": "V-CONVENTION’A TAKIMINIZLA GİTMEK" },
+      "round10": { "left": "TARİHİN BİR PARÇASI OLMAK", "right": "TARİH YARATMAK" },
+      "round11": { "left": "EN BÜYÜK HİKAYEYE TANIK OLMAK", "right": "EN BÜYÜK HİKAYENİZİ YARATMAK" },
+      "round12": { "left": "21-25 HAZİRAN TARİHLERİNDE <br>V-MALAYSIA 2025'TE OLUN", "right": "21-25 HAZİRAN TARİHLERİNDE <br>V-MALAYSIA 2025'E KATILIN" }
+    }
+  },"game": {
+    "currentRound": "Tur",
+    "resultImages": [ 
+      "assets/thisorthat/en/quote1.webp",
+      "assets/thisorthat/en/quote2.webp",
+      "assets/thisorthat/en/quote3.webp",
+      "assets/thisorthat/en/quote4.webp",
+      "assets/thisorthat/en/quote5.webp",
+      "assets/thisorthat/en/quote6.webp",
+      "assets/thisorthat/en/quote7.webp",
+      "assets/thisorthat/en/quote8.webp",
+      "assets/thisorthat/en/quote9.webp",
+      "assets/thisorthat/en/quote10.webp",
+      "assets/thisorthat/en/quote11.webp",
+      "assets/thisorthat/en/quote12.webp",
+      "assets/thisorthat/en/quote13.webp",
+      "assets/thisorthat/en/quote14.webp",
+      "assets/thisorthat/en/quote15.webp",
+      "assets/thisorthat/en/quote16.webp",
+      "assets/thisorthat/en/quote17.webp",
+      "assets/thisorthat/en/quote18.webp",
+      "assets/thisorthat/en/quote19.webp",
+      "assets/thisorthat/en/quote20.webp",
+      "assets/thisorthat/en/quote21.webp",
+      "assets/thisorthat/en/quote22.webp",
+      "assets/thisorthat/en/quote23.webp"
+    ]
+  },
+  "tickets": {
+    "title": "Yılın En Büyük Etkinliği Koltuğunuzla Başlar",
+    "description": "Bugün VShoppe'tan biletlerinizi alın.",
+    "description2": "Kodu Kullanın:",
+    "buybtn": "Şimdi Satın al"
+  },
+  "faqs": {
+    "title": "SIK SORULAN SORULAR",
+    "question1": {
+      "title": "V-MALAYSIA 2025 Biletleri",
+      "answer": "1. <a href='https://vshoppe.vtube.net/' style='color:red; text-decoration: underline white;'>https://vshoppe.vtube.net/</a> adresine gidin.<br><br>2. E-posta adresinizi girin ve kodu girin.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia JUNE 2025: <strong>VMYJUN2025</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-KIDS & V-TEENS 2025: <strong>VKIDSTEENS25</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V-Malaysia SEPTEMBER 2025: <strong>VMYSEPT2025</strong><br><br>3. Bilgilerinizi doldurun.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Fiş e-posta adresinize gönderilir.<br><br>4. <strong>Ödemeye Devam Et</strong>'e tıklayın.<br><br>5. Kredi kartı bilgilerinizi girin <strong>ve Öde</strong>'ye tıklayın. Yeşil onay işareti görünene kadar işleme alınmasını bekleyin.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Bir kimlik doğrulama istemi açılırsa, lütfen gerekli adımları tamamlayın.<br><br>6. <strong>Ödeme Makbuzunuz</strong> görünecek ve e-posta adresinize bir onay gönderilecektir."
+    },
+    "question2": {
+      "title": "V-MALAYSIA 2025 Bilet Şartları ve Koşulları",
+      "answer": "Bileti satın alarak, siz ('Bilet Sahibi') burada belirtilen satış Şartları ve Koşullarına ve VShoppe ('Promoter') tarafından zaman zaman belirtilebilecek diğer hükümlere bağlı kalmayı kabul edersiniz. Promoter, temsilcileri veya çalışanları, mekanda iken meydana gelen herhangi bir ölüm, kişisel yaralanma (temsilcilerinin ve çalışanlarının ihmali dışında), kayıp veya hasardan sorumlu tutulamaz; ayrıca etkinliğin iptali veya ertelenmesi dahil ancak bunlarla sınırlı olmamak üzere herhangi bir nedenle herhangi bir şikayet, talep, geri ödeme veya değişimden sorumlu tutulamazlar. Rezervasyon ücretleri ve işlem ücretleri iade edilmez. Herhangi bir geri ödeme yalnızca Promoter’ın takdirine bağlı olarak yapılır.<br><br>Biletler aşağıdaki koşullara tabi olarak satılır:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Satış tamamlandıktan sonra, etkinliğin ertelenmesi veya iptali dışında hiçbir geri ödeme yapılmaz ve bu Promoter’ın takdirine tabidir. Kaybolan bilet/biletlerin yerine yenisi verilmez veya geri ödemesi yapılmaz.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Genel olarak, biletler devredilemez. Ancak, satın alma işlemi yanlışlıkla yapılmışsa, iyi niyetle yapıldığına inanılıyorsa, Promoter transfer hakkını saklı tutar. Bilet Sahibi, biletin müsaitliğine bağlı olarak bir sonraki tarafa transferini talep edebilir. Transfer sürecini başlatmak için Bilet Sahibi tarafından 50 ABD Doları tutarında ek bir idari ödeme yapılmalıdır. Tüm transfer talepleri <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> adresine gönderilmelidir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Biletlerin yıpranmış, sahte olduğu ve/veya VShoppe'tan veya resmi ve yetkili bir satış noktasından satın alınmadığı tespit edilirse giriş reddedilecektir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Promoter, uygunsuz davranışlarda bulunan herhangi bir kişiyi geri ödeme veya tazminat ödemeden kabul etmeme/tahliye etme hakkını saklı tutar.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Promoter, önceden haber vermeksizin sanatçı ekleyebilir, kaldırabilir veya değiştirebilir ve/veya ilan edilen programları, etkinlik saatlerini, oturma düzenlemelerini, izleyici kapasitesini değiştirebilir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Promoter, bilet sahibinin görüntüsünü veya benzerliğini herhangi bir canlı veya kayıtlı video gösteriminde, resimde, tanıtım materyalinde veya web sitesinde kullanabilir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Promoter, olumsuz hava koşulları, tehlikeli durumlar veya makul kontrolün ötesindeki diğer nedenlerden dolayı etkinliği erteleyebilir, iptal edebilir, kesintiye uğratabilir veya durdurabilir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Bilet Sahibi, silahlar, kontrollü, tehlikeli ve yasadışı maddeler dahil ancak bunlarla sınırlı olmamak üzere yasaklı maddeler için herhangi bir aramaya tabi olmayı kabul eder.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Bilet Sahibi, kişisel verilerinin Promoter’ın bilet satın alma ve etkinlik için sonraki işlemlerde gerekli gördüğü şekilde kullanılmasını kabul eder. Bunlar, kişisel verilerinizin söz konusu etkinlik için hükümet kurumları, finans kuruluşları ve tedarikçi tedarikçiler gibi yetkili üçüncü taraflara paylaşılmasını içerebilir, ancak bunlarla sınırlı değildir.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Bilet Sahibi, herhangi bir ölüm, kişisel yaralanma, kayıp, hasar veya sorumluluk dahil olmak üzere, gerçek etkinlikten önce, etkinlik sırasında veya etkinlikten sonra meydana gelen tüm riskleri ve tehlikeleri gönüllü olarak üstlenir. Tüm biletlerin satışı Malezya yasalarına tabi olacaktır ve siz Malezya Mahkemelerinin münhasır yargı yetkisine tabi olmayı kabul edersiniz.<br>"
+    },
+    "question3": {
+      "title": "Seyahat öncesi hangi hazırlıkları yapmalıyız?",
+      "answer": "a. Tüm katılımcılara, sigorta bedeli en az 10.000 ABD Doları olan Covid-19 teminatlı seyahat sigortası satın almaları önerilir.<br><br>b. Afrika ülkelerinden gelen katılımcıların, Malezya'ya gitmeden en az <strong>on dört (14)</strong> gün önce Sarı Humma Aşı Sertifikası (Yellow Fever Vaccination Certificates) başvurusunda bulunmaları gerekmektedir.<br><br>c. Vize başvurunuz için bir davet mektubuna ihtiyacınız varsa, lütfen talebinizi göndermek için formu doldurun: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Uçuş bilgilerinizi, kalkışınızı ve varışınızı kalkışınızdan en az iki (2) gün önce <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> adresine bildirin.<br><br>e. <strong>Malezya Dijital Varış Kartınızı</strong> hazırlayın: <strong>Lütfen Malezya Dijital Varış Kartındaki (MDAC)</strong> tüm gerekli bilgilerin kalkışınızdan <strong>üç (3) gün</strong> önce doldurulduğundan emin olun: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. İlaç ihtiyacı olan bir katılımcı, yalnızca doktorunun verdiği <strong>reçeteye</strong> göre kalış süresi boyunca yetecek kadar ilaç getirmelidir.<br><br>g. Gelen tüm yolcular, RMCD gişesinde bulunan Gümrük Formu No. 7'yi kullanarak gümrük vergisine tabi ve yasaklı malları ve 10.000 ABD Dolarını aşan para birimlerini veya parasal araçları beyan etmelidir. Formun RMCD muayene kontrol noktasında teslim edilmesi gerekir. Yanlış beyanlar veya beyan etmeme, Malezya yasalarına göre suçtur.<br>"
+    },
+    "question4": {
+      "title": "Seyahat Vizesi şartları nelerdir?",
+      "answer": "a. Lütfen pasaportunuzun seyahat tarihinden itibaren en az 6 ay GEÇERLİ olduğundan emin olun.<br><br>b. Pasaportunuzda en az 3 boş sayfa bulunmalıdır.<br><br>c. Bir kongreye katıldığınızı belirten bir Sosyal Vize başvurusunda bulunun.<br><br>d. Fon kanıtı: Varışınızda elinizde en az 1500 ABD doları nakit/banka hesap özeti hazırlanmalıdır.<br><br>e. Tüm katılımcıların otel rezervasyon onayına sahip olması gerekir.<br>"
+    },
+    "question5": {
+      "title": "Hangi seyahat belgelerini yanımda bulundurmam gerekiyor?",
+      "answer": "a. Dönüş uçak biletinizin basılı bir kopyası;<br><br>b. Malezya'daki konaklamanız boyunca Penang'daki konaklama yerinizin kanıtı olarak otel onayınızın basılı bir kopyası sağlanmalıdır;<br><br>c. Göçmenlik için hazır bulundurulan vizenin basılı bir kopyası;<br><br>d. Kayıt sırasında e-postanıza gönderilen davetiye ve/veya onay mektubunun basılı bir kopyası; ve<br><br>e. Afrika Ülkelerinden gelen katılımcılar için Malezya Göçmenlik Departmanı tarafından gerekli görülen ülkeler için Sarı Humma Aşı Sertifikası (Yellow Fever Vaccination Certificate) kanıtının basılı bir kopyası.<br><br>f. <strong>Malezya Dijital Varış Kartınızın (MDAC)</strong> bir kopyası.<br>"
+    },
+    "question6": {
+      "title": "V-MALAYSIA 2025 katılımcıları için kayıt ne zaman?",
+      "answer": "V-MALAYSIA JUNE 2025 Kaydı <strong>20 Haziran 2025</strong>'te yapılacaktır. Otelinize/konaklama yerinize yerleşmek için yeterli zamanınız olması için etkinliğin başlamasından en az 1-2 gün önce gelmenizi şiddetle tavsiye ederiz."
+    },
+    "question7": {
+      "title": "V-MALAYSIA 2025 katılımcıları için kayıt süreci nasıldır?",
+      "answer": "a. Kayıtta fiziksel olarak bulunmanız ve bilekliğinizi talep etmek için cep telefonunuza kaydedilmiş aşağıdakilerin bir kopyasını sunmanız GEREKİR:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Pasaport<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. QR Kodlu V-Malaysia 2025 e-bileti<br><br>b. Temsilcilik aracılığıyla bilekliklerin/biletlerin alınmasına İZİN VERİLMEZ.<br><br>c. Alındığı kabul edildikten sonra geri ödeme, yeni bilet veya bileklik verilmeyecektir. Kaybolma veya değiştirme durumlarında tekrar satın almanız gerekir.<br>"
+    },
+    "question8": {
+      "title": "İade ve transfer politikası nedir?",
+      "answer": "V-Malaysia 2025 biletleri kesinlikle iade edilemez ve devredilemez."
+    },
+    "question9": {
+      "title": "V-Malaysia 2025 için hazırlamam gereken başka hangi temel şeyler var?",
+      "answer": "a. Kendi yeniden kullanılabilir su şişelerinizi, mutfak aletlerinizi ve çantalarınızı getirin. V-Malaysia 2025 için Setia SPICE Arena tesislerinde tek kullanımlık plastik kesinlikle yasaktır.<br><br>b. Yiyecek, içecek, ulaşım, Limitless Store'dan V-Malaysia 2025 ürünleri, hediyelik eşyalar vb. için harcayacak kadar paranız olduğundan emin olun. Paranızın USD veya RM olduğundan emin olun.<br><br>c. Ülkenizden ayrılmadan önce banka kartınızı veya yerel banka kartınızı uluslararası işlemler için etkinleştirin. AMEX kartları satın alımlar için kabul edilmez.<br><br>d. 7 gün yetecek kıyafetlerinizi hazırlayın. Arena içindeki klima ekstra serin olabilir, bu nedenle kıyafetlerinizin üzerine kolayca giyebileceğiniz bir ceket veya şal getirin.<br>"
+    },
+    "question10": {
+      "title": "Etkinlik sırasında çeviri hizmetlerinden nasıl yararlanabilirim?",
+      "answer": "Etkinlik sırasında çeviri hizmetlerine ihtiyaç duyacak olanlar için, 20 Haziran 2025'teki Kayıt Günü'nde çeviri radyosu satışa sunulacaktır."
+    },
+    "question11": {
+      "title": "V-MALAYSIA 2025: V-KIDS VE V-TEENS YÖNERGELERİ",
+      "answer": "V-Kids ve V-Teens biletinizi satın almak için <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a>'a gidin ve şu kodu girin: <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**NOT: 1'den fazla bilet satın almak isterseniz lütfen <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a>adresine konu olarak<strong>VMY 2025 VKids VTeens Tickets - add your IR ID yazarak</strong> e-posta gönderin..</em><br><br>V-Kids & V-Teens biletlerinizi satın alırken:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Çocuğun veya Gencin Pasaportunu Hazırlayın<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•VShoppe'a doğru kodu girin.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Biletlerini başarıyla satın aldıktan sonra, doğrulama için kayıt günü makbuzunuzun bir kopyasını ve onay mektubunu getirdiğinizden emin olun.<br><br>Etkinlik Sırasında:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Kıyafet Kuralı</u>: 5 gün boyunca rahat kıyafetler giymenizi öneririz. Etkinlik alanı klimalı olduğundan ceket veya şal getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Atıştırmalıklar ve Öğle Yemeği</u>: Etkinlik sırasında hafif atıştırmalıklar ve besleyici öğle yemekleri sağlanacaktır. Çocuğunuzun herhangi bir özel diyet gereksinimi veya alerjisi varsa lütfen <strong>31 Mayıs 2025</strong>'e kadar bize e-posta gönderin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Varış ve Ayrılış</u>: Lütfen çocuğunuzun saat <strong>10:00'dan</strong> önce V-KIDS & V-TEENS alanına vardığından emin olun. V-Kids & V-Teens etkinliğinin saat <strong>18:00'de</strong> sona ermesi planlanıyor ve ebeveynlerin/vasilerin çocuklarını derhal almaları rica olunur.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Doğrulama</u>: Kayıt gününde makbuzunuzun bir kopyasını ve bu onay mektubunu getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Acil Durum İrtibat Kişisi</u>: Etkinlik sırasında herhangi bir acil durum veya acil iletişim olması durumunda lütfen <strong>Olivia</strong> ile <strong>+6012 550 2357</strong> numaralı telefondan iletişime geçin..<br><br>Herhangi bir sorunuz veya endişeniz varsa lütfen Olivia'ya <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> adresinden e-posta gönderin ve e-posta konusunu şu şekilde belirtin: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.<br>"
+    }
+  }
+  
+}
