@@ -2698,6 +2698,7 @@ function loadTranslations(lang) {
     .then(data => {
       translations[lang] = data;
       updateUI(); // Call this to update the UI with the loaded translations
+      console.log('2. Translations loaded for', newLang, ':', translations[lang]);
     })
     .catch(error => {
       console.error('Error loading translations for', lang, error);
@@ -2707,7 +2708,7 @@ function loadTranslations(lang) {
 function setLanguage(lang) {
   currentLanguage = lang;
   localStorage.setItem('currentLanguage', lang); // Optionally save the language in local storage
-
+  console.log('1. Attempting to switch language to:', lang);
   const htmlElement = document.documentElement;
   const body = document.body;
 
@@ -2740,6 +2741,7 @@ function updateUI() {
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
     const translation = t(key);
+    console.log('3. updateUI() called. currentLanguage is:', currentLanguage);
 
     if (element.getAttribute('data-i18n-type') === 'image') {
       element.src = translation;
@@ -2755,9 +2757,13 @@ function updateUI() {
       const ariaLabelKey = key.replace('aria-label', '').replace(/\.$/, '') + '_aria-label';
       element.setAttribute('aria-label', t(ariaLabelKey));
     }
+
+    updateSwiperImages();
+  console.log('4. updateSwiperImages() called from inside updateUI.');
+
   });
 
-  updateSwiperImages();
+  
 }
 
 // Load the default language on page load
