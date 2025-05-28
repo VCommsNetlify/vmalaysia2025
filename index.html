@@ -3398,51 +3398,73 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 
   const adSwiperWrapper = document.querySelector('.adSwiper .swiper-wrapper');
-  const mobileBreakpoint = 768; // Adjust as needed
+// Use the same breakpoint as in your updateUI function for consistency
+const mobileBreakpoint = 768; // Adjust as needed, ensure it matches any CSS breakpoints
 
-  function updateSwiperImages() {
-    if (window.innerWidth <= mobileBreakpoint) {
-      // Set mobile-specific image sources
-      const mobileImages = [
-        // 'assets/hero/01202025-ice-2025-day-4-persist-persevere-perform-by-dato-sri-vijay-eswaran32b0e726-2a48-4cac-9422-34ce98acc6c1.jpg', // Replace with your mobile image paths
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 vertical.webp',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 vertical.webp'
-      ];
+function updateSwiperImages() {
+  // Get the array of all slide data for the current language from JSON
+  const allSlideData = t('swiperAds.slides');
 
-      // Update the image sources in the Swiper slides
-      const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
-      slides.forEach((img, index) => {
-        if (mobileImages[index]) {
-          img.src = mobileImages[index];
-        }
-      });
-    } else {
-      // Revert to desktop image sources (if needed)
-      const desktopImages = [
-        // 'assets/hero/01202025-ice-2025-day-4-persist-persevere-perform-by-dato-sri-vijay-eswaran32b0e726-2a48-4cac-9422-34ce98acc6c1.jpg',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 2 horizontal.webp',
-        'assets/hero/05152025 VMY2025 JUNE microsite carousel ad 3 horizontal.webp'
-      ];
-
-      const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
-      slides.forEach((img, index) => {
-        if (desktopImages[index]) {
-          img.src = desktopImages[index];
-        }
-      });
-    }
-
-    // Re-initialize Swiper (important if the number of slides might change significantly)
-    if (window.swiper && window.swiper.adSwiper) {
-      window.swiper.adSwiper.update();
-    }
+  // Basic error handling in case the translation key isn't found or is not an array
+  if (!Array.isArray(allSlideData) || allSlideData.length === 0) {
+    console.warn("Translation key 'swiperAds.slides' not found or is empty for current language. Swiper images may not update.");
+    return;
   }
 
-  // Call on initial load
-  updateSwiperImages();
+  const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
 
-  // Call on window resize
-  window.addEventListener('resize', updateSwiperImages);
+  slides.forEach((imgElement, index) => {
+    const slideTranslation = allSlideData[index]; // Get the data for this specific slide
+
+    if (slideTranslation) { // Make sure a translation object exists for this slide index
+      let imagePath = slideTranslation.desktopSrc; // Default to desktop source
+
+      // Check if mobile source exists and screen is mobile
+      if (window.innerWidth <= mobileBreakpoint && slideTranslation.mobileSrc) {
+        imagePath = slideTranslation.mobileSrc;
+      } else if (!slideTranslation.desktopSrc) {
+        // Fallback if desktopSrc is missing for some reason (though it should be mandatory)
+        console.warn(`Missing desktopSrc for swiper slide index ${index} in ${currentLanguage}.json`);
+        imagePath = ''; // Or a placeholder image
+      }
+
+      // Update the image source
+      imgElement.src = imagePath;
+
+      // Update the alt text if available
+      if (slideTranslation.alt) {
+        imgElement.alt = slideTranslation.alt;
+      }
+    } else {
+      console.warn(`No translation data found for swiper slide index ${index} in ${currentLanguage}.json`);
+      // Optionally hide the slide or set a fallback image if no data exists for it
+      imgElement.src = ''; // Clear image
+      imgElement.alt = ''; // Clear alt
+    }
+  });
+
+  // Re-initialize Swiper (important if the number of slides might change significantly)
+  // Or just update if only content changes.
+  // The provided HTML seems to have a fixed number of slides, so update() is sufficient.
+  if (window.swiper && window.swiper.adSwiper) {
+    window.swiper.adSwiper.update();
+  }
+}
+
+// Call on initial load
+document.addEventListener('DOMContentLoaded', updateSwiperImages); // Ensure DOM is ready
+
+// Call on language change (important!)
+// Assuming you have a function or event that triggers language changes.
+// When you switch languages, ensure updateSwiperImages() is called.
+// Example:
+// languageSwitcher.addEventListener('change', updateSwiperImages);
+// Or if you have a general updateUI() that handles all translations,
+// then updateSwiperImages() should be called within or after that updateUI().
+// If updateUI already handles data-i18n, you might actually integrate this logic there.
+
+// Call on window resize
+window.addEventListener('resize', updateSwiperImages);
 
   // Initialize Swiper after the DOM is ready
   const swiper = new Swiper('.adSwiper', {
