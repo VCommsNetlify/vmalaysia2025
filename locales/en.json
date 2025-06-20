@@ -90,9 +90,13 @@
     "mainTitle": "EVENTS NEWS & UPDATES",
     "highlightTitle": "WATCH THE NEWEST HIGHLIGHTS AND MORE!",
     "videoSelectionParagraph": "This is an interactive video player! Select any video below and play it here.",
-    "featuredTitle": "Dato Sri Vijay Eswaran Invites You to V-Malaysia 2025 this June!",
-    "featuredDescription": "“We are one — and we can!” Dato Sri Vijay Eswaran shares the soul of V-Malaysia 2025, calling on everyone to rise together on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025",
+    "featuredTitle": "V2U Host, VC Swarna Krishnan, Invites You to V-Malaysia 2025 this June!",
+    "featuredDescription": "One of our V2U hosts, VC Swarna Krishnan, is inviting you to vibe with our global fam at V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025",
   "video": {
+    "6374620696112": {
+      "title": "V2U Host, VC Swarna Krishnan, Invites You to V-Malaysia 2025 this June!",
+      "description": "One of our V2U hosts, VC Swarna Krishnan, is inviting you to vibe with our global fam at V-Malaysia 2025, happening on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025"
+    },
     "6374565018112": {
       "title": "Dato Sri Vijay Eswaran Invites You to V-Malaysia 2025 this June!",
       "description": "“We are one — and we can!” Dato Sri Vijay Eswaran shares the soul of V-Malaysia 2025, calling on everyone to rise together on 21 to 25 June at the Setia SPICE Arena in Penang, Malaysia. Watch the full video here! Grab your tickets today on VShoppe and use the code: VMYJun2025"
@@ -157,12 +161,17 @@
     }
   },
     "featuredArticle": {
-      "subtitle": "The Official #VMalaysia2025 Microsite is Now Here!",
-      "content": "Your one-stop-shop for everything you need for #VMalaysia2025 is now ready for you.",
+      "subtitle": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
+      "content": "It’s time to rise as one family!",
       "readMore": "READ MORE"
     },
     "articles": {
       "latestNewsTitle": "READ THE LATEST NEWS!",
+      "article4": {
+        "title": "The Official #VMalaysia2025 Microsite is Now Here!",
+        "content": "Your one-stop-shop for everything you need for #VMalaysia2025 is now ready for you.",
+        "readMore": "READ MORE"
+      },
       "article1": {
         "title": "Together We Rise this 21-25 June at V-MALAYSIA 2025!",
         "content": "Are you ready to experience the most unbelievable event from The V family?",

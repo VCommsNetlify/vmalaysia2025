@@ -91,9 +91,13 @@
     "mainTitle": "Actualités et mises à jour des événements",
     "highlightTitle": "Regardez les derniers temps forts et plus encore !",
     "videoSelectionParagraph": "Il s'agit d'un lecteur vidéo interactif ! Sélectionnez une vidéo ci-dessous et regardez-la ici.",
-    "featuredTitle": "Dato Sri Vijay Eswaran vous invite au V-Malaysia 2025 ce mois de juin !",
-    "featuredDescription": "« Nous sommes un — et nous le pouvons ! » Dato Sri Vijay Eswaran partage l'esprit du V-Malaysia 2025, en appelant tout le monde à s'élever ensemble du 21 au 25 juin au Setia SPICE Arena de Penang, en Malaisie. Regardez la vidéo complète ici ! Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code : VMYJun2025",
+    "featuredTitle": "La présentatrice V2U, VC Swarna Krishnan, vous invite à la V-Malaysia 2025 en juin!",
+    "featuredDescription": "L'un de nos hôtes V2U, VC Swarna Krishnan, vous invite à venir vibrer avec notre famille internationale lors du V-Malaysia 2025, qui se tiendra du 21 au 25 juin à la Setia SPICE Arena de Penang, en Malaisie. Regardez la vidéo complète ici ! Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code : VMYJun2025",
   "video": {
+    "6374620696112": {
+      "title": "La présentatrice V2U, VC Swarna Krishnan, vous invite à la V-Malaysia 2025 en juin!",
+      "description": "L'un de nos hôtes V2U, VC Swarna Krishnan, vous invite à venir vibrer avec notre famille internationale lors du V-Malaysia 2025, qui se tiendra du 21 au 25 juin à la Setia SPICE Arena de Penang, en Malaisie. Regardez la vidéo complète ici ! Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code : VMYJun2025"
+    },
     "6374565018112": {
       "title": "Dato Sri Vijay Eswaran vous invite au V-Malaysia 2025 ce mois de juin !",
       "description": "« Nous sommes un — et nous le pouvons ! » Dato Sri Vijay Eswaran partage l'esprit du V-Malaysia 2025, en appelant tout le monde à s'élever ensemble du 21 au 25 juin au Setia SPICE Arena de Penang, en Malaisie. Regardez la vidéo complète ici ! Achetez vos billets dès aujourd'hui sur VShoppe et utilisez le code : VMYJun2025"
@@ -161,12 +165,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "Le microsite officiel de la #VMalaysia2025 est désormais disponible !",
-      "content": "Votre guichet unique pour tout ce dont vous avez besoin pour la #VMalaysia2025 est maintenant prêt pour vous.",
+      "subtitle": "#VMALAYSIA2025 Journée d'inscription : NOUS SOMMES À LA MAISON !",
+      "content": "Il est temps de se lever comme une seule famille !",
       "readMore": "Lisez plus"
     },
     "articles": {
       "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article4": {
+        "title": "Le microsite officiel de la #VMalaysia2025 est désormais disponible !",
+        "content": "Votre guichet unique pour tout ce dont vous avez besoin pour la #VMalaysia2025 est maintenant prêt pour vous.",
+        "readMore": "Lisez plus"
+      },
       "article1": {
         "title": "Ensemble, nous nous éleverons du 21 au 25 juin au V-MALAYSIA 2025 !",
         "content": "Êtes-vous prêt à vivre l'événement le plus incroyable de la famille The V ?",
