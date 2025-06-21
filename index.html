@@ -2815,39 +2815,7 @@ body.rtl .arrow-left {
     <script>
 
       // Function to change the hero image based on language code
-function setHeroImage(languageCode) {
-  console.log('setHeroImage function called with languageCode:', languageCode); // LOG 1
-  const heroImage = document.getElementById('hero-image');
 
-  if (heroImage) {
-    console.log('heroImage element found:', heroImage); // LOG 2
-
-    // Construct the image path based on the language code
-    heroImage.src = `assets/hero/copy-eventproper_${languageCode}.webp`;
-    console.log('New image src set to:', heroImage.src); // LOG 3
-
-    // Optional: Update the alt text for accessibility based on language
-    if (languageCode === 'en') {
-      heroImage.alt = "V Malaysia Logo with copy in English";
-    } else if (languageCode === 'ar') {
-      heroImage.alt = "شعار في ماليزيا مع نص باللغة العربية"; 
-    } else if (languageCode === 'fr') {
-      heroImage.alt = "V Malaysia Logo with copy in French"; 
-    } else if (languageCode === 'ru') {
-      heroImage.alt = "V Malaysia Logo with copy in Russian"; 
-    } else if (languageCode === 'tr') {
-      heroImage.alt = "V Malaysia Logo with copy in Turkish"; 
-    } else if (languageCode === 'id') {
-      heroImage.alt = "V Malaysia Logo with copy in Bahasa Indonesia"; 
-    }
-  } else {
-    console.error('ERROR: heroImage element with ID "hero-image" not found!'); // LOG 4
-  }
-}
-
-const initialLanguage = 'en'; // Ensure this matches a language you have an image for
-console.log('Calling setHeroImage on initial load with:', initialLanguage); // LOG 5
-setHeroImage(initialLanguage);
 
 
 
@@ -2908,14 +2876,7 @@ function updateSwiperImages() {
 // Call on initial load
 document.addEventListener('DOMContentLoaded', updateSwiperImages); // Ensure DOM is ready
 
-// Call on language change (important!)
-// Assuming you have a function or event that triggers language changes.
-// When you switch languages, ensure updateSwiperImages() is called.
-// Example:
-// languageSwitcher.addEventListener('change', updateSwiperImages);
-// Or if you have a general updateUI() that handles all translations,
-// then updateSwiperImages() should be called within or after that updateUI().
-// If updateUI already handles data-i18n, you might actually integrate this logic there.
+
 
 // Call on window resize
 window.addEventListener('resize', updateSwiperImages);
@@ -2994,11 +2955,44 @@ function updateUI() {
   });
 }
 
+function setHeroImage(languageCode) {
+  console.log('setHeroImage function called with languageCode:', languageCode); // LOG 1
+  const heroImage = document.getElementById('hero-image');
+
+  if (heroImage) {
+    console.log('heroImage element found:', heroImage); // LOG 2
+
+    // Construct the image path based on the language code
+    heroImage.src = `assets/hero/copy-eventproper_${languageCode}.webp`;
+    console.log('New image src set to:', heroImage.src); // LOG 3
+
+    // Optional: Update the alt text for accessibility based on language
+    if (languageCode === 'en') {
+      heroImage.alt = "V Malaysia Logo with copy in English";
+    } else if (languageCode === 'ar') {
+      heroImage.alt = "شعار في ماليزيا مع نص باللغة العربية"; 
+    } else if (languageCode === 'fr') {
+      heroImage.alt = "V Malaysia Logo with copy in French"; 
+    } else if (languageCode === 'ru') {
+      heroImage.alt = "V Malaysia Logo with copy in Russian"; 
+    } else if (languageCode === 'tr') {
+      heroImage.alt = "V Malaysia Logo with copy in Turkish"; 
+    } else if (languageCode === 'id') {
+      heroImage.alt = "V Malaysia Logo with copy in Bahasa Indonesia"; 
+    }
+  } else {
+    console.error('ERROR: heroImage element with ID "hero-image" not found!'); // LOG 4
+  }
+}
+
+
+
 // Load the default language on page load
 document.addEventListener('DOMContentLoaded', () => {
   const storedLanguage = localStorage.getItem('currentLanguage');
   const initialLanguage = storedLanguage || 'en'; // Default to 'en' if no stored language
   setLanguage(initialLanguage);
+  setHeroImage(initialLanguage);
 });
 	
 	// <!-- END LANGUAGE -->
