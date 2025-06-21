@@ -2893,6 +2893,7 @@ function loadTranslations(lang) {
     .then(data => {
       translations[lang] = data;
       updateUI(); // Call this to update the UI with the loaded translations
+      setHeroImage(lang); // Update hero image based on language
     })
     .catch(error => {
       console.error('Error loading translations for', lang, error);
