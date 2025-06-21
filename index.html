@@ -23,7 +23,7 @@ html, body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: #f8f8f8;
-  background-image: url('assets/first-fold/background-firstfoldprev.jpg');
+  background-image: url('assets/hero/background-eventproper.webp');
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
@@ -1342,6 +1342,48 @@ body.rtl .arrow-left {
   <div class="hero-gradient absolute inset-0 bg-black bg-opacity-30 z-0"></div>
 
   <div class="container mx-auto px-4 flex flex-col items-center justify-center z-10 relative">
+
+    <img class="mx-auto 
+                w-64      /* Start larger on small screens */
+                sm:w-80   /* Larger on sm */
+                md:w-96   /* Even larger on md */
+                lg:w-[40rem] /* Custom size for large screens (640px) */
+                xl:w-[50rem] /* Custom size for extra large screens (800px) */
+                2xl:w-[60rem] /* Custom size for 2xl screens (960px) */
+                mb-6"
+         src="assets/hero/copy-eventproper.webp"
+         alt="V Malaysia Logo with copy">
+
+    <div class="bg-[#904000] bg-opacity-70 rounded-lg p-6 mt-8 max-w-2xl mx-auto z-20">
+        <p class="text-white text-lg sm:text-xl md:text-2xl font-bold mb-2" data-i18n="share_moments_hashtag">
+            Share your <span class="text-yellow-400">#VMalaysia2025</span> moments with us!
+        </p>
+        <p class="text-white text-base sm:text-lg mb-4" data-i18n="post_tag_channels">
+            Post your photos or videos and tag our official channels.
+        </p>
+        <div class="flex justify-center space-x-6">
+            <a href="https://www.facebook.com/thevofficial" target="_blank" rel="noopener noreferrer" class="flex items-center text-white hover:text-blue-500 transition-colors duration-300">
+                <svg class="w-8 h-8 sm:w-10 sm:h-10 fill-current" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 223.71 0c-73.66 0-121.03 44.37-121.03 124.7v70.62H22.89V288h88.83v224h92.09V288z"></path>
+                </svg>
+                <span class="ml-2 text-lg sm:text-xl md:text-2xl" data-i18n="facebook_handle">@thevofficial</span>
+            </a>
+            <a href="https://www.instagram.com/thev_official" target="_blank" rel="noopener noreferrer" class="flex items-center text-white hover:text-pink-500 transition-colors duration-300">
+                <svg class="w-8 h-8 sm:w-10 sm:h-10 fill-current" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="currentColor" d="M224.1 127.1c68.3-27.5 130.4 7.2 150.8 68.7 8.2 24.3 6.9 48.7 5.7 74.3 1.1 26.6 2.3 53.2-5.7 77.5-20.4 61.5-82.5 96.2-150.8 68.7-68.3-27.5-130.4-7.2-150.8-68.7-8.2-24.3-6.9-48.7-5.7-74.3-1.1-26.6-2.3-53.2 5.7-77.5 20.4-61.5 82.5-96.2 150.8-68.7zM224 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144zM224 64c-88.3 0-160 71.7-160 160s71.7 160 160 160 160-71.7 160-160-71.7-160-160-160zM352 144a32 32 0 1 0 0-64 32 32 0 0 0 0 64z"></path>
+                </svg>
+                <span class="ml-2 text-lg sm:text-xl md:text-2xl" data-i18n="instagram_handle">@thev_official</span>
+            </a>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- <section class="relative flex flex-col justify-center items-center text-white text-center pt-12 sm:pt-16 md:pt-24 pb-8 sm:pb-10 md:pb-12 min-h-[80vh] md:min-h-screen" id="home">
+  <div class="hero-gradient absolute inset-0 bg-black bg-opacity-30 z-0"></div>
+
+  <div class="container mx-auto px-4 flex flex-col items-center justify-center z-10 relative">
     <img class="mx-auto w-40 sm:w-52 md:w-64 lg:w-80 mb-6"
          src="assets/header/vmy_logo.webp"
          alt="V Malaysia Logo">
@@ -1390,9 +1432,7 @@ body.rtl .arrow-left {
     </div>
     </div>
   </div>
-</section>
-
-
+</section> -->
 
 
 

@@ -40,8 +40,14 @@
     "headline_part4": "!",
     "paragraph1": "<em>Ketika kita bersatu, perjalanan kita menjadi tak terbatas.</em>",
     "paragraph2": "<br>Bergabunglah dengan kami dalam V-MALAYSIA 2025 di bulan Juni ini, di saat kita berkumpul bersama untuk memenuhi visi RYTHM dan bangkit melampaui batas.",
-    "cta_button": "Dapatkan tiket Anda di VShoppe."
+    "cta_button": "Dapatkan tiket Anda di VShoppe.",
+     "welcome_home": "WELCOME HOME",
+    "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
+  "share_moments_hashtag": "Share your <span class=\"text-yellow-400\">#VMalaysia2025</span> moments with us!",
+  "post_tag_channels": "Post your photos or videos and tag our official channels.",
+  "facebook_handle": "@thevofficial",
+  "instagram_handle": "@thev_official",
   "greatest_stories_headline": "Kisah-kisah Hebat dari V-Malaysia 2025",
   "story1": {
     "title": "Episode 1: The V-Convention"
