@@ -1351,8 +1351,7 @@ body.rtl .arrow-left {
                 xl:w-[50rem] /* Custom size for extra large screens (800px) */
                 2xl:w-[60rem] /* Custom size for 2xl screens (960px) */
                 mb-6"
-         src="assets/hero/copy-eventproper.webp"
-         alt="V Malaysia Logo with copy">
+         id="hero-image" src="assets/hero/copy-eventproper_en.webp" alt="V Malaysia Logo with copy">
 
     <div class="bg-[#904000] bg-opacity-70 rounded-lg p-6 mt-8 max-w-2xl mx-auto z-20">
         <p class="text-white text-lg sm:text-xl md:text-2xl font-bold mb-2" data-i18n="share_moments_hashtag">
@@ -2815,6 +2814,34 @@ body.rtl .arrow-left {
 
     <script>
 
+      // Function to change the hero image based on language code
+function setHeroImage(languageCode) {
+  const heroImage = document.getElementById('hero-image');
+  if (heroImage) {
+
+    heroImage.src = `assets/hero/copy-eventproper_${languageCode}.webp`;
+    
+    // Optional: Update the alt text for accessibility based on language
+    if (languageCode === 'en') {
+      heroImage.alt = "V Malaysia Logo with copy in English";
+    } else if (languageCode === 'ar') {
+      heroImage.alt = "شعار في ماليزيا مع نص باللغة العربية"; 
+    } else if (languageCode === 'fr') {
+      heroImage.alt = "V Malaysia Logo with copy in French"; 
+    } else if (languageCode === 'ru') {
+      heroImage.alt = "V Malaysia Logo with copy in Russian"; 
+    } else if (languageCode === 'tr') {
+      heroImage.alt = "V Malaysia Logo with copy in Turkish"; 
+    } else if (languageCode === 'id') {
+      heroImage.alt = "V Malaysia Logo with copy in Bahasa Indonesia"; 
+    }
+    // Add more else if blocks for other languages
+  }
+}
+const initialLanguage = 'en';
+setHeroImage(initialLanguage);
+
+
       const adSwiperWrapper = document.querySelector('.adSwiper .swiper-wrapper');
 // Use the same breakpoint as in your updateUI function for consistency
 const mobileBreakpoint = 768; // Adjust as needed, ensure it matches any CSS breakpoints
@@ -3840,6 +3867,8 @@ const articleSwiper = new Swiper('.article-swiper', {
 
   updateCountdown();
   setInterval(updateCountdown, 1000);
+
+  
 
 
 </script>
