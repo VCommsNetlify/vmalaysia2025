@@ -3851,32 +3851,32 @@ const articleSwiper = new Swiper('.article-swiper', {
   }
 
   // Countdown
-  const targetDate = new Date('June 21, 2025 09:00:00').getTime();
+  // const targetDate = new Date('June 21, 2025 09:00:00').getTime();
 
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const distance = targetDate - now;
+  // function updateCountdown() {
+  //   const now = new Date().getTime();
+  //   const distance = targetDate - now;
 
-    const updateText = (id, val) => document.getElementById(id).textContent = String(val).padStart(2, "0");
+  //   const updateText = (id, val) => document.getElementById(id).textContent = String(val).padStart(2, "0");
 
-    if (distance <= 0) {
-      ["days", "hours", "minutes", "seconds"].forEach(id => updateText(id, 0));
-      return;
-    }
+  //   if (distance <= 0) {
+  //     ["days", "hours", "minutes", "seconds"].forEach(id => updateText(id, 0));
+  //     return;
+  //   }
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  //   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  //   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  //   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  //   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    updateText("days", days);
-    updateText("hours", hours);
-    updateText("minutes", minutes);
-    updateText("seconds", seconds);
-  }
+  //   updateText("days", days);
+  //   updateText("hours", hours);
+  //   updateText("minutes", minutes);
+  //   updateText("seconds", seconds);
+  // }
 
-  updateCountdown();
-  setInterval(updateCountdown, 1000);
+  // updateCountdown();
+  // setInterval(updateCountdown, 1000);
 
   
 
