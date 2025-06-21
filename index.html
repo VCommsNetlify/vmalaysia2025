@@ -2816,11 +2816,16 @@ body.rtl .arrow-left {
 
       // Function to change the hero image based on language code
 function setHeroImage(languageCode) {
+  console.log('setHeroImage function called with languageCode:', languageCode); // LOG 1
   const heroImage = document.getElementById('hero-image');
-  if (heroImage) {
 
+  if (heroImage) {
+    console.log('heroImage element found:', heroImage); // LOG 2
+
+    // Construct the image path based on the language code
     heroImage.src = `assets/hero/copy-eventproper_${languageCode}.webp`;
-    
+    console.log('New image src set to:', heroImage.src); // LOG 3
+
     // Optional: Update the alt text for accessibility based on language
     if (languageCode === 'en') {
       heroImage.alt = "V Malaysia Logo with copy in English";
@@ -2835,11 +2840,15 @@ function setHeroImage(languageCode) {
     } else if (languageCode === 'id') {
       heroImage.alt = "V Malaysia Logo with copy in Bahasa Indonesia"; 
     }
-    // Add more else if blocks for other languages
+  } else {
+    console.error('ERROR: heroImage element with ID "hero-image" not found!'); // LOG 4
   }
 }
-const initialLanguage = 'en';
+
+const initialLanguage = 'en'; // Ensure this matches a language you have an image for
+console.log('Calling setHeroImage on initial load with:', initialLanguage); // LOG 5
 setHeroImage(initialLanguage);
+
 
 
       const adSwiperWrapper = document.querySelector('.adSwiper .swiper-wrapper');
@@ -2945,6 +2954,7 @@ function setLanguage(lang) {
   } else {
     updateUI();
     updateSwiperImages();
+    setHeroImage(lang); // Update hero image based on language
   }
 }
 
