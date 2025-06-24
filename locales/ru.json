@@ -96,9 +96,13 @@
     "mainTitle": "События Новости и Обновления",
     "highlightTitle": "Смотрите самые новые яркие моменты и многое другое!",
     "videoSelectionParagraph": "Это интерактивный видеоплеер! Выберите любое видео ниже и воспроизведите его здесь.",
-    "featuredTitle": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!",
+    "featuredTitle": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+    "featuredDescription": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!",
   "video": {
+    "6374760384112": {
+      "title": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+      "description": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!"
+    },
     "6374734759112": {
       "title": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
       "description": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!"
@@ -198,12 +202,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 День регистрации: МЫ ДОМА!",
-      "content": "Пришло время подняться как одна семья!",
+      "subtitle": "#VMALAYSIA2025 DAY 1: Together We Rise as One!",
+      "content": "Today, we begin our rise!",
       "readMore": "Читать далее"
     },
     "articles": {
       "latestNewsTitle": "Читайте последние новости!",
+      "article5": {
+        "title": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
+        "content": "It’s time to rise as one family!",
+        "readMore": "Читать далее"
+      },
       "article4": {
         "title": "Официальный микросайт #VMalaysia2025 уже здесь!",
         "content": "Ваш универсальный ресурс для всего, что вам нужно для #VMalaysia2025, теперь готов для вас.",

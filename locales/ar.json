@@ -96,9 +96,13 @@
     "mainTitle": "أخبار وتحديثات الفعالية",
     "highlightTitle": "شاهدوا أحدث وأبرز الأحداث والمزيد!",
     "videoSelectionParagraph": "هذا مشغل فيديو تفاعلي! اختاروا أي فيديو أدناه وشغّلوه هنا.",
-    "featuredTitle": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!",
+    "featuredTitle": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+    "featuredDescription": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!",
   "video": {
+    "6374760384112": {
+      "title": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+      "description": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!"
+    },
     "6374734759112": {
       "title": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
       "description": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!"
@@ -198,12 +202,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 يوم التسجيل: نحن عدنا للديار!",
-      "content": "لقد حان الوقت لكي ننهض كعائلة!",
+      "subtitle": "#VMALAYSIA2025 DAY 1: Together We Rise as One!",
+      "content": "Today, we begin our rise!",
       "readMore": "اقرأ المزيد"
     },
     "articles": {
       "latestNewsTitle": "اقرأوا آخر الأخبار!",
+      "article5": {
+        "title": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
+        "content": "It’s time to rise as one family!",
+        "readMore": "اقرأ المزيد"
+      },
       "article4": {
         "title": "الموقع الرسمي المصغر لـ #VMalaysia2025 متاح هنا الآن!",
         "content": "متجركم الشامل لكل ما تحتاجونه لـ #VMalaysia2025 جاهز الآن لكم.",

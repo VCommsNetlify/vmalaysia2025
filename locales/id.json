@@ -97,9 +97,13 @@
     "mainTitle": "Berita & Informasi Acara",
     "highlightTitle": "Saksikan sorotan terbaru dan masih banyak lagi!",
     "videoSelectionParagraph": "Ini adalah pemutar video interaktif! Pilih video di bawah berikut dan putar di sini.",
-    "featuredTitle": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!",
+    "featuredTitle": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+    "featuredDescription": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!",
   "video": {
+    "6374760384112": {
+      "title": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
+      "description": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!"
+    },
     "6374734759112": {
       "title": "V-Malaysia 2025 Day 1: Take the Future into Your Hands by Dato Sri Vijay Eswaran",
       "description": "“There is only one way to control your future: close your hands and put them to work.” Watch Dato Sri Vijay Eswaran at V-Malaysia 2025 Day 1!"
@@ -199,12 +203,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "Hari Pendaftaran #VMALAYSIA2025: KAMI KEMBALI!",
-      "content": "Saatnya bangkit menjadi satu keluarga!",
+      "subtitle": "#VMALAYSIA2025 DAY 1: Together We Rise as One!",
+      "content": "Today, we begin our rise!",
       "readMore": "Baca selengkapnya"
     },
     "articles": {
       "latestNewsTitle": "Baca berita terbaru!",
+      "article5": {
+        "title": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
+        "content": "It’s time to rise as one family!",
+        "readMore": "Baca selengkapnya"
+      },
       "article4": {
         "title": "Microsite resmi #VMalaysia2025 Kini Telah Hadir!",
         "content": "Pusat informasi lengkap untuk semua yang Anda butuhkan untuk #VMalaysia2025 kini telah hadir untuk anda.",
