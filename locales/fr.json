@@ -203,12 +203,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 DAY 1: Together We Rise as One!",
-      "content": "Today, we begin our rise!",
+      "subtitle": "#VMALAYSIA2025 JOUR 2 : Ensemble, nous avons trouvé le rêve!",
+      "content": "Nous sommes devenus de véritables rêveurs !",
       "readMore": "Lisez plus"
     },
     "articles": {
       "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article6": {
+        "title": "#VMALAYSIA2025 JOUR 1 : Ensemble, nous nous élevons comme un seul homme !",
+        "content": "Aujourd'hui, nous commençons notre ascension!",
+        "readMore": "READ MORE"
+      },
       "article5": {
         "title": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
         "content": "It’s time to rise as one family!",

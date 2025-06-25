@@ -203,12 +203,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 DAY 1: Together We Rise as One!",
-      "content": "Today, we begin our rise!",
+      "subtitle": "#VMALAYSIA2025 HARI KE-2: Bersama Kita Temukan Impian!",
+      "content": "Kita berubah menjadi pemimpi sejati!",
       "readMore": "Baca selengkapnya"
     },
     "articles": {
       "latestNewsTitle": "Baca berita terbaru!",
+      "article6": {
+        "title": "#VMALAYSIA2025 HARI KE-1: Bersama Kita Bangkit Menjadi Satu!",
+        "content": "Hari ini, kita mulai bangkit!",
+        "readMore": "READ MORE"
+      },
       "article5": {
         "title": "#VMALAYSIA2025 Registration Day: WE ARE HOME!",
         "content": "It’s time to rise as one family!",
