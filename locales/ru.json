@@ -218,12 +218,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 ДЕНЬ 2: Вместе мы нашли мечту!",
-      "content": " Мы превратились в настоящих мечтателей!",
+      "subtitle": "#VMALAYSIA2025 Congratulations To Our Newly Appointed V Ambassadors",
+      "content": "Lead our rise to greater heights!",
       "readMore": "Читать далее"
     },
     "articles": {
       "latestNewsTitle": "Читайте последние новости!",
+      "article7": {
+        "title": "#VMALAYSIA2025 DAY 2: Together We Found The Dream!",
+        "content": "We transformed into true dreamers!",
+        "readMore": "READ MORE"
+      },
       "article6": {
         "title": "#VMALAYSIA2025 ДЕНЬ 1: Вместе мы поднимемся как одно целое!",
         "content": "Сегодня мы начинаем наше восхождение!",

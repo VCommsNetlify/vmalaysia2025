@@ -219,12 +219,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 JOUR 2 : Ensemble, nous avons trouvé le rêve!",
-      "content": "Nous sommes devenus de véritables rêveurs !",
+      "subtitle": "#VMALAYSIA2025 Congratulations To Our Newly Appointed V Ambassadors",
+      "content": "Lead our rise to greater heights!",
       "readMore": "Lisez plus"
     },
     "articles": {
       "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article7": {
+        "title": "#VMALAYSIA2025 DAY 2: Together We Found The Dream!",
+        "content": "We transformed into true dreamers!",
+        "readMore": "READ MORE"
+      },
       "article6": {
         "title": "#VMALAYSIA2025 JOUR 1 : Ensemble, nous nous élevons comme un seul homme !",
         "content": "Aujourd'hui, nous commençons notre ascension!",

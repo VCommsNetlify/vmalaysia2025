@@ -218,12 +218,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 اليوم الثاني: معًا لقد وجدنا الحلم!",
-      "content": "لقد تحولنا إلى حالمين حقيقيين!",
+      "subtitle": "#VMALAYSIA2025 Congratulations To Our Newly Appointed V Ambassadors",
+      "content": "Lead our rise to greater heights!",
       "readMore": "اقرأ المزيد"
     },
     "articles": {
       "latestNewsTitle": "اقرأوا آخر الأخبار!",
+      "article7": {
+        "title": "#VMALAYSIA2025 DAY 2: Together We Found The Dream!",
+        "content": "We transformed into true dreamers!",
+        "readMore": "READ MORE"
+      },
       "article6": {
         "title": "#VMALAYSIA2025 اليوم الأول: ننهض معًا كأننا واحد!",
         "content": "اليوم نبدأ نهوضنا!",
