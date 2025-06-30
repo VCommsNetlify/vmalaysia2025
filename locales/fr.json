@@ -97,9 +97,17 @@
     "mainTitle": "Actualités et mises à jour des événements",
     "highlightTitle": "Regardez les derniers temps forts et plus encore !",
     "videoSelectionParagraph": "Il s'agit d'un lecteur vidéo interactif ! Sélectionnez une vidéo ci-dessous et regardez-la ici.",
-    "featuredTitle": "V-Malaysia June 2025 Day 2: Urgency Distracts, Importance Transforms by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“If you start the day with one act of discipline, your whole life changes.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 2!",
+    "featuredTitle": "V-Malaysia June 2025 Day 3: The Journey of Lifelong Learning by Dato Sri Vijay Eswaran",
+    "featuredDescription": "“This is the university of life. The only graduation point is when you can utilise the skills you acquired.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!",
   "video": {
+    "6375052233112": {
+      "title": "V-Malaysia June 2025 Day 3: The Journey of Lifelong Learning by Dato Sri Vijay Eswaran",
+      "description": "“This is the university of life. The only graduation point is when you can utilise the skills you acquired.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!"
+    },
+    "6375049397112": {
+      "title": "V-Malaysia June 2025 Day 3: The Purpose Behind Every Sacrifice by Dato Sri Vijay Eswaran",
+      "description": "“How badly do you want to be successful?” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!"
+    },
     "6375029334112": {
       "title": "V-Malaysia 2025 June Day 4: The Power of Making a Choice by Chief Pathman Senathirajah",
       "description": "“Between birth and death is called life — and that life belongs to you.” Watch Chief Pathman Senathirajah at V-Malaysia June 2025 Day 4!"
@@ -137,12 +145,16 @@
       "description": "“It’s okay when people don’t believe in what you believe in. But it should not reduce your belief.” Watch Chief Pathman Senathirajah at V-Malaysia June 2025 Day 3!"
     },
     "6374823571112": {
-      "title": "#VMALAYSIA2025 Day 3 Highlights: Decide to Rise",
-      "description": "Have you already made the decision to RISE? Join V2U host Hanen as she goes over the highlights of V-Malaysia June 2025 Day 3! Watch now!"
+      "title": "#VMALAYSIA2025 Temps forts du troisième jour : Décidez de vous élever",
+      "description": "Avez-vous déjà pris la décision de vous ÉLEVER ? Rejoignez Hanen, présentatrice de V2U, qui passe en revue les temps forts du troisième jour du V-Malaysia juin 2025 ! Regardez maintenant!"
     },
     "6374760384112": {
-      "title": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
-      "description": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!"
+      "title": "#VMALAYSIA2025 Points forts du jour 2 : Nos rêves incroyables",
+      "description": "Rejoignez le présentateur de V2U, AVP Marwan Talodi, qui revient sur les idées révolutionnaires des fondateurs Dato Sri Vijay Eswaran et Joseph « Japadas » Bismark, ainsi que de nos extraordinaires V Partners, qui ont permis à chaque participant de découvrir son véritable rêve!"
+    },
+    "6374742056112":{
+      "title": "V-Malaysia 2025 Day 1: Chasing the Dream de Chief Pathman Senathirajah ",
+      "description": "« Votre rêve est-il assez grand pour vous permettre de continuer ? » Regardez Chief Pathman Senathirajah lors du premier jour du V-Malaysia 2025 !"
     },
     "6374734759112": {
       "title": "V-Malaysia 2025 Day 1: Prenez votre avenir en main de Dato Sri Vijay Eswaran",
@@ -161,8 +173,8 @@
       "description": "« Il y a quelque chose que vous faites qui doit être corrigé, amélioré, renforcé et optimisé. » Regardez Dato Sri Vijay Eswaran lors du premier jour du V-Malaysia 2025!"
     },
     "6374703808112": {
-      "title": "#VMALAYSIA2025 Day 1 Highlights: We Begin Our Greatest Journey!",
-      "description": "Thousands of dreamers began their greatest journey with the most unbelievable welcome from V-Malaysia 2025! Join V2U host VC Swarna Krishnan as she gives a recap on how our Founders, Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our incredible V Partners, officially commenced our greatest event yet!"
+      "title": "#VMALAYSIA2025 Temps forts du jour 1 : nous entamons notre plus grand voyage! ",
+      "description": "Des milliers de rêveurs ont commencé leur plus grand voyage avec l'accueil incroyable de V-Malaysia 2025 ! Rejoignez l'animatrice de V2U, VC Swarna Krishnan, qui vous résume comment nos fondateurs, Dato Sri Vijay Eswaran et Joseph « Japadas » Bismark, ainsi que nos incroyables partenaires V, ont officiellement lancé notre plus grand événement à ce jour!"
     },
     "6374658242112": {
       "title": "Les présentatrices V2U Anna & Anna vous invitent à la V-Malaysia 2025 en juin!",
@@ -243,12 +255,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 DAY 3: Together We Decide Our Destiny",
-      "content": "Have you made your decision?",
+      "subtitle": "#VMALAYSIA2025 JOUR 4 : Ensemble, nous relevons les défis !",
+      "content": "Nous avons le pouvoir de relever tous les défis!",
       "readMore": "Lisez plus"
     },
     "articles": {
       "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article9": {
+        "title": "#VMALAYSIA2025 DAY 3: Together We Decide Our Destiny",
+        "content": "Have you made your decision?",
+        "readMore": "READ MORE"
+      },
       "article8": {
         "title": "#VMALAYSIA2025 Congratulations To Our Newly Appointed V Ambassadors",
         "content": "Lead our rise to greater heights!",

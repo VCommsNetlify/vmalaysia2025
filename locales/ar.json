@@ -96,9 +96,17 @@
     "mainTitle": "أخبار وتحديثات الفعالية",
     "highlightTitle": "شاهدوا أحدث وأبرز الأحداث والمزيد!",
     "videoSelectionParagraph": "هذا مشغل فيديو تفاعلي! اختاروا أي فيديو أدناه وشغّلوه هنا.",
-    "featuredTitle": "V-Malaysia June 2025 Day 2: Urgency Distracts, Importance Transforms by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“If you start the day with one act of discipline, your whole life changes.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 2!",
+    "featuredTitle": "V-Malaysia June 2025 Day 3: The Journey of Lifelong Learning by Dato Sri Vijay Eswaran",
+    "featuredDescription": "“This is the university of life. The only graduation point is when you can utilise the skills you acquired.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!",
   "video": {
+    "6375052233112": {
+      "title": "V-Malaysia June 2025 Day 3: The Journey of Lifelong Learning by Dato Sri Vijay Eswaran",
+      "description": "“This is the university of life. The only graduation point is when you can utilise the skills you acquired.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!"
+    },
+    "6375049397112": {
+      "title": "V-Malaysia June 2025 Day 3: The Purpose Behind Every Sacrifice by Dato Sri Vijay Eswaran",
+      "description": "“How badly do you want to be successful?” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 3!"
+    },
     "6375029334112": {
       "title": "V-Malaysia 2025 June Day 4: The Power of Making a Choice by Chief Pathman Senathirajah",
       "description": "“Between birth and death is called life — and that life belongs to you.” Watch Chief Pathman Senathirajah at V-Malaysia June 2025 Day 4!"
@@ -136,12 +144,16 @@
       "description": "“It’s okay when people don’t believe in what you believe in. But it should not reduce your belief.” Watch Chief Pathman Senathirajah at V-Malaysia June 2025 Day 3!"
     },
     "6374823571112": {
-      "title": "#VMALAYSIA2025 Day 3 Highlights: Decide to Rise",
-      "description": "Have you already made the decision to RISE? Join V2U host Hanen as she goes over the highlights of V-Malaysia June 2025 Day 3! Watch now!"
+      "title": "#VMALAYSIA2025 أبرز أحداث اليوم الثالث: قرروا أن تنهضوا",
+      "description": "هل اتخذتم قراركم بالنهوض؟ انضمّوا إلى Hanen، مقدمة V2U، وهي تستعرض أبرز أحداث اليوم الثالث من V-Malaysia يونيو 2025! شاهد الآن!"
     },
     "6374760384112": {
-      "title": "#VMALAYSIA2025 Day 2 Highlights: Our Unbelievable Dreams",
-      "description": "Join V2U host AVP Marwan Talodi as he recaps the groundbreaking insights from Founders Dato Sri Vijay Eswaran and Joseph “Japadas” Bismark, along with our extraordinary V Partners, that empowered every participant to discover their true dream!"
+      "title": "#VMALAYSIA2025 أبرز أحداث اليوم الثاني: أحلامنا التي لا تصدق",
+      "description": "انضموا إلى AVP Marwan Talodi، مقدم برنامج V2U، وهو يستعرض الرؤى الرائدة للمؤسسين Dato Sri Vijay Eswaran وJoseph “Japadas” Bismark، إلى جانب الـ V Partners المتميزين، الذين مكّنوا كل مشارك من اكتشاف حلمه الحقيقي!"
+    },
+    "6374742056112":{
+      "title": "V-Malaysia 2025 اليوم الأول: 'مطاردة الحلم' تقديم التشيف Pathman Senathirajah",
+      "description": "'هل حلمكم كبير بما يكفي ليبقيكم مستمرين؟'. شاهدوا للتشيف Pathman Senathirajah في اليوم الأول من V-Malaysia 2025!"
     },
     "6374734759112": {
       "title": "V-Malaysia 2025 اليوم الأول: 'خذوا المستقبل بين أيديكم' تقديم Dato Sri Vijay Eswaran",
@@ -242,12 +254,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": "#VMALAYSIA2025 DAY 3: Together We Decide Our Destiny",
-      "content": "Have you made your decision?",
+      "subtitle": "#VMALAYSIA2025 اليوم الرابع: معًا نحن نتغلب على التحديات!",
+      "content": "لدينا القدرة على الارتقاء فوق أي تحدي!",
       "readMore": "اقرأ المزيد"
     },
     "articles": {
       "latestNewsTitle": "اقرأوا آخر الأخبار!",
+      "article9": {
+        "title": "#VMALAYSIA2025 DAY 3: Together We Decide Our Destiny",
+        "content": "Have you made your decision?",
+        "readMore": "READ MORE"
+      },
       "article8": {
         "title": "#VMALAYSIA2025 Congratulations To Our Newly Appointed V Ambassadors",
         "content": "Lead our rise to greater heights!",
