@@ -97,9 +97,13 @@
     "mainTitle": "События Новости и Обновления",
     "highlightTitle": "Смотрите самые новые яркие моменты и многое другое!",
     "videoSelectionParagraph": "Это интерактивный видеоплеер! Выберите любое видео ниже и воспроизведите его здесь.",
-    "featuredTitle": "V-Malaysia June 2025 Day 4: Mind Over Matter by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“Nobody makes the right choice. Everybody makes a choice — and then they keep correcting that choice.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
+    "featuredTitle": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
+    "featuredDescription": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
   "video": {
+    "6375238933112": {
+      "title": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
+      "description": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
+    },
     "6375239612112": {
       "title": "V-Malaysia June 2025 Day 4: Mind Over Matter by Dato Sri Vijay Eswaran",
       "description": "“Nobody makes the right choice. Everybody makes a choice — and then they keep correcting that choice.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
@@ -267,12 +271,17 @@
     }
     },
     "featuredArticle": {
-      "subtitle": " #VMALAYSIA2025 ДЕНЬ 4: Вместе мы преодолеем трудности!",
-      "content": "У нас есть силы, чтобы подняться выше любых испытаний!",
+     "subtitle": "V-Malaysia 2025: 70 незабываемых моментов возвращения домой",
+      "content": "Осталось 70 дней до нашего грандиозного возвращения домой в сентябре!",
       "readMore": "Читать далее"
     },
     "articles": {
       "latestNewsTitle": "Читайте последние новости!",
+      "article10": {
+        "title": "#VMALAYSIA2025 DAY 4: Together We Conquer Challenges!",
+        "content": "We have the power to rise above any challenge!",
+        "readMore": "READ MORE"
+      },
       "article9": {
         "title": "#VMALAYSIA2025 DAY 3: Together We Decide Our Destiny",
         "content": "Have you made your decision?",
