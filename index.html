@@ -3262,193 +3262,189 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // this or that
 
-const startBtn = document.getElementById('startBtn');
-const initialScreen = document.getElementById('initialScreen');
-const gameContent = document.getElementById('gameContent');
-const backgroundImage = document.getElementById('backgroundImage');
-const roundNumber = document.getElementById('roundNumber');
-const leftText = document.getElementById('leftText');
-const rightText = document.getElementById('rightText');
-const leftChoice = document.getElementById('leftChoice');
-const rightChoice = document.getElementById('rightChoice');
-const resultsSection = document.getElementById('resultsSection');
-const choicesList = document.getElementById('choicesList');
-const resultCanvas = document.getElementById('resultCanvas');
-const downloadLink = document.getElementById('downloadLink');
-const restartBtn = document.getElementById('restartBtn');
-const thisOrThatSection = document.getElementById('thisOrThat'); // Get the section element
+// const startBtn = document.getElementById('startBtn');
+// const initialScreen = document.getElementById('initialScreen');
+// const gameContent = document.getElementById('gameContent');
+// const backgroundImage = document.getElementById('backgroundImage');
+// const roundNumber = document.getElementById('roundNumber');
+// const leftText = document.getElementById('leftText');
+// const rightText = document.getElementById('rightText');
+// const leftChoice = document.getElementById('leftChoice');
+// const rightChoice = document.getElementById('rightChoice');
+// const resultsSection = document.getElementById('resultsSection');
+// const choicesList = document.getElementById('choicesList');
+// const resultCanvas = document.getElementById('resultCanvas');
+// const downloadLink = document.getElementById('downloadLink');
+// const restartBtn = document.getElementById('restartBtn');
+// const thisOrThatSection = document.getElementById('thisOrThat'); 
 
-let currentRound = 0;
-const userChoices = [];
-const rounds = [
-  { left: "thisOrThat.rounds.round1.left", right: "thisOrThat.rounds.round1.right" },
-  { left: "thisOrThat.rounds.round2.left", right: "thisOrThat.rounds.round2.right" },
-  { left: "thisOrThat.rounds.round3.left", right: "thisOrThat.rounds.round3.right" },
-  { left: "thisOrThat.rounds.round4.left", right: "thisOrThat.rounds.round4.right" },
-  { left: "thisOrThat.rounds.round5.left", right: "thisOrThat.rounds.round5.right" },
-  { left: "thisOrThat.rounds.round6.left", right: "thisOrThat.rounds.round6.right" },
-  { left: "thisOrThat.rounds.round7.left", right: "thisOrThat.rounds.round7.right" },
-  { left: "thisOrThat.rounds.round8.left", right: "thisOrThat.rounds.round8.right" },
-  { left: "thisOrThat.rounds.round9.left", right: "thisOrThat.rounds.round9.right" },
-  { left: "thisOrThat.rounds.round10.left", right: "thisOrThat.rounds.round10.right" },
-  { left: "thisOrThat.rounds.round11.left", right: "thisOrThat.rounds.round11.right" },
-  { left: "thisOrThat.rounds.round12.left", right: "thisOrThat.rounds.round12.right" }
-];
+// let currentRound = 0;
+// const userChoices = [];
+// const rounds = [
+//   { left: "thisOrThat.rounds.round1.left", right: "thisOrThat.rounds.round1.right" },
+//   { left: "thisOrThat.rounds.round2.left", right: "thisOrThat.rounds.round2.right" },
+//   { left: "thisOrThat.rounds.round3.left", right: "thisOrThat.rounds.round3.right" },
+//   { left: "thisOrThat.rounds.round4.left", right: "thisOrThat.rounds.round4.right" },
+//   { left: "thisOrThat.rounds.round5.left", right: "thisOrThat.rounds.round5.right" },
+//   { left: "thisOrThat.rounds.round6.left", right: "thisOrThat.rounds.round6.right" },
+//   { left: "thisOrThat.rounds.round7.left", right: "thisOrThat.rounds.round7.right" },
+//   { left: "thisOrThat.rounds.round8.left", right: "thisOrThat.rounds.round8.right" },
+//   { left: "thisOrThat.rounds.round9.left", right: "thisOrThat.rounds.round9.right" },
+//   { left: "thisOrThat.rounds.round10.left", right: "thisOrThat.rounds.round10.right" },
+//   { left: "thisOrThat.rounds.round11.left", right: "thisOrThat.rounds.round11.right" },
+//   { left: "thisOrThat.rounds.round12.left", right: "thisOrThat.rounds.round12.right" }
+// ];
 
-function adjustThisOrThatHeight(height) {
-  thisOrThatSection.style.height = height + 'px';
-}
+// function adjustThisOrThatHeight(height) {
+//   thisOrThatSection.style.height = height + 'px';
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Set initial height
-  adjustThisOrThatHeight(650);
+// document.addEventListener('DOMContentLoaded', function() {
+ 
+//   adjustThisOrThatHeight(650);
 
-  // Start game
-  startBtn.addEventListener('click', function() {
-    initialScreen.style.display = 'none';
-    backgroundImage.style.display = 'block';
-    gameContent.style.display = 'flex';
-    currentRound = 0;
-    userChoices.length = 0;
-    loadRound(currentRound);
-    adjustThisOrThatHeight(1000); // Set height to 1000px after starting
-  });
-
- // Load round data
-function loadRound(index) {
-    if (index >= rounds.length) {
-      showResults();
-      return;
-    }
-
-    // --- START OF MODIFICATION ---
-    // Assuming 'roundNumber' is the element that displays "Round #"
-    // Change from textContent to innerHTML to allow the <span> tag
-    roundNumber.innerHTML = `<span data-i18n="thisOrThat.results.round">Round</span> ${index + 1}`;
-
-    // IMPORTANT: Call updateUI() right after updating innerHTML
-    // This will find the newly added <span> and translate it
-    updateUI();
-    // --- END OF MODIFICATION ---
+  
+//   startBtn.addEventListener('click', function() {
+//     initialScreen.style.display = 'none';
+//     backgroundImage.style.display = 'block';
+//     gameContent.style.display = 'flex';
+//     currentRound = 0;
+//     userChoices.length = 0;
+//     loadRound(currentRound);
+//     adjustThisOrThatHeight(1000); 
+//   });
 
 
-    leftText.innerHTML = t(rounds[index].left);
-    rightText.innerHTML = t(rounds[index].right);
+// function loadRound(index) {
+//     if (index >= rounds.length) {
+//       showResults();
+//       return;
+//     }
 
-    // Add animation for new round
-    gameContent.classList.add('new-round');
-    setTimeout(() => {
-      gameContent.classList.remove('new-round');
-    }, 500);
-  }
+    
+//     roundNumber.innerHTML = `<span data-i18n="thisOrThat.results.round">Round</span> ${index + 1}`;
 
-  // Handle choice selection
-  leftChoice.addEventListener('click', function() {
-    makeChoice('left');
-  });
-
-  rightChoice.addEventListener('click', function() {
-    makeChoice('right');
-  });
-
-function makeChoice(side) {
-    userChoices.push({
-      round: currentRound + 1,
-      question: `${t(rounds[currentRound].left)} or ${t(rounds[currentRound].right)}`, // Use t() here
-      choice: side === 'left' ? t(rounds[currentRound].left) : t(rounds[currentRound].right) // Use t() here
-    });
-
-    const selectedElement = side === 'left' ? leftChoice : rightChoice;
-    const otherElement = side === 'left' ? rightChoice : leftChoice;
-
-    selectedElement.style.transform = 'scale(1.05)';
-    otherElement.style.opacity = '0.7';
-
-    setTimeout(() => {
-      selectedElement.style.transform = '';
-      otherElement.style.opacity = '';
-      currentRound++;
-      loadRound(currentRound);
-    }, 700);
-  }
-
-  // Show results
-function showResults() {
-  gameContent.style.display = 'none';
-  backgroundImage.style.display = 'none';
-  resultsSection.style.display = 'block';
-
-  // Populate choices list
-  choicesList.innerHTML = '';
-  userChoices.forEach(choice => {
-    const li = document.createElement('li');
-    li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
-    choicesList.appendChild(li);
-  });
-
-  // Display random image and enable download NOW when results are shown
-  displayRandomImageAndEnableDownload();
-
-  // Call updateUI to translate the newly added "Round" text
-   updateUI();
-}
-
-  function displayRandomImageAndEnableDownload() {
-  // Get the array of image paths for the current language
-  // This will use your t() function to look up "game.resultImages"
-  const imagePaths = t('game.resultImages'); // This will return the array from the current language's JSON
-
-  // Check if imagePaths is actually an array (important for error handling)
-  if (!Array.isArray(imagePaths) || imagePaths.length === 0) {
-    console.error("No image paths found for the current language or array is empty.");
-    // Optionally display a fallback image or handle the error gracefully
-    return;
-  }
-
-  const randomIndex = Math.floor(Math.random() * imagePaths.length);
-  const randomImagePath = imagePaths[randomIndex]; // Use the path directly from the array
-
-  const imageElement = document.createElement('img');
-  imageElement.src = randomImagePath;
-  imageElement.alt = 'Random Gallery Image'; // Consider making this alt text translatable too
-  imageElement.classList.add('random-result-image', 'h-auto', 'object-cover', 'mx-auto', 'mb-8');
-
-  const resultsSection = document.getElementById('resultsSection');
-  const heading = resultsSection.querySelector('h3');
-  resultsSection.insertBefore(imageElement, heading.nextSibling);
-
-  const downloadLink = document.getElementById('downloadLink');
-  downloadLink.href = randomImagePath;
-  downloadLink.style.display = 'inline-block';
-}
-
-  const restartBtn = document.getElementById('restartBtn');
-  const resultsSection = document.getElementById('resultsSection');
-  const choicesList = document.getElementById('choicesList');
+    
+//     updateUI();
 
 
-  restartBtn.addEventListener('click', function() {
-    console.log('Restart button clicked');
-    currentRound = 0;
-    userChoices.length = 0;
-    resultsSection.style.display = 'none';
-    initialScreen.style.display = 'flex'; // Make sure 'initialScreen' is correctly defined
-    adjustThisOrThatHeight(650); // Revert height
 
-    // Remove the dynamically added image
-    const existingImage = resultsSection.querySelector('img.random-result-image');
-    if (existingImage) {
-      existingImage.remove();
-    }
+//     leftText.innerHTML = t(rounds[index].left);
+//     rightText.innerHTML = t(rounds[index].right);
 
-    // Clear the list of user choices
-    if (choicesList) {
-      choicesList.innerHTML = '';
-    }
+    
+//     gameContent.classList.add('new-round');
+//     setTimeout(() => {
+//       gameContent.classList.remove('new-round');
+//     }, 500);
+//   }
 
-  });
 
-});
+//   leftChoice.addEventListener('click', function() {
+//     makeChoice('left');
+//   });
+
+//   rightChoice.addEventListener('click', function() {
+//     makeChoice('right');
+//   });
+
+// function makeChoice(side) {
+//     userChoices.push({
+//       round: currentRound + 1,
+//       question: `${t(rounds[currentRound].left)} or ${t(rounds[currentRound].right)}`,
+//       choice: side === 'left' ? t(rounds[currentRound].left) : t(rounds[currentRound].right)
+//     });
+
+//     const selectedElement = side === 'left' ? leftChoice : rightChoice;
+//     const otherElement = side === 'left' ? rightChoice : leftChoice;
+
+//     selectedElement.style.transform = 'scale(1.05)';
+//     otherElement.style.opacity = '0.7';
+
+//     setTimeout(() => {
+//       selectedElement.style.transform = '';
+//       otherElement.style.opacity = '';
+//       currentRound++;
+//       loadRound(currentRound);
+//     }, 700);
+//   }
+
+
+// function showResults() {
+//   gameContent.style.display = 'none';
+//   backgroundImage.style.display = 'none';
+//   resultsSection.style.display = 'block';
+
+
+//   choicesList.innerHTML = '';
+//   userChoices.forEach(choice => {
+//     const li = document.createElement('li');
+//     li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
+//     choicesList.appendChild(li);
+//   });
+
+  
+//   displayRandomImageAndEnableDownload();
+
+  
+//    updateUI();
+// }
+
+//   function displayRandomImageAndEnableDownload() {
+  
+//   const imagePaths = t('game.resultImages'); 
+
+  
+//   if (!Array.isArray(imagePaths) || imagePaths.length === 0) {
+//     console.error("No image paths found for the current language or array is empty.");
+   
+//     return;
+//   }
+
+//   const randomIndex = Math.floor(Math.random() * imagePaths.length);
+//   const randomImagePath = imagePaths[randomIndex]; 
+
+//   const imageElement = document.createElement('img');
+//   imageElement.src = randomImagePath;
+//   imageElement.alt = 'Random Gallery Image';
+//   imageElement.classList.add('random-result-image', 'h-auto', 'object-cover', 'mx-auto', 'mb-8');
+
+//   const resultsSection = document.getElementById('resultsSection');
+//   const heading = resultsSection.querySelector('h3');
+//   resultsSection.insertBefore(imageElement, heading.nextSibling);
+
+//   const downloadLink = document.getElementById('downloadLink');
+//   downloadLink.href = randomImagePath;
+//   downloadLink.style.display = 'inline-block';
+// }
+
+//   const restartBtn = document.getElementById('restartBtn');
+//   const resultsSection = document.getElementById('resultsSection');
+//   const choicesList = document.getElementById('choicesList');
+
+
+//   restartBtn.addEventListener('click', function() {
+//     console.log('Restart button clicked');
+//     currentRound = 0;
+//     userChoices.length = 0;
+//     resultsSection.style.display = 'none';
+//     initialScreen.style.display = 'flex'; 
+//     adjustThisOrThatHeight(650); 
+
+    
+//     const existingImage = resultsSection.querySelector('img.random-result-image');
+//     if (existingImage) {
+//       existingImage.remove();
+//     }
+
+    
+//     if (choicesList) {
+//       choicesList.innerHTML = '';
+//     }
+
+//   });
+
+// });
 
 
 
