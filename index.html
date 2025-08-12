@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="main.css">
     <style>
 /* Import Montserrat Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
@@ -33,19 +34,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Add this to your main stylesheet, e.g., style.css or main.css */
-@font-face {
-  font-family: 'Dreamlands';
-  src: url('/assets/fonts/Dreamlands.woff2') format('woff2'),
-       url('/assets/fonts/Dreamlands.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
-/* Optional: Create a utility class for easy application */
-.font-dreamlands {
-  font-family: 'Dreamlands Regular', sans-serif;
-}
 
 /* ========== Hero Section ========== */
 .hero-gradient {
@@ -1888,7 +1877,7 @@ body.rtl .arrow-left {
       <a href="https://vshoppe.vtube.net/"
   class="block w-full sm:w-auto mx-auto break-words bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 text-base sm:text-lg md:text-xl rounded-full shadow-lg transition duration-300 btn-glow animate-pulse text-center whitespace-normal sm:whitespace-nowrap"
   data-i18n="hero.cta_button">
-  Get your tickets on VShoppe. Use the code: VMYSEPT2025
+  Get your tickets on VShoppe. Use the code: <span style='color: #fffc00;'>VMYSEPT2025</span>
 </a>
     </div>
     </div>
