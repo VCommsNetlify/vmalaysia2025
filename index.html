@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css " xintegrity="sha512-iecdL/tT6Ie9j9Lz8FwR/yFf28L1hL6y0x+J3g2Q5v5t85aK4y2fJ4+C1c1z0x+Fw==" crossorigin="anonymous" referrerpolicy="no-referrer" >    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link rel="stylesheet" href="main.css">
@@ -1652,6 +1652,263 @@ body.rtl .arrow-left {
     }
 }
 
+/* CSS GAME */
+
+.quiz-container-wrapper {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            width: 100%;
+            /* Removed min-height here to allow dynamic sizing based on content */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center the content vertically */
+            padding: 2rem 1rem;
+            box-sizing: border-box;
+            /* Added a top margin to prevent it from sticking to the very top on large screens */
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .quiz-container {
+            max-width: 900px;
+            width: 100%;
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            box-sizing: border-box;
+            transition: height 0.3s ease; /* Add a smooth transition for resizing */
+        }
+
+        @media (min-width: 640px) {
+            .quiz-container {
+                padding: 2.5rem;
+            }
+        }
+
+        .quiz-question-card {
+            background-color: #0078b9;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-question-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        /* Styling for option labels */
+        .quiz-option-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: #fff;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            color: #1a202c;
+            text-align: center;
+        }
+
+        .quiz-option-label:hover {
+            border-color: #a3bffa;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        /* New styling for the selected option using a border and checkmark */
+        input[type="radio"]:checked + .quiz-option-label {
+            border-color: #4a77e4;
+            background-color: #e6f0ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(76, 102, 226, 0.2);
+        }
+
+        /* Style for the checkmark icon */
+        .quiz-option-label::after {
+            content: "\f00c";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #4a77e4;
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        
+        input[type="radio"]:checked + .quiz-option-label::after {
+            opacity: 1;
+        }
+
+        .quiz-btn {
+            padding: 0.75rem 2rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            border-radius: 0.75rem;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            border: none;
+        }
+
+        #submitBtn, #nextBtn, #startBtn {
+            background-color: #4a77e4;
+            color: white;
+            box-shadow: 0 4px 6px rgba(76, 102, 226, 0.3);
+        }
+
+        #submitBtn:hover, #nextBtn:hover, #startBtn:hover {
+            background-color: #3b62c2;
+            transform: translateY(-2px);
+        }
+
+        #resetBtn {
+            background-color: #e2e8f0;
+            color: #1a202c;
+        }
+
+        #resetBtn:hover {
+            background-color: #cbd5e0;
+            transform: translateY(-2px);
+        }
+
+        .quiz-result-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-btn.disabled {
+            background-color: #cbd5e0;
+            cursor: not-allowed;
+            color: #a0aec0;
+            box-shadow: none;
+        }
+
+        .quiz-btn.disabled:hover {
+            background-color: #cbd5e0;
+            transform: none;
+        }
+        
+        .hidden {
+            display: none;
+        }
+
+        /* Additional styles for responsiveness and layout */
+        .flex { display: flex; }
+        .flex-col { flex-direction: column; }
+        .justify-center { justify-content: center; }
+        .items-center { align-items: center; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .gap-4 { gap: 1rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-8 { margin-top: 2rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .p-10 { padding: 2.5rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .w-full { width: 100%; }
+        .max-w-2xl { max-width: 42rem; }
+        .rounded-2xl { border-radius: 1rem; }
+        .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        .font-extrabold { font-weight: 800; }
+        .font-bold { font-weight: 700; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-3xl { font-size: 1.875rem; }
+        .text-lg { font-size: 1.125rem; }
+        .text-white { color: white; }
+        .text-gray-800 { color: #1a202c; }
+
+        .social-btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        #shareFacebookBtn {
+            background: linear-gradient(45deg, #1877f2, #3b5998);
+        }
+        #shareFacebookBtn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(24, 119, 242, 0.3);
+        }
+
+        #shareInstagramBtn {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+        #shareInstagramBtn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(220, 39, 67, 0.3);
+        }
+
+        #copyLinkBtn {
+            background: linear-gradient(45deg, #6b7280, #4b5563);
+        }
+        #copyLinkBtn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(75, 85, 99, 0.3);
+        }
+
+        #downloadImageBtn {
+            background: linear-gradient(45deg, #04986d, #057d59);
+        }
+        #downloadImageBtn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(4, 152, 109, 0.3);
+        }
+        
+        /* Custom message box styling */
+        #message-box-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #message-box {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 20rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        #message-box-text {
+            margin-bottom: 1rem;
+        }
+
+/* CSS GAME END */
 </style>
 
 </head>
@@ -1701,7 +1958,7 @@ body.rtl .arrow-left {
       <a href="#faqs" class="text-white nav-link" data-i18n="faq">FAQ</a>
     </nav>
 
-    <!-- <div class="relative hidden md:block">
+    <div class="relative hidden md:block">
       <button id="langToggle" class="text-white flex items-center space-x-2">
         <span data-i18n="languages">Languages</span>
         <span class="text-white text-xl transition-transform duration-300 transform arrow-toggle-icon" id="langIcon">▼</span>
@@ -1714,7 +1971,7 @@ body.rtl .arrow-left {
           <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('ru')" data-i18n="language_name.ru">Russian</a></li>
           <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('tr')" data-i18n="language_name.tr">Russian</a></li>
         </ul>
-    </div> -->
+    </div>
 
     <button id="menuToggle" class="md:hidden text-white z-[999] relative">
       <i class="fas fa-bars text-2xl"></i>
@@ -1740,7 +1997,7 @@ body.rtl .arrow-left {
     <!-- <a href="#thisOrThat" class="text-white block nav-link" data-i18n="this_or_that">This or That?</a> -->
     <a href="#faqs" class="text-white block nav-link" data-i18n="faq">FAQ</a>
 
-    <!-- <div class="text-white">
+    <div class="text-white">
       <button id="langToggleMobile" class="w-full text-left flex items-center justify-between">
         <span data-i18n="languages">Languages</span>
         <span id="langIconMobile" class="text-white text-xl transition-transform transform arrow-toggle-icon" id="langIconMobile">▼</span>
@@ -1753,7 +2010,7 @@ body.rtl .arrow-left {
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('ru')" data-i18n="language_name.ru">Russian</a></li>
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-200 nav-link2" onclick="setLanguage('tr')" data-i18n="language_name.tr">Russian</a></li>
       </ul>
-    </div> -->
+    </div>
   </div>
 </header>
 
@@ -2557,13 +2814,6 @@ body.rtl .arrow-left {
 
 
 
-
-
-
-
-
-
-
     <!-- SPEAKER Section -->
  <section class="py-16 bg-gray-100 relative" id="speakers" style="background-image: url('assets/speakers/BG-speakers-sept.webp'); background-position: center; background-size: cover; min-height: 500px;">
     <div class="absolute inset-0 bg-white bg-opacity-20 z-0"></div>
@@ -2639,7 +2889,65 @@ body.rtl .arrow-left {
     </div>
 </section>
 
+<!-- GAME START MATCHMAKER -->
+<section id="limitlessMatchmaker" class="py-16 bg-gray-100 relative" style="background-image: url('assets/speakers/BG-speakers-sept.webp'); background-position: center; background-size: cover; min-height: 500px;">
+    <div class="absolute inset-0 bg-white bg-opacity-20 z-0"></div>
 
+    <div class="quiz-container-wrapper">
+    <div id="quiz-container" class="quiz-container">
+
+        <!-- Introduction Section -->
+        <div id="intro-section">
+            <div id="intro-content" class="mb-8 p-4 rounded-xl text-center" style="background-color: #ff8c23;">
+                <h1 id="title" class="text-2xl md:text-3xl font-extrabold text-white" data-i18n="app.title"></h1>
+                <p id="subtitle" class="text-white mt-2" data-i18n="app.subtitle"></p>
+            </div>
+            <button id="startBtn" class="quiz-btn" data-i18n="app.startBtn"></button>
+        </div>
+        
+        <!-- Quiz Questions Section (Initially Hidden) -->
+        <div id="quiz-section" class="hidden">
+            <div id="quiz-questions-container"></div>
+            
+            <div class="flex justify-center mt-6">
+                <button id="nextBtn" class="quiz-btn hidden disabled" data-i18n="app.nextBtn"></button>
+                <button id="submitBtn" class="quiz-btn hidden" data-i18n="app.submitBtn"></button>
+            </div>
+        </div>
+        
+        <!-- Results Section (Initially Hidden) -->
+        <div id="results-section" class="text-center p-6 hidden">
+            <h2 id="results-title" class="text-2xl md:text-3xl font-bold text-gray-800 mb-4" data-i18n="app.resultsTitle"></h2>
+            <div id="result-content" class="flex flex-col items-center">
+                <img id="result-image" src="" alt="Your result image" class="rounded-xl shadow-md mb-4 w-full h-auto quiz-result-image">
+                <p id="result-description" class="text-gray-800 text-lg"></p>
+            </div>
+            <div class="mt-8 flex flex-col items-center justify-center gap-4">
+                <button id="resetBtn" class="quiz-btn" data-i18n="app.resetBtn"></button>
+                <div class="flex justify-center gap-4 mt-4">
+                    <button id="shareFacebookBtn" class="social-btn">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button id="shareInstagramBtn" class="social-btn">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                    <button id="copyLinkBtn" class="social-btn">
+                        <i class="fas fa-link"></i>
+                    </button>
+                    <button id="downloadImageBtn" class="social-btn">
+                        <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</section>
+
+<!-- END MATCHMAKER -->
 
 <!-- this or that -->
 <!-- <section id="thisOrThat" style="background-image: url('assets/news/BG-videohighlights.webp'); background-position: top; background-size: cover;">
@@ -3030,49 +3338,49 @@ function updateSwiperImages() {
   const allSlideData = t('swiperAds.slides');
 
   // Basic error handling in case the translation key isn't found or is not an array
-  if (!Array.isArray(allSlideData) || allSlideData.length === 0) {
-    console.warn("Translation key 'swiperAds.slides' not found or is empty for current language. Swiper images may not update.");
-    return;
-  }
+  // if (!Array.isArray(allSlideData) || allSlideData.length === 0) {
+  //   console.warn("Translation key 'swiperAds.slides' not found or is empty for current language. Swiper images may not update.");
+  //   return;
+  // }
 
-  const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
+  // const slides = adSwiperWrapper.querySelectorAll('.swiper-slide img');
 
-  slides.forEach((imgElement, index) => {
-    const slideTranslation = allSlideData[index]; // Get the data for this specific slide
+  // slides.forEach((imgElement, index) => {
+  //   const slideTranslation = allSlideData[index]; // Get the data for this specific slide
 
-    if (slideTranslation) { // Make sure a translation object exists for this slide index
-      let imagePath = slideTranslation.desktopSrc; // Default to desktop source
+  //   if (slideTranslation) { // Make sure a translation object exists for this slide index
+  //     let imagePath = slideTranslation.desktopSrc; // Default to desktop source
 
-      // Check if mobile source exists and screen is mobile
-      if (window.innerWidth <= mobileBreakpoint && slideTranslation.mobileSrc) {
-        imagePath = slideTranslation.mobileSrc;
-      } else if (!slideTranslation.desktopSrc) {
-        // Fallback if desktopSrc is missing for some reason (though it should be mandatory)
-        console.warn(`Missing desktopSrc for swiper slide index ${index} in ${currentLanguage}.json`);
-        imagePath = ''; // Or a placeholder image
-      }
+  //     // Check if mobile source exists and screen is mobile
+  //     if (window.innerWidth <= mobileBreakpoint && slideTranslation.mobileSrc) {
+  //       imagePath = slideTranslation.mobileSrc;
+  //     } else if (!slideTranslation.desktopSrc) {
+  //       // Fallback if desktopSrc is missing for some reason (though it should be mandatory)
+  //       console.warn(`Missing desktopSrc for swiper slide index ${index} in ${currentLanguage}.json`);
+  //       imagePath = ''; // Or a placeholder image
+  //     }
 
-      // Update the image source
-      imgElement.src = imagePath;
+  //     // Update the image source
+  //     imgElement.src = imagePath;
 
-      // Update the alt text if available
-      if (slideTranslation.alt) {
-        imgElement.alt = slideTranslation.alt;
-      }
-    } else {
-      console.warn(`No translation data found for swiper slide index ${index} in ${currentLanguage}.json`);
-      // Optionally hide the slide or set a fallback image if no data exists for it
-      imgElement.src = ''; // Clear image
-      imgElement.alt = ''; // Clear alt
-    }
-  });
+  //     // Update the alt text if available
+  //     if (slideTranslation.alt) {
+  //       imgElement.alt = slideTranslation.alt;
+  //     }
+  //   } else {
+  //     console.warn(`No translation data found for swiper slide index ${index} in ${currentLanguage}.json`);
+  //     // Optionally hide the slide or set a fallback image if no data exists for it
+  //     imgElement.src = ''; // Clear image
+  //     imgElement.alt = ''; // Clear alt
+  //   }
+  // });
 
   // Re-initialize Swiper (important if the number of slides might change significantly)
   // Or just update if only content changes.
   // The provided HTML seems to have a fixed number of slides, so update() is sufficient.
-  if (window.swiper && window.swiper.adSwiper) {
-    window.swiper.adSwiper.update();
-  }
+  // if (window.swiper && window.swiper.adSwiper) {
+  //   window.swiper.adSwiper.update();
+  // }
 }
 
 // Call on initial load
@@ -4219,7 +4527,289 @@ const articleSwiper = new Swiper('.article-swiper', {
   const countdownInterval = setInterval(updateCountdown, 1000);
 });
 
-  
+// GAME MATCHMAKER
+
+// i18n data object will be populated by the fetch call
+    let i18nData = {};
+
+    // Helper function to get nested data from a string path, e.g., "app.title"
+    const getNested = (obj, path) => {
+        return path.split('.').reduce((acc, part) => acc && acc[part], obj);
+    };
+
+    // Function to apply translations
+    function applyTranslations(lang) {
+        if (!i18nData[lang]) {
+            console.error(`Translation data for language '${lang}' is not available.`);
+            return;
+        }
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            const translation = getNested(i18nData[lang], key);
+            if (translation) {
+                element.textContent = translation;
+            }
+        });
+    }
+
+    // Function to start the quiz logic after data is loaded
+    function initializeQuiz(currentLanguage) {
+        // Quiz data and messages
+        const questions = i18nData[currentLanguage].questions.map((q, index) => ({
+            id: `q${index + 1}`,
+            title: q.title,
+            options: q.options.map((option, valIndex) => ({
+                value: valIndex + 1,
+                text: option
+            }))
+        }));
+
+        const results = {
+            "minimalist": {
+                "image": "https://placehold.co/600x400/98a8b8/ffffff?text=Minimalist+Style",
+                "description": i18nData[currentLanguage].results.minimalist.description
+            },
+            "classic": {
+                "image": "https://placehold.co/600x400/334e68/ffffff?text=Classic+Style",
+                "description": i18nData[currentLanguage].results.classic.description
+            },
+            "casual": {
+                "image": "https://placehold.co/600x400/e0e6ed/334e68?text=Casual+Style",
+                "description": i18nData[currentLanguage].results.casual.description
+            },
+            "athletic": {
+                "image": "https://placehold.co/600x400/cce4bf/04986d?text=Athletic+Style",
+                "description": i18nData[currentLanguage].results.athletic.description
+            }
+        };
+
+        let currentQuestionIndex = 0;
+        const userAnswers = {};
+
+        // DOM Elements
+        const introSection = document.getElementById('intro-section');
+        const quizSection = document.getElementById('quiz-section');
+        const resultsSection = document.getElementById('results-section');
+        const quizQuestionsContainer = document.getElementById('quiz-questions-container');
+        const messageBoxOverlay = document.getElementById('message-box-overlay');
+        const messageBoxTextEl = document.getElementById('message-box-text');
+        const messageBoxCloseBtn = document.getElementById('message-box-close');
+        const startBtn = document.getElementById('startBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const submitBtn = document.getElementById('submitBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        
+        if (messageBoxOverlay) {
+            messageBoxOverlay.style.display = 'none';
+        }
+
+        // Helper to show/hide sections
+        function showSection(section) {
+            if (introSection) introSection.classList.add('hidden');
+            if (quizSection) quizSection.classList.add('hidden');
+            if (resultsSection) resultsSection.classList.add('hidden');
+            if (messageBoxOverlay) messageBoxOverlay.style.display = 'none';
+            if (section) {
+                section.classList.remove('hidden');
+            }
+        }
+
+        // Helper to display a custom message box
+        function displayMessageBox(i18nKey) {
+            const text = getNested(i18nData[currentLanguage], i18nKey);
+            if (messageBoxTextEl && text) messageBoxTextEl.textContent = text;
+            if (messageBoxOverlay) messageBoxOverlay.style.display = 'flex';
+        }
+
+        function hideMessageBox() {
+            if (messageBoxOverlay) messageBoxOverlay.style.display = 'none';
+        }
+
+        // Render the current question
+        function renderQuestion() {
+            const question = questions[currentQuestionIndex];
+            if (!question || !quizQuestionsContainer) return;
+
+            const isLastQuestion = currentQuestionIndex === questions.length - 1;
+
+            let optionsHtml = '';
+            question.options.forEach(option => {
+                optionsHtml += `
+                    <div>
+                        <input type="radio" name="${question.id}" id="${question.id}-${option.value}" value="${option.value}" class="hidden peer" ${userAnswers[question.id] == option.value ? 'checked' : ''}>
+                        <label for="${question.id}-${option.value}" class="quiz-option-label">${option.text}</label>
+                    </div>
+                `;
+            });
+
+            quizQuestionsContainer.innerHTML = `
+                <div class="quiz-question-card">
+                    <h2 class="quiz-question-title">${currentQuestionIndex + 1}. ${question.title}</h2>
+                    <div class="flex flex-col space-y-4">
+                        ${optionsHtml}
+                    </div>
+                </div>
+            `;
+            
+            // Update button visibility
+            if (isLastQuestion) {
+                if (nextBtn) nextBtn.classList.add('hidden');
+                if (submitBtn) submitBtn.classList.remove('hidden');
+            } else {
+                if (nextBtn) nextBtn.classList.remove('hidden');
+                if (submitBtn) submitBtn.classList.add('hidden');
+            }
+
+            const buttonToDisable = isLastQuestion ? submitBtn : nextBtn;
+            const selectedOption = document.querySelector(`input[name="${question.id}"]:checked`);
+            if (buttonToDisable) {
+                if (!selectedOption) {
+                    buttonToDisable.classList.add('disabled');
+                } else {
+                    buttonToDisable.classList.remove('disabled');
+                }
+            }
+
+            // Add change listener to radio buttons
+            const radioButtons = document.querySelectorAll(`input[name="${question.id}"]`);
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', () => {
+                    const selectedValue = document.querySelector(`input[name="${question.id}"]:checked`).value;
+                    userAnswers[question.id] = parseInt(selectedValue);
+                    if (buttonToDisable) buttonToDisable.classList.remove('disabled');
+                });
+            });
+        }
+
+        // Event handlers
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            Object.keys(userAnswers).forEach(key => delete userAnswers[key]);
+            showSection(quizSection);
+            renderQuestion();
+        }
+
+        function showNextQuestion() {
+            const questionId = questions[currentQuestionIndex].id;
+            if (!userAnswers[questionId]) {
+                displayMessageBox('app.message.selectAnswer');
+                return;
+            }
+            currentQuestionIndex++;
+            renderQuestion();
+        }
+
+        function calculateResults() {
+            const sumOfValues = Object.values(userAnswers).reduce((sum, value) => sum + value, 0);
+
+            let resultKey;
+            if (sumOfValues >= 3 && sumOfValues <= 5) {
+                resultKey = 'minimalist';
+            } else if (sumOfValues >= 6 && sumOfValues <= 7) {
+                resultKey = 'classic';
+            } else if (sumOfValues >= 8 && sumOfValues <= 9) {
+                resultKey = 'casual';
+            } else {
+                resultKey = 'athletic';
+            }
+            return results[resultKey];
+        }
+
+        function handleShowResults() {
+            if (Object.keys(userAnswers).length !== questions.length) {
+                displayMessageBox('app.message.answerAll');
+                return;
+            }
+
+            const resultProfile = calculateResults();
+            
+            if (document.getElementById('result-image')) document.getElementById('result-image').src = resultProfile.image;
+            if (document.getElementById('result-description')) document.getElementById('result-description').textContent = resultProfile.description;
+            
+            showSection(resultsSection);
+        }
+
+        function resetQuiz() {
+            currentQuestionIndex = 0;
+            Object.keys(userAnswers).forEach(key => delete userAnswers[key]);
+            showSection(introSection);
+        }
+
+        function copyToClipboard() {
+            const resultProfile = calculateResults();
+            const textToCopy = `${getNested(i18nData[currentLanguage], 'app.resultsTitle')}\n${resultProfile.description}\nImage link: ${resultProfile.image}`;
+            
+            const tempTextarea = document.createElement("textarea");
+            tempTextarea.value = textToCopy;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextarea);
+            
+            displayMessageBox('app.message.copied');
+        }
+
+        function downloadImage() {
+            const resultProfile = calculateResults();
+            const link = document.createElement('a');
+            link.href = resultProfile.image;
+            link.download = 'limitless-style-quiz-result.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+        // Add event listeners for the buttons after initialization
+        if (startBtn) startBtn.addEventListener('click', startQuiz);
+        if (nextBtn) nextBtn.addEventListener('click', showNextQuestion);
+        if (submitBtn) submitBtn.addEventListener('click', handleShowResults);
+        if (resetBtn) resetBtn.addEventListener('click', resetQuiz);
+        if (messageBoxCloseBtn) messageBoxCloseBtn.addEventListener('click', hideMessageBox);
+        if (document.getElementById('shareFacebookBtn')) {
+            document.getElementById('shareFacebookBtn').addEventListener('click', () => {
+                const resultProfile = calculateResults();
+                window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(resultProfile.image)}`, '_blank');
+            });
+        }
+        if (document.getElementById('shareInstagramBtn')) {
+            document.getElementById('shareInstagramBtn').addEventListener('click', () => {
+                displayMessageBox('app.message.instagramShare');
+            });
+        }
+        if (document.getElementById('copyLinkBtn')) {
+            document.getElementById('copyLinkBtn').addEventListener('click', copyToClipboard);
+        }
+        if (document.getElementById('downloadImageBtn')) {
+            document.getElementById('downloadImageBtn').addEventListener('click', downloadImage);
+        }
+    }
+
+    // Main logic to fetch data and start the quiz
+    document.addEventListener('DOMContentLoaded', () => {
+        const currentLanguage = 'en';
+
+        // IMPORTANT: Call fetch and then initialize the quiz in the .then() block
+        fetch('en.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                i18nData = data;
+                applyTranslations(currentLanguage);
+                initializeQuiz(currentLanguage);
+            })
+            .catch(error => {
+                console.error('Error loading i18n data:', error);
+                // Fallback to English content if the file doesn't load
+                // You could also display an error message to the user here.
+            });
+    });
+    
+
+//END MATCHMAKER
 
 
 </script>
