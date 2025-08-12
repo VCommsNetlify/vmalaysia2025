@@ -491,5 +491,64 @@
       }
       
     ]
-  }
+  },
+  "app": {
+      "title": "What kind of LIMITLESS style is best for you?",
+      "subtitle": "Take the quiz and find out!",
+      "startBtn": "Start Quiz",
+      "nextBtn": "Next",
+      "submitBtn": "Submit",
+      "resetBtn": "Start Over",
+      "resultsTitle": "Your Suggested Style",
+      "message": {
+        "selectAnswer": "Please select an answer to proceed.",
+        "answerAll": "Please answer all questions before submitting.",
+        "copied": "The text and image link have been copied to your clipboard!",
+        "close": "Close",
+        "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
+      }
+    },
+    "questions": [
+      {
+        "title": "What’s your daily go-to outfit?",
+        "options": [
+          "Minimalist style of shirts and pants in neutral colours",
+          "Classic look with dresses or collared shirts, sweatshirts, and long pants",
+          "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps",
+          "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps"
+        ]
+      },
+      {
+        "title": "What kind of events or occasions do you typically dress for?",
+        "options": [
+          "Presentations",
+          "Meetings with the team",
+          "Business training events",
+          "The V events"
+        ]
+      },
+      {
+        "title": "What kind of colours do you tend to choose most of the time?",
+        "options": [
+          "Neutrals, such as beige, cream, ivory, gray, and brown",
+          "Black or white with minimal bright colors or designs",
+          "Light colours",
+          "Any colours with prints or designs"
+        ]
+      }
+    ],
+    "results": {
+      "minimalist": {
+        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+      },
+      "classic": {
+        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+      },
+      "casual": {
+        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+      },
+      "athletic": {
+        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+      }
+    }
 }
