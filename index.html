@@ -4538,293 +4538,105 @@ const articleSwiper = new Swiper('.article-swiper', {
 
 // GAME MATCHMAKER
 
-document.addEventListener('DOMContentLoaded', () => {
-        // --- Core Quiz Logic ---
-        let currentQuestionIndex = 0;
-        let scores = {};
-        const appLanguage = 'en';
-        let i18n = {}; 
+// --- Core Quiz Logic ---
+let currentQuestionIndex = 0;
+let scores = {};
+// Change this variable to 'ar', 'id', 'fr', 'ru', or 'tr' to switch languages
+const appLanguage = 'en'; 
+let i18n = {}; 
 
-        // Get DOM elements
-        const introSection = document.getElementById('intro-section');
-        const quizSection = document.getElementById('quiz-section');
-        const resultsSection = document.getElementById('results-section');
-        const quizQuestionsContainer = document.getElementById('quiz-questions-container');
+// Get DOM elements
+const introSection = document.getElementById('intro-section');
+const quizSection = document.getElementById('quiz-section');
+const resultsSection = document.getElementById('results-section');
+const quizQuestionsContainer = document.getElementById('quiz-questions-container');
 
-        const startBtn = document.getElementById('startBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const submitBtn = document.getElementById('submitBtn');
-        const resetBtn = document.getElementById('resetBtn');
+const startBtn = document.getElementById('startBtn');
+const nextBtn = document.getElementById('nextBtn');
+const submitBtn = document.getElementById('submitBtn');
+const resetBtn = document.getElementById('resetBtn');
 
-        const messageBoxOverlay = document.getElementById('message-box-overlay');
-        const messageBoxText = document.getElementById('message-box-text');
-        const messageBoxCloseBtn = document.getElementById('message-box-close');
+const messageBoxOverlay = document.getElementById('message-box-overlay');
+const messageBoxText = document.getElementById('message-box-text');
+const messageBoxCloseBtn = document.getElementById('message-box-close');
 
-        // i18n translation function
-        function translate() {
-            document.querySelectorAll('[data-i18n]').forEach(element => {
-                const key = element.getAttribute('data-i18n');
-                const translation = getTranslation(key);
-                if (translation) {
-                    element.textContent = translation;
-                }
-            });
-        }
-
-        function getTranslation(key) {
-            let value = i18n;
-            const keys = key.split('.');
-            for (let i = 0; i < keys.length; i++) {
-                if (value && value.hasOwnProperty(keys[i])) {
-                    value = value[keys[i]];
-                } else {
-                    console.warn(`Translation key not found: ${key}`);
-                    return null;
-                }
-            }
-            return value;
-        }
-
-        // Function to show custom message box
-        function showMessage(textKey) {
-            messageBoxText.textContent = getTranslation(textKey);
-            messageBoxOverlay.style.display = 'flex';
-        }
-
-        // Function to hide custom message box
-        function hideMessage() {
-            messageBoxOverlay.style.display = 'none';
-        }
-
-        function renderQuestion() {
-            const questionData = i18n.questions[currentQuestionIndex];
-            if (!questionData) {
-                return;
-            }
-
-            const questionHtml = `
-                <div class="quiz-question-card">
-                    <h3 class="quiz-question-title">
-                        ${questionData.title}
-                    </h3>
-                </div>
-                ${questionData.options.map((option, index) => `
-                    <div class="quiz-option-container">
-                        <input type="radio" id="q${currentQuestionIndex}-option${index}" name="question-${currentQuestionIndex}" value="${option.value}">
-                        <label for="q${currentQuestionIndex}-option${index}" class="quiz-option-label">${option.text}</label>
-                    </div>
-                `).join('')}
-            `;
-            quizQuestionsContainer.innerHTML = questionHtml;
-            
-            // Manage button visibility
-            if (currentQuestionIndex === i18n.questions.length - 1) {
-                nextBtn.classList.add('hidden');
-                submitBtn.classList.remove('hidden');
-            } else {
-                nextBtn.classList.remove('hidden');
-                submitBtn.classList.add('hidden');
-            }
-            
-            // Disable the current visible button until an option is selected
-            if (!nextBtn.classList.contains('hidden')) {
-                nextBtn.classList.add('disabled');
-            } else if (!submitBtn.classList.contains('hidden')) {
-                submitBtn.classList.add('disabled');
-            }
-            
-            // Add event listeners to the radio buttons to enable the button
-            document.querySelectorAll(`input[name="question-${currentQuestionIndex}"]`).forEach(radio => {
-                radio.addEventListener('change', () => {
-                    if (!nextBtn.classList.contains('hidden')) {
-                        nextBtn.classList.remove('disabled');
+/**
+ * Fetches and loads the translation data for the selected language.
+ * In a real-world scenario, this would be a fetch call to a file, but here
+ * we've embedded the data directly for simplicity.
+ */
+async function fetchTranslations(lang) {
+    try {
+        const allTranslations = {
+            "en": {
+                "app": {
+                    "title": "What kind of LIMITLESS style is best for you?",
+                    "subtitle": "Take the quiz and find out!",
+                    "startBtn": "Start Quiz",
+                    "nextBtn": "Next",
+                    "submitBtn": "Submit",
+                    "resetBtn": "Start Over",
+                    "resultsTitle": "Your Suggested Style",
+                    "home": "Home",
+                    "message": {
+                        "selectAnswer": "Please select an answer to proceed.",
+                        "answerAll": "Please answer all questions before submitting.",
+                        "copied": "The link has been copied to your clipboard!",
+                        "close": "Close",
+                        "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
                     }
-                    if (!submitBtn.classList.contains('hidden')) {
-                        submitBtn.classList.remove('disabled');
+                },
+                "questions": [
+                    {
+                        "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
+                        "options": [
+                            { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
+                            { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
+                            { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
+                            { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
+                        "options": [
+                            { "text": "Presentations", "value": "minimalist" },
+                            { "text": "Meetings with the team", "value": "classic" },
+                            { "text": "Business training events", "value": "casual" },
+                            { "text": "The V events", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
+                        "options": [
+                            { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
+                            { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
+                            { "text": "Light colours", "value": "casual" },
+                            { "text": "Any colours with prints or designs", "value": "athletic" }
+                        ]
                     }
-                });
-            });
-        }
-
-        function handleNextQuestion() {
-            const selectedOption = document.querySelector(`input[name="question-${currentQuestionIndex}"]:checked`);
-            if (!selectedOption) {
-                showMessage('app.message.selectAnswer');
-                return;
-            }
-
-            const value = selectedOption.value;
-            scores[value] = (scores[value] || 0) + 1;
-
-            currentQuestionIndex++;
-            renderQuestion();
-        }
-
-        function handleFinalSubmit() {
-            const selectedOption = document.querySelector(`input[name="question-${currentQuestionIndex}"]:checked`);
-            if (!selectedOption) {
-                showMessage('app.message.selectAnswer');
-                return;
-            }
-            
-            const value = selectedOption.value;
-            scores[value] = (scores[value] || 0) + 1;
-
-            // Find the result with the highest score
-            let highestScore = 0;
-            let resultKey = '';
-            for (const key in scores) {
-                if (scores[key] > highestScore) {
-                    highestScore = scores[key];
-                    resultKey = key;
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Minimalist",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                    },
+                    "classic": {
+                        "title": "Classic",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                    },
+                    "casual": {
+                        "title": "Casual",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                    },
+                    "athletic": {
+                        "title": "Athletic",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                    }
                 }
-            }
-            
-            // Fallback if no questions were answered or no clear winner
-            if (!resultKey) {
-                resultKey = i18n.questions[0].options[0].value;
-            }
-
-            const result = i18n.results[resultKey];
-            if (result) {
-                document.getElementById('results-title').textContent = result.title;
-                document.getElementById('result-image').src = result.image;
-                document.getElementById('result-description').textContent = result.description;
-            }
-
-            quizSection.classList.add('hidden');
-            resultsSection.classList.remove('hidden');
-        }
-
-        function resetQuiz() {
-            currentQuestionIndex = 0;
-            scores = {};
-            introSection.classList.remove('hidden');
-            quizSection.classList.add('hidden');
-            resultsSection.classList.add('hidden');
-        }
-
-        // --- Event Listeners ---
-        startBtn.addEventListener('click', () => {
-            introSection.classList.add('hidden');
-            quizSection.classList.remove('hidden');
-            renderQuestion();
-        });
-
-        nextBtn.addEventListener('click', handleNextQuestion);
-        submitBtn.addEventListener('click', handleFinalSubmit);
-        resetBtn.addEventListener('click', resetQuiz);
-        messageBoxCloseBtn.addEventListener('click', hideMessage);
-
-        // Social share and download buttons
-        document.getElementById('shareFacebookBtn').addEventListener('click', () => {
-            const resultTitle = document.getElementById('results-title').textContent;
-            const shareText = `I just took the LIMITLESS Style Quiz and my style is ${resultTitle}! Discover yours: ${window.location.href}`;
-            const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(shareText)}`;
-            window.open(url, '_blank');
-        });
-        
-        document.getElementById('shareInstagramBtn').addEventListener('click', () => {
-            showMessage('app.message.instagramShare');
-        });
-
-        document.getElementById('copyLinkBtn').addEventListener('click', () => {
-            const dummy = document.createElement('textarea');
-            document.body.appendChild(dummy);
-            dummy.value = window.location.href;
-            dummy.select();
-            document.execCommand('copy');
-            document.body.removeChild(dummy);
-            showMessage('app.message.copied');
-        });
-        
-        document.getElementById('downloadImageBtn').addEventListener('click', () => {
-            const imageUrl = document.getElementById('result-image').src;
-            if (imageUrl) {
-                const link = document.createElement('a');
-                link.href = imageUrl;
-                link.download = 'my-style-quiz-result.png';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }
-        });
-
-        // --- New Fetching Logic ---
-        async function fetchTranslations(lang) {
-            try {
-                // In a real environment, this would be a fetch call to a file.
-                // Here, we simulate it by loading the data directly.
-                i18n = {
-                "en": {
-                  "app": {
-                      "title": "What kind of LIMITLESS style is best for you?",
-                      "subtitle": "Take the quiz and find out!",
-                      "startBtn": "Start Quiz",
-                      "nextBtn": "Next",
-                      "submitBtn": "Submit",
-                      "resetBtn": "Start Over",
-                      "resultsTitle": "Your Suggested Style",
-                      "home": "Home",
-                      "message": {
-                          "selectAnswer": "Please select an answer to proceed.",
-                          "answerAll": "Please answer all questions before submitting.",
-                          "copied": "The link has been copied to your clipboard!",
-                          "close": "Close",
-                          "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-                      }
-                  },
-                  "questions": [
-                      {
-                          "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
-                          "options": [
-                              { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-                              { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-                              { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-                              { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
-                          "options": [
-                              { "text": "Presentations", "value": "minimalist" },
-                              { "text": "Meetings with the team", "value": "classic" },
-                              { "text": "Business training events", "value": "casual" },
-                              { "text": "The V events", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
-                          "options": [
-                              { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-                              { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-                              { "text": "Light colours", "value": "casual" },
-                              { "text": "Any colours with prints or designs", "value": "athletic" }
-                          ]
-                      }
-                  ],
-                  "results": {
-                      "minimalist": {
-                          "title": "Minimalist",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "classic": {
-                          "title": "Classic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "casual": {
-                          "title": "Casual",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "athletic": {
-                          "title": "Athletic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      }
-                  }
             },
             "ar": {
                 "app": {
@@ -4896,228 +4708,509 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             },
+            "id": {
+                "app": {
+                    "title": "Gaya LIMITLESS apa yang paling cocok untukmu?",
+                    "subtitle": "Ikuti kuisnya dan cari tahu!",
+                    "startBtn": "Mulai Kuis",
+                    "nextBtn": "Selanjutnya",
+                    "submitBtn": "Kirim",
+                    "resetBtn": "Mulai Lagi",
+                    "resultsTitle": "Gaya yang Disarankan",
+                    "home": "Beranda",
+                    "message": {
+                        "selectAnswer": "Silakan pilih jawaban untuk melanjutkan.",
+                        "answerAll": "Harap jawab semua pertanyaan sebelum mengirim.",
+                        "copied": "Tautan telah disalin ke papan klip Anda!",
+                        "close": "Tutup",
+                        "instagramShare": "Fitur ini tidak didukung melalui web. Harap unduh gambar untuk dibagikan di Instagram."
+                    }
+                },
+                "questions": [
+                    {
+                        "title": "APA PAKAIAN SEHARI-HARI ANDA?",
+                        "options": [
+                            { "text": "Gaya minimalis dengan kemeja dan celana berwarna netral", "value": "minimalist" },
+                            { "text": "Tampilan klasik dengan gaun atau kemeja berkerah, kaus, dan celana panjang", "value": "classic" },
+                            { "text": "Pakaian sehari-hari kasual seperti kemeja, celana pendek atau panjang, hoodie, dan topi", "value": "casual" },
+                            { "text": "Menggabungkan pakaian olahraga dengan mode kasual seperti kemeja kebesaran, celana pendek, jaket bomber, jersey, dan topi", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "UNTUK ACARA ATAU KESEMPATAN APA ANDA BIASANYA BERPAKAIAN?",
+                        "options": [
+                            { "text": "Presentasi", "value": "minimalist" },
+                            { "text": "Pertemuan dengan tim", "value": "classic" },
+                            { "text": "Acara pelatihan bisnis", "value": "casual" },
+                            { "text": "Acara V", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "WARNA APA YANG PALING SERING ANDA PILIH?",
+                        "options": [
+                            { "text": "Warna netral, seperti krem, krim, gading, abu-abu, dan coklat", "value": "minimalist" },
+                            { "text": "Hitam atau putih dengan sedikit warna cerah atau desain", "value": "classic" },
+                            { "text": "Warna-warna terang", "value": "casual" },
+                            { "text": "Warna apa pun dengan cetakan atau desain", "value": "athletic" }
+                        ]
+                    }
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Minimalis",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "classic": {
+                        "title": "Klasik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "casual": {
+                        "title": "Kasual",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "athletic": {
+                        "title": "Atletik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    }
+                }
+            },
             "fr": {
-                  "app": {
-                      "title": "What kind of LIMITLESS style is best for you?",
-                      "subtitle": "Take the quiz and find out!",
-                      "startBtn": "Start Quiz",
-                      "nextBtn": "Next",
-                      "submitBtn": "Submit",
-                      "resetBtn": "Start Over",
-                      "resultsTitle": "Your Suggested Style",
-                      "home": "Home",
-                      "message": {
-                          "selectAnswer": "Please select an answer to proceed.",
-                          "answerAll": "Please answer all questions before submitting.",
-                          "copied": "The link has been copied to your clipboard!",
-                          "close": "Close",
-                          "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-                      }
-                  },
-                  "questions": [
-                      {
-                          "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
-                          "options": [
-                              { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-                              { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-                              { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-                              { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
-                          "options": [
-                              { "text": "Presentations", "value": "minimalist" },
-                              { "text": "Meetings with the team", "value": "classic" },
-                              { "text": "Business training events", "value": "casual" },
-                              { "text": "The V events", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
-                          "options": [
-                              { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-                              { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-                              { "text": "Light colours", "value": "casual" },
-                              { "text": "Any colours with prints or designs", "value": "athletic" }
-                          ]
-                      }
-                  ],
-                  "results": {
-                      "minimalist": {
-                          "title": "Minimalist",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "classic": {
-                          "title": "Classic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "casual": {
-                          "title": "Casual",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "athletic": {
-                          "title": "Athletic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      }
-                  }
+                "app": {
+                    "title": "Quel style LIMITLESS vous convient le mieux ?",
+                    "subtitle": "Faites le quiz et découvrez-le !",
+                    "startBtn": "Commencer le quiz",
+                    "nextBtn": "Suivant",
+                    "submitBtn": "Soumettre",
+                    "resetBtn": "Recommencer",
+                    "resultsTitle": "Votre style suggéré",
+                    "home": "Accueil",
+                    "message": {
+                        "selectAnswer": "Veuillez sélectionner une réponse pour continuer.",
+                        "answerAll": "Veuillez répondre à toutes les questions avant de soumettre.",
+                        "copied": "Le lien a été copié dans votre presse-papiers !",
+                        "close": "Fermer",
+                        "instagramShare": "Cette fonctionnalité n'est pas prise en charge via le web. Veuillez télécharger l'image pour la partager sur Instagram."
+                    }
+                },
+                "questions": [
+                    {
+                        "title": "QUELLE EST VOTRE TENUE QUOTIDIENNE PRÉFÉRÉE ?",
+                        "options": [
+                            { "text": "Style minimaliste de chemises et pantalons de couleurs neutres", "value": "minimalist" },
+                            { "text": "Look classique avec des robes ou des chemises à col, des pulls molletonnés et des pantalons longs", "value": "classic" },
+                            { "text": "Tenues décontractées de tous les jours comme des chemises, des shorts ou des pantalons, des sweats à capuche et des casquettes", "value": "casual" },
+                            { "text": "Combinaison de vêtements de sport et de mode décontractée comme des chemises amples, des shorts, des vestes de bombardier, des maillots et des casquettes", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "POUR QUEL GENRE D'ÉVÉNEMENTS OU D'OCCASIONS VOUS HABILLEZ-VOUS HABITUELLEMENT ?",
+                        "options": [
+                            { "text": "Présentations", "value": "minimalist" },
+                            { "text": "Réunions d'équipe", "value": "classic" },
+                            { "text": "Événements de formation en entreprise", "value": "casual" },
+                            { "text": "Les événements V", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "QUEL GENRE DE COULEURS AVEZ-VOUS TENDANCE À CHOISIR LA PLUPART DU TEMPS ?",
+                        "options": [
+                            { "text": "Les tons neutres, comme le beige, la crème, l'ivoire, le gris et le marron", "value": "minimalist" },
+                            { "text": "Le noir ou le blanc avec un minimum de couleurs vives ou de motifs", "value": "classic" },
+                            { "text": "Les couleurs claires", "value": "casual" },
+                            { "text": "Toutes les couleurs avec des imprimés ou des motifs", "value": "athletic" }
+                        ]
+                    }
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Minimaliste",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Visitez le magasin The Limitless Store à Setia SPICE Arena en septembre !"
+                    },
+                    "classic": {
+                        "title": "Classique",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Visitez le magasin The Limitless Store à Setia SPICE Arena en septembre !"
+                    },
+                    "casual": {
+                        "title": "Décontracté",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Visitez le magasin The Limitless Store à Setia SPICE Arena en septembre !"
+                    },
+                    "athletic": {
+                        "title": "Athlétique",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Visitez le magasin The Limitless Store à Setia SPICE Arena en septembre !"
+                    }
+                }
             },
             "ru": {
-                  "app": {
-                      "title": "What kind of LIMITLESS style is best for you?",
-                      "subtitle": "Take the quiz and find out!",
-                      "startBtn": "Start Quiz",
-                      "nextBtn": "Next",
-                      "submitBtn": "Submit",
-                      "resetBtn": "Start Over",
-                      "resultsTitle": "Your Suggested Style",
-                      "home": "Home",
-                      "message": {
-                          "selectAnswer": "Please select an answer to proceed.",
-                          "answerAll": "Please answer all questions before submitting.",
-                          "copied": "The link has been copied to your clipboard!",
-                          "close": "Close",
-                          "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-                      }
-                  },
-                  "questions": [
-                      {
-                          "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
-                          "options": [
-                              { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-                              { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-                              { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-                              { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
-                          "options": [
-                              { "text": "Presentations", "value": "minimalist" },
-                              { "text": "Meetings with the team", "value": "classic" },
-                              { "text": "Business training events", "value": "casual" },
-                              { "text": "The V events", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
-                          "options": [
-                              { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-                              { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-                              { "text": "Light colours", "value": "casual" },
-                              { "text": "Any colours with prints or designs", "value": "athletic" }
-                          ]
-                      }
-                  ],
-                  "results": {
-                      "minimalist": {
-                          "title": "Minimalist",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "classic": {
-                          "title": "Classic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "casual": {
-                          "title": "Casual",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "athletic": {
-                          "title": "Athletic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      }
-                  }
+                "app": {
+                    "title": "Какой стиль LIMITLESS вам больше подходит?",
+                    "subtitle": "Пройдите тест и узнайте!",
+                    "startBtn": "Начать тест",
+                    "nextBtn": "Далее",
+                    "submitBtn": "Отправить",
+                    "resetBtn": "Начать заново",
+                    "resultsTitle": "Ваш рекомендованный стиль",
+                    "home": "Главная",
+                    "message": {
+                        "selectAnswer": "Пожалуйста, выберите ответ, чтобы продолжить.",
+                        "answerAll": "Пожалуйста, ответьте на все вопросы перед отправкой.",
+                        "copied": "Ссылка скопирована в буфер обмена!",
+                        "close": "Закрыть",
+                        "instagramShare": "Эта функция не поддерживается через Интернет. Пожалуйста, загрузите изображение, чтобы поделиться им в Instagram."
+                    }
+                },
+                "questions": [
+                    {
+                        "title": "ВАША ПОВСЕДНЕВНАЯ ОДЕЖДА?",
+                        "options": [
+                            { "text": "Минималистичный стиль, рубашки и брюки нейтральных цветов", "value": "minimalist" },
+                            { "text": "Классический образ с платьями или рубашками с воротником, толстовками и длинными брюками", "value": "classic" },
+                            { "text": "Повседневная одежда, такая как рубашки, шорты или брюки, толстовки и кепки", "value": "casual" },
+                            { "text": "Сочетание спортивной одежды с повседневной модой, например, объемные рубашки, шорты, куртки-бомберы, джерси и кепки", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "ДЛЯ КАКИХ МЕРОПРИЯТИЙ ВЫ ОБЫЧНО ОДЕВАЕТЕСЬ?",
+                        "options": [
+                            { "text": "Презентации", "value": "minimalist" },
+                            { "text": "Встречи с командой", "value": "classic" },
+                            { "text": "Тренинги по бизнесу", "value": "casual" },
+                            { "text": "Мероприятия The V", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "КАКИЕ ЦВЕТА ВЫ ВЫБИРАЕТЕ ЧАЩЕ ВСЕГО?",
+                        "options": [
+                            { "text": "Нейтральные, такие как бежевый, кремовый, слоновая кость, серый и коричневый", "value": "minimalist" },
+                            { "text": "Черный или белый с минимальным количеством ярких цветов или узоров", "value": "classic" },
+                            { "text": "Светлые цвета", "value": "casual" },
+                            { "text": "Любые цвета с принтами или узорами", "value": "athletic" }
+                        ]
+                    }
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Минималистский",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Посетите The Limitless Store в Setia SPICE Arena в сентябре!"
+                    },
+                    "classic": {
+                        "title": "Классический",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Посетите The Limitless Store в Setia SPICE Arena в сентябре!"
+                    },
+                    "casual": {
+                        "title": "Повседневный",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Посетите The Limitless Store в Setia SPICE Arena в сентябре!"
+                    },
+                    "athletic": {
+                        "title": "Спортивный",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Посетите The Limitless Store в Setia SPICE Arena в сентябре!"
+                    }
+                }
             },
             "tr": {
-                  "app": {
-                      "title": "What kind of LIMITLESS style is best for you?",
-                      "subtitle": "Take the quiz and find out!",
-                      "startBtn": "Start Quiz",
-                      "nextBtn": "Next",
-                      "submitBtn": "Submit",
-                      "resetBtn": "Start Over",
-                      "resultsTitle": "Your Suggested Style",
-                      "home": "Home",
-                      "message": {
-                          "selectAnswer": "Please select an answer to proceed.",
-                          "answerAll": "Please answer all questions before submitting.",
-                          "copied": "The link has been copied to your clipboard!",
-                          "close": "Close",
-                          "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-                      }
-                  },
-                  "questions": [
-                      {
-                          "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
-                          "options": [
-                              { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-                              { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-                              { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-                              { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
-                          "options": [
-                              { "text": "Presentations", "value": "minimalist" },
-                              { "text": "Meetings with the team", "value": "classic" },
-                              { "text": "Business training events", "value": "casual" },
-                              { "text": "The V events", "value": "athletic" }
-                          ]
-                      },
-                      {
-                          "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
-                          "options": [
-                              { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-                              { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-                              { "text": "Light colours", "value": "casual" },
-                              { "text": "Any colours with prints or designs", "value": "athletic" }
-                          ]
-                      }
-                  ],
-                  "results": {
-                      "minimalist": {
-                          "title": "Minimalist",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "classic": {
-                          "title": "Classic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "casual": {
-                          "title": "Casual",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      },
-                      "athletic": {
-                          "title": "Athletic",
-                          "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
-                          "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                      }
-                  }
+                "app": {
+                    "title": "Size en uygun LIMITLESS tarzı hangisi?",
+                    "subtitle": "Testi çözün ve öğrenin!",
+                    "startBtn": "Teste Başla",
+                    "nextBtn": "İleri",
+                    "submitBtn": "Gönder",
+                    "resetBtn": "Baştan Başla",
+                    "resultsTitle": "Önerilen Tarzınız",
+                    "home": "Ana Sayfa",
+                    "message": {
+                        "selectAnswer": "Lütfen devam etmek için bir cevap seçin.",
+                        "answerAll": "Lütfen göndermeden önce tüm soruları cevaplayın.",
+                        "copied": "Bağlantı panonuza kopyalandı!",
+                        "close": "Kapat",
+                        "instagramShare": "Bu özellik web üzerinden desteklenmemektedir. Lütfen paylaşmak için görseli indirin."
+                    }
+                },
+                "questions": [
+                    {
+                        "title": "GÜNLÜK KIYAFETİNİZ NE?",
+                        "options": [
+                            { "text": "Nötr renklerde minimalist tişört ve pantolonlar", "value": "minimalist" },
+                            { "text": "Elbiseler veya yakalı tişörtler, sweatshirtler ve uzun pantolonlarla klasik bir görünüm", "value": "classic" },
+                            { "text": "Tişörtler, şortlar veya pantolonlar, kapüşonlular ve şapkalar gibi gündelik kıyafetler", "value": "casual" },
+                            { "text": "Büyük beden tişörtler, şortlar, bomber ceketler, formalar ve şapkalar gibi spor giyimi gündelik moda ile birleştirmek", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "GENELLİKLE HANGİ ETKİNLİKLER VEYA DURUMLAR İÇİN GİYİNİRSİNİZ?",
+                        "options": [
+                            { "text": "Sunumlar", "value": "minimalist" },
+                            { "text": "Ekiple toplantılar", "value": "classic" },
+                            { "text": "İş eğitimi etkinlikleri", "value": "casual" },
+                            { "text": "V etkinlikleri", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "EN ÇOK HANGİ RENKLERİ TERCİH EDERSİNİZ?",
+                        "options": [
+                            { "text": "Bej, krem, fildişi, gri ve kahverengi gibi nötrler", "value": "minimalist" },
+                            { "text": "Minimal parlak renkler veya tasarımlarla siyah veya beyaz", "value": "classic" },
+                            { "text": "Açık renkler", "value": "casual" },
+                            { "text": "Baskılı veya tasarımlı herhangi bir renk", "value": "athletic" }
+                        ]
+                    }
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Minimalist",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Eylül ayında Setia SPICE Arena'daki The Limitless Store'u ziyaret edin!"
+                    },
+                    "classic": {
+                        "title": "Klasik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Eylül ayında Setia SPICE Arena'daki The Limitless Store'u ziyaret edin!"
+                    },
+                    "casual": {
+                        "title": "Rahat",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Eylül ayında Setia SPICE Arena'daki The Limitless Store'u ziyaret edin!"
+                    },
+                    "athletic": {
+                        "title": "Atletik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Eylül ayında Setia SPICE Arena'daki The Limitless Store'u ziyaret edin!"
+                    }
+                }
             }
-                };
-                translate();
-            } catch (error) {
-                console.error(error);
-            }
-        }
+        };
 
-        // Initial load
-        window.addEventListener('DOMContentLoaded', () => {
-            fetchTranslations(appLanguage);
+        i18n = allTranslations[lang];
+
+    } catch (error) {
+        console.error("Error loading translations:", error);
+    }
+}
+
+/**
+ * Replaces text content of elements with a `data-i18n` attribute.
+ */
+function translate() {
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const translation = getTranslation(key);
+        if (translation) {
+            element.textContent = translation;
+        }
+    });
+}
+
+/**
+ * Safely gets a translation string from the loaded i18n object.
+ */
+function getTranslation(key) {
+    let value = i18n;
+    const keys = key.split('.');
+    for (let i = 0; i < keys.length; i++) {
+        if (value && value.hasOwnProperty(keys[i])) {
+            value = value[keys[i]];
+        } else {
+            console.warn(`Translation key not found: ${key}`);
+            return null;
+        }
+    }
+    return value;
+}
+
+// Function to show custom message box
+function showMessage(textKey) {
+    messageBoxText.textContent = getTranslation(textKey);
+    messageBoxOverlay.style.display = 'flex';
+}
+
+// Function to hide custom message box
+function hideMessage() {
+    messageBoxOverlay.style.display = 'none';
+}
+
+/**
+ * Renders the current question and its options.
+ */
+function renderQuestion() {
+    const questionData = i18n.questions[currentQuestionIndex];
+    if (!questionData) {
+        console.error("Question data is not available.");
+        return;
+    }
+
+    const questionHtml = `
+        <div class="quiz-question-card">
+            <h3 class="quiz-question-title">
+                ${questionData.title}
+            </h3>
+        </div>
+        ${questionData.options.map((option, index) => `
+            <div class="quiz-option-container">
+                <input type="radio" id="q${currentQuestionIndex}-option${index}" name="question-${currentQuestionIndex}" value="${option.value}">
+                <label for="q${currentQuestionIndex}-option${index}" class="quiz-option-label">${option.text}</label>
+            </div>
+        `).join('')}
+    `;
+    if (quizQuestionsContainer) {
+        quizQuestionsContainer.innerHTML = questionHtml;
+    }
+    
+    // Manage button visibility
+    if (currentQuestionIndex === i18n.questions.length - 1) {
+        nextBtn.classList.add('hidden');
+        submitBtn.classList.remove('hidden');
+    } else {
+        nextBtn.classList.remove('hidden');
+        submitBtn.classList.add('hidden');
+    }
+    
+    // Disable the current visible button until an option is selected
+    if (!nextBtn.classList.contains('hidden')) {
+        nextBtn.classList.add('disabled');
+    } else if (!submitBtn.classList.contains('hidden')) {
+        submitBtn.classList.add('disabled');
+    }
+    
+    // Add event listeners to the radio buttons to enable the button
+    document.querySelectorAll(`input[name="question-${currentQuestionIndex}"]`).forEach(radio => {
+        radio.addEventListener('change', () => {
+            if (!nextBtn.classList.contains('hidden')) {
+                nextBtn.classList.remove('disabled');
+            }
+            if (!submitBtn.classList.contains('hidden')) {
+                submitBtn.classList.remove('disabled');
+            }
         });
     });
+}
+
+function handleNextQuestion() {
+    const selectedOption = document.querySelector(`input[name="question-${currentQuestionIndex}"]:checked`);
+    if (!selectedOption) {
+        showMessage('app.message.selectAnswer');
+        return;
+    }
+
+    const value = selectedOption.value;
+    scores[value] = (scores[value] || 0) + 1;
+
+    currentQuestionIndex++;
+    renderQuestion();
+}
+
+function handleFinalSubmit() {
+    const selectedOption = document.querySelector(`input[name="question-${currentQuestionIndex}"]:checked`);
+    if (!selectedOption) {
+        showMessage('app.message.selectAnswer');
+        return;
+    }
+    
+    const value = selectedOption.value;
+    scores[value] = (scores[value] || 0) + 1;
+
+    // Find the result with the highest score
+    let highestScore = 0;
+    let resultKey = '';
+    for (const key in scores) {
+        if (scores[key] > highestScore) {
+            highestScore = scores[key];
+            resultKey = key;
+        }
+    }
+    
+    // Fallback if no questions were answered or no clear winner
+    if (!resultKey) {
+        resultKey = i18n.questions[0].options[0].value;
+    }
+
+    const result = i18n.results[resultKey];
+    if (result) {
+        document.getElementById('results-title').textContent = result.title;
+        document.getElementById('result-image').src = result.image;
+        document.getElementById('result-description').textContent = result.description;
+    }
+
+    quizSection.classList.add('hidden');
+    resultsSection.classList.remove('hidden');
+}
+
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    scores = {};
+    introSection.classList.remove('hidden');
+    quizSection.classList.add('hidden');
+    resultsSection.classList.add('hidden');
+}
+
+// --- Event Listeners ---
+startBtn.addEventListener('click', () => {
+    introSection.classList.add('hidden');
+    quizSection.classList.remove('hidden');
+    renderQuestion();
+});
+
+nextBtn.addEventListener('click', handleNextQuestion);
+submitBtn.addEventListener('click', handleFinalSubmit);
+resetBtn.addEventListener('click', resetQuiz);
+messageBoxCloseBtn.addEventListener('click', hideMessage);
+
+// Social share and download buttons
+document.getElementById('shareFacebookBtn').addEventListener('click', () => {
+    const resultTitle = document.getElementById('results-title').textContent;
+    const shareText = `I just took the LIMITLESS Style Quiz and my style is ${resultTitle}! Discover yours: ${window.location.href}`;
+    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(shareText)}`;
+    window.open(url, '_blank');
+});
+
+document.getElementById('shareInstagramBtn').addEventListener('click', () => {
+    showMessage('app.message.instagramShare');
+});
+
+document.getElementById('copyLinkBtn').addEventListener('click', () => {
+    const dummy = document.createElement('textarea');
+    document.body.appendChild(dummy);
+    dummy.value = window.location.href;
+    dummy.select();
+    document.execCommand('copy');
+    document.body.removeChild(dummy);
+    showMessage('app.message.copied');
+});
+
+document.getElementById('downloadImageBtn').addEventListener('click', () => {
+    const imageUrl = document.getElementById('result-image').src;
+    if (imageUrl) {
+        const link = document.createElement('a');
+        link.href = imageUrl;
+        link.download = 'my-style-quiz-result.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+});
+
+// --- Initial setup, now asynchronous ---
+document.addEventListener('DOMContentLoaded', async () => {
+    // Disable the button to prevent premature clicks
+    startBtn.disabled = true;
+    
+    // Wait for translations to load.
+    await fetchTranslations(appLanguage);
+
+    // After translations are loaded, we can translate the page and enable the button.
+    translate();
+    startBtn.disabled = false;
+});
+
     
 
 //END MATCHMAKER
