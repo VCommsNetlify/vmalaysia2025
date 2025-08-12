@@ -3345,13 +3345,13 @@ body.rtl .arrow-left {
 
 
 
-      const adSwiperWrapper = document.querySelector('.adSwiper .swiper-wrapper');
+      // const adSwiperWrapper = document.querySelector('.adSwiper .swiper-wrapper');
 // Use the same breakpoint as in your updateUI function for consistency
-const mobileBreakpoint = 768; // Adjust as needed, ensure it matches any CSS breakpoints
+// const mobileBreakpoint = 768; // Adjust as needed, ensure it matches any CSS breakpoints
 
-function updateSwiperImages() {
+// function updateSwiperImages() {
   // Get the array of all slide data for the current language from JSON
-  const allSlideData = t('swiperAds.slides');
+  // const allSlideData = t('swiperAds.slides');
 
   // Basic error handling in case the translation key isn't found or is not an array
   // if (!Array.isArray(allSlideData) || allSlideData.length === 0) {
@@ -3397,7 +3397,7 @@ function updateSwiperImages() {
   // if (window.swiper && window.swiper.adSwiper) {
   //   window.swiper.adSwiper.update();
   // }
-}
+// }
 
 // Call on initial load
 document.addEventListener('DOMContentLoaded', updateSwiperImages); // Ensure DOM is ready
