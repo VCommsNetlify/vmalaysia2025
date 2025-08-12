@@ -4758,7 +4758,7 @@ const articleSwiper = new Swiper('.article-swiper', {
     // --- New Fetching Logic ---
     async function fetchTranslations(lang) {
         try {
-            const response = await fetch(`./${lang}.json`);
+            const response = await fetch(`./locales/${lang}.json`);
             if (!response.ok) {
                 // Log a more descriptive error message
                 throw new Error(`Failed to load ${lang}.json. Please make sure the file exists in the same directory and is named correctly.`);
