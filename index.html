@@ -35,12 +35,11 @@ html {
 
 /* Add this to your main stylesheet, e.g., style.css or main.css */
 @font-face {
-  font-family: 'Dreamlands Regular';
-  src: url('assets/fonts/dreamlands-regular.woff2') format('woff2'),
-       url('assets/fonts/dreamlands-regular.woff') format('woff');
+  font-family: 'Dreamlands';
+  src: url('/assets/fonts/Dreamlands.woff2') format('woff2'),
+       url('/assets/fonts/Dreamlands.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /* Optional: Create a utility class for easy application */
@@ -1878,17 +1877,16 @@ body.rtl .arrow-left {
         </div>
       </div>
       
-      <h2 class="mt-4 max-w-4xl text-[1.5rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] font-extrabold leading-tight tracking-widest text-center" style="font-family: dreamlands;">
-        <span class="text-[#fffca9] block sm:inline" data-i18n="hero.headline_part1">GREATER STORIES AWAIT THIS SEPTEMBER AT<br></span>
-        <span class="text-[#fffca9] block sm:inline" data-i18n="hero.headline_part2">V-MALAYSIA 2025: TOGETHER WE RISE!</span>
-        
+      <h2 class="mt-4 max-w-4xl text-[1.5rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] font-extrabold leading-tight tracking-widest text-center">
+        <span class="text-[#fffca9] block sm:inline font-dreamlands" data-i18n="hero.headline_part1">GREATER STORIES AWAIT THIS SEPTEMBER AT<br></span>
+        <span class="text-[#fffca9] block sm:inline font-dreamlands" data-i18n="hero.headline_part2">V-MALAYSIA 2025: TOGETHER WE RISE!</span>
       </h2>
       <br>
     <div class="flex flex-col items-center gap-4 text-white text-center">
       
 
       <a href="https://vshoppe.vtube.net/"
-  class="block w-full max-w-md mx-auto break-words bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 text-base sm:text-lg md:text-xl rounded-full shadow-lg transition duration-300 btn-glow animate-pulse text-center sm:w-auto sm:whitespace-nowrap"
+  class="block w-full sm:w-auto mx-auto break-words bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 text-base sm:text-lg md:text-xl rounded-full shadow-lg transition duration-300 btn-glow animate-pulse text-center whitespace-normal sm:whitespace-nowrap"
   data-i18n="hero.cta_button">
   Get your tickets on VShoppe. Use the code: VMYSEPT2025
 </a>
