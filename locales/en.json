@@ -490,63 +490,98 @@
     ]
   },
   "app": {
-      "title": "What kind of LIMITLESS style is best for you?",
-      "subtitle": "Take the quiz and find out!",
-      "startBtn": "Start Quiz",
-      "nextBtn": "Next",
-      "submitBtn": "Submit",
-      "resetBtn": "Start Over",
-      "resultsTitle": "Your Suggested Style",
-      "message": {
-        "selectAnswer": "Please select an answer to proceed.",
-        "answerAll": "Please answer all questions before submitting.",
-        "copied": "The text and image link have been copied to your clipboard!",
-        "close": "Close",
-        "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-      }
+        "title": "LIMITLESS Style Quiz",
+        "subtitle": "Discover your unique style and find the perfect fashion that defines you.",
+        "startBtn": "Start Quiz",
+        "nextBtn": "Next",
+        "submitBtn": "Submit",
+        "resetBtn": "Retake Quiz",
+        "resultsTitle": "Your style is...",
+        "message": {
+            "selectAnswer": "Please select an answer to continue.",
+            "answerAll": "Please answer all questions before submitting.",
+            "copied": "Link copied to clipboard!",
+            "instagramShare": "For Instagram, please share your result image manually.",
+            "close": "Close"
+        }
     },
     "questions": [
-      {
-        "title": "What’s your daily go-to outfit?",
-        "options": [
-          "Minimalist style of shirts and pants in neutral colours",
-          "Classic look with dresses or collared shirts, sweatshirts, and long pants",
-          "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps",
-          "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps"
-        ]
-      },
-      {
-        "title": "What kind of events or occasions do you typically dress for?",
-        "options": [
-          "Presentations",
-          "Meetings with the team",
-          "Business training events",
-          "The V events"
-        ]
-      },
-      {
-        "title": "What kind of colours do you tend to choose most of the time?",
-        "options": [
-          "Neutrals, such as beige, cream, ivory, gray, and brown",
-          "Black or white with minimal bright colors or designs",
-          "Light colours",
-          "Any colours with prints or designs"
-        ]
-      }
+        {
+            "title": "When you have to go to a formal event, which outfit do you choose?",
+            "options": [
+                { "text": "Something timeless and sophisticated", "value": "A" },
+                { "text": "A bold dress that makes a statement", "value": "B" },
+                { "text": "An elegant, understated piece", "value": "C" },
+                { "text": "A trendy, modern look", "value": "D" }
+            ]
+        },
+        {
+            "title": "Which color palette do you gravitate towards most?",
+            "options": [
+                { "text": "Neutrals and earthy tones", "value": "A" },
+                { "text": "Bright and vivid colors", "value": "B" },
+                { "text": "Classic black and white", "value": "C" },
+                { "text": "Pastel shades", "value": "D" }
+            ]
+        },
+        {
+            "title": "What's your go-to accessory?",
+            "options": [
+                { "text": "A simple chain necklace", "value": "A" },
+                { "text": "Chunky rings and bracelets", "value": "B" },
+                { "text": "A luxury watch", "value": "C" },
+                { "text": "Layered necklaces", "value": "D" }
+            ]
+        },
+        {
+            "title": "Which describes your ideal weekend outfit?",
+            "options": [
+                { "text": "Comfortable jeans and a cozy sweater", "value": "A" },
+                { "text": "A unique vintage jacket and boots", "value": "B" },
+                { "text": "A perfectly tailored blazer and trousers", "value": "C" },
+                { "text": "Oversized hoodie and leggings", "value": "D" }
+            ]
+        },
+        {
+            "title": "When shopping for a new item, you look for...",
+            "options": [
+                { "text": "High-quality fabrics that last", "value": "A" },
+                { "text": "Something that stands out from the crowd", "value": "B" },
+                { "text": "A versatile piece that matches everything", "value": "C" },
+                { "text": "The latest fashion trend", "value": "D" }
+            ]
+        },
+        {
+            "title": "Which celebrity's style do you admire the most?",
+            "options": [
+                { "text": "Jennifer Aniston", "value": "A" },
+                { "text": "Zendaya", "value": "B" },
+                { "text": "Audrey Hepburn", "value": "C" },
+                { "text": "Hailey Bieber", "value": "D" }
+            ]
+        }
     ],
     "results": {
-      "minimalist": {
-        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-      },
-      "classic": {
-        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-      },
-      "casual": {
-        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-      },
-      "athletic": {
-        "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-      }
+        "A": {
+            "title": "The Minimalist",
+            "description": "Your style is clean, simple, and effortlessly chic. You prefer classic pieces, neutral colors, and high-quality fabrics that stand the test of time. Your wardrobe is built around versatility and comfort, proving that less is always more.",
+            "image": "https://placehold.co/400x300/F5F5DC/000000?text=Minimalist+Style"
+        },
+        "B": {
+            "title": "The Trendsetter",
+            "description": "You love to make a statement with your fashion choices. You're not afraid to experiment with bold colors, unique patterns, and avant-garde silhouettes. You're always the first to know about the latest trends and love to express your personality through your clothes.",
+            "image": "https://placehold.co/400x300/E74C3C/FFFFFF?text=Trendsetter+Style"
+        },
+        "C": {
+            "title": "The Classic",
+            "description": "Your style is defined by timeless elegance and sophistication. You appreciate well-tailored pieces, structured silhouettes, and a refined color palette. Your wardrobe is filled with iconic staples that exude a sense of timeless grace.",
+            "image": "https://placehold.co/400x300/34495E/FFFFFF?text=Classic+Style"
+        },
+        "D": {
+            "title": "The Casual Cool",
+            "description": "Comfort is key for you, but you never sacrifice style. You master the art of looking effortlessly put-together with a relaxed, modern edge. Your go-to looks often involve stylish streetwear, oversized fits, and cool sneakers.",
+            "image": "https://placehold.co/400x300/95A5A6/FFFFFF?text=Casual+Cool+Style"
+        }
     }
   
 }

@@ -2943,6 +2943,14 @@ body.rtl .arrow-left {
     </div>
 </div>
 
+<!-- Custom Message Box -->
+<div id="message-box-overlay">
+    <div id="message-box">
+        <p id="message-box-text"></p>
+        <button id="message-box-close" class="quiz-btn" data-i18n="app.message.close"></button>
+    </div>
+</div>
+
 
 
 </section>
@@ -4533,7 +4541,7 @@ const articleSwiper = new Swiper('.article-swiper', {
     let currentQuestionIndex = 0;
     let scores = {};
     const appLanguage = 'en';
-    let i18n = i18nData[appLanguage];
+    let i18n = {}; // Will be populated after fetching the JSON file
 
     // Get DOM elements
     const quizContainer = document.getElementById('quiz-container');
@@ -4708,7 +4716,6 @@ const articleSwiper = new Swiper('.article-swiper', {
     // Social share and download buttons
     document.getElementById('shareFacebookBtn').addEventListener('click', () => {
         const resultTitle = document.getElementById('results-title').textContent;
-        const resultDesc = document.getElementById('result-description').textContent;
         const shareText = `I just took the LIMITLESS Style Quiz and my style is ${resultTitle}! Discover yours: ${window.location.href}`;
         const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(shareText)}`;
         window.open(url, '_blank');
@@ -4740,9 +4747,24 @@ const articleSwiper = new Swiper('.article-swiper', {
         }
     });
 
+    // --- New Fetching Logic ---
+    async function fetchTranslations(lang) {
+        try {
+            const response = await fetch(`${lang}.json`);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${lang}.json`);
+            }
+            const data = await response.json();
+            i18n = data;
+            translate();
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
     // Initial load
     window.addEventListener('DOMContentLoaded', () => {
-        translate();
+        fetchTranslations(appLanguage);
     });
     
 
