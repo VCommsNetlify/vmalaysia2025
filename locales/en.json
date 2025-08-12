@@ -490,72 +490,72 @@
     ]
   },
   "app": {
-    "title": "What kind of LIMITLESS style is best for you?",
-    "subtitle": "Take the quiz and find out!",
-    "startBtn": "Start Quiz",
-    "nextBtn": "Next",
-    "submitBtn": "Submit",
-    "resetBtn": "Start Over",
-    "resultsTitle": "Your Suggested Style",
-    "message": {
-      "selectAnswer": "Please select an answer to proceed.",
-      "answerAll": "Please answer all questions before submitting.",
-      "copied": "The text and image link have been copied to your clipboard!",
-      "close": "Close",
-      "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-    }
-  },
-  "questions": [
-    {
-      "title": "What’s your daily go-to outfit?",
-      "options": [
-        { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-        { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-        { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-        { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-      ]
-    },
-    {
-      "title": "What kind of events or occasions do you typically dress for?",
-      "options": [
-        { "text": "Presentations", "value": "minimalist" },
-        { "text": "Meetings with the team", "value": "classic" },
-        { "text": "Business training events", "value": "casual" },
-        { "text": "The V events", "value": "athletic" }
-      ]
-    },
-    {
-      "title": "What kind of colours do you tend to choose most of the time?",
-      "options": [
-        { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-        { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-        { "text": "Light colours", "value": "casual" },
-        { "text": "Any colours with prints or designs", "value": "athletic" }
-      ]
-    }
-  ],
-  "results": {
-    "minimalist": {
-      "title": "Minimalist",
-      "image": "https://placehold.co/600x400/0078b9/ffffff?text=Minimalist",
-      "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-    },
-    "classic": {
-      "title": "Classic",
-      "image": "https://placehold.co/600x400/0078b9/ffffff?text=Classic",
-      "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-    },
-    "casual": {
-      "title": "Casual",
-      "image": "https://placehold.co/600x400/0078b9/ffffff?text=Casual",
-      "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-    },
-    "athletic": {
-      "title": "Athletic",
-      "image": "https://placehold.co/600x400/0078b9/ffffff?text=Athletic",
-      "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-    }
-  }
+                        "title": "What kind of LIMITLESS style is best for you?",
+                        "subtitle": "Take the quiz and find out!",
+                        "startBtn": "Start Quiz",
+                        "nextBtn": "Next",
+                        "submitBtn": "Submit",
+                        "resetBtn": "Start Over",
+                        "resultsTitle": "Your Suggested Style",
+                        "message": {
+                            "selectAnswer": "Please select an answer to proceed.",
+                            "answerAll": "Please answer all questions before submitting.",
+                            "copied": "The link has been copied to your clipboard!",
+                            "close": "Close",
+                            "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
+                        }
+                    },
+                    "questions": [
+                        {
+                            "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
+                            "options": [
+                                { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
+                                { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
+                                { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
+                                { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
+                            ]
+                        },
+                        {
+                            "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
+                            "options": [
+                                { "text": "Presentations", "value": "minimalist" },
+                                { "text": "Meetings with the team", "value": "classic" },
+                                { "text": "Business training events", "value": "casual" },
+                                { "text": "The V events", "value": "athletic" }
+                            ]
+                        },
+                        {
+                            "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
+                            "options": [
+                                { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
+                                { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
+                                { "text": "Light colours", "value": "casual" },
+                                { "text": "Any colours with prints or designs", "value": "athletic" }
+                            ]
+                        }
+                    ],
+                    "results": {
+                        "minimalist": {
+                            "title": "Minimalist",
+                            "image": "https://placehold.co/600x400/222222/ffffff?text=Minimalist+Style",
+                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                        },
+                        "classic": {
+                            "title": "Classic",
+                            "image": "https://placehold.co/600x400/444444/ffffff?text=Classic+Style",
+                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                        },
+                        "casual": {
+                            "title": "Casual",
+                            "image": "https://placehold.co/600x400/666666/ffffff?text=Casual+Style",
+                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                        },
+                        "athletic": {
+                            "title": "Athletic",
+                            "image": "https://placehold.co/600x400/888888/ffffff?text=Athletic+Style",
+                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
+                        }
+                    }
   
   
 }
