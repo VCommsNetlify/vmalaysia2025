@@ -4206,32 +4206,47 @@ const articleSwiper = new Swiper('.article-swiper', {
   }
 
   // Countdown
+  document.addEventListener('DOMContentLoaded', () => {
+  // The target date for the countdown
   const targetDate = new Date('September 12, 2025 09:00:00').getTime();
 
+  // Function to update the countdown timer
   function updateCountdown() {
     const now = new Date().getTime();
     const distance = targetDate - now;
 
-    const updateText = (id, val) => document.getElementById(id).textContent = String(val).padStart(2, "0");
+    // Helper function to update the text content of an element
+    const updateText = (id, value) => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.textContent = String(value).padStart(2, "0");
+      }
+    };
 
+    // If the countdown is over, display 00 across all fields
     if (distance <= 0) {
-      ["days", "hours", "minutes", "seconds"].forEach(id => updateText(id, 0));
+      clearInterval(countdownInterval); // Stop the interval
+      ["days", "hours", "minutes", "seconds"].forEach(id => updateText(id, "00"));
       return;
     }
 
+    // Time calculations for days, hours, minutes and seconds
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+    // Update the HTML elements with the new values
     updateText("days", days);
     updateText("hours", hours);
     updateText("minutes", minutes);
     updateText("seconds", seconds);
   }
 
+  // Run the function immediately and then every second
   updateCountdown();
-  setInterval(updateCountdown, 1000);
+  const countdownInterval = setInterval(updateCountdown, 1000);
+});
 
   
 
