@@ -1019,59 +1019,62 @@ html {
 }
 
 .grid-container {
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- gap: 20px;
- max-width: 1260px;
- margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    /* This makes the grid rows adjust to the height of their content */
+    grid-auto-rows: minmax(min-content, max-content); 
+}
+
+.speaker-image-container {
+    width: 100%;
+    /* Remove the fixed height to show the full image */
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.speaker-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .item-container {
- width: 100%;
- height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* You might need to add other styles like border-radius here */
 }
 
-.image-container {
- width: 100%;
- height: auto;
- position: relative;
-}
-
-.top-image {
- display: block;
- width: 100%;
- height: auto;
- border-radius: 5px 5px 0 0;
- z-index: 10;
- position: relative;
- max-width: 100%;
-}
-
+/* This is a crucial step to remove the fixed height creating the gap */
 .background-container {
- position: absolute;
- bottom: 0;
- left: 0;
- width: 95%;
- height: auto; /* Default to auto */
- z-index: 1;
- overflow: hidden;
+    height: auto !important;
+    width: 100% !important;
 }
 
-.background-image {
+/* Ensure the image fills the space */
+.top-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* .background-image {
  width: 100%;
  height: auto;
  background-image: url('assets/speakers/speaker-bg-sept.webp');
- background-repeat: repeat-y;
+ background-repeat: no-repeat;
  background-position: bottom left;
- padding-top: 100%; /* Default percentage padding */
-}
+ padding-top: 100%;
+} */
 
 .text-container {
  background-color: #B8860B;
  color: white;
  padding: 15px;
  text-align: center;
- width: 95%;
+ width: 100%;
  float: left;
  box-sizing: border-box;
 }
@@ -2566,93 +2569,79 @@ body.rtl .arrow-left {
 
 
     <!-- SPEAKER Section -->
-    <section class="py-16 bg-gray-100 relative" id="speakers" style="background-image: url('assets/speakers/BG-speakers-sept.webp'); background-position: center; background-size: cover; min-height: 500px;">
-        <!-- White overlay with 70% opacity -->
-        <div class="absolute inset-0 bg-white bg-opacity-20 z-0"></div>
+ <section class="py-16 bg-gray-100 relative" id="speakers" style="background-image: url('assets/speakers/BG-speakers-sept.webp'); background-position: center; background-size: cover; min-height: 500px;">
+    <div class="absolute inset-0 bg-white bg-opacity-20 z-0"></div>
 
-        <!-- Content on top of overlay -->
-        <div class="container mx-auto px-4 relative z-10">
+    <div class="container mx-auto px-4 relative z-10">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl bg-[#ff7c1f] inline-block font-bold text-white mb-4 px-4 py-2 rounded-lg" data-i18n="meetSpeakers.title">Meet Our Speakers</h2>
-          <p class="mb-12 text-lg text-[#004e55]" data-i18n="meetSpeakers.description">See our V Ambassadors live onstage and watch out for your greatest Uplines!</p>
+            <h2 class="text-3xl md:text-4xl bg-[#ff7c1f] inline-block font-bold text-white mb-4 px-4 py-2 rounded-lg" data-i18n="meetSpeakers.title">Meet Our Speakers</h2>
+            <p class="mb-12 text-lg text-[#004e55]" data-i18n="meetSpeakers.description">See our V Ambassadors live onstage and watch out for your greatest Uplines!</p>
         </div>
 
-            <div class="grid-container">
-			  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/DSVE2.webp" alt="Speaker 1" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Dato Sri Vijay Eswaran</h2>
-          <h3 class="position" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
-				   </div>
-				  </div>
+        <div class="grid-container">
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/dsve-new-sept.webp" alt="Speaker 1" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Dato Sri Vijay Eswaran</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
+                </div>
+            </div>
 
-				  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/JTB2.webp" alt="Speaker 2" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Joseph 'Japadas' Bismark</h2>
-          <h3 class="position" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
-				   </div>
-				  </div>
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/jtb-new-sept.webp" alt="Speaker 2" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Joseph 'Japadas' Bismark</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition1">Founder</h3>
+                </div>
+            </div>
 
-				  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/CHIEF2.webp" alt="Speaker 3" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Pathman Senathirajah</h2>
-					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
-				   </div>
-				  </div>
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/chief-new-sept.webp" alt="Speaker 3" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Pathman Senathirajah</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
+                </div>
+            </div>
 
-				  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/VP-ADLY2.webp" alt="Speaker 4" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Adly Hassan</h2>
-					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
-				   </div>
-				  </div>
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/vp-adly-new-sept.webp" alt="Speaker 4" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Adly Hassan</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
+                </div>
+            </div>
 
-				  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/VP-SATHI2.webp" alt="Speaker 5" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Sathi Senathirajah</h2>
-					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
-				   </div>
-				  </div>
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/vp-sathi-new-sept.webp" alt="Speaker 5" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Sathi Senathirajah</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
+                </div>
+            </div>
 
-				  <div class="item-container">
-				   <div class="image-container">
-					<img src="assets/speakers/VP-ARUN2.webp" alt="Speaker 6" class="top-image" style="max-width: 400px;" loading="lazy">
-					<div class="background-container" style="height: 450px; width: 95%;"> <div class="background-image" style="padding-top: 450px;"></div>
-					</div>
-				   </div>
-				   <div class="text-container">
-					<h2 class="name">Arun George</h2>
-					<h3 class="position" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
-				   </div>
-				  </div>
-			 </div>
-
+            <div class="item-container flex flex-col">
+                <div class="speaker-image-container">
+                  <img src="assets/speakers/vp-arun-new-sept.webp" alt="Speaker 6" loading="lazy">
+                </div>
+                <div class="text-container p-4 bg-[#d97027] text-white rounded-bl-lg rounded-br-lg">
+                    <h2 class="text-lg font-semibold name">Arun George</h2>
+                    <h3 class="position text-sm" data-i18n="meetSpeakers.speakerPosition2">V Partner</h3>
+                </div>
+            </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
 
 
