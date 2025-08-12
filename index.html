@@ -4760,7 +4760,8 @@ const articleSwiper = new Swiper('.article-swiper', {
         try {
             const response = await fetch(`./${lang}.json`);
             if (!response.ok) {
-                throw new Error(`Failed to load ${lang}.json`);
+                // Log a more descriptive error message
+                throw new Error(`Failed to load ${lang}.json. Please make sure the file exists in the same directory and is named correctly.`);
             }
             const data = await response.json();
             i18n = data;
