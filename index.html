@@ -1626,22 +1626,28 @@ body.rtl .arrow-left {
         }
         
         /* Media queries for responsiveness */
-        @media (max-width: 768px) {
-            #floating-images-container {
-                flex-direction: row;
-                right: 10px;
-                bottom: 10px;
-            }
-            .floating-image-wrapper {
-                width: 100px;
-            }
-            .close-button {
-                width: 20px;
-                height: 20px;
-                line-height: 20px;
-                font-size: 12px;
-            }
-        }
+          @media (max-width: 768px) {
+    #floating-images-container {
+        flex-direction: column; /* This makes the images stack */
+        right: 10px;
+        bottom: 10px;
+        /* Re-center the container if needed */
+        align-items: center; 
+    }
+    .floating-image-wrapper {
+        width: 150px; /* Adjust this value to make it bigger */
+        height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    }
+    .floating-image {
+        width: 100%; /* Image fills the new wrapper width */
+    }
+    .close-button {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
 
 </style>
 
