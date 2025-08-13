@@ -99,9 +99,21 @@
     "mainTitle": "WATCH THE NEWEST HIGHLIGHTS AND MORE!",
     "highlightTitle": "EVENTS NEWS & UPDATES",
     "videoSelectionParagraph": "This is an interactive video player! Select any video below and play it here.",
-    "featuredTitle": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
+    "featuredTitle": "V-Malaysia September 2025: Onto Our Greatest Rise Yet!",
+    "featuredDescription": "Our greatest story continues — grander than ever — at V-Malaysia 2025 this September! V Partners. Associate V Partners, V Council Members. All of them once came to V-Convention as hopeful dreamers and left as fearless champions. Now, it’s your turn at V-Malaysia 2025! Grab your tickets today at vmalaysia2025.the-v.net Use the code: VMYSEPT2025",
   "video": {
+    "6376865312112": {
+      "title": "V-Malaysia September 2025: Onto Our Greatest Rise Yet!",
+      "description": "Our greatest story continues — grander than ever — at V-Malaysia 2025 this September! V Partners. Associate V Partners, V Council Members. All of them once came to V-Convention as hopeful dreamers and left as fearless champions. Now, it’s your turn at V-Malaysia 2025! Grab your tickets today at vmalaysia2025.the-v.net Use the code: VMYSEPT2025"
+    },
+    "6376871358112": {
+      "title": "See the New Features and Greatest Stories on the Official #VMalaysia2025 Microsite!",
+      "description": "Are you ready for a V-Convention to remember? Visit our official #VMalaysia2025 microsite and see its newest features just for you! From our greatest stories to finding the perfect Limitless Store collection, we got them all."
+    },
+    "6376787236112": {
+      "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
+      "description": "V-Malaysia September 2025 isn’t just a grand event; it’s the beginning of a global movement to save the planet! Check out how the Limitless Store’s newest and trendiest line of merchandise achieves 100% sustainability. Save your favourites and get them exclusively at the Limitless Store inside the Setia SPICE Arena from 13 to 17 September!"
+    },
     "6375238933112": {
       "title": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
       "description": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
@@ -284,6 +296,11 @@
     },
     "articles": {
       "latestNewsTitle": "READ THE LATEST NEWS!",
+      "article16": {
+        "title": "V-Malaysia September 2025: 30 Colourful Moments of The V!",
+        "content": "Gather your team and join your global family in 30 days! ",
+        "readMore": "READ MORE"
+      },
       "article15": {
         "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
         "content": "Look good, do good!",
