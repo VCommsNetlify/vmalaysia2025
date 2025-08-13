@@ -284,6 +284,31 @@
     },
     "articles": {
       "latestNewsTitle": "READ THE LATEST NEWS!",
+      "article15": {
+        "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
+        "content": "Look good, do good!",
+        "readMore": "READ MORE"
+      },
+      "article14": {
+        "title": "V-Malaysia September 2025: 40 Moments of Impact",
+        "content": "The most incredible personalities will take the stage in 40 days!",
+        "readMore": "READ MORE"
+      },
+      "article13": {
+        "title": "V-Malaysia September 2025: 50 Snapshots of Selfless Service",
+        "content": "Meet the most compassionate servant leaders in 50 days!",
+        "readMore": "READ MORE"
+      },
+      "article12": {
+        "title": "V-Malaysia 2025: 60 Seconds of Sustainable Style",
+        "content": "Together, we raise our planet higher in 60 days!",
+        "readMore": "READ MORE"
+      },
+      "article11": {
+        "title": "V-Malaysia 2025: 70 Unforgettable Moments of Coming Home",
+        "content": "70 days left until our grand homecoming in September!",
+        "readMore": "READ MORE"
+      },
       "article10": {
         "title": "#VMALAYSIA2025 DAY 4: Together We Conquer Challenges!",
         "content": "We have the power to rise above any challenge!",

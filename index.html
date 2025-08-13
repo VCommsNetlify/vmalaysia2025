@@ -2154,22 +2154,31 @@ body.rtl .arrow-left {
 
     <!-- MAP -->
 <section class="relative py-16 text-black" id="venue-map" style="background-image: url('assets/first-fold/map-background-sept.webp'); background-position: center; background-size: cover;">
+  <!-- Semi-transparent white overlay -->
   <div class="absolute inset-0 bg-white bg-opacity-70 z-0"></div>
 
-  <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
-  <div style="background-color: #ff7c1f;" class="p-4 rounded-lg w-fit">
-    <h2 class="text-3xl md:text-4xl font-bold text-white" data-i18n="exploreMagic.title">EXPLORE WHERE THE MAGIC HAPPENS</h2>
-</div>
-  <div class="py-2 px-4 rounded-lg w-fit mt-4" style="background: linear-gradient(to right, #cce4bf, #04986d);">
-  <p class="mb-0 text-lg text-white text-center" data-i18n="exploreMagic.description">
-    Navigate your way around Setia SPICE Arena and discover all the amazing surprises at 
-    <span class="block md:inline whitespace-nowrap">V-Malaysia 2025.</span>
-  </p>
-</div>
-</div>
-<br>
+  <!-- Content on top of the overlay -->
+  <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center px-4 md:px-0">
+    <div style="background-color: #ff7c1f;" class="p-4 rounded-lg w-fit text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white" data-i18n="exploreMagic.title">EXPLORE WHERE THE MAGIC HAPPENS</h2>
+    </div>
+    <div class="py-2 px-4 rounded-lg w-fit mt-4 mx-auto" style="background: linear-gradient(to right, #cce4bf, #04986d);">
+      <p class="mb-0 text-lg text-white text-center" data-i18n="exploreMagic.description">
+        Navigate your way around Setia SPICE Arena and discover all the amazing surprises at 
+        <span class="block md:inline whitespace-nowrap">V-Malaysia 2025.</span>
+      </p>
+    </div>
+  </div>
+  
+  <br>
+  
   <div class="relative z-10 container mx-auto px-4">
-    <iframe src="https://app.seekbeak.com/v/YbjNDy941A7" style="height: 800px !important;" class="w-full" loading="lazy" title="Interactive Venue Map"></iframe>
+    <!-- Responsive iframe with dynamic height -->
+    <iframe 
+      src="https://app.seekbeak.com/v/YbjNDy941A7" 
+      class="w-full h-96 md:h-[800px]" 
+      title="Interactive Venue Map"
+    ></iframe>
   </div>
 </section>
 
@@ -2398,66 +2407,106 @@ body.rtl .arrow-left {
 
 
 <!-- Section 2: NEWS AND UPDATE Section -->
-<section id="articles-section" class="py-16 newsupdates" style="background-image: url('assets/greateststory/BG-greateststory-sept.webp'); background-position: bottom;">
+<section id="articles-section" class="py-16 newsupdates" style="background-image: url('assets/greateststory/BG-greateststory-sept.webp'); background-position: bottom; background-size: cover;">
   <div class="container mx-auto px-4">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl bg-[#00666a] rounded-lg inline-block font-bold text-white mb-4 px-4 py-2" data-i18n="eventsNews.articles.latestNewsTitle">READ THE LATEST NEWS!</h2>
     </div>
 
-    <!-- Swiper 2 with unique classes -->
-    <div class="max-w-4xl mx-auto mb-16 text-center featuredArticleSwiper swiper relative">
+    <!-- Swiper container with a unique class and relative positioning -->
+    <div class="relative max-w-4xl mx-auto mb-16 text-center featuredArticleSwiper swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
-          <div class="relative w-full sm:h-[50vh]">
-            <img src="assets/news/07042025-v-malaysia-2025-70-unforgettable-moments-of-coming-home.webp"
-                 alt="Featured Article"
-                 class="w-full h-full object-contain sm:object-cover">
-          </div>
-          <div class="bg-white px-6 py-4">
-            <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.featuredArticle.subtitle">#VMALAYSIA2025 DAY 1: Together We Rise as One!</h3>
-            <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.featuredArticle.content">Today, we begin our rise!</p>
-            <a href="https://the-v.net/en/news?id=07042025-v-malaysia-2025-70-unforgettable-moments-of-coming-home" class="inline-block">
-              <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.featuredArticle.readMore">
-                READ MORE
-              </button>
-            </a>
-          </div>
-        </div>
+        <!-- Swiper Slides -->
         <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
             <div class="relative w-full sm:h-[50vh]">
-                <img src="assets/news/06302025-vmalaysia2025-day-4-together-we-conquer-challenges-01.webp" 
+                <img src="assets/news/september/08112025-together-we-rise-in-sustainable-style-at-v-malaysia-september-2025.webp" 
                      alt="Article 1" 
                      class="absolute inset-0 w-full h-full object-contain sm:object-cover">
             </div>
             <div class="p-4">
-                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article10.title">#VMALAYSIA2025 DAY 1: Together We Rise as One!</h3>
-                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article10.content">Today, we begin our rise!</p>
-                <a href="https://the-v.net/en/news?id=06302025-vmalaysia2025-day-4-together-we-conquer-challenges-1" class="inline-block">
-                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article10.readMore">
+                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article15.title">merch</h3>
+                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article15.content">Today, we begin our rise!</p>
+                <a href="https://the-v.net/en/news?id=08112025-together-we-rise-in-sustainable-style-at-v-malaysia-september-2025" class="inline-block">
+                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article15.readMore">
                         READ MORE
                     </button>
                 </a>
             </div>
         </div>
+
         <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
             <div class="relative w-full sm:h-[50vh]">
-                <img src="assets/news/06272025-vmalaysia2025-day-3-together-we-decide-our-destiny.webp" alt="Article 1" class="absolute inset-0 w-full h-full object-contain sm:object-cover">
+                <img src="assets/news/september/08032025-v-malaysia-september-2025-40-moments-of-impact.webp" 
+                     alt="Article 1" 
+                     class="absolute inset-0 w-full h-full object-contain sm:object-cover">
             </div>
             <div class="p-4">
-                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article9.title">#VMALAYSIA2025 DAY 1: Together We Rise as One!</h3>
-                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article9.content">Today, we begin our rise!</p>
-                <a href="https://the-v.net/en/news?id=06272025-vmalaysia2025-day-3-together-we-decide-our-destiny" class="inline-block">
-                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article9.readMore">
+                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article14.title">40</h3>
+                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article14.content">Today, we begin our rise!</p>
+                <a href="https://the-v.net/en/news?id=08032025-v-malaysia-september-2025-40-moments-of-impact" class="inline-block">
+                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article14.readMore">
+                        READ MORE
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
+            <div class="relative w-full sm:h-[50vh]">
+                <img src="assets/news/september/07242025-v-malaysia-september-2025-50-snapshots-of-selfless-service.webp" 
+                     alt="Article 1" 
+                     class="absolute inset-0 w-full h-full object-contain sm:object-cover">
+            </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article13.title">50</h3>
+                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article13.content">Today, we begin our rise!</p>
+                <a href="https://the-v.net/en/news?id=07242025-v-malaysia-september-2025-50-snapshots-of-selfless-service" class="inline-block">
+                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article13.readMore">
+                        READ MORE
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
+            <div class="relative w-full sm:h-[50vh]">
+                <img src="assets/news/september/07142025-v-malaysia-2025-60-seconds-of-sustainable-style.webp" 
+                     alt="Article 1" 
+                     class="absolute inset-0 w-full h-full object-contain sm:object-cover">
+            </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article12.title">60</h3>
+                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article12.content">Today, we begin our rise!</p>
+                <a href="https://the-v.net/en/news?id=07142025-v-malaysia-2025-60-seconds-of-sustainable-style" class="inline-block">
+                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article12.readMore">
+                        READ MORE
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper-slide bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 transform">
+            <div class="relative w-full sm:h-[50vh]">
+                <img src="assets/news/07042025-v-malaysia-2025-70-unforgettable-moments-of-coming-home.webp" 
+                     alt="Article 2" 
+                     class="absolute inset-0 w-full h-full object-contain sm:object-cover">
+            </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-[#00666a] mb-2" data-i18n="eventsNews.articles.article11.title">70</h3>
+                <p class="text-sm mb-4 text-gray-700" data-i18n="eventsNews.articles.article11.content">Today, we begin our rise!</p>
+                <a href="https://the-v.net/en/news?id=07042025-v-malaysia-2025-70-unforgettable-moments-of-coming-home" class="inline-block">
+                    <button class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-2 px-6 rounded-full transition duration-300" data-i18n="eventsNews.articles.article11.readMore">
                         READ MORE
                     </button>
                 </a>
             </div>
         </div>
       </div>
-      <!-- Unique navigation buttons -->
-      <div class="swiper-button-prev articles-nav-prev z-50 absolute top-1/2 -translate-y-1/2 left-[-2rem]"></div>
-      <div class="swiper-button-next articles-nav-next z-50 absolute top-1/2 -translate-y-1/2 right-[-2rem]"></div>
-      <!-- Unique pagination -->
+      
+      <!-- Corrected navigation buttons with Swiper's default classes for proper functionality -->
+      <div class="swiper-button-prev articles-nav-prev z-50"></div>
+      <div class="swiper-button-next articles-nav-next z-50"></div>
+      <!-- Pagination -->
       <div class="articlesection-swiper-pagination swiper-pagination mt-8 text-center"></div>
     </div>
   </div>
@@ -2648,6 +2697,8 @@ body.rtl .arrow-left {
       <div class="swiper vkidsVideoSwiper relative">
         <div class="swiper-wrapper">
           <!-- Video 1 ADD video-item ON CLASS TO ENABLE PLAYER-->
+          
+
           <div class="swiper-slide cursor-pointer video-item" data-video-id="6374927478112">
             <div class="relative overflow-hidden">
               <img src="assets/vkidsteens/06272025-v-kids-and-v-teens-at-vmalaysia2025-highlights-an-epic-adventure.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
@@ -2666,24 +2717,9 @@ body.rtl .arrow-left {
             </div>
           </div>
 
-          <!-- Video 1 ADD video-item ON CLASS TO ENABLE PLAYER-->
-          <div class="swiper-slide cursor-pointer " data-video-id="null" onclick="openComingSoonModal5()">
-            <div class="relative overflow-hidden">
-              <img src="assets/greateststory/episode3.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0" loading="lazy">
-            </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video3Title">
-              Future Content
-            </div>
-          </div>
+          
 
-          <div class="swiper-slide cursor-pointer " data-video-id="null" onclick="openComingSoonModal5()">
-            <div class="relative overflow-hidden">
-              <img src="assets/greateststory/episode3.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0" loading="lazy">
-            </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video3Title">
-              Future Content
-            </div>
-          </div>
+          
         </div>
         <!-- UNIQUE NAVIGATION BUTTONS FOR THIS SWIPER -->
         <div class="vkids-video-nav-prev text-white z-10 text-4xl"></div>
@@ -4272,19 +4308,19 @@ function playInFeatured(videoId, titleKey, descriptionKey) {
     });
 
     // Initialization for Swiper 2 (Read the Latest News)
-    const featuredArticleSwiper = new Swiper('.featuredArticleSwiper', {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      loop: true,
-      navigation: {
-        nextEl: '.featuredArticleSwiper .articles-nav-next',
-        prevEl: '.featuredArticleSwiper .articles-nav-prev',
-      },
-      pagination: {
-        el: '.articlesection-swiper-pagination',
-        clickable: true,
-      },
-    });
+ const featuredArticleSwiper = new Swiper('.featuredArticleSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    navigation: {
+      nextEl: '.featuredArticleSwiper .swiper-button-next',
+      prevEl: '.featuredArticleSwiper .swiper-button-prev',
+    },
+    pagination: {
+      el: '.articlesection-swiper-pagination',
+      clickable: true,
+    },
+  });
 
 const vkidsVideoSwiper = new Swiper('.vkidsVideoSwiper', {
       slidesPerView: 3, // Default for large screens
