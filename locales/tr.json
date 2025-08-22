@@ -1,7 +1,7 @@
 {
   "home": "Ana Sayfa",
   "greatest_stories": "En Büyük Hikayeler",
-  "limitless_matchmaker": "Limitless Matchmaker",
+  "limitless_matchmaker": "Limitless Eşleştirici",
   "venue_map": "Mekan Haritası",
   "v_kids_v_teens": "V-Kids & V-Teens",
   "speakers": "Konuşmacılar",
@@ -10,6 +10,10 @@
   "languages": "Diller",
   "floating_button": {
     "text": "Biletlerinizi buradan alın!"
+  },
+      "floating": {
+    "vmy": "assets/first-fold/vmysept-code-tr.png",
+    "vkt": "assets/first-fold/vkidsvteens-sept-code-tr.png"
   },
   "buttons": {
     "close": "x",
@@ -35,13 +39,13 @@
     "seconds": "SANİYE"
   },
   "hero": {
-    "headline_part1": "BİRLİKTE YÜKSELELİM",
-    "headline_part2": "VE EN BÜYÜK",
-    "headline_part3": " HİKAYEMİZİ YARATALIM",
+    "headline_part1": "V-MALAYSIA 2025'TE EYLÜL AYINDA<br>",
+    "headline_part2": "SİZİ DAHA BÜYÜK HİKAYELER",
+    "headline_part3": "BEKLİYOR: BİRLİKTE YÜKSELİYORUZ",
     "headline_part4": "!",
     "paragraph1": "<em>Bir araya geldiğimizde yolculuğumuz sınırsız hale gelir.</em>",
     "paragraph2": "<br>Bu Haziran ayında V-MALAYSIA 2025'te RYTHM vizyonunu gerçekleştirmek ve sınırların ötesine yükselmek için bir araya geldiğimizde bize katılın.",
-    "cta_button": "VShoppe'tan biletlerinizi alın.",
+    "cta_button": "Biletlerinizi VShoppe'tan alın. Şu kodu kullanın: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
     "welcome_home": "WELCOME HOME",
     "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
@@ -98,9 +102,21 @@
     "mainTitle": "Etkinlik Haberleri & Güncellemeler",
     "highlightTitle": "En yeni öne çıkanları ve daha fazlasını izleyin!",
     "videoSelectionParagraph": "Bu etkileşimli bir video oynatıcısıdır! Aşağıdaki herhangi bir videoyu seçin ve burada oynatın.",
-    "featuredTitle": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
+    "featuredTitle": "V-Malaysia Eylül 2025: Şimdiye Kadarki En Büyük Yükselişimize Doğru!",
+    "featuredDescription": "En büyük hikayemiz, her zamankinden daha görkemli bir şekilde, bu Eylül ayında düzenlenecek V-Malaysia 2025'te devam ediyor! V Partner’ler, Associate V Partner’ler, V Council Member’lar. Hepsi bir zamanlar V-Convention'a umutlu hayalperestler olarak gelip korkusuz şampiyonlar olarak ayrıldılar. Şimdi, V-Malaysia 2025'te sıra sizde! Biletlerinizi bugün vmalaysia2025.the-v.net adresinden alın. Kodu kullanın: VMYSEPT2025",
   "video": {
+    "6376865312112": {
+      "title": "V-Malaysia Eylül 2025: Şimdiye Kadarki En Büyük Yükselişimize Doğru!",
+      "description": "En büyük hikayemiz, her zamankinden daha görkemli bir şekilde, bu Eylül ayında düzenlenecek V-Malaysia 2025'te devam ediyor! V Partner’ler, Associate V Partner’ler, V Council Member’lar. Hepsi bir zamanlar V-Convention'a umutlu hayalperestler olarak gelip korkusuz şampiyonlar olarak ayrıldılar. Şimdi, V-Malaysia 2025'te sıra sizde! Biletlerinizi bugün vmalaysia2025.the-v.net adresinden alın. Kodu kullanın: VMYSEPT2025"
+    },
+    "6376871358112": {
+      "title": "Resmi #VMalaysia2025 Mikrositesindeki Yeni Özellikleri ve En Harika Hikayeleri Görün!",
+      "description": "Unutulmaz bir V-Convention’a hazır mısınız? Resmi #VMalaysia2025 mikrositemizi ziyaret edin ve size özel en yeni özelliklerini görün! En iyi hikayelerimizden mükemmel Limitless Store koleksiyonunu bulmaya kadar her şey bizde."
+    },
+    "6376787236112": {
+      "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
+      "description": "V-Malaysia September 2025 isn’t just a grand event; it’s the beginning of a global movement to save the planet! Check out how the Limitless Store’s newest and trendiest line of merchandise achieves 100% sustainability. Save your favourites and get them exclusively at the Limitless Store inside the Setia SPICE Arena from 13 to 17 September!"
+    },
     "6375238933112": {
       "title": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
       "description": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
@@ -283,6 +299,37 @@
     },
     "articles": {
       "latestNewsTitle": "En son haberleri okuyun!",
+      
+      "article16": {
+        "title": "V-Malaysia Eyl&uuml;l 2025: The V&#39;nin 30 Renkli Anı!",
+        "content": "Ekibinizi toplayın ve 30 g&uuml;nde k&uuml;resel ailenize katılın!",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article15": {
+        "title": "V-Malaysia Eyl&uuml;l 2025&rsquo;te S&uuml;rd&uuml;r&uuml;lebilir Tarzda Birlikte Y&uuml;kseliyoruz!",
+        "content": "Look good, do good!",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article14": {
+        "title": "V-Malaysia Eyl&uuml;l 2025: 40 Etkileyici An",
+        "content": "En inanılmaz isimler 40 g&uuml;n i&ccedil;inde sahnede olacak!",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article13": {
+        "title": "V-Malaysia Eyl&uuml;l 2025: &Ouml;zverili Hizmetten 50 Kare",
+        "content": "50 g&uuml;n i&ccedil;inde en şefkatli hizmetkar liderlerle tanışın!",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article12": {
+        "title": "V-Malaysia 2025: 60 Saniyede S&uuml;rd&uuml;r&uuml;lebilir Stil",
+        "content": "Birlikte, gezegenimizi 60 g&uuml;nde daha y&uuml;kseğe taşıyoruz!",
+        "readMore": "Daha fazlasını oku"
+      },
+      "article11": {
+        "title": "V-Malaysia 2025: Eve D&ouml;n&uuml;ş&uuml;n 70 Unutulmaz Anı",
+        "content": "Eyl&uuml;l ayındaki b&uuml;y&uuml;k eve d&ouml;n&uuml;ş&uuml;m&uuml;ze 70 g&uuml;n kaldı!",
+        "readMore": "Daha fazlasını oku"
+      },
       "article10": {
         "title": "#VMALAYSIA2025 DAY 4: Together We Conquer Challenges!",
         "content": "We have the power to rise above any challenge!",
@@ -344,8 +391,10 @@
     "description": "Setia SPICE Arena'da gezin ve <span class=\"block md:inline\">V-Malaysia 2025'teki</span> tüm muhteşem sürprizleri keşfedin."
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-TR.webp",
+    "logo": "assets/vkidsteens/vkids-copy-sept_tr.webp",
+    "copy": "En heyecan verici güncellemeleri yakalayın!",
     "video": {
+      "video5Title": "#VMALAYSIA2025'te V-Kids ve V-Teens ile Gelecek Nesli Güçlendirin!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "#VMALAYSIA2025'te V-Kids ve V-Teens ile Epik Bir Hikaye Yaratın!",
       "video2Title": "Gelecek İçerik",
@@ -434,7 +483,7 @@
     },
     "question3": {
       "title": "Seyahat öncesi hangi hazırlıkları yapmalıyız?",
-      "answer": "a. Tüm katılımcılara, sigorta bedeli en az 10.000 ABD Doları olan Covid-19 teminatlı seyahat sigortası satın almaları önerilir.<br><br>b. Afrika ülkelerinden gelen katılımcıların, Malezya'ya gitmeden en az <strong>on dört (14)</strong> gün önce Sarı Humma Aşı Sertifikası (Yellow Fever Vaccination Certificates) başvurusunda bulunmaları gerekmektedir.<br><br>c. Vize başvurunuz için bir davet mektubuna ihtiyacınız varsa, lütfen talebinizi göndermek için formu doldurun: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Uçuş bilgilerinizi, kalkışınızı ve varışınızı kalkışınızdan en az iki (2) gün önce <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> adresine bildirin.<br><br>e. <strong>Malezya Dijital Varış Kartınızı</strong> hazırlayın: <strong>Lütfen Malezya Dijital Varış Kartındaki (MDAC)</strong> tüm gerekli bilgilerin kalkışınızdan <strong>üç (3) gün</strong> önce doldurulduğundan emin olun: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. İlaç ihtiyacı olan bir katılımcı, yalnızca doktorunun verdiği <strong>reçeteye</strong> göre kalış süresi boyunca yetecek kadar ilaç getirmelidir.<br><br>g. Gelen tüm yolcular, RMCD gişesinde bulunan Gümrük Formu No. 7'yi kullanarak gümrük vergisine tabi ve yasaklı malları ve 10.000 ABD Dolarını aşan para birimlerini veya parasal araçları beyan etmelidir. Formun RMCD muayene kontrol noktasında teslim edilmesi gerekir. Yanlış beyanlar veya beyan etmeme, Malezya yasalarına göre suçtur.<br>"
+      "answer": "a. Tüm katılımcılara, sigorta bedeli en az 10.000 ABD Doları olan Covid-19 teminatlı seyahat sigortası satın almaları önerilir.<br><br>b. Afrika ülkelerinden gelen katılımcıların, Malezya'ya gitmeden en az <strong>on dört (14)</strong> gün önce Sarı Humma Aşı Sertifikası (Yellow Fever Vaccination Certificates) başvurusunda bulunmaları gerekmektedir.<br><br>c. Vize başvurunuz için bir davet mektubuna ihtiyacınız varsa, lütfen talebinizi göndermek için formu doldurun: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYSept2025Invitation\">https://bit.ly/VMYSept2025Invitation</a> <br><br>d. Uçuş bilgilerinizi, kalkışınızı ve varışınızı kalkışınızdan en az iki (2) gün önce <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> adresine bildirin.<br><br>e. <strong>Malezya Dijital Varış Kartınızı</strong> hazırlayın: <strong>Lütfen Malezya Dijital Varış Kartındaki (MDAC)</strong> tüm gerekli bilgilerin kalkışınızdan <strong>üç (3) gün</strong> önce doldurulduğundan emin olun: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. İlaç ihtiyacı olan bir katılımcı, yalnızca doktorunun verdiği <strong>reçeteye</strong> göre kalış süresi boyunca yetecek kadar ilaç getirmelidir.<br><br>g. Gelen tüm yolcular, RMCD gişesinde bulunan Gümrük Formu No. 7'yi kullanarak gümrük vergisine tabi ve yasaklı malları ve 10.000 ABD Dolarını aşan para birimlerini veya parasal araçları beyan etmelidir. Formun RMCD muayene kontrol noktasında teslim edilmesi gerekir. Yanlış beyanlar veya beyan etmeme, Malezya yasalarına göre suçtur.<br>"
     },
     "question4": {
       "title": "Seyahat Vizesi şartları nelerdir?",
@@ -446,7 +495,7 @@
     },
     "question6": {
       "title": "V-MALAYSIA 2025 katılımcıları için kayıt ne zaman?",
-      "answer": "V-MALAYSIA JUNE 2025 Kaydı <strong>20 Haziran 2025</strong>'te yapılacaktır. Otelinize/konaklama yerinize yerleşmek için yeterli zamanınız olması için etkinliğin başlamasından en az 1-2 gün önce gelmenizi şiddetle tavsiye ederiz."
+      "answer": "V-MALAYSIA September 2025 kayıtları 12 Eylül 2025 tarihinde başlayacaktır. Otelinize veya konaklama yerinize yerleşmek için yeterli zamanınız olması için etkinliğin başlamasından en az 1-2 gün önce gelmenizi önemle tavsiye ederiz."
     },
     "question7": {
       "title": "V-MALAYSIA 2025 katılımcıları için kayıt süreci nasıldır?",
@@ -462,11 +511,11 @@
     },
     "question10": {
       "title": "Etkinlik sırasında çeviri hizmetlerinden nasıl yararlanabilirim?",
-      "answer": "For those who will need translation services during the event, translation radio is available for sale starting Registration Day on <strong>12 September 2025</strong> and throughout the event at the Information Counter."
+      "answer": "Etkinlik sırasında çeviri hizmetine ihtiyaç duyanlar için çeviri radyosu, 12 Eylül 2025 Kayıt Günü'nden itibaren ve etkinlik boyunca Bilgi Bankosu'nda satışa sunulacaktır."
     },
     "question11": {
       "title": "V-MALAYSIA 2025: V-KIDS VE V-TEENS YÖNERGELERİ",
-      "answer": "V-Kids ve V-Teens biletinizi satın almak için <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a>'a gidin ve şu kodu girin: <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**NOT: 1'den fazla bilet satın almak isterseniz lütfen <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a>adresine konu olarak<strong>VMY 2025 VKids VTeens Tickets - add your IR ID yazarak</strong> e-posta gönderin..</em><br><br>V-Kids & V-Teens biletlerinizi satın alırken:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Çocuğun veya Gencin Pasaportunu Hazırlayın<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•VShoppe'a doğru kodu girin.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Biletlerini başarıyla satın aldıktan sonra, doğrulama için kayıt günü makbuzunuzun bir kopyasını ve onay mektubunu getirdiğinizden emin olun.<br><br>Etkinlik Sırasında:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Kıyafet Kuralı</u>: 5 gün boyunca rahat kıyafetler giymenizi öneririz. Etkinlik alanı klimalı olduğundan ceket veya şal getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Atıştırmalıklar ve Öğle Yemeği</u>: Etkinlik sırasında hafif atıştırmalıklar ve besleyici öğle yemekleri sağlanacaktır. Çocuğunuzun herhangi bir özel diyet gereksinimi veya alerjisi varsa lütfen <strong>31 Mayıs 2025</strong>'e kadar bize e-posta gönderin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Varış ve Ayrılış</u>: Lütfen çocuğunuzun saat <strong>10:00'dan</strong> önce V-KIDS & V-TEENS alanına vardığından emin olun. V-Kids & V-Teens etkinliğinin saat <strong>18:00'de</strong> sona ermesi planlanıyor ve ebeveynlerin/vasilerin çocuklarını derhal almaları rica olunur.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Doğrulama</u>: Kayıt gününde makbuzunuzun bir kopyasını ve bu onay mektubunu getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Acil Durum İrtibat Kişisi</u>: Etkinlik sırasında herhangi bir acil durum veya acil iletişim olması durumunda lütfen <strong>Olivia</strong> ile <strong>+6012 550 2357</strong> numaralı telefondan iletişime geçin..<br><br>Herhangi bir sorunuz veya endişeniz varsa lütfen Olivia'ya <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> adresinden e-posta gönderin ve e-posta konusunu şu şekilde belirtin: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.<br>"
+      "answer": "V-Kids ve V-Teens biletinizi satın almak için <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a>'a gidin ve şu kodu girin: <strong>VKTSEPS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**NOT: 1'den fazla bilet satın almak isterseniz lütfen <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a>adresine konu olarak<strong>VMY 2025 VKids VTeens Tickets - add your IR ID yazarak</strong> e-posta gönderin..</em><br><br>V-Kids & V-Teens biletlerinizi satın alırken:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Çocuğun veya Gencin Pasaportunu Hazırlayın<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•VShoppe'a doğru kodu girin.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Biletlerini başarıyla satın aldıktan sonra, doğrulama için kayıt günü makbuzunuzun bir kopyasını ve onay mektubunu getirdiğinizden emin olun.<br><br>Etkinlik Sırasında:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Kıyafet Kuralı</u>: 5 gün boyunca rahat kıyafetler giymenizi öneririz. Etkinlik alanı klimalı olduğundan ceket veya şal getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Atıştırmalıklar ve Öğle Yemeği</u>: Etkinlik sırasında hafif atıştırmalıklar ve besleyici öğle yemekleri sağlanacaktır. Çocuğunuzun herhangi bir özel diyet gereksinimi veya alerjisi varsa lütfen <strong>31 Mayıs 2025</strong>'e kadar bize e-posta gönderin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Varış ve Ayrılış</u>: Lütfen çocuğunuzun saat <strong>10:00'dan</strong> önce V-KIDS & V-TEENS alanına vardığından emin olun. V-Kids & V-Teens etkinliğinin saat <strong>18:00'de</strong> sona ermesi planlanıyor ve ebeveynlerin/vasilerin çocuklarını derhal almaları rica olunur.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Doğrulama</u>: Kayıt gününde makbuzunuzun bir kopyasını ve bu onay mektubunu getirin.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Acil Durum İrtibat Kişisi</u>: Etkinlik sırasında herhangi bir acil durum veya acil iletişim olması durumunda lütfen <strong>Olivia</strong> ile <strong>+6012 550 2357</strong> numaralı telefondan iletişime geçin..<br><br>Herhangi bir sorunuz veya endişeniz varsa lütfen Olivia'ya <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> adresinden e-posta gönderin ve e-posta konusunu şu şekilde belirtin: <strong>VMY 2025 VKids VTeens Tickets - add your IR ID</strong>.<br>"
     }
   },"swiperAds": {
     "slides": [

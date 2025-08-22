@@ -1,7 +1,7 @@
 {
   "home": "Beranda",
   "greatest_stories": "Kisah Hebat",
-  "limitless_matchmaker": "Limitless Matchmaker",
+  "limitless_matchmaker": "Pencarian Tak Terbatas",
   "venue_map": "Peta Lokasi",
   "v_kids_v_teens": "V-Kids & V-Teens",
   "speakers": "Pembicara",
@@ -10,6 +10,10 @@
   "languages": "Bahasa",
   "floating_button": {
     "text": "Dapatkan tiket Anda di sini!"
+  },
+    "floating": {
+    "vmy": "assets/first-fold/vmysept-code-id.png",
+    "vkt": "assets/first-fold/vkidsvteens-sept-code-id.png"
   },
    "buttons": {
     "close": "x",
@@ -35,13 +39,13 @@
     "seconds": "DETIK"
   },
   "hero": {
-    "headline_part1": "BANGKIT BERSAMA",
-    "headline_part2": "DAN MARI MENCIPTAKAN",
-    "headline_part3": " KISAH TERHEBAT KITA",
-    "headline_part4": "!",
+    "headline_part1": "KISAH TERHEBAT MENANTI DI BULAN SEPTEMBER",
+    "headline_part2": "INI DALAM V-MALAYSIA 2025: BERSAMA-SAMA KITA BANGKIT!",
+    "headline_part3": "",
+    "headline_part4": "",
     "paragraph1": "<em>Ketika kita bersatu, perjalanan kita menjadi tak terbatas.</em>",
     "paragraph2": "<br>Bergabunglah dengan kami dalam V-MALAYSIA 2025 di bulan Juni ini, di saat kita berkumpul bersama untuk memenuhi visi RYTHM dan bangkit melampaui batas.",
-    "cta_button": "Dapatkan tiket Anda di VShoppe.",
+    "cta_button": "Dapakan tiket anda di VShoppe. Gunakan kode: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
      "welcome_home": "WELCOME HOME",
     "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
@@ -99,9 +103,21 @@
     "mainTitle": "Berita & Informasi Acara",
     "highlightTitle": "Saksikan sorotan terbaru dan masih banyak lagi!",
     "videoSelectionParagraph": "Ini adalah pemutar video interaktif! Pilih video di bawah berikut dan putar di sini.",
-    "featuredTitle": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
+    "featuredTitle": "V-Malaysia September 2025: Menuju Kebangkitan Terbesar Kita!",
+    "featuredDescription": "Kisah terhebat kami berlanjut — lebih megah dari sebelumnya — di V-Malaysia 2025 September ini! Para V Partners, Associate V Partners, dan V Council Members. Mereka semua pernah datang ke V-Convention sebagai pemimpi yang penuh harapan dan pulang sebagai pejuang yang tak kenal takut. Sekarang, giliran Anda di V-Malaysia 2025! Dapatkan tiket Anda hari ini di vmalaysia2025.the-v.net Gunakan kode: VMYSEPT2025",
   "video": {
+    "6376865312112": {
+      "title": "V-Malaysia September 2025: Menuju Kebangkitan Terbesar Kita!",
+      "description": "Kisah terhebat kami berlanjut — lebih megah dari sebelumnya — di V-Malaysia 2025 September ini! Para V Partners, Associate V Partners, dan V Council Members. Mereka semua pernah datang ke V-Convention sebagai pemimpi yang penuh harapan dan pulang sebagai pejuang yang tak kenal takut. Sekarang, giliran Anda di V-Malaysia 2025! Dapatkan tiket Anda hari ini di vmalaysia2025.the-v.net Gunakan kode: VMYSEPT2025"
+    },
+    "6376871358112": {
+      "title": "Lihat Fitur Baru dan Cerita Terbaik di Microsite resmi #VMalaysia2025!",
+      "description": "Siap untuk V-Convention yang tak terlupakan? Kunjungi Microsite resmi #VMalaysia2025 dan lihat fitur terbarunya khusus untuk Anda! Dari cerita terbaik kami hingga menemukan koleksi Limitless Store yang sempurna, semuanya ada di sini."
+    },
+    "6376787236112": {
+      "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
+      "description": "V-Malaysia September 2025 isn’t just a grand event; it’s the beginning of a global movement to save the planet! Check out how the Limitless Store’s newest and trendiest line of merchandise achieves 100% sustainability. Save your favourites and get them exclusively at the Limitless Store inside the Setia SPICE Arena from 13 to 17 September!"
+    },
     "6375238933112": {
       "title": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
       "description": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
@@ -287,6 +303,36 @@
     },
     "articles": {
       "latestNewsTitle": "Baca berita terbaru!",
+      "article16": {
+        "title": "V-Malaysia September 2025: 30 Momen Penuh Warna The V!",
+        "content": "Kumpulkan tim Anda dan bergabunglah dengan global family Anda dalam 30 hari!",
+        "readMore": "Baca selengkapnya"
+      },
+      "article15": {
+        "title": "Bersama Kita Bangkit dengan Sustainable Style di V-Malaysia September 2025!",
+        "content": "Terlihat menarik, berbuat baik!",
+        "readMore": "Baca selengkapnya"
+      },
+      "article14": {
+        "title": "V-Malaysia September 2025: 40 Momen Penuh Dampak",
+        "content": "Tokoh-tokoh paling luar biasa akan naik panggung dalam 40 hari!",
+        "readMore": "Baca selengkapnya"
+      },
+      "article13": {
+        "title": "V-Malaysia September 2025: 50 Momen Pelayanan Tanpa Pamrih",
+        "content": "Bertemu pemimpin melayani yang paling berbelas kasih dalam 50 hari!",
+        "readMore": "Baca selengkapnya"
+      },
+      "article12": {
+        "title": "V-Malaysia 2025: 60 Detik Style Berkelanjutan",
+        "content": "Bersama-sama, kita tingkatkan planet kita lebih tinggi dalam 60 hari!",
+        "readMore": "Baca selengkapnya"
+      },
+      "article11": {
+        "title": "V-Malaysia 2025: 70 Momen Tak Terlupakan Saat Datang Kembali",
+        "content": "Tinggal 70 hari lagi menuju kedatangan kembali besar kami di bulan September!",
+        "readMore": "Baca selengkapnya"
+      },
       "article10": {
         "title": "#VMALAYSIA2025 DAY 4: Together We Conquer Challenges!",
         "content": "We have the power to rise above any challenge!",
@@ -348,8 +394,10 @@
     "description": "Telusuri jalan Anda di sekitar Setia SPICE Arena dan <br>temukan semua kejutan menakjubkan di <span class=\"block md:inline\">V-Malaysia 2025.</span>"
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-BI.webp",
+    "logo": "assets/vkidsteens/vkids-copy-sept_bi.webp",
+    "copy": "Nantikan informasi terbarunya!",
     "video": {
+      "video5Title": "Memberdayakan Generasi Berikutnya dengan V-Kids and V-Teens di #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "Ciptakan Kisah Epik Bersama V-Kids and V-Teens di #VMALAYSIA2025!",
       "video2Title": "Konten Selanjutnya",
@@ -438,7 +486,7 @@
     },
     "question3": {
       "title": "Persyaratan prakeberangkatan apa saja yang harus kami persiapkan?",
-      "answer": "a. Seluruh peserta disarankan untuk membeli asuransi perjalanan yang mencakup perlindungan Covid-19 dengan nilai pertanggungan minimum USD10,000.<br><br>b. Peserta yang datang dari negara-negara Afrika diwajibkan untuk mengajukan Yellow Fever Vaccination Certificates atau Sertifikat Vaksinasi Demam Kuning (Yellow Fever) setidaknya <strong>empat belas (14) hari</strong> sebelum keberangkatan ke Malaysia.<br><br>c. Jika Anda memerlukan surat undangan untuk pengajuan visa, silakan isi formulir permintaan melalui tautan berikut: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Sampaikan detail penerbangan Anda, termasuk jadwal keberangkatan dan kedatangan, ke email <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> setidaknya dua (2) hari sebelum keberangkatan Anda.<br><br>e. Siapkan <strong>Malaysia Digital Arrival Card</strong>: Pastikan seluruh informasi yang diperlukan dalam <strong>Malaysia Digital Arrival Card (MDAC)</strong> telah diisi dalam waktu <strong>tiga (3) hari</strong> sebelum keberangkatan Anda: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Peserta yang memerlukan obat-obatan hanya boleh membawa secukupnya sesuai dengan lama tinggal dan sesuai <strong>resep</strong> dari dokter.<br><br>g. Setiap pendatang yang tiba di Malaysia wajib mendeklarasikan barang-barang yang dikenakan bea cukai dan barang-barang terlarang, serta mata uang atau instrumen moneter yang melebihi USD 10.000, dengan menggunakan Formulir Bea Cukai No. 7 yang tersedia di loket RMCD. Formulir ini wajib diserahkan di titik pemeriksaan RMCD. Pernyataan palsu atau kegagalan untuk mendeklarasikan merupakan pelanggaran hukum di Malaysia.<br><br>"
+      "answer": "a. Seluruh peserta disarankan untuk membeli asuransi perjalanan yang mencakup perlindungan Covid-19 dengan nilai pertanggungan minimum USD10,000.<br><br>b. Peserta yang datang dari negara-negara Afrika diwajibkan untuk mengajukan Yellow Fever Vaccination Certificates atau Sertifikat Vaksinasi Demam Kuning (Yellow Fever) setidaknya <strong>empat belas (14) hari</strong> sebelum keberangkatan ke Malaysia.<br><br>c. Jika Anda memerlukan surat undangan untuk pengajuan visa, silakan isi formulir permintaan melalui tautan berikut: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYSept2025Invitation\">https://bit.ly/VMYSept2025Invitation</a> <br><br>d. Sampaikan detail penerbangan Anda, termasuk jadwal keberangkatan dan kedatangan, ke email <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> setidaknya dua (2) hari sebelum keberangkatan Anda.<br><br>e. Siapkan <strong>Malaysia Digital Arrival Card</strong>: Pastikan seluruh informasi yang diperlukan dalam <strong>Malaysia Digital Arrival Card (MDAC)</strong> telah diisi dalam waktu <strong>tiga (3) hari</strong> sebelum keberangkatan Anda: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Peserta yang memerlukan obat-obatan hanya boleh membawa secukupnya sesuai dengan lama tinggal dan sesuai <strong>resep</strong> dari dokter.<br><br>g. Setiap pendatang yang tiba di Malaysia wajib mendeklarasikan barang-barang yang dikenakan bea cukai dan barang-barang terlarang, serta mata uang atau instrumen moneter yang melebihi USD 10.000, dengan menggunakan Formulir Bea Cukai No. 7 yang tersedia di loket RMCD. Formulir ini wajib diserahkan di titik pemeriksaan RMCD. Pernyataan palsu atau kegagalan untuk mendeklarasikan merupakan pelanggaran hukum di Malaysia.<br><br>"
     },
     "question4": {
       "title": "Apa saja persyaratan Visa perjalanan?",
@@ -450,7 +498,7 @@
     },
     "question6": {
       "title": "Kapan Pendaftaran Peserta V-MALAYSIA 2025?",
-      "answer": "Pendaftaran V-MALAYSIA JUNE 2025 akan dibuka pada tanggal <strong>20 Juni 2025</strong>. Kami sangat menyarankan agar Anda tiba setidaknya 1-2 hari sebelum acara dimulai, sehingga Anda memiliki cukup waktu untuk bersiap-siap di hotel/akomodasi Anda."
+      "answer": "Pendaftaran V-MALAYSIA September 2025 akan dilaksanakan pada tanggal 12 September 2025. Kami sangat menyarankan agar Anda tiba setidaknya 1-2 hari sebelum acara dimulai, sehingga Anda memiliki cukup waktu untuk menyesuaikan diri di hotel atau tempat penginapan Anda."
     },
     "question7": {
       "title": "Seperti apa proses pendaftaran untuk peserta V-MALAYSIA 2025?",
@@ -466,11 +514,11 @@
     },
     "question10": {
       "title": "Bagaimana saya dapat memanfaatkan layanan penerjemahan selama acara berlangsung?",
-      "answer": "For those who will need translation services during the event, translation radio is available for sale starting Registration Day on <strong>12 September 2025</strong> and throughout the event at the Information Counter."
+      "answer": "Bagi yang membutuhkan layanan terjemahan selama acara, layanan terjemahan radio tersedia untuk dibeli mulai dari Hari Pendaftaran pada 12 September 2025 dan sepanjang acara di Loket Informasi."
     },
     "question11": {
       "title": "PANDUAN V-MALAYSIA 2025: V-KIDS DAN V-TEENS",
-      "answer": "Untuk membeli tiket V-Kids dan V-Teens, silakan kunjungi <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> dan masukkan kode: <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>** CATATAN: Jika Anda ingin membeli lebih dari 1 tiket, silakan kirim email ke <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek: <strong>VMY 2025 VKids VTeens Tickets – cantumkan ID IR Anda</strong>.</em><br><br>Ketika membeli tiket V-Kids & V-Teens:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Siapkan paspor anak atau remaja yang akan didaftarkan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Masukkan kode yang benar pada VShoppe.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Setelah pembelian berhasil, pastikan untuk membawa salinan struk pembayaran dan surat konfirmasi mereka saat hari registrasi untuk keperluan verifikasi.<br>Selama Acara::<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Panduan Pakaian</u>: Disarankan memakai pakaian yang nyaman untuk 5 hari. Bawa jaket atau selendang karena area acara ber-AC.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Makanan Ringan & Makan Siang</u>: Makanan ringan dan makan siang bergizi akan disediakan selama acara. Jika anak Anda memiliki kebutuhan diet khusus atau alergi, harap kirim email kepada kami sebelum <strong>31 Mei 2025</strong>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Kedatangan & Kepulangan</u>: Pastikan anak Anda tiba di area V-KIDS & V-TEENS sebelum pukul <strong>10:00</strong>. Acara V-Kids & V-Teens dijadwalkan untuk selesai pukul <strong>18:00</strong>, dan kami mohon orang tua/wali menjemput anaknya tepat waktu.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Verifikasi</u>: Bawa salinan struk pembayaran dan surat konfirmasi ini saat hari registrasi.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Kontak Darurat</u>: Jika terjadi keadaan darurat atau komunikasi mendesak selama acara, silakan hubungi <strong>Olivia</strong> di <strong>+6012 550 2357</strong>.<br><br>Jika Anda memiliki pertanyaan atau kekhawatiran, silakan kirim email ke Olivia di <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek email: <strong>VMY 2025 VKids VTeens Tickets - cantumkan ID IR Anda</strong>.<br>"
+      "answer": "Untuk membeli tiket V-Kids dan V-Teens, silakan kunjungi <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> dan masukkan kode: <strong>VKTSEPS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>** CATATAN: Jika Anda ingin membeli lebih dari 1 tiket, silakan kirim email ke <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek: <strong>VMY 2025 VKids VTeens Tickets – cantumkan ID IR Anda</strong>.</em><br><br>Ketika membeli tiket V-Kids & V-Teens:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Siapkan paspor anak atau remaja yang akan didaftarkan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Masukkan kode yang benar pada VShoppe.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Setelah pembelian berhasil, pastikan untuk membawa salinan struk pembayaran dan surat konfirmasi mereka saat hari registrasi untuk keperluan verifikasi.<br>Selama Acara::<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Panduan Pakaian</u>: Disarankan memakai pakaian yang nyaman untuk 5 hari. Bawa jaket atau selendang karena area acara ber-AC.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Makanan Ringan & Makan Siang</u>: Makanan ringan dan makan siang bergizi akan disediakan selama acara. Jika anak Anda memiliki kebutuhan diet khusus atau alergi, harap kirim email kepada kami sebelum <strong>31 Mei 2025</strong>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Kedatangan & Kepulangan</u>: Pastikan anak Anda tiba di area V-KIDS & V-TEENS sebelum pukul <strong>10:00</strong>. Acara V-Kids & V-Teens dijadwalkan untuk selesai pukul <strong>18:00</strong>, dan kami mohon orang tua/wali menjemput anaknya tepat waktu.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Verifikasi</u>: Bawa salinan struk pembayaran dan surat konfirmasi ini saat hari registrasi.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Kontak Darurat</u>: Jika terjadi keadaan darurat atau komunikasi mendesak selama acara, silakan hubungi <strong>Olivia</strong> di <strong>+6012 550 2357</strong>.<br><br>Jika Anda memiliki pertanyaan atau kekhawatiran, silakan kirim email ke Olivia di <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> dengan subyek email: <strong>VMY 2025 VKids VTeens Tickets - cantumkan ID IR Anda</strong>.<br>"
     }
   },"swiperAds": {
     "slides": [

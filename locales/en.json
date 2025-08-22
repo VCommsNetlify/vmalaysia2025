@@ -11,6 +11,10 @@
   "floating_button": {
     "text": "Grab your tickets here!"
   },
+  "floating": {
+    "vmy": "assets/first-fold/vmysept-code-new.webp",
+    "vkt": "assets/first-fold/vkidsvteens-code-new-sept.webp"
+  },
   "buttons": {
     "close": "x",
     "close_aria-label": "x"
@@ -37,8 +41,8 @@
   "hero": {
     "headline_part1": "GREATER STORIES AWAIT THIS SEPTEMBER AT<br>",
     "headline_part2": "V-MALAYSIA 2025: TOGETHER WE RISE!",
-    "headline_part3": " GREATEST STORY",
-    "headline_part4": "!",
+    "headline_part3": "",
+    "headline_part4": "",
     "paragraph1": "<em>When we come together, our journey becomes limitless.</em>",
     "paragraph2": "<br>Join us at V-MALAYSIA 2025 this June as we gather as one to fulfill the vision of RYTHM and rise beyond the boundaries.",
     "cta_button": "Get your tickets on VShoppe. Use the code: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
@@ -388,6 +392,7 @@
   },
   "vkids": {
     "logo": "assets/vkidsteens/vkids-copy-sept_en.webp",
+    "copy": "Catch the most exciting updates!",
     "video": {
       "video5Title": "Empower the Next Generation with V-Kids and V-Teens at #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",

@@ -1,7 +1,7 @@
 {
   "home": "Главная",
   "greatest_stories": "Величайшие истории",
-  "limitless_matchmaker": "Limitless Matchmaker",
+  "limitless_matchmaker": "Limitless Матчмейкер",
   "venue_map": "Карта места проведения",
   "v_kids_v_teens": "V-Kids & V-Teens",
   "speakers": "Спикеры",
@@ -10,6 +10,10 @@
   "languages": "Языки",
   "floating_button": {
     "text": "Приобретайте билеты здесь!"
+  },
+      "floating": {
+    "vmy": "assets/first-fold/vmysept-code-ru.png",
+    "vkt": "assets/first-fold/vkidsvteens-sept-code-ru.png"
   },
    "buttons": {
     "close": "x",
@@ -35,13 +39,13 @@
     "seconds": "СЕКУНД"
   },
   "hero": {
-    "headline_part1": "ПОДНИМИТЕСЬ ВМЕСТЕ ",
-    "headline_part2": "И СОЗДАЙТЕ НАШУ",
-    "headline_part3": "ВЕЛИЧАЙШУЮ ИСТОРИЮ",
-    "headline_part4": "!",
+    "headline_part1": "<span style='font-family:helvetica'>ВЕЛИКИЕ ИСТОРИИ ЖДУТ ВАС В ЭТОМ</span>",
+    "headline_part2": "<span style='font-family:helvetica'>СЕНТЯБРЕ НА V-MALAYSIA 2025: ВМЕСТЕ МЫ ПОДНИМЕМСЯ!</span>",
+    "headline_part3": "",
+    "headline_part4": "",
     "paragraph1": "<em>Когда мы собираемся вместе, наше путешествие становится безграничным.</em>",
     "paragraph2": "<br>Присоединяйтесь к нам на V-MALAYSIA 2025 в июне этого года - мы соберемся вместе, чтобы воплотить в жизнь видение RYTHM и выйти за пределы ограничений.",
-    "cta_button": "Приобретайте билеты в VShoppe.",
+    "cta_button": "Приобретайте билеты в VShoppe. Используйте код: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
     "welcome_home": "WELCOME HOME",
     "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
@@ -98,9 +102,21 @@
     "mainTitle": "События Новости и Обновления",
     "highlightTitle": "Смотрите самые новые яркие моменты и многое другое!",
     "videoSelectionParagraph": "Это интерактивный видеоплеер! Выберите любое видео ниже и воспроизведите его здесь.",
-    "featuredTitle": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
-    "featuredDescription": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!",
+    "featuredTitle": "V-Malaysia September 2025: Навстречу нашему величайшему подъёму!",
+    "featuredDescription": "Наша великая история продолжается — масштабнее, чем когда-либо — на V-Malaysia 2025 уже в сентябре! V Partners, Associate V Partners, V Council Members — все они когда-то пришли на V-Convention как мечтатели, а ушли — как бесстрашные чемпионы. Теперь ваша очередь — на V-Malaysia 2025! Приобретайте билеты сегодня на vmalaysia2025.the-v.net Используйте код: VMYSEPT2025",
   "video": {
+    "6376865312112": {
+      "title": "V-Malaysia September 2025: Навстречу нашему величайшему подъёму!",
+      "description": "Наша великая история продолжается — масштабнее, чем когда-либо — на V-Malaysia 2025 уже в сентябре! V Partners, Associate V Partners, V Council Members — все они когда-то пришли на V-Convention как мечтатели, а ушли — как бесстрашные чемпионы. Теперь ваша очередь — на V-Malaysia 2025! Приобретайте билеты сегодня на vmalaysia2025.the-v.net Используйте код: VMYSEPT2025"
+    },
+    "6376871358112": {
+      "title": "Ознакомьтесь с новыми возможностями и величайшими историями на официальном микросайте #VMalaysia2025!",
+      "description": "Вы готовы к незабываемому V-Convention? Загляните на наш официальный микросайт #VMalaysia2025 и откройте для себя его новые возможности, созданные специально для вас! От наших самых вдохновляющих историй до идеальной коллекции Limitless Store — здесь есть всё."
+    },
+    "6376787236112": {
+      "title": "Together We Rise in Sustainable Style at V-Malaysia September 2025!",
+      "description": "V-Malaysia September 2025 isn’t just a grand event; it’s the beginning of a global movement to save the planet! Check out how the Limitless Store’s newest and trendiest line of merchandise achieves 100% sustainability. Save your favourites and get them exclusively at the Limitless Store inside the Setia SPICE Arena from 13 to 17 September!"
+    },
     "6375238933112": {
       "title": "V-Malaysia June 2025 Day 4: No One Gets Left Behind by Dato Sri Vijay Eswaran",
       "description": "“Some people need more patience. Some people need you to be with them and somehow nurture them.” Watch Dato Sri Vijay Eswaran at V-Malaysia June 2025 Day 4!"
@@ -286,6 +302,37 @@
     },
     "articles": {
       "latestNewsTitle": "Читайте последние новости!",
+      
+      "article16": {
+        "title": "V-Malaysia Сентябрь 2025: 30 ярких моментов The V!",
+        "content": "Соберите свою команду и присоединяйтесь к вашей глобальной семье через 30 дней!",
+        "readMore": "Читать далее"
+      },
+      "article15": {
+        "title": "Вместе мы поднимемся в экологичном стиле на V-Malaysia Сентябрь 2025!",
+        "content": "Выглядите хорошо, делайте хорошее!",
+        "readMore": "Читать далее"
+      },
+      "article14": {
+        "title": "V-Malaysia Сентябрь 2025: 40 моментов влияния",
+        "content": "Самые невероятные личности выйдут на сцену через 40 дней!",
+        "readMore": "Читать далее"
+      },
+      "article13": {
+        "title": "V-Malaysia Сентябрь 2025: 50 кадров самоотверженного служения",
+        "content": "Познакомьтесь с самыми милосердными лидерами служения через 50 дней!",
+        "readMore": "Читать далее"
+      },
+      "article12": {
+        "title": "V-Malaysia 2025: 60 секунд экологичного стиля",
+        "content": "Вместе мы поднимем нашу планету выше через 60 дней!",
+        "readMore": "Читать далее"
+      },
+      "article11": {
+        "title": "V-Malaysia 2025: 70 незабываемых моментов возвращения домой",
+        "content": "Осталось 70 дней до нашего грандиозного возвращения домой в сентябре!",
+        "readMore": "Читать далее"
+      },
       "article10": {
         "title": "#VMALAYSIA2025 DAY 4: Together We Conquer Challenges!",
         "content": "We have the power to rise above any challenge!",
@@ -345,11 +392,13 @@
   },
   "exploreMagic": {
     "title": "Исследуйте место, где происходит волшебство",
-    "description": "Пройдитесь по Setia SPICE Arena и <br>откройте для себя все удивительные сюрпризы <span class=\"block md:inline\">V-Malaysia 2025.</span>"
+    "description": "Проложите свой путь по Setia SPICE Arena и <br>откройте для себя все удивительные сюрпризы <span class=\"block md:inline\">V-Malaysia 2025.</span>"
   },
   "vkids": {
-    "logo": "assets/vkidsteens/Vkids-Vteens-logo-copy-RU.webp",
+    "logo": "assets/vkidsteens/vkids-copy-sept_ru.webp",
+    "copy": "Ловите самые захватывающие обновления!",
     "video": {
+      "video5Title": "Расширяйте возможности следующего поколения вместе с V-Kids и V-Teens на #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "Создайте эпическую историю вместе с V-Kids и V-Teens на #VMALAYSIA2025!",
       "video2Title": "Будущий контент",
@@ -438,7 +487,7 @@
     },
     "question3": {
       "title": "Что необходимо подготовить перед отъездом?",
-      "answer": "a. Всем участникам рекомендуется приобрести туристическую страховку с покрытием Covid-19 со страховой суммой не менее USD10,000.<br><br>b. Участники из африканских стран должны подать заявку на получение сертификата о прививке против желтой лихорадки не менее чем <strong>за четырнадцать (14) дней</strong> до вылета в Малайзию.<br><br>c. Если вам требуется письмо-приглашение для получения визы, заполните форму, чтобы отправить запрос: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYJune2025Invitation\">https://bit.ly/VMYJune2025Invitation</a> <br><br>d. Предоставьте информацию о своем рейсе, вылете и прилете на <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> не менее чем за два (2) дня до вылета.<br><br>e. Подготовьте <strong>цифровую карту прибытия в Малайзию</strong>: Пожалуйста, убедитесь, что вся необходимая информация в <strong>Малазийской цифровой карте прибытия (MDAC)</strong>заполнена в течение <strong>трех (3) дней</strong> до вашего отъезда: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Участник, нуждающийся в лекарствах, должен взять с собой только то, что необходимо на время пребывания в стране, согласно <strong>рецепту</strong> выданному врачом.<br><br>g. Все прибывающие путешественники должны задекларировать облагаемые пошлиной и запрещенные товары, а также валюту или денежные инструменты на сумму свыше 10 000 долларов США, используя таможенную форму № 7, которую можно получить на стойке RMCD. Форму необходимо предъявить на пункте досмотра RMCD. Ложное декларирование или недекларирование являются правонарушениями в соответствии с малазийским законодательством.<br><br>"
+      "answer": "a. Всем участникам рекомендуется приобрести туристическую страховку с покрытием Covid-19 со страховой суммой не менее USD10,000.<br><br>b. Участники из африканских стран должны подать заявку на получение сертификата о прививке против желтой лихорадки не менее чем <strong>за четырнадцать (14) дней</strong> до вылета в Малайзию.<br><br>c. Если вам требуется письмо-приглашение для получения визы, заполните форму, чтобы отправить запрос: <a style=\"color:red; text-decoration: underline white;\" href=\"https://bit.ly/VMYSept2025Invitation\">https://bit.ly/VMYSept2025Invitation</a> <br><br>d. Предоставьте информацию о своем рейсе, вылете и прилете на <a href=\"mailto:v-regn@the-v.net\" style='color:red; text-decoration: underline white;'>v-regn@the-v.net</a> не менее чем за два (2) дня до вылета.<br><br>e. Подготовьте <strong>цифровую карту прибытия в Малайзию</strong>: Пожалуйста, убедитесь, что вся необходимая информация в <strong>Малазийской цифровой карте прибытия (MDAC)</strong>заполнена в течение <strong>трех (3) дней</strong> до вашего отъезда: <a href=\"https://imigresen-online.imi.gov.my/mdac/main\" style='color:red; text-decoration: underline white;'>https://imigresen-online.imi.gov.my/mdac/main</a><br><br>f. Участник, нуждающийся в лекарствах, должен взять с собой только то, что необходимо на время пребывания в стране, согласно <strong>рецепту</strong> выданному врачом.<br><br>g. Все прибывающие путешественники должны задекларировать облагаемые пошлиной и запрещенные товары, а также валюту или денежные инструменты на сумму свыше 10 000 долларов США, используя таможенную форму № 7, которую можно получить на стойке RMCD. Форму необходимо предъявить на пункте досмотра RMCD. Ложное декларирование или недекларирование являются правонарушениями в соответствии с малазийским законодательством.<br><br>"
     },
     "question4": {
       "title": "Каковы требования к туристической визе?",
@@ -450,7 +499,7 @@
     },
     "question6": {
       "title": "Когда будет проходить регистрация участников V-MALAYSIA 2025?",
-      "answer": "Регистрация участников V-MALAYSIA 2025 будет проходить <strong>20 июня 20025 года</strong>. Мы настоятельно рекомендуем вам приехать как минимум за 1-2 дня до начала мероприятия, чтобы у вас было достаточно времени на обустройство в отеле/месте проживания."
+      "answer": "Регистрация участников V-MALAYSIA September 2025 будет проходить 12 сентября 20025 года. Мы настоятельно рекомендуем вам приехать как минимум за 1-2 дня до начала мероприятия, чтобы у вас было достаточно времени на обустройство в отеле/месте проживания."
     },
     "question7": {
       "title": "Каков процесс регистрации участников V-MALAYSIA 2025?",
@@ -466,11 +515,11 @@
     },
     "question10": {
       "title": "Как я могу воспользоваться услугами переводчика во время мероприятия?",
-      "answer": "For those who will need translation services during the event, translation radio is available for sale starting Registration Day on <strong>12 September 2025</strong> and throughout the event at the Information Counter."
+      "answer": "Для тех, кому понадобятся услуги переводчика во время мероприятия, радиопереводчики можно приобрести начиная с Дня регистрации 12 сентября 2025 года и в течение всего мероприятия на стойке информации."
     },
     "question11": {
       "title": "V-MALAYSIA 2025: РУКОВОДСТВО ДЛЯ V-KIDS И V-TEENS",
-      "answer": "Чтобы приобрести билет на V-Kids и V-Teens, просто зайдите в <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> и введите код: <strong>VKIDSTEENS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**ПРИМЕЧАНИЕ: Если вы хотите приобрести более 1 билета, пожалуйста, напишите на электронную почту <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> с темой письма: <strong>VMY 2025 VKids VTeens Tickets - добавьте ваш IR ID</strong>.</em><br><br>При покупке билетов на V-Kids и V-Teens:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Приготовьте паспорт ребенка или подростка.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Введите правильный код в VShoppe.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•После успешной покупки билетов не забудьте взять с собой копию чека и письмо-подтверждение в день регистрации для проверки.<br><br>Во время мероприятия:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Дресс-код</u>: Мы рекомендуем удобную одежду, подходящую для 5 дней. Возьмите с собой куртку или шаль, так как в помещении, где будет проходить мероприятие, работает кондиционер.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Закуски и обед</u>: Во время мероприятия будут предоставляться легкие закуски и питательные обеды. Если у вашего ребенка есть какие-либо особые диетические требования или аллергия, пожалуйста, напишите нам об этом не позднее <strong>31 мая 2025 года</strong>.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Прибытие и отправление</u>: Пожалуйста, убедитесь, что ваш ребенок прибыл в зону V-KIDS & V-TEENS до <strong>10:00 утра</strong>. Мероприятие должно завершиться в <strong>18:00</strong>, поэтому просим родителей/опекунов забирать своих детей вовремя.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Верификация</u>: Возьмите с собой копию чека и данное письмо-подтверждение в день регистрации.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Контакт для экстренной связи</u>: Если во время мероприятия возникнут какие-либо чрезвычайные или срочные ситуации, пожалуйста, свяжитесь с <strong>Olivia</strong> по телефону <strong>+6012 550 2357</strong>.<br><br>Если у вас есть вопросы или проблемы, пожалуйста, напишите Olivia по электронной почте <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> с темой письма: <strong>VMY 2024 VKids VTeens Tickets - добавьте ваш IR ID</strong>.<br>"
+      "answer": "Чтобы приобрести билет на V-Kids и V-Teens, просто зайдите в <a href=\"https://vshoppe.vtube.net/\" style='color:red; text-decoration: underline white;'>VShoppe</a> и введите код: <strong>VKTSEPS25</strong><br><br>&nbsp;&nbsp;&nbsp;<em>**ПРИМЕЧАНИЕ: Если вы хотите приобрести более 1 билета, пожалуйста, напишите на электронную почту <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> с темой письма: <strong>VMY 2025 VKids VTeens Tickets - добавьте ваш IR ID</strong>.</em><br><br>При покупке билетов на V-Kids и V-Teens:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Приготовьте паспорт ребенка или подростка.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Введите правильный код в VShoppe.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•После успешной покупки билетов не забудьте взять с собой копию чека и письмо-подтверждение в день регистрации для проверки.<br><br>Во время мероприятия:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <u>Дресс-код</u>: Мы рекомендуем удобную одежду, подходящую для 5 дней. Возьмите с собой куртку или шаль, так как в помещении, где будет проходить мероприятие, работает кондиционер.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <u>Закуски и обед</u>: Во время мероприятия будут предоставляться легкие закуски и питательные обеды. Если у вашего ребенка есть какие-либо особые диетические требования или аллергия, пожалуйста, напишите нам об этом не позднее <strong>31 мая 2025 года</strong>.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <u>Прибытие и отправление</u>: Пожалуйста, убедитесь, что ваш ребенок прибыл в зону V-KIDS & V-TEENS до <strong>10:00 утра</strong>. Мероприятие должно завершиться в <strong>18:00</strong>, поэтому просим родителей/опекунов забирать своих детей вовремя.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <u>Верификация</u>: Возьмите с собой копию чека и данное письмо-подтверждение в день регистрации.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <u>Контакт для экстренной связи</u>: Если во время мероприятия возникнут какие-либо чрезвычайные или срочные ситуации, пожалуйста, свяжитесь с <strong>Olivia</strong> по телефону <strong>+6012 550 2357</strong>.<br><br>Если у вас есть вопросы или проблемы, пожалуйста, напишите Olivia по электронной почте <a href=\"mailto:olivia.oscar@the-v.net\" style='color:red; text-decoration: underline white;'>olivia.oscar@the-v.net</a> с темой письма: <strong>VMY 2024 VKids VTeens Tickets - добавьте ваш IR ID</strong>.<br>"
     }
   },"swiperAds": {
     "slides": [
