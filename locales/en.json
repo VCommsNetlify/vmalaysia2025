@@ -7,6 +7,9 @@
   "speakers": "Speakers",
   "this_or_that": "This or That?",
   "faq": "FAQ",
+  "portraitVideoSection": {
+    "title": "YOUR GREATEST V-CONVENTION EXPERIENCE"
+  },
   "languages": "Languages",
   "floating_button": {
     "text": "Grab your tickets here!"
@@ -26,11 +29,11 @@
   },
   "language_name": {
     "en": "English",
-    "ar": "Arabic",
+    "ar": "العربية",
     "id": "Bahasa Indonesia",
-    "fr": "French",
-    "ru": "Russian",
-    "tr": "Turkish"
+    "fr": "français",
+    "ru": "Русский",
+    "tr": "Türkçe"
   },
   "countdown": {
     "days": "DAYS",
@@ -399,6 +402,8 @@
     "logo": "assets/vkidsteens/vkids-copy-sept_en.webp",
     "copy": "Catch the most exciting updates!",
     "video": {
+      "video7Title": "Raise the Leaders of Tomorrow with V-Kids and V-Teens at V-Malaysia September 2025!",
+      "video6Title": "Rise to Become Tomorrow’s Leaders with V-Kids and V-Teens at #VMALAYSIA2025!",
       "video5Title": "Empower the Next Generation with V-Kids and V-Teens at #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "Create an Epic Story with V-Kids and V-Teens at #VMALAYSIA2025!",

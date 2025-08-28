@@ -7,6 +7,9 @@
   "speakers": "لمتحدثون",
   "this_or_that": "هذا أو ذاك؟",
   "faq": "الأسئلة الشائعة",
+    "portraitVideoSection": {
+    "title": "أعظم تجربة لك في الـ V-Convention"
+  },
   "languages": "اللغات",
   "floating_button": {
     "text": "احصلوا على تذاكركم هنا!"
@@ -26,11 +29,11 @@
   },
   "language_name": {
     "en": "English",
-    "ar": "Arabic",
+    "ar": "العربية",
     "id": "Bahasa Indonesia",
-    "fr": "French",
-    "ru": "Russian",
-    "tr": "Turkish"
+    "fr": "français",
+    "ru": "Русский",
+    "tr": "Türkçe"
   },
   "countdown": {
     "days": "أيام",
@@ -401,6 +404,8 @@
     "logo": "assets/vkidsteens/vkids-copy-sept_ar.webp",
     "copy": "تابعوا أكثر الأخبار إثارة!",
     "video": {
+      "video7Title": "قوموا بتربية قادة الغد مع الـ V-Kids والـ V-Teens في V-Malaysia سبتمبر 2025!",
+      "video6Title": "انهضوا لتصبحوا قادة الغد مع الـ V-Kids والـ V-Teens في #VMALAYSIA2025!",
       "video5Title": "قوموا بتمكين الجيل القادم مع الـ V-Kids والـ V-Teens في #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "اصنعوا قصة ملحمية مع الـ V-Kids والـ V-Teens في #VMALAYSIA2025!",

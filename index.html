@@ -1402,11 +1402,174 @@ body.rtl .arrow-left {
     }
 
     /* --- Swiper Pagination Dots (FINAL FIX) --- */
-    /* Add padding to the swiper container to create space for the dots */
-    .swiper.portraitSwiper {
-        padding-bottom: 3rem; 
-    }
+  /* Unique Swiper container for the portrait section */
+        .portraitSwiper {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Specific slide dimensions to make them smaller */
+        .portraitSwiper .swiper-slide {
+            width: 200px; /* Reduced width */
+            height: 320px; /* Reduced height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 0.75rem; /* More rounded corners */
+        }
+        
+        .portraitSwiper .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0.75rem;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Custom navigation buttons to ensure visibility */
+        .portraitSwiper .swiper-button-prev,
+        .portraitSwiper .swiper-button-next {
+            color: #ffffff !important; /* Force color to be white */
+            background-color: rgba(0, 0, 0, 0.7); /* Solid, semi-transparent black background */
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+        }
+
+        .portraitSwiper .swiper-button-prev {
+            left: 10px; /* Adjusted position */
+        }
+
+        .portraitSwiper .swiper-button-next {
+            right: 10px; /* Adjusted position */
+        }
+        
+        /* Fixed: Correct position and style for pagination dots */
+        .portraitSwiper .swiper-pagination {
+            position: absolute;
+            bottom: -32px !important; /* Pushed down a little further */
+            text-align: center;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .portraitSwiper .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            background-color: #ffffff; /* Made the bullets solid white */
+            border: 1px solid #ff7c1f;
+            opacity: 0.5; /* Semi-transparent when not active */
+            transition: all 0.3s ease;
+        }
+        
+        /* Active pagination dot style */
+        .portraitSwiper .swiper-pagination-bullet-active {
+            background-color: #ff7c1f;
+            opacity: 1; /* Fully opaque when active */
+        }
     
+/* portraitv2 css for 1 video only */
+/* Custom styling for the portrait section to match the image */
+        .portrait-container {
+            background-image: linear-gradient(180deg, #66b4e0, #429ad8);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 1.5rem;
+        }
+
+        .portrait-title {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-weight: bold;
+        }
+
+        .portrait-subtitle {
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            background-color: #ff7c1f;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition-property: all;
+            transition-duration: 300ms;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Modal styling with 'portraitv2' prefix */
+        .portraitv2-modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .portraitv2-hidden-by-default {
+            display: none;
+        }
+
+        .portraitv2-modal-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            width: 800px; /* A fixed width for the video container */
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        .portraitv2-video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .portraitv2-video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .portraitv2-modal-close-btn {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background: #ff7c1f;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border: none;
+            z-index: 10000;
+        }
+
+/* end portrait v2 */
     /* Position the pagination element absolutely at the bottom of that space */
     .swiper-pagination {
         position: absolute;
@@ -1517,7 +1680,6 @@ body.rtl .arrow-left {
           top: 50%;
           transform: translateY(-50%);
           cursor: pointer;
-          z-index: 10;
         }
 
         .vkidsVideoSwiper .vkids-video-nav-prev {
@@ -1534,12 +1696,12 @@ body.rtl .arrow-left {
 
         .vkidsVideoSwiper .vkids-video-nav-prev::after {
             content: '<';
-            font-size: 20px;
+            font-size: 10px;
             font-weight: bold;
         }
         .vkidsVideoSwiper .vkids-video-nav-next::after {
             content: '>';
-            font-size: 20px;
+            font-size: 10px;
             font-weight: bold;
         }
 
@@ -2630,40 +2792,45 @@ body.rtl .arrow-left {
 
 
 
+<!-- Menjawab panggilan dua visioner yang mimpinya mengawali kisah agung kita sebagai global family. Ciptakan sejarah kembali bersama para Founders kami, Dato Sri Vijay Eswaran dan Joseph ‘Japadas’ Bismark, di #VMALAYSIA2025, yang akan berlangsung pada 13-17 September 2025 di Setia SPICE Arena.
 
+ 
+
+Beli tiket Anda sekarang di vshoppe.vtube.net. Gunakan kode: VMYSEPT2025 -->
 
 
 
 
 <!-- Ads Section -->
-<!-- <section id="carousel-featured" class="py-16 bg-cover bg-center text-white" style="background-image: url('assets/greateststory/BG-greateststory-sept.webp'); background-position: bottom;">
+<!-- <section id="carousel-portrait" class="py-16 bg-cover bg-center text-white" style="background-image: url('assets/greateststory/BG-greateststory-sept.webp'); background-position: bottom; ">
   <div class="container mx-auto px-4">
 
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl bg-[#ff7c1f] rounded-lg inline-block font-bold text-white mb-4 px-4 py-2">YOUR GREATEST V-CONVENTION EXPERIENCE</h2>
     </div>
 
-    <div class="swiper portraitSwiper relative max-w-4xl mx-auto">
+    <div class="swiper portraitSwiper relative mx-auto">
       <div class="swiper-wrapper">
           <div class="swiper-slide rounded-lg overflow-hidden portrait-video-item cursor-pointer" data-video-id="6375238933112">
-              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-1-vertical.webp" alt="V-Convention Moment" class="w-full h-full object-cover">
+              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-1-vertical.webp" alt="V-Convention Moment">
           </div>
           <div class="swiper-slide rounded-lg overflow-hidden portrait-video-item cursor-pointer" data-video-id="6375239612112">
-              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-2-vertical.webp" alt="V-Convention Moment" class="w-full h-full object-cover">
+              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-2-vertical.webp" alt="V-Convention Moment">
           </div>
           <div class="swiper-slide rounded-lg overflow-hidden portrait-video-item cursor-pointer" data-video-id="6375237111112">
-              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-3-vertical.webp" alt="V-Convention Moment" class="w-full h-full object-cover">
+              <img src="assets/ads/05152025-VMY2025-JUNE-microsite-carousel-ad-3-vertical.webp" alt="V-Convention Moment">
           </div>
           <div class="swiper-slide rounded-lg overflow-hidden portrait-video-item cursor-pointer" data-video-id="6375137181112">
-              <img src="assets/greateststory/03202025-v-africa2025-post-event-banner-2-v3-vertical.jpg" alt="V-Convention Moment" class="w-full h-full object-cover">
+              <img src="assets/greateststory/03202025-v-africa2025-post-event-banner-2-v3-vertical.jpg" alt="V-Convention Moment">
           </div>
       </div>
       
-      <div class="swiper-button-prev text-white z-10 text-4xl"></div>
-      <div class="swiper-button-next text-white z-10 text-4xl"></div>
+      
+      <div class="swiper-button-prev z-10"></div>
+      <div class="swiper-button-next z-10"></div>
 
+      
       <div class="swiper-pagination"></div>
-
     </div>
     
   </div>
@@ -2681,59 +2848,72 @@ body.rtl .arrow-left {
 
 <!-- VKIDS -->
 <section class="py-16 text-white" id="vkidsteens" style="background-image: url('assets/vkidsteens/BG-vkids-sept.webp'); background-position: top; background-size: cover;">
-<div class="max-w-4xl mx-auto text-center px-4 mb-[-20px]">
-  <img src="assets/vkidsteens/vkids-copy-sept_en.webp" 
-       alt="V-KIDS & V-TEENS Logo" 
-       id="vkids-logo" 
-       data-i18n="vkids.logo" 
-       data-i18n-type="image">
-</div>
-
-<div class="text-center mb-12 flex justify-center">
-  <h2 class="w-fit text-3xl md:text-4xl bg-[#ff7c1f] font-bold text-white mb-4 px-4 py-2 rounded-lg" data-i18n="vkids.copy">Catch the most exciting updates!</h2>
-</div>
-
-  <!-- Video Section -->
-          <div class="swiper-slide cursor-pointer video-item" data-video-id="6376871580112">
-            <div class="relative overflow-hidden">
-              <img src="assets/vkidsteens/september/08122025 September VMY VKids&VTeens Special Teaser 1 web banner.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
-            </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video5Title">
-              Future Content
-            </div>
-          </div>
-
-          <!-- <div class="swiper-slide cursor-pointer video-item" data-video-id="6374927478112">
-            <div class="relative overflow-hidden">
-              <img src="assets/vkidsteens/06272025-v-kids-and-v-teens-at-vmalaysia2025-highlights-an-epic-adventure.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
-            </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video4Title">
-              Future Content
-            </div>
-          </div>
-
-          <div class="swiper-slide cursor-pointer video-item" data-video-id="6373518720112">
-            <div class="relative overflow-hidden">
-              <img src="assets/vkidsteens/05272025-create-an-epic-story-with-v-kids-and-v-teens-at-vmalaysia2025.webp" alt="Video Thumbnail" class="w-full h-[200px] object-cover mb-0">
-            </div>
-            <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video1Title">
-              Future Content
-            </div>
-          </div> -->
-
-          
-
-          
+        <div class="max-w-4xl mx-auto text-center px-4 mb-[-20px]">
+            <img src="assets/vkidsteens/vkids-copy-sept_en.webp" 
+                 alt="V-KIDS & V-TEENS Logo" 
+                 id="vkids-logo" 
+                 data-i18n="vkids.logo" 
+                 data-i18n-type="image"
+                 class="mx-auto">
         </div>
-        <!-- UNIQUE NAVIGATION BUTTONS FOR THIS SWIPER -->
-        <div class="vkids-video-nav-prev text-white z-10 text-4xl"></div>
-        <div class="vkids-video-nav-next text-white z-10 text-4xl"></div>
-        <!-- UNIQUE PAGINATION FOR THIS SWIPER -->
-        <div class="vkidsVideoPagination swiper-pagination mt-6 text-center"></div>
-      </div>
-    </div>
-  </div>
-</section>
+
+        <div class="text-center mb-12 flex justify-center">
+            <h2 class="w-fit text-3xl md:text-4xl bg-[#ff7c1f] font-bold text-white mb-4 px-4 py-2 rounded-lg" data-i18n="vkids.copy">Catch the most exciting updates!</h2>
+        </div>
+        
+        <!-- New wrapper div with white background, rounded corners, and opacity.
+             The 'overflow-hidden' class has been added to fix the issue. -->
+        <div class="bg-white/30 rounded-xl p-6 shadow-2xl mx-auto my-12 max-w-7xl relative overflow-hidden">
+            <!-- Main Swiper container with a central wrapper -->
+            <div class="max-w-4xl mx-auto swiper-container vkidsVideoSwiper">
+                <!-- Swiper wrapper to hold the slides -->
+                <div class="swiper-wrapper">
+                    <!-- Each video is a swiper-slide -->
+                    
+                    <!-- Other slides can be added here -->
+                    <div class="swiper-slide cursor-pointer video-item" data-video-id="6376871580112">
+                        <div class="relative overflow-hidden w-full">
+                            <img src="assets/vkidsteens/september/08132025-empower-the-next-generation-with-v-kids-and-v-teens-at-vmalaysia2025-1.webp" 
+                                 alt="Video Thumbnail" 
+                                 class="w-full h-full mb-0">
+                        </div>
+                        <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video5Title">
+                            Empower the Next Generation with V-Kids and V-Teens at #VMALAYSIA2025!
+                        </div>
+                    </div>
+                    <div class="swiper-slide cursor-pointer video-item" data-video-id="6377505770112">
+                        <div class="relative overflow-hidden w-full">
+                            <img src="assets/vkidsteens/september/08272025-rise-to-become-tomorrows-leaders-with-v-kids-and-v-teens-at-vmalaysia2025-1.webp" 
+                                 alt="Video Thumbnail" 
+                                 class="w-full h-full mb-0">
+                        </div>
+                        <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video6Title">
+                            Rise to Become Tomorrow’s Leaders with V-Kids and V-Teens at #VMALAYSIA2025!
+                        </div>
+                    </div>
+
+                    <a href="https://the-v.net/en/news?id=07282025-raise-the-leaders-of-tomorrow-with-v-kids-and-v-teens-at-v-malaysia-september-2025" target="_blank" class="swiper-slide cursor-pointer">
+                    <div class="relative overflow-hidden w-full">
+                        <img src="assets/vkidsteens/september/07282025-raise-the-leaders-of-tomorrow-with-v-kids-and-v-teens-at-v-malaysia-september-2025.webp" 
+                             alt="Link Thumbnail" 
+                             class="w-full h-full mb-0">
+                    </div>
+                    <div class="p-3 text-white text-sm font-semibold text-center mt-0" style="background-color: #00737a;" data-i18n="vkids.video.video7Title">
+                        Raise the Leaders of Tomorrow with V-Kids and V-Teens at V-Malaysia September 2025!
+                    </div>
+                </a>
+                    
+                </div>
+
+                <!-- Swiper navigation buttons INSIDE the slider with specific classes -->
+                <div class="swiper-button-prev vkids-video-nav-prev"></div>
+                <div class="swiper-button-next vkids-video-nav-next"></div>
+            </div>
+            
+            <!-- Swiper pagination dots OUTSIDE the slider -->
+            <div class="vkidsVideoPagination swiper-pagination mt-6 text-center"></div>
+        </div>
+    </section>
 
 
 <!-- OLD VKIDS -->
@@ -3600,198 +3780,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-    // <!-- END COMING SOON GALLERY -->
-
-
-  // this or that
-
-// const startBtn = document.getElementById('startBtn');
-// const initialScreen = document.getElementById('initialScreen');
-// const gameContent = document.getElementById('gameContent');
-// const backgroundImage = document.getElementById('backgroundImage');
-// const roundNumber = document.getElementById('roundNumber');
-// const leftText = document.getElementById('leftText');
-// const rightText = document.getElementById('rightText');
-// const leftChoice = document.getElementById('leftChoice');
-// const rightChoice = document.getElementById('rightChoice');
-// const resultsSection = document.getElementById('resultsSection');
-// const choicesList = document.getElementById('choicesList');
-// const resultCanvas = document.getElementById('resultCanvas');
-// const downloadLink = document.getElementById('downloadLink');
-// const restartBtn = document.getElementById('restartBtn');
-// const thisOrThatSection = document.getElementById('thisOrThat'); 
-
-// let currentRound = 0;
-// const userChoices = [];
-// const rounds = [
-//   { left: "thisOrThat.rounds.round1.left", right: "thisOrThat.rounds.round1.right" },
-//   { left: "thisOrThat.rounds.round2.left", right: "thisOrThat.rounds.round2.right" },
-//   { left: "thisOrThat.rounds.round3.left", right: "thisOrThat.rounds.round3.right" },
-//   { left: "thisOrThat.rounds.round4.left", right: "thisOrThat.rounds.round4.right" },
-//   { left: "thisOrThat.rounds.round5.left", right: "thisOrThat.rounds.round5.right" },
-//   { left: "thisOrThat.rounds.round6.left", right: "thisOrThat.rounds.round6.right" },
-//   { left: "thisOrThat.rounds.round7.left", right: "thisOrThat.rounds.round7.right" },
-//   { left: "thisOrThat.rounds.round8.left", right: "thisOrThat.rounds.round8.right" },
-//   { left: "thisOrThat.rounds.round9.left", right: "thisOrThat.rounds.round9.right" },
-//   { left: "thisOrThat.rounds.round10.left", right: "thisOrThat.rounds.round10.right" },
-//   { left: "thisOrThat.rounds.round11.left", right: "thisOrThat.rounds.round11.right" },
-//   { left: "thisOrThat.rounds.round12.left", right: "thisOrThat.rounds.round12.right" }
-// ];
-
-// function adjustThisOrThatHeight(height) {
-//   thisOrThatSection.style.height = height + 'px';
-// }
-
-// document.addEventListener('DOMContentLoaded', function() {
  
-//   adjustThisOrThatHeight(650);
-
-  
-//   startBtn.addEventListener('click', function() {
-//     initialScreen.style.display = 'none';
-//     backgroundImage.style.display = 'block';
-//     gameContent.style.display = 'flex';
-//     currentRound = 0;
-//     userChoices.length = 0;
-//     loadRound(currentRound);
-//     adjustThisOrThatHeight(1000); 
-//   });
-
-
-// function loadRound(index) {
-//     if (index >= rounds.length) {
-//       showResults();
-//       return;
-//     }
-
-    
-//     roundNumber.innerHTML = `<span data-i18n="thisOrThat.results.round">Round</span> ${index + 1}`;
-
-    
-//     updateUI();
-
-
-
-//     leftText.innerHTML = t(rounds[index].left);
-//     rightText.innerHTML = t(rounds[index].right);
-
-    
-//     gameContent.classList.add('new-round');
-//     setTimeout(() => {
-//       gameContent.classList.remove('new-round');
-//     }, 500);
-//   }
-
-
-//   leftChoice.addEventListener('click', function() {
-//     makeChoice('left');
-//   });
-
-//   rightChoice.addEventListener('click', function() {
-//     makeChoice('right');
-//   });
-
-// function makeChoice(side) {
-//     userChoices.push({
-//       round: currentRound + 1,
-//       question: `${t(rounds[currentRound].left)} or ${t(rounds[currentRound].right)}`,
-//       choice: side === 'left' ? t(rounds[currentRound].left) : t(rounds[currentRound].right)
-//     });
-
-//     const selectedElement = side === 'left' ? leftChoice : rightChoice;
-//     const otherElement = side === 'left' ? rightChoice : leftChoice;
-
-//     selectedElement.style.transform = 'scale(1.05)';
-//     otherElement.style.opacity = '0.7';
-
-//     setTimeout(() => {
-//       selectedElement.style.transform = '';
-//       otherElement.style.opacity = '';
-//       currentRound++;
-//       loadRound(currentRound);
-//     }, 700);
-//   }
-
-
-// function showResults() {
-//   gameContent.style.display = 'none';
-//   backgroundImage.style.display = 'none';
-//   resultsSection.style.display = 'block';
-
-
-//   choicesList.innerHTML = '';
-//   userChoices.forEach(choice => {
-//     const li = document.createElement('li');
-//     li.innerHTML = `<strong><span data-i18n="thisOrThat.results.round">Round</span> ${choice.round}:</strong> <span>${choice.choice}</span>`;
-//     choicesList.appendChild(li);
-//   });
-
-  
-//   displayRandomImageAndEnableDownload();
-
-  
-//    updateUI();
-// }
-
-//   function displayRandomImageAndEnableDownload() {
-  
-//   const imagePaths = t('game.resultImages'); 
-
-  
-//   if (!Array.isArray(imagePaths) || imagePaths.length === 0) {
-//     console.error("No image paths found for the current language or array is empty.");
-   
-//     return;
-//   }
-
-//   const randomIndex = Math.floor(Math.random() * imagePaths.length);
-//   const randomImagePath = imagePaths[randomIndex]; 
-
-//   const imageElement = document.createElement('img');
-//   imageElement.src = randomImagePath;
-//   imageElement.alt = 'Random Gallery Image';
-//   imageElement.classList.add('random-result-image', 'h-auto', 'object-cover', 'mx-auto', 'mb-8');
-
-//   const resultsSection = document.getElementById('resultsSection');
-//   const heading = resultsSection.querySelector('h3');
-//   resultsSection.insertBefore(imageElement, heading.nextSibling);
-
-//   const downloadLink = document.getElementById('downloadLink');
-//   downloadLink.href = randomImagePath;
-//   downloadLink.style.display = 'inline-block';
-// }
-
-//   const restartBtn = document.getElementById('restartBtn');
-//   const resultsSection = document.getElementById('resultsSection');
-//   const choicesList = document.getElementById('choicesList');
-
-
-//   restartBtn.addEventListener('click', function() {
-//     console.log('Restart button clicked');
-//     currentRound = 0;
-//     userChoices.length = 0;
-//     resultsSection.style.display = 'none';
-//     initialScreen.style.display = 'flex'; 
-//     adjustThisOrThatHeight(650); 
-
-    
-//     const existingImage = resultsSection.querySelector('img.random-result-image');
-//     if (existingImage) {
-//       existingImage.remove();
-//     }
-
-    
-//     if (choicesList) {
-//       choicesList.innerHTML = '';
-//     }
-
-//   });
-
-// });
-
-
-
-    //END THIS OR THAT
 //modal for vkidsteens
 document.addEventListener('DOMContentLoaded', function () {
   const closeBtn = document.getElementById('closeModal2');
@@ -4007,6 +3996,39 @@ const portraitSwiper = new Swiper(".portraitSwiper", {
             }
         });
     });
+
+    // portraitv2 
+
+document.addEventListener('DOMContentLoaded', () => {
+        // Updated JavaScript variable names to 'portraitv2'
+        const portraitv2VideoThumbnail = document.getElementById('portraitv2VideoThumbnail');
+        const portraitv2VideoModal = document.getElementById('portraitv2VideoModal');
+        const portraitv2VideoPlayer = document.getElementById('portraitv2VideoPlayer');
+        const portraitv2CloseModal = document.getElementById('portraitv2CloseModal');
+        const videoUrl = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+
+        portraitv2VideoThumbnail.addEventListener('click', () => {
+            // Set the video source and show the modal
+            portraitv2VideoPlayer.src = videoUrl;
+            portraitv2VideoModal.classList.remove('portraitv2-hidden-by-default');
+        });
+
+        portraitv2CloseModal.addEventListener('click', () => {
+            // Hide the modal and stop the video
+            portraitv2VideoModal.classList.add('portraitv2-hidden-by-default');
+            portraitv2VideoPlayer.src = ""; // This stops the video
+        });
+
+        // Close modal when clicking on the backdrop
+        portraitv2VideoModal.addEventListener('click', (event) => {
+            if (event.target === portraitv2VideoModal) {
+                portraitv2VideoModal.classList.add('portraitv2-hidden-by-default');
+                portraitv2VideoPlayer.src = "";
+            }
+        });
+    });
+
+    //end portraitv2
 
  // Swiper for videos (2 rows, 3 columns)
 //  new Swiper('.vkidsVideoSwiper', {

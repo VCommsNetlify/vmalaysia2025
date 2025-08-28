@@ -7,6 +7,9 @@
   "speakers": "Konuşmacılar",
   "this_or_that": "O mu Bu mu?",
   "faq": "SSS",
+    "portraitVideoSection": {
+    "title": "En Büyük V-Convention Deneyiminiz"
+  },
   "languages": "Diller",
   "floating_button": {
     "text": "Biletlerinizi buradan alın!"
@@ -26,11 +29,11 @@
   },
   "language_name": {
     "en": "English",
-    "ar": "Arabic",
+    "ar": "العربية",
     "id": "Bahasa Indonesia",
-    "fr": "French",
-    "ru": "Russian",
-    "tr": "Turkish"
+    "fr": "français",
+    "ru": "Русский",
+    "tr": "Türkçe"
   },
   "countdown": {
     "days": "GÜN",
@@ -399,6 +402,8 @@
     "logo": "assets/vkidsteens/vkids-copy-sept_tr.webp",
     "copy": "En heyecan verici güncellemeleri yakalayın!",
     "video": {
+      "video7Title": "V-Malaysia Eylül 2025'te V-Kids ve V-Teens ile Yarının Liderlerini Yetiştirin!",
+      "video6Title": "#VMALAYSIA2025'te V-Kids ve V-Teens ile Geleceğin Liderleri Olmaya Hazır Olun!",
       "video5Title": "#VMALAYSIA2025'te V-Kids ve V-Teens ile Gelecek Nesli Güçlendirin!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "#VMALAYSIA2025'te V-Kids ve V-Teens ile Epik Bir Hikaye Yaratın!",

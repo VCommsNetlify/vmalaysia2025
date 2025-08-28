@@ -7,6 +7,9 @@
   "speakers": "Спикеры",
   "this_or_that": "То или это?",
   "faq": "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ",
+    "portraitVideoSection": {
+    "title": "Ваш самый яркий опыт V-Convention"
+  },
   "languages": "Языки",
   "floating_button": {
     "text": "Приобретайте билеты здесь!"
@@ -26,11 +29,11 @@
   },
   "language_name": {
     "en": "English",
-    "ar": "Arabic",
+    "ar": "العربية",
     "id": "Bahasa Indonesia",
-    "fr": "French",
-    "ru": "Russian",
-    "tr": "Turkish"
+    "fr": "français",
+    "ru": "Русский",
+    "tr": "Türkçe"
   },
   "countdown": {
     "days": "ДНЕЙ",
@@ -403,6 +406,8 @@
     "logo": "assets/vkidsteens/vkids-copy-sept_ru.webp",
     "copy": "Ловите самые захватывающие обновления!",
     "video": {
+      "video7Title": "Воспитывайте лидеров завтрашнего дня вместе с V-Kids и V-Teens на V-Malaysia September 2025!",
+      "video6Title": "Станьте лидерами завтрашнего дня вместе с V-Kids и V-Teens на #VMALAYSIA2025!",
       "video5Title": "Расширяйте возможности следующего поколения вместе с V-Kids и V-Teens на #VMALAYSIA2025!",
       "video4Title": "V-Kids and V-Teens at #VMALAYSIA2025 Highlights: An Epic Adventure!",
       "video1Title": "Создайте эпическую историю вместе с V-Kids и V-Teens на #VMALAYSIA2025!",
