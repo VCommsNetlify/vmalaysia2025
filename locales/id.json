@@ -25,12 +25,12 @@
     "gallery": "Galeri"
   },
   "language_name": {
-    "en": "Inggris",
-    "ar": "Arab",
+    "en": "English",
+    "ar": "Arabic",
     "id": "Bahasa Indonesia",
-    "fr": "Prancis",
-    "ru": "Rusia",
-    "tr": "Turki"
+    "fr": "French",
+    "ru": "Russian",
+    "tr": "Turkish"
   },
   "countdown": {
     "days": "HARI",
@@ -45,7 +45,7 @@
     "headline_part4": "",
     "paragraph1": "<em>Ketika kita bersatu, perjalanan kita menjadi tak terbatas.</em>",
     "paragraph2": "<br>Bergabunglah dengan kami dalam V-MALAYSIA 2025 di bulan Juni ini, di saat kita berkumpul bersama untuk memenuhi visi RYTHM dan bangkit melampaui batas.",
-    "cta_button": "Dapakan tiket anda di VShoppe. Gunakan kode: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
+    "cta_button": "Dapatkan tiket anda di VShoppe. Gunakan kode: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
      "welcome_home": "WELCOME HOME",
     "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
@@ -547,70 +547,71 @@
     ]
   },
   "app": {
-                        "title": "What kind of LIMITLESS style is best for you?",
-                        "subtitle": "Take the quiz and find out!",
-                        "startBtn": "Start Quiz",
-                        "nextBtn": "Next",
-                        "submitBtn": "Submit",
-                        "resetBtn": "Start Over",
-                        "resultsTitle": "Your Suggested Style",
-                        "message": {
-                            "selectAnswer": "Please select an answer to proceed.",
-                            "answerAll": "Please answer all questions before submitting.",
-                            "copied": "The link has been copied to your clipboard!",
-                            "close": "Close",
-                            "instagramShare": "This feature is not supported via the web. Please download the image to share on Instagram."
-                        }
-                    },
-                    "questions": [
-                        {
-                            "title": "WHAT'S YOUR DAILY GO-TO OUTFIT?",
-                            "options": [
-                                { "text": "Minimalist style of shirts and pants in neutral colours", "value": "minimalist" },
-                                { "text": "Classic look with dresses or collared shirts, sweatshirts, and long pants", "value": "classic" },
-                                { "text": "Casual everyday outfits like shirts, shorts or pants, hoodies, and caps", "value": "casual" },
-                                { "text": "Combining athletic wear with casual fashion like oversized shirts, shorts, bomber jackets, jerseys, and caps", "value": "athletic" }
-                            ]
-                        },
-                        {
-                            "title": "WHAT KIND OF EVENTS OR OCCASIONS DO YOU TYPICALLY DRESS FOR?",
-                            "options": [
-                                { "text": "Presentations", "value": "minimalist" },
-                                { "text": "Meetings with the team", "value": "classic" },
-                                { "text": "Business training events", "value": "casual" },
-                                { "text": "The V events", "value": "athletic" }
-                            ]
-                        },
-                        {
-                            "title": "WHAT KIND OF COLOURS DO YOU TEND TO CHOOSE MOST OF THE TIME?",
-                            "options": [
-                                { "text": "Neutrals, such as beige, cream, ivory, gray, and brown", "value": "minimalist" },
-                                { "text": "Black or white with minimal bright colors or designs", "value": "classic" },
-                                { "text": "Light colours", "value": "casual" },
-                                { "text": "Any colours with prints or designs", "value": "athletic" }
-                            ]
-                        }
-                    ],
-                    "results": {
-                        "minimalist": {
-                            "title": "Minimalist",
-                            "image": "https://placehold.co/600x400/222222/ffffff?text=Minimalist+Style",
-                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                        },
-                        "classic": {
-                            "title": "Classic",
-                            "image": "https://placehold.co/600x400/444444/ffffff?text=Classic+Style",
-                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                        },
-                        "casual": {
-                            "title": "Casual",
-                            "image": "https://placehold.co/600x400/666666/ffffff?text=Casual+Style",
-                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                        },
-                        "athletic": {
-                            "title": "Athletic",
-                            "image": "https://placehold.co/600x400/888888/ffffff?text=Athletic+Style",
-                            "description": "Visit The Limitless Store at Setia SPICE Arena this September!"
-                        }
+                    "title": "Gaya LIMITLESS apa yang paling cocok untukmu?",
+                    "subtitle": "Ikuti kuisnya dan cari tahu!",
+                    "startBtn": "Mulai Kuis",
+                    "nextBtn": "Selanjutnya",
+                    "submitBtn": "Kirim",
+                    "resetBtn": "Mulai Lagi",
+                    "resultsTitle": "Gaya yang Disarankan",
+                    "home": "Beranda",
+                    "message": {
+                        "selectAnswer": "Silakan pilih jawaban untuk melanjutkan.",
+                        "answerAll": "Harap jawab semua pertanyaan sebelum mengirim.",
+                        "copied": "Tautan telah disalin ke papan klip Anda!",
+                        "close": "Tutup",
+                        "instagramShare": "Fitur ini tidak didukung melalui web. Harap unduh gambar untuk dibagikan di Instagram."
                     }
+                },
+                "questions": [
+                    {
+                        "title": "APA PAKAIAN SEHARI-HARI ANDA?",
+                        "options": [
+                            { "text": "Gaya minimalis dengan kemeja dan celana berwarna netral", "value": "minimalist" },
+                            { "text": "Tampilan klasik dengan gaun atau kemeja berkerah, kaus, dan celana panjang", "value": "classic" },
+                            { "text": "Pakaian sehari-hari kasual seperti kemeja, celana pendek atau panjang, hoodie, dan topi", "value": "casual" },
+                            { "text": "Menggabungkan pakaian olahraga dengan mode kasual seperti kemeja kebesaran, celana pendek, jaket bomber, jersey, dan topi", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "UNTUK ACARA ATAU KESEMPATAN APA ANDA BIASANYA BERPAKAIAN?",
+                        "options": [
+                            { "text": "Presentasi", "value": "minimalist" },
+                            { "text": "Pertemuan dengan tim", "value": "classic" },
+                            { "text": "Acara pelatihan bisnis", "value": "casual" },
+                            { "text": "Acara V", "value": "athletic" }
+                        ]
+                    },
+                    {
+                        "title": "WARNA APA YANG PALING SERING ANDA PILIH?",
+                        "options": [
+                            { "text": "Warna netral, seperti krem, krim, gading, abu-abu, dan coklat", "value": "minimalist" },
+                            { "text": "Hitam atau putih dengan sedikit warna cerah atau desain", "value": "classic" },
+                            { "text": "Warna-warna terang", "value": "casual" },
+                            { "text": "Warna apa pun dengan cetakan atau desain", "value": "athletic" }
+                        ]
+                    }
+                ],
+                "results": {
+                    "minimalist": {
+                        "title": "Minimalis",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-1-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "classic": {
+                        "title": "Klasik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-2-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "casual": {
+                        "title": "Kasual",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-3-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    },
+                    "athletic": {
+                        "title": "Atletik",
+                        "image": "assets/matchmaker/08112025-Sept-VMY-2025-Microsite-Merch-Matchmaker-results-4-v2.webp",
+                        "description": "Kunjungi The Limitless Store di Setia SPICE Arena September ini!"
+                    }
+                }
 }
