@@ -2077,6 +2077,54 @@ body.rtl .arrow-left {
         }
 
 /* CSS GAME END */
+
+.swiper-navigation-fixed-container {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-50%);
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+
+.all-videos-nav-prev,
+        .all-videos-nav-next {
+            background-color: white;
+            color: #00666a; /* Adjust color to match your theme */
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .all-videos-nav-prev::after,
+        .all-videos-nav-next::after {
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .all-videos-nav-prev:hover,
+        .all-videos-nav-next:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .all-videos-swiper-pagination .swiper-pagination-bullet {
+            background-color: #00666a;
+            opacity: 0.5;
+        }
+
+        .all-videos-swiper-pagination .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
 </style>
 
 </head>
@@ -2533,15 +2581,18 @@ body.rtl .arrow-left {
           </div>
         </div>
 
-        
-        
-      <!-- Unique navigation buttons -->
-      <div class="swiper-button-prev text-white z-10 text-4xl"></div>
-      <div class="swiper-button-next text-white z-10 text-4xl"></div>
+      </div>
+
+      <!-- New fixed navigation container -->
+      <div class="swiper-navigation-fixed-container">
+        <!-- New unique navigation buttons -->
+        <div class="swiper-button-prev all-videos-nav-prev text-white z-10 text-4xl"></div>
+        <div class="swiper-button-next all-videos-nav-next text-white z-10 text-4xl"></div>
+      </div>
     </div>
     
     <!-- Unique pagination element for Swiper 1 (MOVED OUTSIDE SWIPER CONTAINER) -->
-    <div class="all-videos-swiper-pagination swiper-pagination mt-12 text-center"></div>
+    <div class="all-videos-swiper-pagination swiper-pagination mt-10 text-center"></div>
   </div>
 </section>
 
