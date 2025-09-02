@@ -317,6 +317,11 @@
     },
     "articles": {
       "latestNewsTitle": "اقرأوا آخر الأخبار!",
+      "article18": {
+        "title": "V-Malaysia سبتمبر 2025: فيما عدى V-MALAYSIA: أكثر من 10 ديار للـ V-CONVENTION",
+        "content": "انضموا إلينا وكونوا جزءًا من تاريخ الـ V-Convention في 10 أيام!",
+        "readMore": "اقرأ المزيد"
+      },
       "article17": {
         "title": "V-Malaysia سبتمبر 2025: 20 لمحة من الاستكشاف والمتعة!",
         "content": "دعوا الصغار يحلمون أحلامًا كبيرة بعد 20 يومًا!",
