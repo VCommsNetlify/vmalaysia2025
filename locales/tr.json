@@ -346,6 +346,11 @@
     },
     "articles": {
       "latestNewsTitle": "En son haberleri okuyun!",
+      "article24": {
+        "title": "V-Malaysia 2025 Kayıt Günü: Bugün Yükseliyoruz!",
+        "content": "En büyük etkinlik harika bir başlangıç yaptı!",
+        "readMore": "Daha fazlasını oku"
+      },
       "article23": {
         "title": "V-Malaysia Eylül 2025: 1 Ev, 1 Aile, 1 Amaç",
         "content": "1 Gün Kaldı! Birlikte Yükseliyoruz!",

@@ -349,6 +349,11 @@
     },
     "articles": {
       "latestNewsTitle": "Lisez les dernières nouvelles !",
+      "article24": {
+        "title": "Le jour des inscriptions pour le V-Malaysia 2025: Aujourd'hui, nous nous élevons !",
+        "content": "Le plus grand événement démarre sur les chapeaux de roues !",
+        "readMore": "Lisez plus"
+      },
       "article23": {
         "title": "V-Malaysia septembre 2025: 1 maison, 1 famille, 1 objectif",
         "content": "Plus qu'un jour ! Together We Rise !",
