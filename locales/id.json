@@ -366,9 +366,14 @@
     },
     "articles": {
       "latestNewsTitle": "Baca berita terbaru!",
+      "article26": {
+        "title": "V-Malaysia September 2025 HARI KE-2: Bermimpilah Lebih Besar! Bermimpilah Bersama!",
+        "content": "Bersama, kita menemukan mimpi di V-Malaysia 2025!",
+        "readMore": "Baca selengkapnya"
+      },
       "article25": {
         "title": "V-Malaysia September 2025 hari ke-1: Bersama, Kita Berada di Rumah!",
-        "content": "Our journey to rise together begins here!",
+        "content": "Perjalanan kita untuk bangkit bersama dimulai di sini!",
         "readMore": "Baca selengkapnya"
       },
       "article24": {
