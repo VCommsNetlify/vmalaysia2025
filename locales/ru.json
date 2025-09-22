@@ -48,12 +48,12 @@
     "headline_part4": "",
     "paragraph1": "<em>Когда мы собираемся вместе, наше путешествие становится безграничным.</em>",
     "paragraph2": "<br>Присоединяйтесь к нам на V-MALAYSIA 2025 в июне этого года - мы соберемся вместе, чтобы воплотить в жизнь видение RYTHM и выйти за пределы ограничений.",
-    "cta_button": "Приобретайте билеты в VShoppe. Используйте код: <span style='color: #fffc00; font-weight: strong;'>VMYSEPT2025</span>",
+    "cta_button": "Присоединяйтесь к нашим предстоящим мероприятиям.",
     "welcome_home": "WELCOME HOME",
     "description": "V-MALAYSIA 2025 has officially started. It's time to create our greatest story and Together We Rise!"
   },
-  "share_moments_hashtag": "Настала ваша очередь начать свою историю успеха, и мы будем рады услышать ее на сцене V-Convention.",
-  "post_tag_channels": "Спасибо за вашу искреннюю поддержку #VMALAYSIA2025, проходившего 21-25 июня. ",
+  "share_moments_hashtag": "Спасибо за участие в нашем невероятном <span class='text-yellow-400'>#VMALAYSIA2025</span>!",
+  "post_tag_channels": "С <span style='color: #00f6ff;'>V-Convention</span> в наших сердцах, семья V и наши V Ambassadors не могут дождаться следующей встречи с вами - невероятным образом делясь своей историей на сцене.",
   "post_tag_channels2": "До встречи <span style='color: white; background-color: #ff7a18; padding: 2px 5px; border-radius: 3px; font-weight: bold;'>13-17 сентября</span> на следующем V-Malaysia 2025, и давайте вместе отпразднуем нашу 27-ю годовщину!",
   "facebook_handle": "@thevofficial",
   "instagram_handle": "@thev_official",
@@ -105,9 +105,13 @@
     "mainTitle": "События Новости и Обновления",
     "highlightTitle": "Смотрите самые новые яркие моменты и многое другое!",
     "videoSelectionParagraph": "Это интерактивный видеоплеер! Выберите любое видео ниже и воспроизведите его здесь.",
-    "featuredTitle": "V-Malaysia September 2025 Day 4 Highlights: Rise Against All Odds",
-    "featuredDescription": "Day 4 of V-Malaysia September 2025 sparked the beginning of our unbelievable transformation! Through the insights of our Founders, Dato Sri Vijay Eswaran and Joseph ‘Japadas’ Bismark, the stories of evolution from The V family, and the life-changing session of an incredible guest speaker, Sparsh Shah, we have been inspired to rise as champions of our lives. Look back on the transformative Day 4 with our V2U Hosts, Anna Cheremnova and Anna Filimonova.",
+    "featuredTitle": "V-Malaysia September 2025 Day 4: The Price of Breaking Free by Chief Pathman Senathirajah",
+    "featuredDescription": "“The one who chooses to change their fate pays the biggest price.” Watch Chief Pathman Senathirajah at V-Malaysia September 2025 Day 4!",
   "video": {
+    "6379908835112": {
+      "title": "V-Malaysia September 2025 Day 4: The Price of Breaking Free by Chief Pathman Senathirajah",
+      "description": "“The one who chooses to change their fate pays the biggest price.” Watch Chief Pathman Senathirajah at V-Malaysia September 2025 Day 4!"
+    },
     "6379698643112": {
       "title": "V-Malaysia September 2025 Day 4 Highlights: Rise Against All Odds",
       "description": "Day 4 of V-Malaysia September 2025 sparked the beginning of our unbelievable transformation! Through the insights of our Founders, Dato Sri Vijay Eswaran and Joseph ‘Japadas’ Bismark, the stories of evolution from The V family, and the life-changing session of an incredible guest speaker, Sparsh Shah, we have been inspired to rise as champions of our lives. Look back on the transformative Day 4 with our V2U Hosts, Anna Cheremnova and Anna Filimonova."
