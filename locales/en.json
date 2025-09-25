@@ -113,6 +113,10 @@
       "title": "V-Malaysia September 2025 Day 5 Highlights: The Best is Yet to Come!",
       "description": "Thousands of dreamers have fully evolved into empowered champions on Day 5! Our Founders, Dato Sri Vijay Eswaran and Joseph ‘Japadas’ Bismark, along with The V family, came together for a truly unbelievable send-off — launching the world’s next wave of trailblazing network leaders! Join V2U Host VC Swarna Krishnan as she recaps the extraordinary moments of Day 5."
     },
+    "6380023456112": {
+      "title": "V-Malaysia September 2025 Day 5: Choose to Be a Warrior by Chief Pathman Senathirajah",
+      "description": "“A warrior doesn’t care about rejections. A warrior only focuses on their dreams.” Watch Chief Pathman Senathirajah at V-Malaysia September 2025 Day 5!"
+    },
     "6379913494112": {
       "title": "V-Malaysia September 2025 Day 3: Mastering Change with the Three A’s by Joseph ‘Japadas’ Bismark",
       "description": "“To change your mindset, you must adapt, adjust, and accommodate.” Watch Joseph ‘Japadas’ Bismark at V-Malaysia September 2025 Day 3!"
@@ -411,6 +415,16 @@
     },
     "articles": {
       "latestNewsTitle": "READ THE LATEST NEWS!",
+      "article30": {
+        "title": "V-Malaysia September 2025 DAY 5: Rise Even Higher… Together!",
+        "content": "The real journey begins!",
+        "readMore": "READ MORE"
+      },
+      "article29": {
+        "title": "V-Malaysia September 2025 DAY 4: Transform and Take Flight to New Heights",
+        "content": "To soar, we must evolve!",
+        "readMore": "READ MORE"
+      },
       "article28": {
         "title": "V-Malaysia September 2025 DAY 3: Make the Decision to Rise",
         "content": "Your next step starts with a decision.",
@@ -565,6 +579,7 @@
     "logo": "assets/vkidsteens/vkids-copy-sept_en.webp",
     "copy": "Catch the most exciting updates!",
     "video": {
+      "video8Title": "V-Malaysia September 2025: V-Kids and V-Teens’ Epic Highlights!",
       "video7Title": "Raise the Leaders of Tomorrow with V-Kids and V-Teens at V-Malaysia September 2025!",
       "video6Title": "Rise to Become Tomorrow’s Leaders with V-Kids and V-Teens at #VMALAYSIA2025!",
       "video5Title": "Empower the Next Generation with V-Kids and V-Teens at #VMALAYSIA2025!",
